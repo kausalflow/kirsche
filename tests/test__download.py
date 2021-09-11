@@ -10,7 +10,6 @@ def test__download__paper_id():
         assert False
 
 
-
 def test__download__bib():
 
     bib_file = "tests/data/bib/test_small.bib"
@@ -20,6 +19,3 @@ def test__download__bib():
         assert False
     else:
         assert len(paper_info) == 2
-
-
-
