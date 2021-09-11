@@ -18,11 +18,15 @@ def append_connections(papers, connection_field_name=None):
     if connection_field_name is None:
         connection_field_name = "local__referenced_to"
 
+    logger.debug(f"Appending connections to {len(papers)} papers...")
+
     enhanced_papers = []
 
     for ps in papers:
         ps_references = ps["references"]
-        ps_reference_dois = [psr.get("doi", "").lower() for psr in ps_references if psr.get("doi")]
+        ps_reference_dois = [
+            psr.get("doi", "").lower() for psr in ps_references if psr.get("doi")
+        ]
         ps_referenced_to = []
         for pt in papers:
             pt_doi = pt.get("doi", "").lower()
@@ -32,12 +36,15 @@ def append_connections(papers, connection_field_name=None):
         ps[connection_field_name] = ps_referenced_to
         enhanced_papers.append(ps)
 
+    logger.debug(
+        f"enhanced {len([p for p in enhanced_papers if p.get(connection_field_name)])}"
+    )
+
     return enhanced_papers
 
 
 def connect(data_file, target=None, save_keys=None, connection_field_name=None):
-    """connect papers based on citation doi
-    """
+    """connect papers based on citation doi"""
 
     if connection_field_name is None:
         connection_field_name = "local__referenced_to"
@@ -51,7 +58,7 @@ def connect(data_file, target=None, save_keys=None, connection_field_name=None):
             "numCitedBy",
             "numCiting",
             "year",
-            connection_field_name
+            connection_field_name,
         ]
 
     papers = load_json(data_file)
