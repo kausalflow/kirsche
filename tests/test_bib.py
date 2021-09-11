@@ -1,6 +1,6 @@
 from loguru import logger
-from lychee.utils.bib import load_bib
-from lychee.utils.bib import get_dois_from_bib_re
+from kirsche.utils.bib import load_bib
+from kirsche.utils.bib import get_dois_from_bib_re
 
 
 def test__load_bib():

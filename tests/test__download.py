@@ -1,4 +1,4 @@
-from lychee.download import download
+from kirsche.download import download
 
 
 def test__download__paper_id():
@@ -12,7 +12,7 @@ def test__download__paper_id():
 
 def test__download__bib():
 
-    bib_file = "tests/data/bib/test_small.bib"
+    bib_file = "tests/data/bib/test__connection.bib"
     paper_info = download(paper_id=None, bib_file=bib_file, target=None, sleep_time=1)
 
     if not paper_info:

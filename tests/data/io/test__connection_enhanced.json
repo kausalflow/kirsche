@@ -1,0 +1,66 @@
+[
+    {
+        "authors": [
+            {
+                "authorId": "144128278",
+                "name": "G. Buzs\u00e1ki",
+                "url": "https://www.semanticscholar.org/author/144128278"
+            },
+            {
+                "authorId": "2277912",
+                "name": "C. Anastassiou",
+                "url": "https://www.semanticscholar.org/author/2277912"
+            },
+            {
+                "authorId": "145624227",
+                "name": "C. Koch",
+                "url": "https://www.semanticscholar.org/author/145624227"
+            }
+        ],
+        "doi": "10.1038/nrn3241",
+        "numCitedBy": 2539,
+        "numCiting": 215,
+        "title": "The origin of extracellular fields and currents \u2014 EEG, ECoG, LFP and spikes",
+        "venue": "Nature Reviews Neuroscience",
+        "year": 2012,
+        "local__referenced_to": [
+            "10.1038/203380a0"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "1850712",
+                "name": "W. Walter",
+                "url": "https://www.semanticscholar.org/author/1850712"
+            },
+            {
+                "authorId": "46887691",
+                "name": "R. Cooper",
+                "url": "https://www.semanticscholar.org/author/46887691"
+            },
+            {
+                "authorId": "48923746",
+                "name": "V. J. Aldridge",
+                "url": "https://www.semanticscholar.org/author/48923746"
+            },
+            {
+                "authorId": "103354621",
+                "name": "W. McCallum",
+                "url": "https://www.semanticscholar.org/author/103354621"
+            },
+            {
+                "authorId": "144358066",
+                "name": "A. Winter",
+                "url": "https://www.semanticscholar.org/author/144358066"
+            }
+        ],
+        "doi": "10.1038/203380A0",
+        "numCitedBy": 2184,
+        "numCiting": 4,
+        "title": "Contingent Negative Variation : An Electric Sign of Sensori-Motor Association and Expectancy in the Human Brain",
+        "venue": "Nature",
+        "year": 1964,
+        "local__referenced_to": []
+    }
+]

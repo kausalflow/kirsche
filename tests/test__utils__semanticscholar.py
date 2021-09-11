@@ -1,4 +1,4 @@
-from lychee.utils.semanticscholar import get_paper_info
+from kirsche.utils.semanticscholar import get_paper_info
 from loguru import logger
 
 
