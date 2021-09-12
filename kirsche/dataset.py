@@ -5,7 +5,11 @@ import json
 
 class DataViews:
     def __init__(self, data) -> None:
-        self.data = data
+        if not data:
+            logger.warning("No data provided!")
+            self.data = []
+        else:
+            self.data = data
 
     @property
     def json_full(self):

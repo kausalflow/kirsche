@@ -43,6 +43,34 @@ def append_connections(papers, connection_field_name=None):
     return enhanced_papers
 
 
+def save_connected_papers(
+    records, target=None, save_keys=None, connection_field_name=None
+):
+
+    if connection_field_name is None:
+        connection_field_name = "local__referenced_to"
+
+    if save_keys is None:
+        save_keys = [
+            "title",
+            "authors",
+            "doi",
+            "venue",
+            "numCitedBy",
+            "numCiting",
+            "year",
+            connection_field_name,
+        ]
+
+    records = [{k: v for k, v in p.items() if k in save_keys} for p in records]
+
+    if target:
+        with open(target, "w") as f:
+            json.dump(records, f, indent=4)
+
+    return records
+
+
 def append_connections_for_file(
     data_file, target=None, save_keys=None, connection_field_name=None
 ):
@@ -63,27 +91,17 @@ def append_connections_for_file(
     if connection_field_name is None:
         connection_field_name = "local__referenced_to"
 
-    if save_keys is None:
-        save_keys = [
-            "title",
-            "authors",
-            "doi",
-            "venue",
-            "numCitedBy",
-            "numCiting",
-            "year",
-            connection_field_name,
-        ]
-
     papers = load_json(data_file)
 
     c_p = append_connections(papers, connection_field_name=connection_field_name)
 
-    c_p = [{k: v for k, v in p.items() if k in save_keys} for p in c_p]
-
-    if target:
-        with open(target, "w") as f:
-            json.dump(c_p, f, indent=4)
+    # Filter out unnecessary keys in the dictionary
+    c_p = save_connected_papers(
+        c_p,
+        target=target,
+        save_keys=save_keys,
+        connection_field_name=connection_field_name,
+    )
 
     return c_p
 

@@ -4,22 +4,7 @@ from loguru import logger
 import time
 from kirsche.utils import bib
 from kirsche.utils.semanticscholar import get_paper_info
-from kirsche.utils.bib import load_bib
-
-
-def get_dois_from_bib(bib_file):
-    """
-    get_dois_from_bib returns a list of DOIs from a bib file
-
-    :param bib_file: path to bib file
-    :type bib_file: str
-    :return: list of DOIs
-    :rtype: list
-    """
-    bib_data = load_bib(bib_file)
-    dois = [b.get("doi", "").lower() for b in bib_data]
-
-    return dois
+from kirsche.utils.bib import load_bib, get_dois_from_bib
 
 
 def list_dois(paper_ids, bib_file):
@@ -33,12 +18,13 @@ def list_dois(paper_ids, bib_file):
     :return: list of DOIs loaded
     :rtype: list
     """
-    if paper_ids is not None:
+    if paper_ids:
+        logger.debug(f"Using paper_ids directly...")
         if isinstance(paper_ids, str):
             dois = [paper_ids]
         else:
             dois = paper_ids
-    elif bib_file is not None:
+    elif bib_file:
         dois = get_dois_from_bib(bib_file)
         logger.debug(f"Retrieved {len(dois)} from {bib_file}")
     else:
@@ -61,16 +47,16 @@ def download_metadata(dois, target, sleep_time=1):
 
     paper_info = []
     for doi in dois:
-        logger.info(f"Getting info for {doi}")
+        logger.debug(f"Getting info for {doi}")
         paper_info.append(get_paper_info(doi))
 
         time.sleep(sleep_time)
 
     if target:
-        logger.info(f"Saving to {target}")
+        logger.debug(f"Saving to {target}")
         with open(target, "w") as f:
             json.dump(paper_info, f, indent=4)
-        logger.info(f"Saved to {target}")
+        logger.debug(f"Saved to {target}")
 
     return paper_info
 

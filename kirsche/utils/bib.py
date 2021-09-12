@@ -29,6 +29,21 @@ def get_dois_from_bib_re(bib_file):
     return dois
 
 
+def get_dois_from_bib(bib_file):
+    """
+    get_dois_from_bib returns a list of DOIs from a bib file
+
+    :param bib_file: path to bib file
+    :type bib_file: str
+    :return: list of DOIs
+    :rtype: list
+    """
+    bib_data = load_bib(bib_file)
+    dois = [b.get("doi", "").lower() for b in bib_data]
+
+    return dois
+
+
 if __name__ == "__main__":
     bib_data = load_bib("tests/data/bib/test.bib")
 
