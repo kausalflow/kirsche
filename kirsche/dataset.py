@@ -46,6 +46,8 @@ class DataViews:
                 record.get(connection_field_name, [])
             )
 
+        record = {k: v for k, v in record.items() if k in show_keys}
+
         return record
 
 

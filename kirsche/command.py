@@ -60,7 +60,7 @@ def metadata(paper_id, bib_file, target, sleep_time):
 
     if not target:
         dv = DataViews(paper_info)
-        click.echo(dv.json_simple())
+        click.echo(dv.json_simple)
 
     return paper_info
 

@@ -43,7 +43,7 @@ def append_connections(papers, connection_field_name=None):
     return enhanced_papers
 
 
-def append_connections(
+def append_connections_for_file(
     data_file, target=None, save_keys=None, connection_field_name=None
 ):
     """connect papers based on citation doi
@@ -93,7 +93,7 @@ def append_connections(
 @click.option("--target", "-t", help="path to save enhanced data file")
 def main(data_file, target):
 
-    append_connections(data_file, target)
+    append_connections_for_file(data_file, target)
 
 
 if __name__ == "__main__":
