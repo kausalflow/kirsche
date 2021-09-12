@@ -68,7 +68,7 @@ plugins:
             filters:
               - "^_[^_]"
       watch:
-        - haferml
+        - kirsche
 
 
 nav:
