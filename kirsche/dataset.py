@@ -28,6 +28,36 @@ def format_authors(paper):
     return author + year
 
 
+def add_additional_data_to_papers(papers, extra_data, extra_data_use_keys):
+    """Enhance paper metadata using extra data
+
+    :param papers: list of paper metadata
+    :type papers: list
+    :param extra_data: extra data as a dictionary with keys as DOIs
+    :type extra_data: dict
+    :param extra_data_use_keys: list of keys to use from extra data
+    :type extra_data_use_keys: list
+    :return: enhanced list of papers
+    :rtype: list
+    """
+    papers = []
+    for p in papers:
+        p_extra_data = extra_data.get(p["doi"].lower(), {})
+        if extra_data_use_keys is None:
+            extra_data_use_keys = p_extra_data.keys()
+        else:
+            extra_data_use_keys = extra_data_use_keys
+
+        # Take only the required fields and values
+        p_extra_data = {
+            k: p_extra_data[k] for k in p_extra_data if k in extra_data_use_keys
+        }
+        p.update(p_extra_data)
+        papers.append(p)
+
+    return papers
+
+
 class Dataset:
     """
     Dataset to prepare data about papers.
@@ -104,23 +134,14 @@ class Dataset:
 
     @property
     def papers(self):
-
-        papers = []
+        """Calculate papers property"""
 
         if self.extra_data:
-            for p in self._papers:
-                p_extra_data = self.extra_data.get(p["doi"].lower(), {})
-                if self.extra_data_use_keys is None:
-                    extra_data_use_keys = p_extra_data.keys()
-                else:
-                    extra_data_use_keys = self.extra_data_use_keys
-
-                # Take only the required fields and values
-                p_extra_data = {
-                    k: p_extra_data[k] for k in p_extra_data if k in extra_data_use_keys
-                }
-                p.update(p_extra_data)
-                papers.append(p)
+            papers = add_additional_data_to_papers(
+                self._papers, self.extra_data, self.extra_data_use_keys
+            )
+        else:
+            papers = self._papers
 
         # Add connections
         papers = append_connections(
@@ -131,6 +152,7 @@ class Dataset:
 
     @property
     def lut(self):
+        """Transform the paper records into key value dictionary with the key being DOI."""
         return {p["doi"].lower(): p for p in self.papers}
 
     @property
@@ -149,6 +171,19 @@ class Dataset:
     def connections(
         self, col_x_axis, col_y_axis, col_x_default=None, col_y_default=None
     ):
+        """Calculate connections (node to node)
+
+        :param col_x_axis: name of the column to use for the x axis
+        :type col_x_axis: str
+        :param col_y_axis: name of the column to use for the y axis
+        :type col_y_axis: str
+        :param col_x_default: default value to use for the x axis, defaults to None
+        :type col_x_default: str, optional
+        :param col_y_default: default value to use for the y axis, defaults to None
+        :type col_y_default: str, optional
+        :return: list of connections
+        :rtype: list
+        """
 
         lut = self.lut
         papers = self.papers
