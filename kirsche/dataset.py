@@ -159,7 +159,7 @@ class Dataset:
     def data(self):
         scatter_data = {}
         for key in self.keys:
-            scatter_data[key["key"]] = self._parse_semanticscolar(
+            scatter_data[key["key"]] = self._transform_records(
                 key["key"],
                 self.papers,
                 default_value=key.get("default_value", None),
@@ -172,6 +172,8 @@ class Dataset:
         self, col_x_axis, col_y_axis, col_x_default=None, col_y_default=None
     ):
         """Calculate connections (node to node)
+
+        As this is already calculating the coordinates, we have to specify the columns that are used for the x and y axis. These coordinates should be numerical.
 
         :param col_x_axis: name of the column to use for the x axis
         :type col_x_axis: str
@@ -205,7 +207,8 @@ class Dataset:
         return connection_data
 
     @staticmethod
-    def _parse_semanticscolar(key, papers, default_value=None, transform=None):
+    def _transform_records(key, papers, default_value=None, transform=None):
+        """A generic parser to get and transform values from the paper records"""
 
         if transform is None:
             transform = lambda x: x.get(key, default_value)
