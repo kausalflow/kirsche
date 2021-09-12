@@ -12,7 +12,7 @@ with open(os.path.join(__CWD__, "README.md"), encoding="utf-8") as fp:
 
 PACKAGE_NAME = "kirsche"
 PACKAGE_VERSION = __version__
-PACKAGE_DESCRIPTION = "Kirsche, connect your papers."
+PACKAGE_DESCRIPTION = "Kirsche, connecting your papers."
 PACKAGE_LONG_DESCRIPTION = PACKAGE_LONG_DESCRIPTION
 PACKAGE_URL = "https://github.com/kausalflow/kirsche"
 

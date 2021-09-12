@@ -3,6 +3,11 @@
 
 Kirsche is a python package to build up connections between papers.
 
+## How to Use
+
+- Install the package: `pip install kirsche`
+- In your command line, run `kirsche --help` to see possible commands.
+
 
 ## Caveats
 

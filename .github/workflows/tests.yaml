@@ -1,0 +1,54 @@
+name: Test Code with Pip
+
+on:
+  push:
+    branches:
+      - "**"
+      - "!gh-pages"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Test It'
+        required: false
+        default: 'I Just wanna test it'
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8]
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install from source (required for the pre-commit tests)
+        run: pip install ".[all]"
+      - name: Install dependencies
+        run: |
+          # python -m pip install --upgrade pip
+          # pip install -r requirements.txt
+          # install black if available (Python 3.6 and above), and autopep8 for testing the pipe mode
+          pip install black || true
+          pip install autopep8 || true
+      - name: Lint with flake8
+        run: |
+          pip install flake8==3.8.3
+          pip install flake8-black==0.2.1
+          # stop the build if there are Python syntax errors or undefined names
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          # all Python files should follow PEP8
+          # echo "flake8 all python"
+          # flake8 durst tests
+          # exit-zero treats all errors as warnings.  The GitHub editor is 127 chars wide
+          echo "flake8 BLK"
+          flake8 durst --count --exit-zero --max-complexity=18 --statistics --select BLK
+      - name: Test with pytest
+        run: nosetests

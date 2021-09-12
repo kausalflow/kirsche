@@ -1,0 +1,93 @@
+# mkdocs.yml
+site_name: "Kirsche"
+site_author: L Ma
+site_description: "Kirsche, connecting your papers"
+site_url: "https://kausalflow.github.io/kirsche"
+repo_url: "https://github.com/kausalflow/kirsche"
+edit_uri: "blob/main/docs/"
+repo_name: "kausalflow/kirsche"
+
+
+theme:
+  name: "material"
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/logo.png
+  logo: assets/logo_badge.svg
+
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: "¤"
+
+plugins:
+  - autorefs
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - sys.path.append("docs")
+          selection:
+            docstring_style: "restructured-text"
+            members: yes
+            filters:
+              - "^_[^_]"
+      watch:
+        - haferml
+
+
+nav:
+  - "Home": index.md
+  - "Tutorials":
+    - "Tutorials": tutorials/index.md
+  - References:
+    - "Introduction": references/index.md
+    - "Commandline":
+      - "Commandline Tool": references/command.md
+    - "Download":
+      - "Download": references/download.md
+    - "Connect":
+      - "Connect": references/connect.md
+    - "Dataset":
+      - "Dataset": references/dataset.md
+    - "Utils":
+      - "utils.bib": references/utils/bib.md
+      - "utils.io": references/utils/io.md
+      - "utils.semanticscholar": references/utils/semanticscholar.md
+      - "utils.web": references/utils/web.md
+  - "Changelog": changelog.md
