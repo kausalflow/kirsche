@@ -4,17 +4,13 @@ import sys
 from pathlib import Path
 
 import click
-import inquirer
 from loguru import logger
-from rich.console import Console
-from kirsche.download import download
-from kirsche.connect import connect
-
+from kirsche.download import list_dois, download_metadata
+from kirsche.connect import append_connections
 
 
 logger.remove()
 logger.add(sys.stderr, level="INFO", enqueue=True)
-console = Console()
 
 
 __CWD__ = os.getcwd()
@@ -52,7 +48,15 @@ def metadata(paper_id, bib_file, target, sleep_time):
     :type sleep_time: int
     """
 
-    paper_info = download(paper_id, bib_file, target, sleep_time)
+    dois = list_dois(paper_id, bib_file)
+
+    if not dois:
+        click.secho("No DOIs input. Specify dois using `-p` or a bib file using `-b`", fg="red")
+
+    paper_info = download_metadata(dois, target, sleep_time)
+
+    if not target:
+        click.echo(json.dumps(paper_info, indent=4))
 
     return paper_info
 
@@ -61,9 +65,17 @@ def metadata(paper_id, bib_file, target, sleep_time):
 @click.option("--data_file", "-d", help="path to data file with paper metadata")
 @click.option("--target", "-t", help="path to save enhanced data file")
 def connections(data_file, target):
+    """Establish connections between the list of papers
 
-    connect(data_file, target)
+    :param data_file: path to data file with paper metadata
+    :type data_file: str
+    :param target: path to save enhanced data file
+    :type target: str
+    """
 
+    connected_papers = append_connections(data_file, target)
+
+    return connected_papers
 
 
 if __name__ == "__main__":

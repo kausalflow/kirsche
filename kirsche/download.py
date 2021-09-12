@@ -2,13 +2,14 @@ import click
 import json
 from loguru import logger
 import time
+from kirsche.utils import bib
 from kirsche.utils.semanticscholar import get_paper_info
 from kirsche.utils.bib import load_bib
 
 
-def get_dois(bib_file):
+def get_dois_from_bib(bib_file):
     """
-    get_dois returns a list of DOIs from a bib file
+    get_dois_from_bib returns a list of DOIs from a bib file
 
     :param bib_file: path to bib file
     :type bib_file: str
@@ -21,21 +22,47 @@ def get_dois(bib_file):
     return dois
 
 
-def download(paper_id, bib_file, target, sleep_time):
-    """Download paper data"""
+def list_dois(paper_ids, bib_file):
+    """
+    list_dois loads a list of DOIs from multiple possible sources
 
-    if paper_id is not None:
-        if isinstance(paper_id, str):
-            paper_id = [paper_id]
+    :param paper_ids: list of DOIs
+    :type paper_ids: list
+    :param bib_file: path to bib file
+    :type bib_file: str
+    :return: list of DOIs loaded
+    :rtype: list
+    """
+    if paper_ids is not None:
+        if isinstance(paper_ids, str):
+            dois = [paper_ids]
+        else:
+            dois = paper_ids
+    elif bib_file is not None:
+        dois = get_dois_from_bib(bib_file)
+        logger.debug(f"Retrieved {len(dois)} from {bib_file}")
     else:
-        paper_id = get_dois(bib_file)
-        logger.debug(paper_id)
+        logger.error(f"Specify one of the DOI sources...")
+        dois = []
+
+    logger.debug(f"{(len(dois))} DOIs: {dois}")
+
+    return dois
+
+
+def download_metadata(dois, target, sleep_time=1):
+    """Download paper data
+
+    :param target: path to save data
+    :type target: str
+    :param sleep_time: time to sleep between requests, defaults to 1
+    :type sleep_time: int
+    """
 
     paper_info = []
-    for doi in paper_id:
+    for doi in dois:
         logger.info(f"Getting info for {doi}")
         paper_info.append(get_paper_info(doi))
-        # logger.debug(paper_info)
 
         time.sleep(sleep_time)
 
@@ -44,8 +71,6 @@ def download(paper_id, bib_file, target, sleep_time):
         with open(target, "w") as f:
             json.dump(paper_info, f, indent=4)
         logger.info(f"Saved to {target}")
-
-    # logger.debug(json.dumps(paper_info, indent=4))
 
     return paper_info
 
@@ -58,7 +83,9 @@ def download(paper_id, bib_file, target, sleep_time):
 def main(paper_id, bib_file, target, sleep_time):
     """Download paper data from service provides (e.g., SemanticScholar)"""
 
-    paper_info = download(paper_id, bib_file, target, sleep_time)
+    dois = list_dois(paper_id, bib_file)
+
+    paper_info = download_metadata(dois, target, sleep_time)
 
     return paper_info
 

@@ -43,8 +43,22 @@ def append_connections(papers, connection_field_name=None):
     return enhanced_papers
 
 
-def connect(data_file, target=None, save_keys=None, connection_field_name=None):
-    """connect papers based on citation doi"""
+def append_connections(
+    data_file, target=None, save_keys=None, connection_field_name=None
+):
+    """connect papers based on citation doi
+
+    :param data_file: path to json file that contains the downloaded paper metadata
+    :type data_file: str
+    :param target: path to json file to save the enhanced paper metadata
+    :type target: str
+    :param save_keys: list of keys to save from the original paper metadata
+    :type save_keys: list
+    :param connection_field_name: name of the field to save the connection info
+    :type connection_field_name: str
+    :return: list of paper metadata with connection info
+    :rtype: list
+    """
 
     if connection_field_name is None:
         connection_field_name = "local__referenced_to"
@@ -79,7 +93,7 @@ def connect(data_file, target=None, save_keys=None, connection_field_name=None):
 @click.option("--target", "-t", help="path to save enhanced data file")
 def main(data_file, target):
 
-    connect(data_file, target)
+    append_connections(data_file, target)
 
 
 if __name__ == "__main__":

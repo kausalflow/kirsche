@@ -1,10 +1,10 @@
 from loguru import logger
-from kirsche.connect import connect
+from kirsche.connect import append_connections
 
 
 def test__connect():
     data_file = "tests/data/io/test__connection.json"
-    data = connect(data_file)
+    data = append_connections(data_file)
 
     if not data:
         logger.error("Could not connect the papers in the metadata json file")

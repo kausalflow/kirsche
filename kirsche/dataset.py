@@ -2,6 +2,15 @@ from loguru import logger
 from kirsche.connect import append_connections
 
 
+class Views:
+    def __init__(self) -> None:
+        pass
+
+    @property
+    def simple(self) -> str:
+        """"""
+
+
 def format_authors(paper):
     """
     format_authors formats list of author fields to strings
