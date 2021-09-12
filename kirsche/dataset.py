@@ -178,8 +178,8 @@ class Dataset:
             if not extra_data:
                 additional_keys = []
             else:
-                for p in extra_data:
-                    additional_keys = [{"key": k} for k in p.keys()]
+                for doi in extra_data:
+                    additional_keys = [{"key": k} for k in extra_data[doi].keys()]
                     break
 
         self.additional_keys = additional_keys

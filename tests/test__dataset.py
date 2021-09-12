@@ -29,16 +29,21 @@ def test__Dataset():
         }
     ]
 
-    ds = Dataset(papers, extra_data, additional_keys=additional_keys)
+    for add_keys in [None, additional_keys]:
+        logger.debug(f"Testing with additional_keys: {add_keys}...")
 
-    ds_connections = ds.connections("year", "numCitedBy")
-    ds_papers = ds.papers
+        ds = Dataset(papers, extra_data, additional_keys=add_keys)
+
+        ds_connections = ds.connections("year", "numCitedBy")
+        ds_papers = ds.papers
+        logger.debug(f"There are {len(ds_papers)} papers in the dataset")
+
+        if not ds_papers:
+            logger.error(f"Dataset papers property is not right")
+            assert False
 
 
-    if not ds_papers:
-        logger.error(f"Dataset papers property is not right")
-        assert False
+        if not ds_connections:
+            logger.error(f"Dataset connections calculation is not right")
+            assert False
 
-    if not ds_connections:
-        logger.error(f"Dataset connections calculation is not right")
-        assert False
