@@ -43,7 +43,7 @@ class DataViews:
 
         if f"{connection_field_name}_count" not in record:
             record[f"{connection_field_name}_count"] = len(
-                len(record.get(connection_field_name, []))
+                record.get(connection_field_name, [])
             )
 
         return record

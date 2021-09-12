@@ -15,9 +15,7 @@ def test__download__bib():
 
     bib_file = "tests/data/bib/test__connection.bib"
     dois = list_dois(None, bib_file)
-    paper_info = download_metadata(
-        dois, target=None, sleep_time=1
-    )
+    paper_info = download_metadata(dois, target=None, sleep_time=1)
 
     if not paper_info:
         assert False
