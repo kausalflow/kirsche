@@ -1,14 +1,52 @@
 from loguru import logger
 from kirsche.connect import append_connections
+import json
 
 
-class Views:
-    def __init__(self) -> None:
-        pass
+class DataViews:
+    def __init__(self, data) -> None:
+        self.data = data
 
     @property
-    def simple(self) -> str:
-        """"""
+    def json_full(self):
+        """JSON representation of the full data"""
+        return json.dumps(self.data, indent=4)
+
+    @property
+    def json_simple(self):
+        """JSON representation of a few selected keys of the data"""
+
+        records = []
+        for record in self.data:
+            records.append(self._json__simple(record))
+
+        return json.dumps(records, indent=4)
+
+    @staticmethod
+    def _json__simple(record, show_keys=None, connection_field_name=None) -> str:
+        """Show only some keys of a record"""
+
+        if connection_field_name is None:
+            connection_field_name = "local__referenced_to"
+
+        if show_keys is None:
+            show_keys = [
+                "doi",
+                "authors",
+                "title",
+                "venue",
+                "year",
+                "numCitedBy",
+                "numCiting",
+                f"{connection_field_name}_count",
+            ]
+
+        if f"{connection_field_name}_count" not in record:
+            record[f"{connection_field_name}_count"] = len(
+                len(record.get(connection_field_name, []))
+            )
+
+        return record
 
 
 def format_authors(paper):

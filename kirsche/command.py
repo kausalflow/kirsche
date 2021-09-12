@@ -7,6 +7,7 @@ import click
 from loguru import logger
 from kirsche.download import list_dois, download_metadata
 from kirsche.connect import append_connections
+from kirsche.dataset import DataViews
 
 
 logger.remove()
@@ -51,12 +52,15 @@ def metadata(paper_id, bib_file, target, sleep_time):
     dois = list_dois(paper_id, bib_file)
 
     if not dois:
-        click.secho("No DOIs input. Specify dois using `-p` or a bib file using `-b`", fg="red")
+        click.secho(
+            "No DOIs input. Specify dois using `-p` or a bib file using `-b`", fg="red"
+        )
 
     paper_info = download_metadata(dois, target, sleep_time)
 
     if not target:
-        click.echo(json.dumps(paper_info, indent=4))
+        dv = DataViews(paper_info)
+        click.echo(dv.json_simple())
 
     return paper_info
 
