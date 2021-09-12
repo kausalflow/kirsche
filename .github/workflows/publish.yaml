@@ -1,15 +1,7 @@
 name: Build and Publish Package to Pypi
 
-on:
-  push:
-    branches:
-        - "main"
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Publish It'
-        required: false
-        default: 'I Just wanna publish it'
+on: [push]
+
 
 jobs:
   tests:
