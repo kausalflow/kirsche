@@ -15,3 +15,30 @@ def test__DataViews():
     if not dv_json_simple:
         logger.error(f"JSON simple view of data is not working")
         assert False
+
+
+def test__Dataset():
+    paper_file = "tests/data/io/test__connection.json"
+    extra_data_file = "tests/data/io/test__connection_extra_labels.json"
+    papers = load_json(paper_file)
+    extra_data = load_json(extra_data_file)
+
+    additional_keys = [
+        {
+            "key": "label_group_a",
+        }
+    ]
+
+    ds = Dataset(papers, extra_data, additional_keys=additional_keys)
+
+    ds_connections = ds.connections("year", "numCitedBy")
+    ds_papers = ds.papers
+
+
+    if not ds_papers:
+        logger.error(f"Dataset papers property is not right")
+        assert False
+
+    if not ds_connections:
+        logger.error(f"Dataset connections calculation is not right")
+        assert False

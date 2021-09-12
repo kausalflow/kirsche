@@ -93,7 +93,7 @@ def add_additional_data_to_papers(papers, extra_data, extra_data_use_keys):
     :return: enhanced list of papers
     :rtype: list
     """
-    papers = []
+    enhanced_papers = []
     for p in papers:
         p_extra_data = extra_data.get(p["doi"].lower(), {})
         if extra_data_use_keys is None:
@@ -106,9 +106,9 @@ def add_additional_data_to_papers(papers, extra_data, extra_data_use_keys):
             k: p_extra_data[k] for k in p_extra_data if k in extra_data_use_keys
         }
         p.update(p_extra_data)
-        papers.append(p)
+        enhanced_papers.append(p)
 
-    return papers
+    return enhanced_papers
 
 
 class Dataset:
@@ -175,7 +175,12 @@ class Dataset:
         self.builtin_keys = builtin_keys
 
         if additional_keys is None:
-            additional_keys = []
+            if not extra_data:
+                additional_keys = []
+            else:
+                for p in extra_data:
+                    additional_keys = [{"key": k} for k in p.keys()]
+                    break
 
         self.additional_keys = additional_keys
 
