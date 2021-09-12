@@ -56,7 +56,7 @@ def download(paper_id, bib_file, target, sleep_time):
 @click.option("--target", "-t", help="Target data file path")
 @click.option("--sleep_time", "-s", default=1, help="Sleep time between requests")
 def main(paper_id, bib_file, target, sleep_time):
-    """Download paper data"""
+    """Download paper data from service provides (e.g., SemanticScholar)"""
 
     paper_info = download(paper_id, bib_file, target, sleep_time)
 
