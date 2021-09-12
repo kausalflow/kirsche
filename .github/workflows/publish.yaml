@@ -1,6 +1,9 @@
 name: Build and Publish Package to Pypi
 
-on: [push]
+on:
+  push:
+    tags:
+      - "*"
 
 
 jobs:
