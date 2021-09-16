@@ -98,8 +98,6 @@ def add_additional_data_to_papers(papers, extra_data, extra_data_use_keys):
         p_extra_data = extra_data.get(p["doi"].lower(), {})
         if extra_data_use_keys is None:
             extra_data_use_keys = p_extra_data.keys()
-        else:
-            extra_data_use_keys = extra_data_use_keys
 
         # Take only the required fields and values
         p_extra_data = {

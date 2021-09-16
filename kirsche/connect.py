@@ -23,6 +23,14 @@ def append_connections(papers, connection_field_name=None):
     enhanced_papers = []
 
     for ps in papers:
+        # Convert doi to lower case
+        ps_doi = ps.get("doi", "")
+        if not ps_doi:
+            ps_doi = ""
+        ps_doi = ps_doi.lower()
+        ps["doi"] = ps_doi
+
+        # find references that are in the current papers list
         ps_references = ps["references"]
         ps_reference_dois = [
             psr.get("doi", "").lower() for psr in ps_references if psr.get("doi")

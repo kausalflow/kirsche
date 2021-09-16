@@ -45,6 +45,6 @@ def get_dois_from_bib(bib_file):
 
 
 if __name__ == "__main__":
-    bib_data = load_bib("tests/data/bib/test.bib")
+    bib_data = load_bib("tests/data/bib/test_small.bib")
 
     pass
