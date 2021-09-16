@@ -1,10 +1,14 @@
-import click
 import json
-from loguru import logger
 import time
+from pathlib import Path
+
+import click
+from loguru import logger
+
 from kirsche.utils import bib
+from kirsche.utils.bib import get_unique_ids_from_bib, load_bib
+from kirsche.utils.constants import UNIQUE_ID_PREFIX
 from kirsche.utils.semanticscholar import get_paper_info
-from kirsche.utils.bib import load_bib, get_dois_from_bib
 
 
 def list_dois(paper_ids, bib_file):
@@ -25,7 +29,7 @@ def list_dois(paper_ids, bib_file):
         else:
             dois = paper_ids
     elif bib_file:
-        dois = get_dois_from_bib(bib_file)
+        dois = get_unique_ids_from_bib(bib_file)
         logger.debug(f"Retrieved {len(dois)} from {bib_file}")
     else:
         logger.error(f"Specify one of the DOI sources...")
@@ -34,6 +38,24 @@ def list_dois(paper_ids, bib_file):
     logger.debug(f"{(len(dois))} DOIs: {dois}")
 
     return dois
+
+
+def list_unique_ids(bib_file):
+    """
+    list_unique_ids loads a list of unique ids from multiple possible sources
+
+    :param bib_file: path to bib file
+    :type bib_file: str
+    :return: list of unique ids loaded
+    :rtype: list
+    """
+
+    unique_ids = get_unique_ids_from_bib(bib_file)
+    logger.debug(f"Retrieved {len(unique_ids)} from {bib_file}")
+
+    logger.debug(f"{(len(unique_ids))} unique ids: {unique_ids}")
+
+    return unique_ids
 
 
 def download_metadata(dois, target, sleep_time=1):

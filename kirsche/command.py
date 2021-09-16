@@ -98,7 +98,12 @@ def metadata(paper_id, bib_file, metadata_file, sleep_time):
 
 
 @kirsche.command()
-@click.option("--metadata_file", "-m", type=click.Path(exists=True), help="path to data file with paper metadata")
+@click.option(
+    "--metadata_file",
+    "-m",
+    type=click.Path(exists=True),
+    help="path to data file with paper metadata",
+)
 @click.option("--connected_papers_file", "-c", help="path to save enhanced data file")
 def connections_from_metadata(metadata_file, connected_papers_file):
     """Establish connections between the list of papers
@@ -117,7 +122,12 @@ def connections_from_metadata(metadata_file, connected_papers_file):
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
 @click.option("--bib_file", "-b", type=click.Path(exists=True), help="Bib file path")
-@click.option("--metadata_file", "-m", type=click.Path(exists=True), help="path to data file with paper metadata")
+@click.option(
+    "--metadata_file",
+    "-m",
+    type=click.Path(exists=True),
+    help="path to data file with paper metadata",
+)
 @click.option("--connected_papers_file", "-c", help="path to save enhanced data file")
 @click.option("--sleep_time", "-s", default=1, help="Sleep time between requests")
 def connections(paper_id, bib_file, metadata_file, connected_papers_file, sleep_time):

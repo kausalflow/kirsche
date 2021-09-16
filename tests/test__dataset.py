@@ -42,8 +42,6 @@ def test__Dataset():
             logger.error(f"Dataset papers property is not right")
             assert False
 
-
         if not ds_connections:
             logger.error(f"Dataset connections calculation is not right")
             assert False
-

@@ -1,0 +1,297 @@
+@ARTICLE{Hinton2012-uf,
+  title         = "Improving neural networks by preventing co-adaptation of
+                   feature detectors",
+  author        = "Hinton, Geoffrey E and Srivastava, Nitish and Krizhevsky,
+                   Alex and Sutskever, Ilya and Salakhutdinov, Ruslan R",
+  abstract      = "When a large feedforward neural network is trained on a
+                   small training set, it typically performs poorly on held-out
+                   test data. This ``overfitting'' is greatly reduced by
+                   randomly omitting half of the feature detectors on each
+                   training case. This prevents complex co-adaptations in which
+                   a feature detector is only helpful in the context of several
+                   other specific feature detectors. Instead, each neuron
+                   learns to detect a feature that is generally helpful for
+                   producing the correct answer given the combinatorially large
+                   variety of internal contexts in which it must operate.
+                   Random ``dropout'' gives big improvements on many benchmark
+                   tasks and sets new records for speech and object
+                   recognition.",
+  month         =  jul,
+  year          =  2012,
+  url           = "http://arxiv.org/abs/1207.0580",
+  archivePrefix = "arXiv",
+  eprint        = "1207.0580",
+  primaryClass  = "cs.NE",
+  arxivid       = "1207.0580"
+}
+
+
+
+
+@ARTICLE{Kahng2021-cd,
+  title    = "Liquid Democracy: An Algorithmic Perspective",
+  author   = "Kahng, Anson and Mackenzie, Simon and Procaccia, Ariel",
+  abstract = "We study liquid democracy, a collective decision making paradigm
+              that allows voters to transitively delegate their votes, through
+              an algorithmic lens. In our model, there are two alternatives,
+              one correct and one incorrect, and we are interested in the
+              probability that the majority opinion is correct. Our main
+              question is whether there exist delegation mechanisms that are
+              guaranteed to outperform direct voting, in the sense of being
+              always at least as likely, and sometimes more likely, to make a
+              correct decision. Even though we assume that voters can only
+              delegate their votes to better-informed voters, we show that
+              local delegation mechanisms, which only take the local
+              neighborhood of each voter as input (and, arguably, capture the
+              spirit of liquid democracy), cannot provide the foregoing
+              guarantee. By contrast, we design a non-local delegation
+              mechanism that does provably outperform direct voting under mild
+              assumptions about voters.",
+  journal  = "J. Artif. Intell. Res.",
+  volume   =  70,
+  pages    = "1223--1252",
+  month    =  mar,
+  year     =  2021,
+  url      = "https://jair.org/index.php/jair/article/view/12261",
+  keywords = "mathematical foundations; game theory; computational social
+              systems",
+  language = "en",
+  issn     = "1076-9757",
+  doi      = "10.1613/jair.1.12261"
+}
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@ARTICLE{Namazian2019-nw,
+  title    = "Combining Monte Carlo Simulation and Bayesian Networks Methods
+              for Assessing Completion Time of Projects under Risk",
+  author   = "Namazian, Ali and Yakhchali, Siamak Haji and Yousefi, Vahidreza
+              and Tamo{\v s}aitien˙, Jolanta",
+  abstract = "In this study, Monte Carlo simulation and Bayesian network
+              methods are combined to present a structure for assessing the
+              aggregated impact of risks on the completion time of a
+              construction project. Construction projects often encounter
+              different risks which affect and prevent their desired completion
+              at the predicted time and budget. The probability of construction
+              project success is increased in the case of controlling
+              influential risks. On the other hand, interactions among risks
+              lead to the increase of aggregated impact of risks. This fact
+              requires paying attention to assessment and management of project
+              aggregated risk before and during the implementation phase. The
+              developed structure of this article considers the interactions
+              among risks to provide an indicator for estimating the effects of
+              risks, so that the shortage of extant models including the lack
+              of attention to estimate the aggregated impact caused by risks
+              and the intensifying impacts can be evaluated. Moreover, the
+              introduced structure is implemented in an industrial case study
+              in order to validate the model, cover the functional aspect of
+              the problem, and explain the procedure of structure
+              implementation in detail.",
+  year     =  2019,
+  url      = "http://dx.doi.org/10.3390/ijerph16245024",
+  doi      = "10.3390/ijerph16245024"
+}
+
+
+
+@ARTICLE{He2019-ny,
+  title         = "Momentum Contrast for Unsupervised Visual Representation
+                   Learning",
+  author        = "He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining
+                   and Girshick, Ross",
+  abstract      = "We present Momentum Contrast (MoCo) for unsupervised visual
+                   representation learning. From a perspective on contrastive
+                   learning as dictionary look-up, we build a dynamic
+                   dictionary with a queue and a moving-averaged encoder. This
+                   enables building a large and consistent dictionary
+                   on-the-fly that facilitates contrastive unsupervised
+                   learning. MoCo provides competitive results under the common
+                   linear protocol on ImageNet classification. More
+                   importantly, the representations learned by MoCo transfer
+                   well to downstream tasks. MoCo can outperform its supervised
+                   pre-training counterpart in 7 detection/segmentation tasks
+                   on PASCAL VOC, COCO, and other datasets, sometimes
+                   surpassing it by large margins. This suggests that the gap
+                   between unsupervised and supervised representation learning
+                   has been largely closed in many vision tasks.",
+  month         =  nov,
+  year          =  2019,
+  url           = "http://arxiv.org/abs/1911.05722",
+  archivePrefix = "arXiv",
+  eprint        = "1911.05722",
+  primaryClass  = "cs.CV",
+  arxivid       = "1911.05722"
+}
+
+
+
+@ARTICLE{Dinh2015-lv,
+  title    = "{NICE}: Non-linear independent components estimation",
+  author   = "Dinh, Laurent and Krueger, David and Bengio, Yoshua",
+  abstract = "We propose a deep learning framework for modeling complex
+              high-dimensional densities called Non-linear Independent
+              Component Estimation (NICE). It is based on the idea that a good
+              representation is one in which the data has a distribution that
+              is easy to model. For this purpose, a non-linear deterministic
+              transformation of the data is learned that maps it to a latent
+              space so as to make the transformed data conform to a factorized
+              distribution, i.e., resulting in independent latent variables. We
+              parametrize this transformation so that computing the determinant
+              of the Jacobian and inverse Jacobian is trivial, yet we maintain
+              the ability to learn complex non-linear transformations, via a
+              composition of simple building blocks, each based on a deep
+              neural network. The training criterion is simply the exact
+              log-likelihood, which is tractable. Unbiased ancestral sampling
+              is also easy. We show that this approach yields good generative
+              models on four image datasets and can be used for inpainting.",
+  journal  = "3rd International Conference on Learning Representations, ICLR
+              2015 - Workshop Track Proceedings",
+  volume   =  1,
+  number   =  2,
+  pages    = "1--13",
+  year     =  2015,
+  url      = "http://arxiv.org/abs/1410.8516",
+  arxivid  = "1410.8516"
+}
+
+
+
+
+@ARTICLE{Nachum2020-bd,
+  title    = "Reinforcement Learning via {Fenchel-Rockafellar} Duality",
+  author   = "Nachum, Ofir and Dai, Bo",
+  abstract = "We review basic concepts of convex duality, focusing on the very
+              general and supremely useful Fenchel-Rockafellar duality. We
+              summarize how this duality may be applied to a variety of
+              reinforcement learning (RL) settings, including policy evaluation
+              or optimization, online or offline learning, and discounted or
+              undiscounted rewards. The derivations yield a number of
+              intriguing results, including the ability to perform policy
+              evaluation and on-policy policy gradient with behavior-agnostic
+              offline data and methods to learn a policy via max-likelihood
+              optimization. Although many of these results have appeared
+              previously in various forms, we provide a unified treatment and
+              perspective on these results, which we hope will enable
+              researchers to better use and apply the tools of convex duality
+              to make further progress in RL.",
+  pages    = "1--29",
+  year     =  2020,
+  url      = "http://arxiv.org/abs/2001.01866",
+  arxivid  = "2001.01866"
+}
+
+
+
+@ARTICLE{Anandkumar2012-sa,
+  title    = "Tensor decompositions for learning latent variable models",
+  author   = "Anandkumar, Animashree and Ge, Rong and Hsu, Daniel and Kakade,
+              Sham M and Telgarsky, Matus",
+  abstract = "This work considers a computationally and statistically efficient
+              parameter estimation method for a wide class of latent variable
+              models---including Gaussian mixture models, hidden Markov models,
+              and latent Dirichlet allocation---which exploits a certain tensor
+              structure in their low-order observable moments (typically, of
+              second- and third-order). Specifically, parameter estimation is
+              reduced to the problem of extracting a certain (orthogonal)
+              decomposition of a symmetric tensor derived from the moments;
+              this decomposition can be viewed as a natural generalization of
+              the singular value decomposition for matrices. Although tensor
+              decompositions are generally intractable to compute, the
+              decomposition of these specially structured tensors can be
+              efficiently obtained by a variety of approaches, including power
+              iterations and maximization approaches (similar to the case of
+              matrices). A detailed analysis of a robust tensor power method is
+              provided, establishing an analogue of Wedin's perturbation
+              theorem for the singular vectors of matrices. This implies a
+              robust and computationally tractable estimation approach for
+              several popular latent variable models.",
+  journal  = "J. Mach. Learn. Res.",
+  volume   =  15,
+  number   =  1,
+  pages    = "2773--2832",
+  year     =  2012,
+  url      = "http://arxiv.org/abs/1210.7559",
+  issn     = "1532-4435, 1611-3349",
+  pmid     = "25246403",
+  arxivid  = "1210.7559",
+  doi      = "10.1007/978-3-319-24486-0\_2"
+}
+
+@INPROCEEDINGS{Bernardi2019-of,
+  title     = "150 Successful Machine Learning Models: 6 Lessons Learned at
+               Booking.com",
+  booktitle = "Proceedings of the 25th {ACM} {SIGKDD} International Conference
+               on Knowledge Discovery \& Data Mining",
+  author    = "Bernardi, Lucas and Mavridis, Themistoklis and Estevez, Pablo",
+  abstract  = "Booking.com is the world's largest online travel agent where
+               millions of guests find their accommodation and millions of
+               accommodation providers list their properties including hotels,
+               apartments, bed and breakfasts, guest houses, and more. During
+               the last years we have applied Machine Learning to improve the
+               experience of our customers and our business. While most of the
+               Machine Learning literature focuses on the algorithmic or
+               mathematical aspects of the field, not much has been published
+               about how Machine Learning can deliver meaningful impact in an
+               industrial environment where commercial gains are paramount. We
+               conducted an analysis on about 150 successful customer facing
+               applications of Machine Learning, developed by dozens of teams
+               in Booking.com, exposed to hundreds of millions of users
+               worldwide and validated through rigorous Randomized Controlled
+               Trials. Following the phases of a Machine Learning project we
+               describe our approach, the many challenges we found, and the
+               lessons we learned while scaling up such a complex technology
+               across our organization. Our main conclusion is that an
+               iterative, hypothesis driven process, integrated with other
+               disciplines was fundamental to build 150 successful products
+               enabled by Machine Learning.",
+  publisher = "Association for Computing Machinery",
+  pages     = "1743--1751",
+  series    = "KDD '19",
+  month     =  jul,
+  year      =  2019,
+  url       = "https://doi.org/10.1145/3292500.3330744",
+  address   = "New York, NY, USA",
+  keywords  = "product development, machine learning, data science,
+               experimentation, business impact, e-commerce",
+  location  = "Anchorage, AK, USA",
+  isbn      = "9781450362016",
+  doi       = "10.1145/3292500.3330744"
+}
+
+
+
+@ARTICLE{Lecun2016-bz,
+  title    = "A Tutorial on {Energy-Based} Learning",
+  author   = "Lecun, Yann",
+  abstract = "Energy-Based Models (EBMs) capture dependencies between variables
+              by associating a scalar energy to each configuration of the
+              variables. Inference consists in clamping the value of observed
+              variables and finding configurations of the remaining variables
+              that minimize the energy. Learning consists in finding an energy
+              function in which observed configurations of the variables are
+              given lower energies than unobserved ones. The EBM approach
+              provides a common theoretical framework for many learning models,
+              including traditional discriminative and generative approaches,
+              as well as graph-transformer networks, conditional random fields,
+              maximum margin Markov networks, and several manifold learning
+              methods. Probabilistic models must be properly normalized, which
+              sometimes requires evaluating intractable integrals over the
+              space of all possible variable configurations. Since EBMs have no
+              requirement for proper normalization, this problem is naturally
+              circumvented. EBMs can be viewed as a form of non-probabilistic
+              factor graphs, and they provide considerably more flexibility in
+              the design of architectures and training criteria than
+              probabilistic approaches.",
+  journal  = "Sante Publique",
+  year     =  2016,
+  url      = "http://dx.doi.org/10.1017/CBO9781107415324.004",
+  keywords = "Burkina Faso; Delivery of health care; Motivation; Patient
+              preference; Rural health services; Treatment refusal",
+  issn     = "0995-3914",
+  pmid     = "25246403",
+  arxivid  = "1011.1669v3",
+  doi      = "10.1017/CBO9781107415324.004"
+}
+
+
+
