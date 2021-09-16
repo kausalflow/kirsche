@@ -1,14 +1,13 @@
-import json
-import os
 import random
 
 import requests
 from loguru import logger
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
+from typing import Union, Optional
 
 
-def get_random_user_agent(browsers=None):
+def get_random_user_agent(browsers: Optional[Union[str, list]] = None) -> dict:
     """
     get_random_user_agent returns a random user agent.
     We provide two predefined browers, chrome and firefox.
@@ -63,15 +62,19 @@ def get_random_user_agent(browsers=None):
 
 
 def get_session(
-    retry_params=None,
-    session=None,
-):
+    retry_params: Optional[dict] = {
+        "retries": 5,
+        "backoff_factor": 0.3,
+        "status_forcelist": (500, 502, 504),
+    },
+    session: Optional[requests.Session] = None,
+) -> requests.Session:
     """
     get_session prepares a session object.
+
     :param retry_params: the rules to retry, defaults to {"retries": 5, "backoff_factor": 0.3, "status_forcelist": (500, 502, 504)}
-    :type retry_params: dict, optional
-    :param session: [description], defaults to None
-    :type session: [type], optional
+    :param session: a requests session object to be used to query, defaults to None
+    :return: a requests session object
     """
 
     if retry_params is None:
@@ -100,11 +103,11 @@ def get_session(
 
 
 def get_session_query_configs(
-    headers=None,
-    timeout=None,
-    proxies=None,
-    cookies=None,
-):
+    headers: Optional[dict] = None,
+    timeout: Optional[list] = (5, 14),
+    proxies: Optional[dict] = {},
+    cookies: Optional[dict] = {"language": "en"},
+) -> dict:
     """
     get_session_query_configs creates a session config dictionary for session to use. These are the keyword arguments of the session get or post methods.
     Proxies can be set by providing a dictionary of the form
@@ -142,11 +145,20 @@ def get_session_query_configs(
 
 
 def get_page_content(
-    link, session=None, session_query_configs=None, method="GET", data=None
+    link: str,
+    session: Optional[requests.Session] = None,
+    session_query_configs: Optional[dict] = None,
+    method: Optional[str] = "GET",
+    data: Optional[dict] = None,
 ):
     """Download page and save content
-    :param headers: header information such as useragent, defaults to random user agent from get_random_user_agent
-    :type headers: dict, optional
+
+    :param link: link to get content from
+    :param session: requests session object, defaults to a new session
+    :param session_query_configs: session query configs, defaults to get_session_query_configs
+    :param method: method to use, defaults to "GET"
+    :param data: data to send with the request, defaults to None
+    :return: page content data
     """
 
     if not session_query_configs:

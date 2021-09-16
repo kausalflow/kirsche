@@ -1,10 +1,11 @@
 import json
 from pathlib import Path
+from typing import Union
 
 from loguru import logger
 
 
-def load_json(data_file):
+def load_json(data_file: Union[str, Path]) -> Union[dict, list]:
     """load data from json file
 
     :param data_file: json file path

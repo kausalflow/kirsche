@@ -1,11 +1,9 @@
-import json
 import os
 import sys
-from pathlib import Path
 
 import click
 from loguru import logger
-from kirsche.download import list_dois, download_metadata
+from kirsche.download import list_unique_ids, download_metadata
 from kirsche.connect import (
     append_connections,
     append_connections_for_file,
@@ -26,11 +24,11 @@ __CWD__ = os.getcwd()
 def _metadata(paper_id, bib_file, metadata_file, sleep_time):
     """Download paper data from service provides (e.g., SemanticScholar).
 
-    There are two ways to provide a list of DOIs to be retrieved, provide paper DOIs directly using `--paper_id` or `-p`, or loading a bib file using `--bib_file` or `-b`.
+    There are two ways to provide a list of unique ids to be retrieved, provide paper DOIs directly using `--paper_id` or `-p`, or loading a bib file using `--bib_file` or `-b`.
 
     To save the downloaded data, provide a path to a file using `--target` or `-t`.
 
-    :param paper_id: Paper DOI, optional, can be multiple
+    :param paper_id: Paper unique ids, optional, can be multiple
     :type paper_id: str
     :param bib_file: Bib file path, optional
     :type bib_file: str
@@ -40,19 +38,23 @@ def _metadata(paper_id, bib_file, metadata_file, sleep_time):
     :type sleep_time: int
     """
 
-    click.echo(f"Retrieving DOIs...")
+    click.echo(f"Retrieving unique ids...")
     logger.debug(f"loading bib {bib_file}")
     bib_content = load_bib(bib_file)
     logger.debug(f"bib {bib_file} content: {bib_content}")
-    dois = list_dois(paper_id, bib_file)
-    click.echo(f"  Retrieved {len(dois)} DOIs")
+    if bib_file:
+        paper_id = list_unique_ids(bib_file)
+    elif isinstance(paper_id, str):
+        paper_id = [paper_id]
 
-    if not dois:
+    click.echo(f"  Retrieved {len(paper_id)} unique ids")
+
+    if not paper_id:
         click.secho(
-            "No DOIs input. Specify dois using `-p` or a bib file using `-b`", fg="red"
+            "No unique ids input. Specify unique ids using `-p` or a bib file using `-b`", fg="red"
         )
 
-    paper_info = download_metadata(dois, metadata_file, sleep_time)
+    paper_info = download_metadata(paper_id, metadata_file, sleep_time)
 
     if not metadata_file:
         dv = DataViews(paper_info)
