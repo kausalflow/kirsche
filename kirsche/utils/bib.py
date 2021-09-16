@@ -1,13 +1,14 @@
 import re
-from typing import Union
+from pathlib import Path
+from typing import Optional, Union
 
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
-from pathlib import Path
 
-def load_bib(bib_file):
+
+def load_bib(bib_file: Union[str, Path]) -> list:
     """Load bib content from bib files"""
 
     if isinstance(bib_file, str):
@@ -24,7 +25,7 @@ def load_bib(bib_file):
     return bib_database.entries
 
 
-def get_dois_from_bib_re(bib_file):
+def get_dois_from_bib_re(bib_file: Union[str, Path]) -> list:
     """Retrieve DOIs by parsing bib file line by line."""
 
     with open(bib_file, "r") as bibtex_file:
@@ -54,7 +55,7 @@ def parse_unique_ids_by_keys(
         i_unique_id = ""
         for k in keys:
             k_prefix = unique_id_prefix.get(k, "")
-            i_k_value = i.get(k, '')
+            i_k_value = i.get(k, "")
             # We do not need the version in the arxivids
             if k == "arxivid":
                 i_k_value = i_k_value.split("v")[0]
@@ -66,7 +67,11 @@ def parse_unique_ids_by_keys(
     return ids
 
 
-def get_unique_ids_from_bib(bib_file, keys=None, unique_id_prefix=None):
+def get_unique_ids_from_bib(
+    bib_file: Union[str, Path],
+    keys: Optional[Union[str, list]] = None,
+    unique_id_prefix: dict = None,
+) -> list:
     """
     get_unique_ids_from_bib returns a list of unique IDs from a bib file for a given key or list of keys.
 
@@ -100,16 +105,14 @@ def get_unique_ids_from_bib(bib_file, keys=None, unique_id_prefix=None):
     bib_data = load_bib(bib_file)
 
     if keys:
-        ids = parse_unique_ids_by_keys(
-            bib_data, keys, unique_id_prefix
-        )
+        ids = parse_unique_ids_by_keys(bib_data, keys, unique_id_prefix)
     else:
         raise ValueError("key or key_precedence must be specified")
 
     return ids
 
 
-def get_dois_from_bib(bib_file):
+def get_dois_from_bib(bib_file: Union[str, Path]) -> list:
     """
     [Deprecated] use get_unique_ids_from_bib instead.
 

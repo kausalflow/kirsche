@@ -54,7 +54,9 @@ def test__get_unique_ids_from_bib_content_by_arxivid():
         logger.error(f"Total number of records is not right: {len(unique_ids)}")
         assert False
     elif len([i for i in unique_ids if i.startswith("arXiv:")]) != 6:
-        logger.error(f'Total number of arxiv ids are not right: {len([i for i in unique_ids if i.startswith("arXiv:")])}')
+        logger.error(
+            f'Total number of arxiv ids are not right: {len([i for i in unique_ids if i.startswith("arXiv:")])}'
+        )
         assert False
     else:
         assert True

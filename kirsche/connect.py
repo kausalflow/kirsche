@@ -1,4 +1,6 @@
 import json
+from pathlib import Path
+from typing import Optional, Union
 
 import click
 from loguru import logger
@@ -6,13 +8,14 @@ from loguru import logger
 from kirsche.utils.io import load_json
 
 
-def append_connections(papers, connection_field_name=None):
+def append_connections(
+    papers: list, connection_field_name: Optional[str] = "local__referenced_to"
+) -> list:
     """find connections between papers based on citation doi
 
     :param papers: list of paper metadata
-    :type papers: list
+    :param connection_field_name: name of the field to save the connection info
     :return: list of paper metadata with connection info
-    :rtype: list
     """
 
     if connection_field_name is None:
@@ -52,7 +55,10 @@ def append_connections(papers, connection_field_name=None):
 
 
 def save_connected_papers(
-    records, target=None, save_keys=None, connection_field_name=None
+    records: list,
+    target: Optional[Union[str, Path]] = None,
+    save_keys: Optional[list] = None,
+    connection_field_name: Optional[str] = "local__referenced_to",
 ):
 
     if connection_field_name is None:
@@ -80,20 +86,18 @@ def save_connected_papers(
 
 
 def append_connections_for_file(
-    data_file, target=None, save_keys=None, connection_field_name=None
+    data_file: Union[str, Path],
+    target: Optional[Union[str, Path]] = None,
+    save_keys: Optional[list] = None,
+    connection_field_name: Optional[str] = "local__referenced_to",
 ):
     """connect papers based on citation doi
 
     :param data_file: path to json file that contains the downloaded paper metadata
-    :type data_file: str
     :param target: path to json file to save the enhanced paper metadata
-    :type target: str
     :param save_keys: list of keys to save from the original paper metadata
-    :type save_keys: list
     :param connection_field_name: name of the field to save the connection info
-    :type connection_field_name: str
     :return: list of paper metadata with connection info
-    :rtype: list
     """
 
     if connection_field_name is None:
