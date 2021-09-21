@@ -13,7 +13,7 @@ from kirsche.connect import (
 from kirsche.dataset import DataViews
 from kirsche.utils.io import load_json
 from kirsche.utils.bib import load_bib
-from kirsche.visalize import make_chart, PaperGraph, visualize
+from kirsche.visualize import make_chart, PaperGraph, visualize
 
 
 logger.remove()
