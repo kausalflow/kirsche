@@ -51,7 +51,8 @@ def _metadata(paper_id, bib_file, metadata_file, sleep_time):
 
     if not paper_id:
         click.secho(
-            "No unique ids input. Specify unique ids using `-p` or a bib file using `-b`", fg="red"
+            "No unique ids input. Specify unique ids using `-p` or a bib file using `-b`",
+            fg="red",
         )
 
     paper_info = download_metadata(paper_id, metadata_file, sleep_time)

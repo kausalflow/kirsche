@@ -1,0 +1,1374 @@
+[
+    {
+        "authors": [
+            {
+                "authorId": "2605353",
+                "name": "D. Reato",
+                "url": "https://www.semanticscholar.org/author/2605353"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1152/jn.00208.2014",
+        "numCitedBy": 35,
+        "numCiting": 100,
+        "title": "Lasting modulation of in vitro oscillatory activity with weak direct current stimulation.",
+        "venue": "Journal of neurophysiology",
+        "year": 2015,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1523/jneurosci.0095-07.2007"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "9438545",
+                "name": "F. Farahani",
+                "url": "https://www.semanticscholar.org/author/9438545"
+            },
+            {
+                "authorId": "39934585",
+                "name": "G. Kronberg",
+                "url": "https://www.semanticscholar.org/author/39934585"
+            },
+            {
+                "authorId": "7657897",
+                "name": "Mohamad FallahRad",
+                "url": "https://www.semanticscholar.org/author/7657897"
+            },
+            {
+                "authorId": "6158426",
+                "name": "Hysell V. Oviedo",
+                "url": "https://www.semanticscholar.org/author/6158426"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1016/j.brs.2021.03.001",
+        "numCitedBy": 0,
+        "numCiting": 61,
+        "title": "Effects of direct current stimulation on synaptic plasticity in a single neuron",
+        "venue": "Brain Stimulation",
+        "year": 2021,
+        "local__referenced_to": [
+            "10.1152/jn.00208.2014",
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00208.2014",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1002/ana.24708",
+            "10.1113/jp273005",
+            "10.1016/j.brs.2016.10.001",
+            "10.1016/j.brs.2019.10.014"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "37304148",
+                "name": "Charles V. Latchoumane",
+                "url": "https://www.semanticscholar.org/author/37304148"
+            },
+            {
+                "authorId": "39354566",
+                "name": "L. Jackson",
+                "url": "https://www.semanticscholar.org/author/39354566"
+            },
+            {
+                "authorId": "32247948",
+                "name": "M. Sendi",
+                "url": "https://www.semanticscholar.org/author/32247948"
+            },
+            {
+                "authorId": "3889451",
+                "name": "K. F. Tehrani",
+                "url": "https://www.semanticscholar.org/author/3889451"
+            },
+            {
+                "authorId": "6093434",
+                "name": "L. Mortensen",
+                "url": "https://www.semanticscholar.org/author/6093434"
+            },
+            {
+                "authorId": "4046863",
+                "name": "S. Stice",
+                "url": "https://www.semanticscholar.org/author/4046863"
+            },
+            {
+                "authorId": "1766812",
+                "name": "Maysam Ghovanloo",
+                "url": "https://www.semanticscholar.org/author/1766812"
+            },
+            {
+                "authorId": "47747564",
+                "name": "L. Karumbaiah",
+                "url": "https://www.semanticscholar.org/author/47747564"
+            }
+        ],
+        "doi": "10.1038/s41598-018-29069-3",
+        "numCitedBy": 13,
+        "numCiting": 114,
+        "title": "Chronic Electrical Stimulation Promotes the Excitability and Plasticity of ESC-derived Neurons following Glutamate-induced Inhibition In vitro",
+        "venue": "Scientific Reports",
+        "year": 2018,
+        "local__referenced_to": [
+            "10.1016/j.neuron.2010.03.035"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "145497711",
+                "name": "Simon J. Pelletier",
+                "url": "https://www.semanticscholar.org/author/145497711"
+            },
+            {
+                "authorId": "3983690",
+                "name": "M. Lagac\u00e9",
+                "url": "https://www.semanticscholar.org/author/3983690"
+            },
+            {
+                "authorId": "1398952415",
+                "name": "I. St-Amour",
+                "url": "https://www.semanticscholar.org/author/1398952415"
+            },
+            {
+                "authorId": "6297083",
+                "name": "Dany Arsenault",
+                "url": "https://www.semanticscholar.org/author/6297083"
+            },
+            {
+                "authorId": "7022057",
+                "name": "G. Cisbani",
+                "url": "https://www.semanticscholar.org/author/7022057"
+            },
+            {
+                "authorId": "5237346",
+                "name": "A. Chabrat",
+                "url": "https://www.semanticscholar.org/author/5237346"
+            },
+            {
+                "authorId": "4165832",
+                "name": "S. Fecteau",
+                "url": "https://www.semanticscholar.org/author/4165832"
+            },
+            {
+                "authorId": "145012403",
+                "name": "M. L\u00e9vesque",
+                "url": "https://www.semanticscholar.org/author/145012403"
+            },
+            {
+                "authorId": "3790312",
+                "name": "F. Cicchetti",
+                "url": "https://www.semanticscholar.org/author/3790312"
+            }
+        ],
+        "doi": "10.1093/ijnp/pyu090",
+        "numCitedBy": 38,
+        "numCiting": 97,
+        "title": "The Morphological and Molecular Changes of Brain Cells Exposed to Direct Current Electric Field Stimulation",
+        "venue": "The international journal of neuropsychopharmacology",
+        "year": 2014,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "49696940",
+                "name": "Y. Sun",
+                "url": "https://www.semanticscholar.org/author/49696940"
+            },
+            {
+                "authorId": "2037266",
+                "name": "S. Dhamne",
+                "url": "https://www.semanticscholar.org/author/2037266"
+            },
+            {
+                "authorId": "1403246939",
+                "name": "Alejandro Carretero-Guill\u00e9n",
+                "url": "https://www.semanticscholar.org/author/1403246939"
+            },
+            {
+                "authorId": "144302802",
+                "name": "R. Salvador",
+                "url": "https://www.semanticscholar.org/author/144302802"
+            },
+            {
+                "authorId": "40327646",
+                "name": "Marti C Goldenberg",
+                "url": "https://www.semanticscholar.org/author/40327646"
+            },
+            {
+                "authorId": "1751586815",
+                "name": "B. Godlewski",
+                "url": "https://www.semanticscholar.org/author/1751586815"
+            },
+            {
+                "authorId": "1390039794",
+                "name": "\u00c1. Pascual-Leone",
+                "url": "https://www.semanticscholar.org/author/1390039794"
+            },
+            {
+                "authorId": "35584263",
+                "name": "J. Madsen",
+                "url": "https://www.semanticscholar.org/author/35584263"
+            },
+            {
+                "authorId": "21314013",
+                "name": "S. Stone",
+                "url": "https://www.semanticscholar.org/author/21314013"
+            },
+            {
+                "authorId": "144679534",
+                "name": "G. Ruffini",
+                "url": "https://www.semanticscholar.org/author/144679534"
+            },
+            {
+                "authorId": "1400953028",
+                "name": "J. M\u00e1rquez-Ruiz",
+                "url": "https://www.semanticscholar.org/author/1400953028"
+            },
+            {
+                "authorId": "50075282",
+                "name": "A. Rotenberg",
+                "url": "https://www.semanticscholar.org/author/50075282"
+            }
+        ],
+        "doi": "10.1002/ana.25822",
+        "numCitedBy": 3,
+        "numCiting": 48,
+        "title": "Drug-responsive inhomogeneous cortical modulation by direct current stimulation.",
+        "venue": "Annals of neurology",
+        "year": 2020,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1016/j.expneurol.2015.02.002",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1002/ana.24708"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "144613299",
+                "name": "M. Andreasen",
+                "url": "https://www.semanticscholar.org/author/144613299"
+            },
+            {
+                "authorId": "5628148",
+                "name": "S. Nedergaard",
+                "url": "https://www.semanticscholar.org/author/5628148"
+            }
+        ],
+        "doi": "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+        "numCitedBy": 32,
+        "numCiting": 34,
+        "title": "Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites",
+        "venue": "Hippocampus",
+        "year": 1996,
+        "local__referenced_to": [
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "48124211",
+                "name": "M. Inoue",
+                "url": "https://www.semanticscholar.org/author/48124211"
+            },
+            {
+                "authorId": "2066058945",
+                "name": "Hiroki Akiyama",
+                "url": "https://www.semanticscholar.org/author/2066058945"
+            },
+            {
+                "authorId": "3513656",
+                "name": "J. Deans",
+                "url": "https://www.semanticscholar.org/author/3513656"
+            },
+            {
+                "authorId": "144854361",
+                "name": "J. Fox",
+                "url": "https://www.semanticscholar.org/author/144854361"
+            },
+            {
+                "authorId": "1819882",
+                "name": "H. Miyakawa",
+                "url": "https://www.semanticscholar.org/author/1819882"
+            },
+            {
+                "authorId": "144356606",
+                "name": "J. Jefferys",
+                "url": "https://www.semanticscholar.org/author/144356606"
+            }
+        ],
+        "doi": "10.1113/jphysiol.2003.055772",
+        "numCitedBy": 571,
+        "numCiting": 59,
+        "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+        "venue": "The Journal of physiology",
+        "year": 2004,
+        "local__referenced_to": [
+            "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+            "10.1113/jphysiol.2002.033209",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2433485",
+                "name": "T. Radman",
+                "url": "https://www.semanticscholar.org/author/2433485"
+            },
+            {
+                "authorId": "1805590",
+                "name": "A. Datta",
+                "url": "https://www.semanticscholar.org/author/1805590"
+            },
+            {
+                "authorId": "3439744",
+                "name": "R. Ramos",
+                "url": "https://www.semanticscholar.org/author/3439744"
+            },
+            {
+                "authorId": "3288819",
+                "name": "J. C. Brumberg",
+                "url": "https://www.semanticscholar.org/author/3288819"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1109/iembs.2009.5333586",
+        "numCitedBy": 27,
+        "numCiting": 20,
+        "title": "One-dimensional representation of a neuron in a uniform electric field",
+        "venue": "2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "year": 2009,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.0095-07.2007"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "50039847",
+                "name": "A. Kabakov",
+                "url": "https://www.semanticscholar.org/author/50039847"
+            },
+            {
+                "authorId": "36928974",
+                "name": "P. Muller",
+                "url": "https://www.semanticscholar.org/author/36928974"
+            },
+            {
+                "authorId": "1390039794",
+                "name": "\u00c1. Pascual-Leone",
+                "url": "https://www.semanticscholar.org/author/1390039794"
+            },
+            {
+                "authorId": "5859161",
+                "name": "F. Jensen",
+                "url": "https://www.semanticscholar.org/author/5859161"
+            },
+            {
+                "authorId": "50075282",
+                "name": "A. Rotenberg",
+                "url": "https://www.semanticscholar.org/author/50075282"
+            }
+        ],
+        "doi": "10.1152/jn.00715.2011",
+        "numCitedBy": 158,
+        "numCiting": 31,
+        "title": "Contribution of axonal orientation to pathway-dependent modulation of excitatory transmission by direct current stimulation in isolated rat hippocampus.",
+        "venue": "Journal of neurophysiology",
+        "year": 2012,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2605353",
+                "name": "D. Reato",
+                "url": "https://www.semanticscholar.org/author/2605353"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1152/jn.00208.2014",
+        "numCitedBy": 35,
+        "numCiting": 100,
+        "title": "Lasting modulation of in vitro oscillatory activity with weak direct current stimulation.",
+        "venue": "Journal of neurophysiology",
+        "year": 2015,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1523/jneurosci.0095-07.2007"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "7782185",
+                "name": "Wei-Pang Chang",
+                "url": "https://www.semanticscholar.org/author/7782185"
+            },
+            {
+                "authorId": "5634570",
+                "name": "Hsiang-Chin Lu",
+                "url": "https://www.semanticscholar.org/author/5634570"
+            },
+            {
+                "authorId": "145013712",
+                "name": "B. Shyu",
+                "url": "https://www.semanticscholar.org/author/145013712"
+            }
+        ],
+        "doi": "10.1016/j.expneurol.2015.02.002",
+        "numCitedBy": 10,
+        "numCiting": 77,
+        "title": "Treatment with direct-current stimulation against cingulate seizure-like activity induced by 4-aminopyridine and bicuculline in an in vitro mouse model",
+        "venue": "Experimental Neurology",
+        "year": 2015,
+        "local__referenced_to": [
+            "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1113/jphysiol.2002.033209",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "40568135",
+                "name": "F. Ranieri",
+                "url": "https://www.semanticscholar.org/author/40568135"
+            },
+            {
+                "authorId": "31587957",
+                "name": "M. Podda",
+                "url": "https://www.semanticscholar.org/author/31587957"
+            },
+            {
+                "authorId": "48980642",
+                "name": "E. Riccardi",
+                "url": "https://www.semanticscholar.org/author/48980642"
+            },
+            {
+                "authorId": "4266615",
+                "name": "G. Frisullo",
+                "url": "https://www.semanticscholar.org/author/4266615"
+            },
+            {
+                "authorId": "5542603",
+                "name": "M. Dileone",
+                "url": "https://www.semanticscholar.org/author/5542603"
+            },
+            {
+                "authorId": "6473082",
+                "name": "P. Profice",
+                "url": "https://www.semanticscholar.org/author/6473082"
+            },
+            {
+                "authorId": "5062011",
+                "name": "F. Pilato",
+                "url": "https://www.semanticscholar.org/author/5062011"
+            },
+            {
+                "authorId": "2137200",
+                "name": "V. Di Lazzaro",
+                "url": "https://www.semanticscholar.org/author/2137200"
+            },
+            {
+                "authorId": "145367636",
+                "name": "C. Grassi",
+                "url": "https://www.semanticscholar.org/author/145367636"
+            }
+        ],
+        "doi": "10.1152/jn.00319.2011",
+        "numCitedBy": 163,
+        "numCiting": 87,
+        "title": "Modulation of LTP at rat hippocampal CA3-CA1 synapses by direct current stimulation.",
+        "venue": "Journal of neurophysiology",
+        "year": 2012,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1016/j.neuron.2010.03.035"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "3131367",
+                "name": "A. Rahman",
+                "url": "https://www.semanticscholar.org/author/3131367"
+            },
+            {
+                "authorId": "2605353",
+                "name": "D. Reato",
+                "url": "https://www.semanticscholar.org/author/2605353"
+            },
+            {
+                "authorId": "36415421",
+                "name": "M. Arlotti",
+                "url": "https://www.semanticscholar.org/author/36415421"
+            },
+            {
+                "authorId": "3255541",
+                "name": "F. Gasca",
+                "url": "https://www.semanticscholar.org/author/3255541"
+            },
+            {
+                "authorId": "1805590",
+                "name": "A. Datta",
+                "url": "https://www.semanticscholar.org/author/1805590"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1113/jphysiol.2012.247171",
+        "numCitedBy": 375,
+        "numCiting": 62,
+        "title": "Cellular effects of acute direct current stimulation: somatic and synaptic terminal effects",
+        "venue": "The Journal of physiology",
+        "year": 2013,
+        "local__referenced_to": [
+            "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00319.2011",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "50104489",
+                "name": "Belen Lafon",
+                "url": "https://www.semanticscholar.org/author/50104489"
+            },
+            {
+                "authorId": "3131367",
+                "name": "A. Rahman",
+                "url": "https://www.semanticscholar.org/author/3131367"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1016/j.brs.2016.08.014",
+        "numCitedBy": 76,
+        "numCiting": 86,
+        "title": "Direct Current Stimulation Alters Neuronal Input/Output Function",
+        "venue": "Brain Stimulation",
+        "year": 2017,
+        "local__referenced_to": [
+            "10.1152/jn.00208.2014",
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00208.2014",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1523/jneurosci.0095-07.2007",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "1399054450",
+                "name": "Mattia D'Andola",
+                "url": "https://www.semanticscholar.org/author/1399054450"
+            },
+            {
+                "authorId": "2691327",
+                "name": "Massimiliano Giulioni",
+                "url": "https://www.semanticscholar.org/author/2691327"
+            },
+            {
+                "authorId": "1810022",
+                "name": "V. Dante",
+                "url": "https://www.semanticscholar.org/author/1810022"
+            },
+            {
+                "authorId": "38755218",
+                "name": "P. Del Giudice",
+                "url": "https://www.semanticscholar.org/author/38755218"
+            },
+            {
+                "authorId": "1436361090",
+                "name": "M. V. Sanchez-Vives",
+                "url": "https://www.semanticscholar.org/author/1436361090"
+            }
+        ],
+        "doi": "10.1186/s12984-018-0470-z",
+        "numCitedBy": 2,
+        "numCiting": 52,
+        "title": "Control of cortical oscillatory frequency by a closed-loop system",
+        "venue": "Journal of NeuroEngineering and Rehabilitation",
+        "year": 2018,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1523/jneurosci.2059-10.2010"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2433485",
+                "name": "T. Radman",
+                "url": "https://www.semanticscholar.org/author/2433485"
+            },
+            {
+                "authorId": "3439744",
+                "name": "R. Ramos",
+                "url": "https://www.semanticscholar.org/author/3439744"
+            },
+            {
+                "authorId": "3288819",
+                "name": "J. C. Brumberg",
+                "url": "https://www.semanticscholar.org/author/3288819"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1016/j.brs.2009.03.007",
+        "numCitedBy": 489,
+        "numCiting": 88,
+        "title": "Role of cortical cell type and morphology in subthreshold and suprathreshold uniform electric field stimulation in vitro\n",
+        "venue": "Brain Stimulation",
+        "year": 2009,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1523/jneurosci.0095-07.2007",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "5634570",
+                "name": "Hsiang-Chin Lu",
+                "url": "https://www.semanticscholar.org/author/5634570"
+            },
+            {
+                "authorId": "2048852128",
+                "name": "Wei-Jen Chang",
+                "url": "https://www.semanticscholar.org/author/2048852128"
+            },
+            {
+                "authorId": "7782185",
+                "name": "Wei-Pang Chang",
+                "url": "https://www.semanticscholar.org/author/7782185"
+            },
+            {
+                "authorId": "145013712",
+                "name": "B. Shyu",
+                "url": "https://www.semanticscholar.org/author/145013712"
+            }
+        ],
+        "doi": "10.3791/53709",
+        "numCitedBy": 2,
+        "numCiting": 0,
+        "title": "Direct-current Stimulation and Multi-electrode Array Recording of Seizure-like Activity in Mice Brain Slice Preparation.",
+        "venue": "Journal of visualized experiments : JoVE",
+        "year": 2016,
+        "local__referenced_to": []
+    },
+    {
+        "authors": [
+            {
+                "authorId": "7277301",
+                "name": "Z. Esmaeilpour",
+                "url": "https://www.semanticscholar.org/author/7277301"
+            },
+            {
+                "authorId": "2646601",
+                "name": "M. Jackson",
+                "url": "https://www.semanticscholar.org/author/2646601"
+            },
+            {
+                "authorId": "39934585",
+                "name": "G. Kronberg",
+                "url": "https://www.semanticscholar.org/author/39934585"
+            },
+            {
+                "authorId": "94296609",
+                "name": "Tianhe Zhang",
+                "url": "https://www.semanticscholar.org/author/94296609"
+            },
+            {
+                "authorId": "1776086",
+                "name": "R. Esteller",
+                "url": "https://www.semanticscholar.org/author/1776086"
+            },
+            {
+                "authorId": "38674419",
+                "name": "B. Hershey",
+                "url": "https://www.semanticscholar.org/author/38674419"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1523/eneuro.0368-20.2020",
+        "numCitedBy": 1,
+        "numCiting": 85,
+        "title": "Limited Sensitivity of Hippocampal Synaptic Function or Network Oscillations to Unmodulated Kilohertz Electric Fields",
+        "venue": "eNeuro",
+        "year": 2020,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2016.08.014",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1523/jneurosci.0095-07.2007",
+            "10.1113/jp273005",
+            "10.1113/jphysiol.1981.sp013897",
+            "10.1016/j.brs.2016.10.001"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2433485",
+                "name": "T. Radman",
+                "url": "https://www.semanticscholar.org/author/2433485"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1109/iembs.2006.259636",
+        "numCitedBy": 5,
+        "numCiting": 19,
+        "title": "Amplification of small electric fields by neurons; implications for spike timing",
+        "venue": "2006 International Conference of the IEEE Engineering in Medicine and Biology Society",
+        "year": 2006,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "47021702",
+                "name": "D. Chakraborty",
+                "url": "https://www.semanticscholar.org/author/47021702"
+            },
+            {
+                "authorId": "3001972",
+                "name": "D. Truong",
+                "url": "https://www.semanticscholar.org/author/3001972"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "4446706",
+                "name": "H. Kaphzan",
+                "url": "https://www.semanticscholar.org/author/4446706"
+            }
+        ],
+        "doi": "10.1093/cercor/bhx158",
+        "numCitedBy": 47,
+        "numCiting": 63,
+        "title": "Neuromodulation of Axon Terminals",
+        "venue": "Cerebral cortex",
+        "year": 2018,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2016.08.014",
+            "10.1016/j.brs.2009.03.007",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2605353",
+                "name": "D. Reato",
+                "url": "https://www.semanticscholar.org/author/2605353"
+            },
+            {
+                "authorId": "3131367",
+                "name": "A. Rahman",
+                "url": "https://www.semanticscholar.org/author/3131367"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1523/jneurosci.2059-10.2010",
+        "numCitedBy": 384,
+        "numCiting": 70,
+        "title": "Low-Intensity Electrical Stimulation Affects Network Dynamics by Modulating Population Rate and Spike Timing",
+        "venue": "The Journal of Neuroscience",
+        "year": 2010,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.0095-07.2007",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "144492447",
+                "name": "B. Fritsch",
+                "url": "https://www.semanticscholar.org/author/144492447"
+            },
+            {
+                "authorId": "26090635",
+                "name": "J. Reis",
+                "url": "https://www.semanticscholar.org/author/26090635"
+            },
+            {
+                "authorId": "9707046",
+                "name": "K. Martinowich",
+                "url": "https://www.semanticscholar.org/author/9707046"
+            },
+            {
+                "authorId": "4869015",
+                "name": "Heidi M. Schambra",
+                "url": "https://www.semanticscholar.org/author/4869015"
+            },
+            {
+                "authorId": "50006566",
+                "name": "Y. Ji",
+                "url": "https://www.semanticscholar.org/author/50006566"
+            },
+            {
+                "authorId": "2141461",
+                "name": "L. Cohen",
+                "url": "https://www.semanticscholar.org/author/2141461"
+            },
+            {
+                "authorId": "40148754",
+                "name": "B. Lu",
+                "url": "https://www.semanticscholar.org/author/40148754"
+            }
+        ],
+        "doi": "10.1016/j.neuron.2010.03.035",
+        "numCitedBy": 1024,
+        "numCiting": 49,
+        "title": "Direct Current Stimulation Promotes BDNF-Dependent Synaptic Plasticity: Potential Implications for Motor Learning",
+        "venue": "Neuron",
+        "year": 2010,
+        "local__referenced_to": [
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.0095-07.2007"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2433485",
+                "name": "T. Radman",
+                "url": "https://www.semanticscholar.org/author/2433485"
+            },
+            {
+                "authorId": "6367062",
+                "name": "Y. Su",
+                "url": "https://www.semanticscholar.org/author/6367062"
+            },
+            {
+                "authorId": "49211962",
+                "name": "Je Hi An",
+                "url": "https://www.semanticscholar.org/author/49211962"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1523/jneurosci.0095-07.2007",
+        "numCitedBy": 205,
+        "numCiting": 79,
+        "title": "Spike Timing Amplifies the Effect of Electric Fields on Neurons: Implications for Endogenous Field Effects",
+        "venue": "The Journal of Neuroscience",
+        "year": 2007,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1109/iembs.2006.259636",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "1691853",
+                "name": "Y. Sun",
+                "url": "https://www.semanticscholar.org/author/1691853"
+            },
+            {
+                "authorId": "35152578",
+                "name": "J. Lipton",
+                "url": "https://www.semanticscholar.org/author/35152578"
+            },
+            {
+                "authorId": "37508405",
+                "name": "Lara M. Boyle",
+                "url": "https://www.semanticscholar.org/author/37508405"
+            },
+            {
+                "authorId": "35584263",
+                "name": "J. Madsen",
+                "url": "https://www.semanticscholar.org/author/35584263"
+            },
+            {
+                "authorId": "40327646",
+                "name": "Marti C Goldenberg",
+                "url": "https://www.semanticscholar.org/author/40327646"
+            },
+            {
+                "authorId": "1390039794",
+                "name": "\u00c1. Pascual-Leone",
+                "url": "https://www.semanticscholar.org/author/1390039794"
+            },
+            {
+                "authorId": "143608449",
+                "name": "M. Sahin",
+                "url": "https://www.semanticscholar.org/author/143608449"
+            },
+            {
+                "authorId": "50075282",
+                "name": "A. Rotenberg",
+                "url": "https://www.semanticscholar.org/author/50075282"
+            }
+        ],
+        "doi": "10.1002/ana.24708",
+        "numCitedBy": 29,
+        "numCiting": 55,
+        "title": "Direct current stimulation induces mGluR5\u2010dependent neocortical plasticity",
+        "venue": "Annals of neurology",
+        "year": 2016,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1016/j.expneurol.2015.02.002",
+            "10.1016/j.neuron.2010.03.035"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "39450338",
+                "name": "P. Hahn",
+                "url": "https://www.semanticscholar.org/author/39450338"
+            },
+            {
+                "authorId": "144854361",
+                "name": "J. Fox",
+                "url": "https://www.semanticscholar.org/author/144854361"
+            },
+            {
+                "authorId": "144356606",
+                "name": "J. Jefferys",
+                "url": "https://www.semanticscholar.org/author/144356606"
+            }
+        ],
+        "doi": "10.1152/jn.00467.2003",
+        "numCitedBy": 105,
+        "numCiting": 57,
+        "title": "Depolarization block of neurons during maintenance of electrographic seizures.",
+        "venue": "Journal of neurophysiology",
+        "year": 2003,
+        "local__referenced_to": [
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "3131367",
+                "name": "A. Rahman",
+                "url": "https://www.semanticscholar.org/author/3131367"
+            },
+            {
+                "authorId": "50104489",
+                "name": "Belen Lafon",
+                "url": "https://www.semanticscholar.org/author/50104489"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            }
+        ],
+        "doi": "10.1113/jp273005",
+        "numCitedBy": 42,
+        "numCiting": 44,
+        "title": "Direct current stimulation boosts synaptic gain and cooperativity in vitro",
+        "venue": "The Journal of physiology",
+        "year": 2017,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "50502556",
+                "name": "J. Lian",
+                "url": "https://www.semanticscholar.org/author/50502556"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2073366460",
+                "name": "C. Sciortino",
+                "url": "https://www.semanticscholar.org/author/2073366460"
+            },
+            {
+                "authorId": "3080729",
+                "name": "W. Stacey",
+                "url": "https://www.semanticscholar.org/author/3080729"
+            },
+            {
+                "authorId": "40209884",
+                "name": "D. Durand",
+                "url": "https://www.semanticscholar.org/author/40209884"
+            }
+        ],
+        "doi": "10.1113/jphysiol.2002.033209",
+        "numCitedBy": 160,
+        "numCiting": 40,
+        "title": "Local Suppression of Epileptiform Activity by Electrical Stimulation in Rat Hippocampus In Vitro",
+        "venue": "The Journal of physiology",
+        "year": 2003,
+        "local__referenced_to": [
+            "10.1113/jphysiol.1981.sp013897"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "153923408",
+                "name": "Alysia Ross",
+                "url": "https://www.semanticscholar.org/author/153923408"
+            },
+            {
+                "authorId": "52020710",
+                "name": "Viktoria Xing",
+                "url": "https://www.semanticscholar.org/author/52020710"
+            },
+            {
+                "authorId": "89782535",
+                "name": "T. Wang",
+                "url": "https://www.semanticscholar.org/author/89782535"
+            },
+            {
+                "authorId": "2070914113",
+                "name": "Samantha C. Bureau",
+                "url": "https://www.semanticscholar.org/author/2070914113"
+            },
+            {
+                "authorId": "1844595113",
+                "name": "Giovana A. Link",
+                "url": "https://www.semanticscholar.org/author/1844595113"
+            },
+            {
+                "authorId": "3073501",
+                "name": "T. Fortin",
+                "url": "https://www.semanticscholar.org/author/3073501"
+            },
+            {
+                "authorId": "49732777",
+                "name": "Hui Zhang",
+                "url": "https://www.semanticscholar.org/author/49732777"
+            },
+            {
+                "authorId": "4311193",
+                "name": "S. Hayley",
+                "url": "https://www.semanticscholar.org/author/4311193"
+            },
+            {
+                "authorId": "1845793684",
+                "name": "Hongyu Sun",
+                "url": "https://www.semanticscholar.org/author/1845793684"
+            }
+        ],
+        "doi": "10.1186/s13041-020-00648-8",
+        "numCitedBy": 3,
+        "numCiting": 76,
+        "title": "Alleviating toxic \u03b1-Synuclein accumulation by membrane depolarization: evidence from an in vitro model of Parkinson\u2019s disease",
+        "venue": "Molecular Brain",
+        "year": 2020,
+        "local__referenced_to": []
+    },
+    {
+        "authors": [
+            {
+                "authorId": "144356606",
+                "name": "J. Jefferys",
+                "url": "https://www.semanticscholar.org/author/144356606"
+            }
+        ],
+        "doi": "10.1113/jphysiol.1981.sp013897",
+        "numCitedBy": 192,
+        "numCiting": 28,
+        "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+        "venue": "The Journal of physiology",
+        "year": 1981,
+        "local__referenced_to": []
+    },
+    {
+        "authors": [
+            {
+                "authorId": "39934585",
+                "name": "G. Kronberg",
+                "url": "https://www.semanticscholar.org/author/39934585"
+            },
+            {
+                "authorId": "4446368",
+                "name": "M. Bridi",
+                "url": "https://www.semanticscholar.org/author/4446368"
+            },
+            {
+                "authorId": "145716408",
+                "name": "T. Abel",
+                "url": "https://www.semanticscholar.org/author/145716408"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1016/j.brs.2016.10.001",
+        "numCitedBy": 135,
+        "numCiting": 118,
+        "title": "Direct Current Stimulation Modulates LTP and LTD: Activity Dependence and Dendritic Effects",
+        "venue": "Brain Stimulation",
+        "year": 2017,
+        "local__referenced_to": [
+            "10.1152/jn.00208.2014",
+            "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00715.2011",
+            "10.1152/jn.00208.2014",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2009.03.007",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1523/jneurosci.0095-07.2007"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "39934585",
+                "name": "G. Kronberg",
+                "url": "https://www.semanticscholar.org/author/39934585"
+            },
+            {
+                "authorId": "3131367",
+                "name": "A. Rahman",
+                "url": "https://www.semanticscholar.org/author/3131367"
+            },
+            {
+                "authorId": "46320110",
+                "name": "Mahima Sharma",
+                "url": "https://www.semanticscholar.org/author/46320110"
+            },
+            {
+                "authorId": "2589386",
+                "name": "M. Bikson",
+                "url": "https://www.semanticscholar.org/author/2589386"
+            },
+            {
+                "authorId": "2583773",
+                "name": "L. Parra",
+                "url": "https://www.semanticscholar.org/author/2583773"
+            }
+        ],
+        "doi": "10.1016/j.brs.2019.10.014",
+        "numCitedBy": 30,
+        "numCiting": 102,
+        "title": "Direct current stimulation boosts hebbian plasticity in vitro",
+        "venue": "Brain Stimulation",
+        "year": 2020,
+        "local__referenced_to": [
+            "10.1113/jphysiol.2003.055772",
+            "10.1152/jn.00319.2011",
+            "10.1113/jphysiol.2012.247171",
+            "10.1016/j.brs.2016.08.014",
+            "10.1016/j.brs.2009.03.007",
+            "10.1093/cercor/bhx158",
+            "10.1523/jneurosci.2059-10.2010",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1523/jneurosci.0095-07.2007",
+            "10.1002/ana.24708",
+            "10.1016/j.brs.2016.10.001"
+        ]
+    },
+    {
+        "authors": [
+            {
+                "authorId": "3647350",
+                "name": "A. Gellner",
+                "url": "https://www.semanticscholar.org/author/3647350"
+            },
+            {
+                "authorId": "26090635",
+                "name": "J. Reis",
+                "url": "https://www.semanticscholar.org/author/26090635"
+            },
+            {
+                "authorId": "4128667",
+                "name": "B. Fiebich",
+                "url": "https://www.semanticscholar.org/author/4128667"
+            },
+            {
+                "authorId": "144492447",
+                "name": "B. Fritsch",
+                "url": "https://www.semanticscholar.org/author/144492447"
+            }
+        ],
+        "doi": "10.1016/j.brs.2021.08.007",
+        "numCitedBy": 0,
+        "numCiting": 111,
+        "title": "Electrified microglia: Impact of direct current stimulation on diverse properties of the most versatile brain cell",
+        "venue": "Brain Stimulation",
+        "year": 2021,
+        "local__referenced_to": [
+            "10.1093/ijnp/pyu090",
+            "10.1152/jn.00319.2011",
+            "10.1016/j.neuron.2010.03.035",
+            "10.1002/ana.24708",
+            "10.1016/j.brs.2016.10.001"
+        ]
+    }
+]
