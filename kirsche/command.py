@@ -3,6 +3,7 @@ import sys
 
 import click
 from loguru import logger
+from pyecharts.charts.base import default
 from kirsche.download import list_unique_ids, download_metadata
 from kirsche.connect import (
     append_connections,
@@ -12,6 +13,7 @@ from kirsche.connect import (
 from kirsche.dataset import DataViews
 from kirsche.utils.io import load_json
 from kirsche.utils.bib import load_bib
+from kirsche.visalize import make_chart, PaperGraph, visualize
 
 
 logger.remove()
@@ -69,7 +71,7 @@ def _metadata(paper_id, bib_file, metadata_file, sleep_time):
 def kirsche(ctx):
     if ctx.invoked_subcommand is None:
         click.echo("Hello {}".format(os.environ.get("USER", "")))
-        click.echo("Welcome to Kirsche.")
+        click.echo("Welcome to Kirsche. Use kirsche --help for help.")
     else:
         pass
 
@@ -78,7 +80,7 @@ def kirsche(ctx):
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
 @click.option("--bib_file", "-b", type=click.Path(exists=True), help="Bib file path")
 @click.option("--metadata_file", "-m", help="Target data file path")
-@click.option("--sleep_time", "-s", default=1, help="Sleep time between requests")
+@click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
 def metadata(paper_id, bib_file, metadata_file, sleep_time):
     """Download paper data from service provides (e.g., SemanticScholar).
 
@@ -132,7 +134,7 @@ def connections_from_metadata(metadata_file, connected_papers_file):
     help="path to data file with paper metadata",
 )
 @click.option("--connected_papers_file", "-c", help="path to save enhanced data file")
-@click.option("--sleep_time", "-s", default=1, help="Sleep time between requests")
+@click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
 def connections(paper_id, bib_file, metadata_file, connected_papers_file, sleep_time):
     """Establish connections between the list of papers, either from a list of DOIs, bib file, or from download metadata file.
 
@@ -182,6 +184,74 @@ def connections(paper_id, bib_file, metadata_file, connected_papers_file, sleep_
     if not connected_papers_file:
         dv = DataViews(connected_papers)
         click.echo(dv.json_simple)
+
+
+@kirsche.command()
+@click.option(
+    "--source_paper_id", "-sp", required=False, help="Source: Paper ID", multiple=True
+)
+@click.option(
+    "--source_bib_file",
+    "-sb",
+    required=False,
+    type=click.Path(exists=True),
+    help="Source: Bib file path",
+)
+@click.option(
+    "--source_metadata_file",
+    "-sm",
+    required=False,
+    type=click.Path(exists=True),
+    help="Source: path to data file with paper metadata",
+)
+@click.option(
+    "--source_connected_papers_file",
+    "-sc",
+    required=False,
+    help="Source: path to save enhanced data file",
+)
+@click.option("--title", default="Kirsche: Paper Graph", help="title of the chart")
+@click.option(
+    "--target_html_path", "-th", required=True, help="Target: path to html file"
+)
+@click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
+def visualization(
+    source_paper_id,
+    source_bib_file,
+    source_metadata_file,
+    source_connected_papers_file,
+    title,
+    target_html_path,
+    sleep_time,
+):
+    """ """
+    if source_connected_papers_file:
+        connected_papers = load_json(source_connected_papers_file)
+    else:
+        click.secho(f"Retrieving paper metadata...")
+        if not source_metadata_file:
+            if source_bib_file:
+                logger.debug(f"Using bib file: {source_bib_file}")
+            records = _metadata(source_paper_id, source_bib_file, None, sleep_time)
+        else:
+            records = load_json(source_metadata_file)
+        click.secho(f"  Retrieved {len(records)} records.")
+
+        click.secho(f"Connecting papers...")
+        connected_papers = append_connections(records)
+        click.secho(f"  Connected papers...")
+
+        # Filter out unnecessary keys in the dictionary
+        click.secho(f"Filtering and saving data...")
+        connected_papers = save_connected_papers(connected_papers)
+        click.secho(f"  Done...")
+
+    g = PaperGraph(connected_papers, title=title)
+    nodes = g.nodes
+    edges = g.edges
+
+    click.secho(f"Saving html file...")
+    visualize(nodes, edges, g.title, target_html_path)
 
 
 if __name__ == "__main__":
