@@ -36,8 +36,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/logo.png
-  logo: assets/logo_badge.svg
+  favicon: assets/logo/logo.png
+  logo: assets/logo/logo_badge.svg
 
 
 
@@ -52,6 +52,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - toc:
       permalink: "¤"
+  - pymdownx.details
 
 plugins:
   - autorefs
@@ -75,6 +76,7 @@ nav:
   - "Home": index.md
   - "Tutorials":
     - "Tutorials": tutorials/index.md
+    - "Use in Python Code": tutorials/use-in-code.md
   - References:
     - "Introduction": references/index.md
     - "Commandline":
@@ -83,6 +85,8 @@ nav:
       - "Download": references/download.md
     - "Connect":
       - "Connect": references/connect.md
+    - "Visualize":
+      - "Visualize": references/visualize.md
     - "Dataset":
       - "Dataset": references/dataset.md
     - "Utils":
