@@ -18,8 +18,7 @@ from typing import Union, Optional
 from pathlib import Path
 
 logger.remove()
-# logger.add(sys.stderr, level="INFO", enqueue=True)
-logger.add(sys.stderr, level="DEBUG", enqueue=True)
+logger.add(sys.stderr, level="INFO", enqueue=True)
 
 
 __CWD__ = os.getcwd()
@@ -196,6 +195,8 @@ def connections(paper_id, source_bib_file, source_metadata_path, connected_paper
 
         if connected_papers_path.exists():
             existing_connected_papers = load_batch_json(connected_papers_path)
+        else:
+            existing_connected_papers = []
 
         records = _metadata(paper_id, source_bib_file, None, sleep_time, existing_records=existing_connected_papers)
     else:
