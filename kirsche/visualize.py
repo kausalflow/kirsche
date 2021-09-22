@@ -42,7 +42,7 @@ def visualize(nodes: list, edges: list, title: str, target: Union[str, Path]) ->
 
     # Build the graph and export it to html file
     (
-        Graph(init_opts=opts.InitOpts(width="1600px", height="800px"))
+        Graph(init_opts=opts.InitOpts(width="1600px", height="800px", page_title=title))
         .add(
             series_name="",
             nodes=nodes,
