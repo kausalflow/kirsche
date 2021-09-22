@@ -11,7 +11,7 @@ from kirsche.connect import (
     save_connected_papers,
 )
 from kirsche.dataset import DataViews
-from kirsche.utils.io import load_batch_json, load_json, record_exists
+from kirsche.utils.io import load_batch_json, record_exists
 from kirsche.utils.bib import load_bib
 from kirsche.visualize import make_chart, PaperGraph, visualize
 from typing import Union, Optional
@@ -259,7 +259,7 @@ def visualization(
 ):
     """ """
     if source_connected_papers_path:
-        connected_papers = load_json(source_connected_papers_path)
+        connected_papers = load_batch_json(source_connected_papers_path)
     else:
         click.secho(f"Retrieving paper metadata...")
         if not source_metadata_path:
@@ -267,7 +267,7 @@ def visualization(
                 logger.debug(f"Using bib file: {source_bib_file}")
             records = _metadata(source_paper_id, source_bib_file, None, sleep_time)
         else:
-            records = load_json(source_metadata_path)
+            records = load_batch_json(source_metadata_path)
         click.secho(f"  Retrieved {len(records)} records.")
 
         click.secho(f"Connecting papers...")
