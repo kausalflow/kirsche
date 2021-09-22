@@ -5,7 +5,7 @@ from typing import Optional, Union
 import click
 from loguru import logger
 
-from kirsche.utils.io import load_json
+from kirsche.utils.io import load_json, save_json, save_batch_json
 
 
 def append_connections(
@@ -79,8 +79,7 @@ def save_connected_papers(
     records = [{k: v for k, v in p.items() if k in save_keys} for p in records]
 
     if target:
-        with open(target, "w") as f:
-            json.dump(records, f, indent=4)
+        save_batch_json(records, target)
 
     return records
 
