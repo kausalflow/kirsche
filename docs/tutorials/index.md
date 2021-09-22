@@ -59,7 +59,7 @@ kirsche metadata -p "10.1016/j.sna.2020.112529" -p "10.1152/jn.00208.2014" -m sa
 Using a bib file:
 
 ```
-kirsche metadata -b path/to/your/bib/file -m save/to/file/path
+kirsche metadata -sb path/to/your/bib/file -tm save/to/file/path
 ```
 
 
@@ -74,5 +74,24 @@ kirsche connections -p "10.1016/j.sna.2020.112529" -p "10.1152/jn.00208.2014" -c
 Using a bib file:
 
 ```
-kirsche connections -b path/to/your/bib/file -c save/to/file/path
+kirsche connections -sb path/to/your/bib/file -c save/to/file/path
+```
+
+
+## Visualizations
+
+One could directly use a bib file as source,
+
+```
+kirsche visualization -sb path/to/your/bib/file -th save/to/html/file/path
+```
+
+If we already have the metadata or connection, we can use those for faster visualization,
+
+```
+kirsche visualization -sm path/to/your/metadata/file -th save/to/html/file/path
+```
+
+```
+kirsche visualization -sc path/to/your/connections/file -th save/to/html/file/path
 ```

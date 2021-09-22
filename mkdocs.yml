@@ -53,6 +53,8 @@ markdown_extensions:
   - toc:
       permalink: "¤"
   - pymdownx.details
+  - mkdocs-click
+
 
 plugins:
   - autorefs

@@ -8,3 +8,4 @@ nose: tests
 mkdocstrings>=0.15.0: docs
 mkdocs-material>=0.4.4: docs
 mkdocs-autorefs>=0.1.1: docs
+mkdocs-click>=0.4.0
