@@ -1,0 +1,60 @@
+{
+    "authors": [
+        {
+            "authorId": "145497711",
+            "name": "Simon J. Pelletier",
+            "url": "https://www.semanticscholar.org/author/145497711"
+        },
+        {
+            "authorId": "3983690",
+            "name": "M. Lagac\u00e9",
+            "url": "https://www.semanticscholar.org/author/3983690"
+        },
+        {
+            "authorId": "1398952415",
+            "name": "I. St-Amour",
+            "url": "https://www.semanticscholar.org/author/1398952415"
+        },
+        {
+            "authorId": "6297083",
+            "name": "Dany Arsenault",
+            "url": "https://www.semanticscholar.org/author/6297083"
+        },
+        {
+            "authorId": "7022057",
+            "name": "G. Cisbani",
+            "url": "https://www.semanticscholar.org/author/7022057"
+        },
+        {
+            "authorId": "5237346",
+            "name": "A. Chabrat",
+            "url": "https://www.semanticscholar.org/author/5237346"
+        },
+        {
+            "authorId": "4165832",
+            "name": "S. Fecteau",
+            "url": "https://www.semanticscholar.org/author/4165832"
+        },
+        {
+            "authorId": "145012403",
+            "name": "M. L\u00e9vesque",
+            "url": "https://www.semanticscholar.org/author/145012403"
+        },
+        {
+            "authorId": "3790312",
+            "name": "F. Cicchetti",
+            "url": "https://www.semanticscholar.org/author/3790312"
+        }
+    ],
+    "corpusId": 10792955,
+    "doi": "10.1093/ijnp/pyu090",
+    "numCitedBy": 38,
+    "numCiting": 97,
+    "title": "The Morphological and Molecular Changes of Brain Cells Exposed to Direct Current Electric Field Stimulation",
+    "venue": "The international journal of neuropsychopharmacology",
+    "year": 2014,
+    "local__referenced_to": [
+        "10.1152/jn.00715.2011",
+        "10.1113/jphysiol.2003.055772"
+    ]
+}

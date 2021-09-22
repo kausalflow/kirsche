@@ -1,0 +1,1803 @@
+{
+    "abstract": "The regenerative properties of CA1 pyramidal neurons were studied through differential polarization with external electrical fields. Recordings were obtained from somata and apical dendrites in the presence of 6\u2010cyano\u20107\u2010nitroquinoxaline\u20102,3\u2010dione (CNQX), DL\u20102\u2010amino\u20105\u2010phosphonovaleric acid (APV), and bicuculline. S+ fields hyperpolarized the distal apical dendrites and depolarized the rest of the cell, whereas S\u00f7 fields reversed the polarization. During intradendritic recordings, S+ fields evoked either fast spikes or compound spiking. The threshold response consisted of a low\u2010amplitude fast spike and a slow depolarizing potential. At higher field intensities the slow depolarizing potential increased in amplitude, and additional spikes of high amplitude appeared. During intrasomatic recordings, S+ field evoked repetitive firing of fast spikes, whereas S\u00f7 fields evoked a slow depolarizing, potential on top of which high\u2010 and low\u2010amplitude spikes were evoked. Tetrodotoxin (TTX) blocked all types of responses in both dendrites and somata. Perfusion with Ca2+\u2010free, Co2+\u2010containing medium increased the frequency and amplitude of fast spikes evoked by S+ field and substantially reduced the slow depolarizing potential evoked by S\u00f7 fields. Antidromic stimulation revealed that an all\u2010or\u2010none dendritic component was activated in the distal apical dendrites by back\u2010propagating somatic spikes. The dendritic component had an absolute refractory period of about 4 ms and a relative refractory period of 10\u201312 ms. Ca2+\u2010dependent spikes in the dendrites were followed by a long\u2010lasting afterhyperpolarization (AHP) and a decrease in membrane input resistance, during which dendritic excitability was selectively reduced. The data suggest that generation of fast Na+ currents and slow Ca2+ currents in the distal part of apical dendrites is highly sensitive to the dynamic state of the dendritic membrane. Depending on the mode and frequency of activation these currents can exert a substantial influence on the input\u2010output behavior of the pyramidal neurons. \u00a9 1996 Wiley\u2010Liss, Inc.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "144613299",
+            "name": "M. Andreasen",
+            "url": "https://www.semanticscholar.org/author/144613299"
+        },
+        {
+            "authorId": "5628148",
+            "name": "S. Nedergaard",
+            "url": "https://www.semanticscholar.org/author/5628148"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4538426",
+                    "name": "Benjamin Svejgaard"
+                },
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2018.12.043",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5f874fe440fe9a87acf14335fd44dcba5c9d3268",
+            "title": "Role of GABAB receptors in proepileptic and antiepileptic effects of an applied electric field in rat hippocampus in vitro",
+            "url": "https://www.semanticscholar.org/paper/5f874fe440fe9a87acf14335fd44dcba5c9d3268",
+            "venue": "Brain Research",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "7277301",
+                    "name": "Z. Esmaeilpour"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                }
+            ],
+            "doi": "10.1007/978-3-319-95948-1_3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e6ae1ed0f173a57a903e67e7ba779711675ee854",
+            "title": "Mechanisms of Acute and After Effects of Transcranial Direct Current Stimulation",
+            "url": "https://www.semanticscholar.org/paper/e6ae1ed0f173a57a903e67e7ba779711675ee854",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "4446368",
+                    "name": "M. Bridi"
+                },
+                {
+                    "authorId": "145716408",
+                    "name": "T. Abel"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1016/j.brs.2016.10.001",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "title": "Direct Current Stimulation Modulates LTP and LTD: Activity Dependence and Dendritic Effects",
+            "url": "https://www.semanticscholar.org/paper/3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "venue": "Brain Stimulation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5967575",
+                    "name": "D. Ling"
+                },
+                {
+                    "authorId": "48852647",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "145186313",
+                    "name": "M. Jackson"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1007/978-3-319-33967-2_5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3e40dbb195465bfc502c3eb828327c09f41fcb26",
+            "title": "Animal Studies in the Field of Transcranial Electric Stimulation",
+            "url": "https://www.semanticscholar.org/paper/3e40dbb195465bfc502c3eb828327c09f41fcb26",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1681453",
+                    "name": "M. Jackson"
+                },
+                {
+                    "authorId": "48852647",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": null,
+                    "name": "Doris Ling"
+                },
+                {
+                    "authorId": null,
+                    "name": "Lucas C. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2016.08.016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "title": "Animal models of transcranial direct current stimulation: Methods and mechanisms",
+            "url": "https://www.semanticscholar.org/paper/d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "venue": "Clinical Neurophysiology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5068953",
+                    "name": "Weipang Chang"
+                },
+                {
+                    "authorId": "5634570",
+                    "name": "Hsiang-Chin Lu"
+                },
+                {
+                    "authorId": "145013712",
+                    "name": "B. Shyu"
+                }
+            ],
+            "doi": "10.1016/j.expneurol.2015.02.002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2a9cc604a0b25d91d6e1fa00105bf68e878aab6d",
+            "title": "Treatment with direct-current stimulation against cingulate seizure-like activity induced by 4-aminopyridine and bicuculline in an in vitro mouse model",
+            "url": "https://www.semanticscholar.org/paper/2a9cc604a0b25d91d6e1fa00105bf68e878aab6d",
+            "venue": "Experimental Neurology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40582157",
+                    "name": "A. Hansen"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                },
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                }
+            ],
+            "doi": "10.1152/jn.00753.2013",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3065433ccf5a1fe223b3daa5cc23176006f8ba44",
+            "title": "Intrinsic Ca2+-dependent theta oscillations in apical dendrites of hippocampal CA1 pyramidal cells in vitro.",
+            "url": "https://www.semanticscholar.org/paper/3065433ccf5a1fe223b3daa5cc23176006f8ba44",
+            "venue": "Journal of neurophysiology",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1903727",
+                    "name": "A. Dyszkiewicz"
+                },
+                {
+                    "authorId": "2882127",
+                    "name": "P. Kepinski"
+                },
+                {
+                    "authorId": "2230020",
+                    "name": "Pawel Polec"
+                },
+                {
+                    "authorId": "3148409",
+                    "name": "Damian Chachulski"
+                },
+                {
+                    "authorId": "47019241",
+                    "name": "E. Nowak"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38602ffc888fb7d7dd4bfa38a9ad33b85eee1d02",
+            "title": "Pomiarowe efekty zastosowania galwano-magnetostymulacji w leczeniu szyjno-barkowych zespo\u0142\u00f3w b\u00f3lowych",
+            "url": "https://www.semanticscholar.org/paper/38602ffc888fb7d7dd4bfa38a9ad33b85eee1d02",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6356222",
+                    "name": "R. Mikkelsen"
+                },
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                }
+            ],
+            "doi": "10.1152/jn.00887.2012",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f228d5b1c80258888a55472f02ab1178229b84a",
+            "title": "Suppression of epileptiform activity by a single short-duration electric field in rat hippocampus in vitro.",
+            "url": "https://www.semanticscholar.org/paper/5f228d5b1c80258888a55472f02ab1178229b84a",
+            "venue": "Journal of neurophysiology",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "36415421",
+                    "name": "M. Arlotti"
+                },
+                {
+                    "authorId": "3255541",
+                    "name": "F. Gasca"
+                },
+                {
+                    "authorId": "1805590",
+                    "name": "A. Datta"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2012.247171",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e343b0d9850909780672054383879dd25fadb5e8",
+            "title": "Cellular effects of acute direct current stimulation: somatic and synaptic terminal effects",
+            "url": "https://www.semanticscholar.org/paper/e343b0d9850909780672054383879dd25fadb5e8",
+            "venue": "The Journal of physiology",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "36415421",
+                    "name": "M. Arlotti"
+                },
+                {
+                    "authorId": "3255541",
+                    "name": "F. Gasca"
+                },
+                {
+                    "authorId": "1805590",
+                    "name": "A. Datta"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "e3c1f27fd63039e3eb016d7586ff958b56f8aa7f",
+            "title": "Effects of Acute Direct Current Stimulation : Somatic and Synaptic Terminal Effects Running title : Somatic and Terminal Origin of DCS Effects",
+            "url": "https://www.semanticscholar.org/paper/e3c1f27fd63039e3eb016d7586ff958b56f8aa7f",
+            "venue": "",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                }
+            ],
+            "doi": "10.1201/B14174-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "15c0912fa99e0a28fe49b40bb6fa30a958ecee4c",
+            "title": "Cellular and Network Effects of Transcranial Direct Current Stimulation: Insights from Animal Models and Brain Slice",
+            "url": "https://www.semanticscholar.org/paper/15c0912fa99e0a28fe49b40bb6fa30a958ecee4c",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48852659",
+                    "name": "A. Rahman"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "91ee37ad3ae8b93c5625ca2e75e1a023fdaf13f6",
+            "title": "Technologya nd Protocolsf or Translational Researchin ElectricalS timulation",
+            "url": "https://www.semanticscholar.org/paper/91ee37ad3ae8b93c5625ca2e75e1a023fdaf13f6",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "66483442",
+                    "name": "Cuny Academic Works"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d77c37950114d2153e9c343a5032cdef541b5825",
+            "title": "Technologya nd Protocolsf or Translational Researchin ElectricalS timulation",
+            "url": "https://www.semanticscholar.org/paper/d77c37950114d2153e9c343a5032cdef541b5825",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49431782",
+                    "name": "Hiromu Monai"
+                },
+                {
+                    "authorId": "144943484",
+                    "name": "Toshiaki Omori"
+                },
+                {
+                    "authorId": "145029940",
+                    "name": "M. Okada"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": "3315930",
+                    "name": "T. Aonishi"
+                }
+            ],
+            "doi": "10.1016/j.bpj.2009.10.041",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6e5d07eb1cf2e2d4408ccce2f433a74052fa9b6b",
+            "title": "An analytic solution of the cable equation predicts frequency preference of a passive shunt-end cylindrical cable in response to extracellular oscillating electric fields.",
+            "url": "https://www.semanticscholar.org/paper/6e5d07eb1cf2e2d4408ccce2f433a74052fa9b6b",
+            "venue": "Biophysical journal",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144268187",
+                    "name": "J. Sweatt"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-374951-2.00008-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f74eba034b08553ffe7544abd26591809627d366",
+            "title": "The NMDA Receptor",
+            "url": "https://www.semanticscholar.org/paper/f74eba034b08553ffe7544abd26591809627d366",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1960516",
+                    "name": "O. Herreras"
+                },
+                {
+                    "authorId": "1404259097",
+                    "name": "J. Makarova"
+                },
+                {
+                    "authorId": "2475342",
+                    "name": "J. Ibarz"
+                }
+            ],
+            "doi": "10.4018/978-1-59904-996-0.CH003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2ab079473f297dfb2a169ea6e4f2bd1284c15780",
+            "title": "Forward Dendritic Spikes: A Mechanism for Parallel Processing in Dendritic Subunits and Shifting Output Codes",
+            "url": "https://www.semanticscholar.org/paper/2ab079473f297dfb2a169ea6e4f2bd1284c15780",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144943482",
+                    "name": "T. Omori"
+                },
+                {
+                    "authorId": "3315930",
+                    "name": "T. Aonishi"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "145029940",
+                    "name": "M. Okada"
+                }
+            ],
+            "doi": "10.1016/j.neures.2009.01.012",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c537a32c625df7ff556ce34e8ab3955e4eb92e34",
+            "title": "Steep decrease in the specific membrane resistance in the apical dendrites of hippocampal CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/c537a32c625df7ff556ce34e8ab3955e4eb92e34",
+            "venue": "Neuroscience Research",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144268187",
+                    "name": "J. Sweatt"
+                }
+            ],
+            "doi": "10.1016/B978-012370509-9.00020-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14849f610296b065196cf1e4f69536e398259735",
+            "title": "4.20 \u2013 The NMDA Receptor",
+            "url": "https://www.semanticscholar.org/paper/14849f610296b065196cf1e4f69536e398259735",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49053835",
+                    "name": "N. Gu"
+                },
+                {
+                    "authorId": "145551730",
+                    "name": "H. Hu"
+                },
+                {
+                    "authorId": "4637476",
+                    "name": "K. Vervaeke"
+                },
+                {
+                    "authorId": "39601788",
+                    "name": "J. Storm"
+                }
+            ],
+            "doi": "10.1152/jn.90433.2008",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6221e1474ceb07a311410396ce50e005a39b50e5",
+            "title": "SK (KCa2) channels do not control somatic excitability in CA1 pyramidal neurons but can be activated by dendritic excitatory synapses and regulate their impact.",
+            "url": "https://www.semanticscholar.org/paper/6221e1474ceb07a311410396ce50e005a39b50e5",
+            "venue": "Journal of neurophysiology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2475342",
+                    "name": "J. Ibarz"
+                },
+                {
+                    "authorId": "145970706",
+                    "name": "I. Makarova"
+                },
+                {
+                    "authorId": "1960516",
+                    "name": "O. Herreras"
+                }
+            ],
+            "doi": "10.1111/j.1460-9568.2006.04615.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1501e8946eda9dbf90b9fe2f672bea632b7544ae",
+            "title": "Relation of apical dendritic spikes to output decision in CA1 pyramidal cells during synchronous activation: a computational study",
+            "url": "https://www.semanticscholar.org/paper/1501e8946eda9dbf90b9fe2f672bea632b7544ae",
+            "venue": "The European journal of neuroscience",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "134702636",
+                    "name": "S. Canals"
+                },
+                {
+                    "authorId": "1403968472",
+                    "name": "L. L\u00f3pez-Aguado"
+                },
+                {
+                    "authorId": "1960516",
+                    "name": "O. Herreras"
+                }
+            ],
+            "doi": "10.1152/JN.00686.2004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6b3774f8188e003667ca5f7aaea56c1fbd1db811",
+            "title": "Synaptically recruited apical currents are required to initiate axonal and apical spikes in hippocampal pyramidal cells: modulation by inhibition.",
+            "url": "https://www.semanticscholar.org/paper/6b3774f8188e003667ca5f7aaea56c1fbd1db811",
+            "venue": "Journal of neurophysiology",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "2066058945",
+                    "name": "Hiroki Akiyama"
+                },
+                {
+                    "authorId": null,
+                    "name": "Jackie K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Fox"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.055772",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "venue": "The Journal of physiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "1902589",
+                    "name": "N. Lang"
+                },
+                {
+                    "authorId": "4664092",
+                    "name": "F. Tergau"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1016/S1567-424X(09)70230-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c79575ea63e6b520e02c86fb5dfdd1ead0dc635f",
+            "title": "Modulation of cortical excitability by weak direct current stimulation--technical, safety and functional aspects.",
+            "url": "https://www.semanticscholar.org/paper/c79575ea63e6b520e02c86fb5dfdd1ead0dc635f",
+            "venue": "Supplements to Clinical neurophysiology",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144268187",
+                    "name": "J. Sweatt"
+                }
+            ],
+            "doi": "10.1016/B978-012678957-7/50008-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f372dd102d0485bd27d89c1d38646113c71a5ed7",
+            "title": "The Biochemistry of LTP Induction",
+            "url": "https://www.semanticscholar.org/paper/f372dd102d0485bd27d89c1d38646113c71a5ed7",
+            "venue": "",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153667020",
+                    "name": "Nicolai Fernandez"
+                },
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                }
+            ],
+            "doi": "10.1016/S0006-8993(01)03404-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c8f24458f6ca56a6c05cbc0c956b4abfd18a6f56",
+            "title": "Influence of the hyperpolarization-activated cation current, Ih, on the electrotonic properties of the distal apical dendrites of hippocampal CA1 pyramidal neurones",
+            "url": "https://www.semanticscholar.org/paper/c8f24458f6ca56a6c05cbc0c956b4abfd18a6f56",
+            "venue": "Brain Research",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "143610236",
+                    "name": "J. D. Lambert"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.1999.0085o.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "33c8e57ec871fa982f1e2cc023bd755d9b67d8f0",
+            "title": "Somatic amplification of distally generated subthreshold EPSPs in rat hippocampal pyramidal neurones",
+            "url": "https://www.semanticscholar.org/paper/33c8e57ec871fa982f1e2cc023bd755d9b67d8f0",
+            "venue": "The Journal of physiology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38347943",
+                    "name": "A. Ameri"
+                },
+                {
+                    "authorId": "144659019",
+                    "name": "T. Zimmermann"
+                },
+                {
+                    "authorId": "50287912",
+                    "name": "T. Simmet"
+                }
+            ],
+            "doi": "10.1016/S0014-2999(99)00097-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46e0c3ed62569c49ac4adc582bc7afd5975961af",
+            "title": "Frequency- and structure-dependent inhibition of normal and epileptiform activity by 6-benzoyldeltamine in rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/46e0c3ed62569c49ac4adc582bc7afd5975961af",
+            "venue": "European journal of pharmacology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38347943",
+                    "name": "A. Ameri"
+                },
+                {
+                    "authorId": "50287912",
+                    "name": "T. Simmet"
+                }
+            ],
+            "doi": "10.1016/S0014-2999(99)00692-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "702c9b3bec415967bfeeb0668ef979e9d61f029b",
+            "title": "Interaction of the structurally related aconitum alkaloids, aconitine and 6-benzyolheteratisine, in the rat hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/702c9b3bec415967bfeeb0668ef979e9d61f029b",
+            "venue": "European journal of pharmacology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38347943",
+                    "name": "A. Ameri"
+                },
+                {
+                    "authorId": "144969983",
+                    "name": "T. Simmet"
+                }
+            ],
+            "doi": "10.1016/S0006-8993(99)01838-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fa08ee934711c4d0bccaac81acd50ae9381535b3",
+            "title": "Antagonism of the aconitine-induced inexcitability by the structurally related Aconitum alkaloids, lappaconitine and ajacine",
+            "url": "https://www.semanticscholar.org/paper/fa08ee934711c4d0bccaac81acd50ae9381535b3",
+            "venue": "Brain Research",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "31334062",
+                    "name": "J. Lambert"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.1998.441bt.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0bba8e7ad6a127b059969d3a1ff0df4105afb5c5",
+            "title": "Factors determining the efficacy of distal excitatory synapses in rat hippocampal CA1 pyramidal neurones",
+            "url": "https://www.semanticscholar.org/paper/0bba8e7ad6a127b059969d3a1ff0df4105afb5c5",
+            "venue": "The Journal of physiology",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "24746644",
+                    "name": "C. I. Zeeuw"
+                },
+                {
+                    "authorId": "5625223",
+                    "name": "C. Hoogenraad"
+                },
+                {
+                    "authorId": "4745708",
+                    "name": "Erika Goedknegt"
+                },
+                {
+                    "authorId": "4035926",
+                    "name": "E. Hertzberg"
+                },
+                {
+                    "authorId": "2068869950",
+                    "name": "A. Neubauer"
+                },
+                {
+                    "authorId": "2247207",
+                    "name": "F. Grosveld"
+                },
+                {
+                    "authorId": "1866160",
+                    "name": "N. Galjart"
+                }
+            ],
+            "doi": "10.1016/S0896-6273(00)80411-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12047ac655ef42b85b120f17685aa6fe1c59df5a",
+            "title": "CLIP-115, a Novel Brain-Specific Cytoplasmic Linker Protein, Mediates the Localization of Dendritic Lamellar Bodies",
+            "url": "https://www.semanticscholar.org/paper/12047ac655ef42b85b120f17685aa6fe1c59df5a",
+            "venue": "Neuron",
+            "year": 1997
+        }
+    ],
+    "corpusId": 27332550,
+    "doi": "10.1002/(SICI)1098-1063(1996)6:1<79::AID-HIPO13>3.0.CO;2-H",
+    "fieldsOfStudy": [
+        "Chemistry",
+        "Medicine"
+    ],
+    "influentialCitationCount": 4,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 32,
+    "numCiting": 34,
+    "paperId": "608031026535a2b0f44c911a1319c24d131afe0a",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3850688",
+                    "name": "W. Spencer"
+                },
+                {
+                    "authorId": "5177815",
+                    "name": "E. Kandel"
+                }
+            ],
+            "doi": "10.1152/JN.1961.24.3.272",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "51e323145e740eaacd28710421dccf8b79e6d561",
+            "title": "ELECTROPHYSIOLOGY OF HIPPOCAMPAL NEURONS: IV. FAST PREPOTENTIALS.",
+            "url": "https://www.semanticscholar.org/paper/51e323145e740eaacd28710421dccf8b79e6d561",
+            "venue": "Journal of neurophysiology",
+            "year": 1961
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4520576",
+                    "name": "G. Strichartz"
+                }
+            ],
+            "doi": "10.1085/JGP.62.1.37",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c0ce6deffdaea5a8fb8e812d876ac42e5ddce7af",
+            "title": "The Inhibition of Sodium Currents in Myelinated Nerve by Quaternary Derivatives of Lidocaine",
+            "url": "https://www.semanticscholar.org/paper/c0ce6deffdaea5a8fb8e812d876ac42e5ddce7af",
+            "venue": "The Journal of general physiology",
+            "year": 1973
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3086878",
+                    "name": "J. B. Ranck"
+                }
+            ],
+            "doi": "10.1016/0006-8993(75)90364-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7b6692093ace08110e0f202e10d187d0fc24e2ee",
+            "title": "Which elements are excited in electrical stimulation of mammalian central nervous system: A review",
+            "url": "https://www.semanticscholar.org/paper/7b6692093ace08110e0f202e10d187d0fc24e2ee",
+            "venue": "Brain Research",
+            "year": 1975
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8553010",
+                    "name": "R. Wong"
+                },
+                {
+                    "authorId": "144340481",
+                    "name": "D. Prince"
+                },
+                {
+                    "authorId": "5944739",
+                    "name": "A. Basbaum"
+                }
+            ],
+            "doi": "10.1073/PNAS.76.2.986",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "660d83755769fc870472070596fec3c7ca65c6f8",
+            "title": "Intradendritic recordings from hippocampal neurons.",
+            "url": "https://www.semanticscholar.org/paper/660d83755769fc870472070596fec3c7ca65c6f8",
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": 1979
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49198734",
+                    "name": "P. Andersen"
+                },
+                {
+                    "authorId": "5312498",
+                    "name": "H. Silfvenius"
+                },
+                {
+                    "authorId": null,
+                    "name": "S. H. Sundberg"
+                },
+                {
+                    "authorId": "46305852",
+                    "name": "O. Sveen"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1980.sp013435",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "64bf67564cb7ea5daf8783efe54ce7673b7b0346",
+            "title": "A comparison of distal and proximal dendritic synapses on CA1 pyramids in guinea\u2010pig hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/64bf67564cb7ea5daf8783efe54ce7673b7b0346",
+            "venue": "The Journal of physiology",
+            "year": 1980
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1981.sp013897",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "venue": "The Journal of physiology",
+            "year": 1981
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6404092",
+                    "name": "L. Benardo"
+                },
+                {
+                    "authorId": "3571750",
+                    "name": "L. Masukawa"
+                },
+                {
+                    "authorId": "144340481",
+                    "name": "D. Prince"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.02-11-01614.1982",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b717ac70bfb80c995acf5baa73162a1c20e1b9ee",
+            "title": "Electrophysiology of isolated hippocampal pyramidal dendrites",
+            "url": "https://www.semanticscholar.org/paper/b717ac70bfb80c995acf5baa73162a1c20e1b9ee",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1982
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46695295",
+                    "name": "D. Turner"
+                },
+                {
+                    "authorId": "6578569",
+                    "name": "P. Schwartzkroin"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.03-11-02381.1983",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "958e23aca52f559116e4b03f729a2e7bff808b0f",
+            "title": "Electrical characteristics of dendrites and dendritic spines in intracellularly stained CA3 and dentate hippocampal neurons",
+            "url": "https://www.semanticscholar.org/paper/958e23aca52f559116e4b03f729a2e7bff808b0f",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3571750",
+                    "name": "L. Masukawa"
+                },
+                {
+                    "authorId": "144340481",
+                    "name": "D. Prince"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.04-01-00217.1984",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a3013cb150acf552ddf3a2d2fb121ad2f660bbdd",
+            "title": "Synaptic control of excitability in isolated dendrites of hippocampal neurons",
+            "url": "https://www.semanticscholar.org/paper/a3013cb150acf552ddf3a2d2fb121ad2f660bbdd",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1984
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1768682",
+                    "name": "D. Tranchina"
+                },
+                {
+                    "authorId": "100549025",
+                    "name": "C. Nicholson"
+                }
+            ],
+            "doi": "10.1016/S0006-3495(86)83558-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "044cd554f45b09e986533bad2884e5a1dae121ec",
+            "title": "A model for the polarization of neurons by extrinsically applied electric fields.",
+            "url": "https://www.semanticscholar.org/paper/044cd554f45b09e986533bad2884e5a1dae121ec",
+            "venue": "Biophysical journal",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": "2107736871",
+                    "name": "H. Kato"
+                }
+            ],
+            "doi": "10.1016/0006-8993(86)91520-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "38d68c102ad6fca6f72547d9173d72735006c0b1",
+            "title": "Active properties of dendritic membrane examined by current source density analysis in hippocampal CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/38d68c102ad6fca6f72547d9173d72735006c0b1",
+            "venue": "Brain Research",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144870078",
+                    "name": "C. Y. Chan"
+                },
+                {
+                    "authorId": "144241608",
+                    "name": "C. Nicholson"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1986.sp015963",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dd0318c235a7bc6b2ee469cc49f62bd3f3e46fb8",
+            "title": "Modulation by applied electric fields of Purkinje and stellate cell activity in the isolated turtle cerebellum.",
+            "url": "https://www.semanticscholar.org/paper/dd0318c235a7bc6b2ee469cc49f62bd3f3e46fb8",
+            "venue": "The Journal of physiology",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2783135",
+                    "name": "J. Taube"
+                },
+                {
+                    "authorId": "6578569",
+                    "name": "P. Schwartzkroin"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.08-05-01632.1988",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "187458d4dbb8df18ba1262c342097eec990e6eb8",
+            "title": "Mechanisms of long-term potentiation: EPSP/spike dissociation, intradendritic recordings, and glutamate sensitivity",
+            "url": "https://www.semanticscholar.org/paper/187458d4dbb8df18ba1262c342097eec990e6eb8",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144870078",
+                    "name": "C. Y. Chan"
+                },
+                {
+                    "authorId": "1866498",
+                    "name": "J. Hounsgaard"
+                },
+                {
+                    "authorId": "144241608",
+                    "name": "C. Nicholson"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1988.sp017232",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a80e229a1c5e812df61ac34121ddf31e23e9bf1",
+            "title": "Effects of electric fields on transmembrane potential and excitability of turtle cerebellar Purkinje cells in vitro.",
+            "url": "https://www.semanticscholar.org/paper/9a80e229a1c5e812df61ac34121ddf31e23e9bf1",
+            "venue": "The Journal of physiology",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2062253456",
+                    "name": "J. Taube"
+                },
+                {
+                    "authorId": "1957340621",
+                    "name": "P. Schwartzkroin"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.08-05-01645.1988",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c2481119590513d6e6b1c44f5f7688b59acad2b6",
+            "title": "Mechanisms of long-term potentiation: a current-source density analysis",
+            "url": "https://www.semanticscholar.org/paper/c2481119590513d6e6b1c44f5f7688b59acad2b6",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "70350185",
+                    "name": "O. Jones"
+                },
+                {
+                    "authorId": "90864611",
+                    "name": "D. Kunze"
+                },
+                {
+                    "authorId": "6991630",
+                    "name": "K. Angelides"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.2543080",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9b523900e8ad4069e528c9942532fe25f6c6265c",
+            "title": "Localization and mobility of omega-conotoxin-sensitive Ca2+ channels in hippocampal CA1 neurons.",
+            "url": "https://www.semanticscholar.org/paper/9b523900e8ad4069e528c9942532fe25f6c6265c",
+            "venue": "Science",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46920400",
+                    "name": "R. Turner"
+                },
+                {
+                    "authorId": "145258132",
+                    "name": "D. Meyers"
+                },
+                {
+                    "authorId": "1798264",
+                    "name": "J. L. Barker"
+                }
+            ],
+            "doi": "10.1152/JN.1989.62.6.1375",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d164f882fc246a950387539716547f4d7ea8ac33",
+            "title": "Localization of tetrodotoxin-sensitive field potentials of CA1 pyramidal cells in the rat hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/d164f882fc246a950387539716547f4d7ea8ac33",
+            "venue": "Journal of neurophysiology",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6593440",
+                    "name": "R. Westenbroek"
+                },
+                {
+                    "authorId": "6178193",
+                    "name": "M. Ahlijanian"
+                },
+                {
+                    "authorId": "2184965",
+                    "name": "W. Catterall"
+                }
+            ],
+            "doi": "10.1038/347281A0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22d3fc0f2788b0f9ddf3ba7262398f4b7a448df4",
+            "title": "Clustering of L-type Ca2+ channels at the base of major dendrites in hippocampal pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/22d3fc0f2788b0f9ddf3ba7262398f4b7a448df4",
+            "venue": "Nature",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1960516",
+                    "name": "O. Herreras"
+                }
+            ],
+            "doi": "10.1152/JN.1990.64.5.1429",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d2a6aa98b0e9fbd44bf521cdc12e872fb46b4db2",
+            "title": "Propagating dendritic action potential mediates synaptic transmission in CA1 pyramidal cells in situ.",
+            "url": "https://www.semanticscholar.org/paper/d2a6aa98b0e9fbd44bf521cdc12e872fb46b4db2",
+            "venue": "Journal of neurophysiology",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2246840",
+                    "name": "R. W. Turner"
+                },
+                {
+                    "authorId": "145258132",
+                    "name": "D. Meyers"
+                },
+                {
+                    "authorId": "145361296",
+                    "name": "T. Richardson"
+                },
+                {
+                    "authorId": "1798264",
+                    "name": "J. L. Barker"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.11-07-02270.1991",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e19a0ffd2534bf45085e630421d8b452d31d59eb",
+            "title": "The site for initiation of action potential discharge over the somatodendritic axis of rat hippocampal CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/e19a0ffd2534bf45085e630421d8b452d31d59eb",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1991
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48275142",
+                    "name": "D. Jaffe"
+                },
+                {
+                    "authorId": "145767633",
+                    "name": "D. Johnston"
+                },
+                {
+                    "authorId": "1403938090",
+                    "name": "N. Lasser-Ross"
+                },
+                {
+                    "authorId": "34703102",
+                    "name": "J. Lisman"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": "32699378",
+                    "name": "W. Ross"
+                }
+            ],
+            "doi": "10.1038/357244A0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "094909cac778cf95834cfe6e4a97125c22be355d",
+            "title": "The spread of Na+ spikes determines the pattern of dendritic Ca2+ entry into hippocampal neurons",
+            "url": "https://www.semanticscholar.org/paper/094909cac778cf95834cfe6e4a97125c22be355d",
+            "venue": "Nature",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "102503171",
+                    "name": "Larry Cauller"
+                },
+                {
+                    "authorId": "1937706",
+                    "name": "B. Connors"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-484815-3.50014-1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0fa63076978fe531cf69880343e9f6ad01904110",
+            "title": "Functions of very distal dendrites: experimental and computational studies of layer 1 synapses on neocortical pyramidal cells",
+            "url": "https://www.semanticscholar.org/paper/0fa63076978fe531cf69880343e9f6ad01904110",
+            "venue": "",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47016522",
+                    "name": "M. Oda"
+                },
+                {
+                    "authorId": "2972995",
+                    "name": "A. Yoshida"
+                },
+                {
+                    "authorId": "145402940",
+                    "name": "Y. Ikemoto"
+                }
+            ],
+            "doi": "10.1111/j.1476-5381.1992.tb14211.x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6c2891674f7131e692834bdf9eb80aab44b85bba",
+            "title": "Blockade by local anaesthetics of the single Ca2+\u2010activated K+ channel in rat hippocampal neurones",
+            "url": "https://www.semanticscholar.org/paper/6c2891674f7131e692834bdf9eb80aab44b85bba",
+            "venue": "British journal of pharmacology",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": "32699378",
+                    "name": "W. N. Ross"
+                },
+                {
+                    "authorId": "48275142",
+                    "name": "D. Jaffe"
+                },
+                {
+                    "authorId": "145355813",
+                    "name": "J. Callaway"
+                },
+                {
+                    "authorId": null,
+                    "name": "Nechama Lasser-Ross"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Lisman"
+                },
+                {
+                    "authorId": "145767633",
+                    "name": "D. Johnston"
+                }
+            ],
+            "doi": "10.1016/0896-6273(92)90074-N",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ae18a5f1be805ac3f16f97973023767a03ecdb3e",
+            "title": "Synaptically activated increases in Ca2+ concentration in hippocampal CA1 pyramidal cells are primarily due to voltage-gated Ca2+ channels",
+            "url": "https://www.semanticscholar.org/paper/ae18a5f1be805ac3f16f97973023767a03ecdb3e",
+            "venue": "Neuron",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8553010",
+                    "name": "R. Wong"
+                },
+                {
+                    "authorId": "145875907",
+                    "name": "M. Stewart"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1992.sp019401",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9ff0cfb3a137e9a49bd7ec44357f15b59ece84b",
+            "title": "Different firing patterns generated in dendrites and somata of CA1 pyramidal neurones in guinea\u2010pig hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/c9ff0cfb3a137e9a49bd7ec44357f15b59ece84b",
+            "venue": "The Journal of physiology",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5639106",
+                    "name": "W. Regehr"
+                },
+                {
+                    "authorId": "2516142",
+                    "name": "D. Tank"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.12-11-04202.1992",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d3a3d413e3c2746f8e1c8e3e5ed4f1d30556f90a",
+            "title": "Calcium concentration dynamics produced by synaptic activation of CA1 hippocampal pyramidal cells",
+            "url": "https://www.semanticscholar.org/paper/d3a3d413e3c2746f8e1c8e3e5ed4f1d30556f90a",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613298",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "5956212",
+                    "name": "J. Hablitz"
+                }
+            ],
+            "doi": "10.1152/JN.1993.69.6.1966",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0e01092cbb27f6243ca751f08349c7e7f1466f48",
+            "title": "Local anesthetics block transient outward potassium currents in rat neocortical neurons.",
+            "url": "https://www.semanticscholar.org/paper/0e01092cbb27f6243ca751f08349c7e7f1466f48",
+            "venue": "Journal of neurophysiology",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2246840",
+                    "name": "R. W. Turner"
+                },
+                {
+                    "authorId": "145258132",
+                    "name": "D. Meyers"
+                },
+                {
+                    "authorId": "1798264",
+                    "name": "J. Barker"
+                }
+            ],
+            "doi": "10.1016/0306-4522(93)90480-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "109a37548b5862c5790c0762c18d2c19149f8a9e",
+            "title": "Fast pre-potential generation in rat hippocampal ca1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/109a37548b5862c5790c0762c18d2c19149f8a9e",
+            "venue": "Neuroscience",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1904495",
+                    "name": "M. Witter"
+                }
+            ],
+            "doi": "10.1002/HIPO.1993.4500030707",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cbc1491a013577fc69c6e15706d5e5632bb2f3bc",
+            "title": "Organization of the entorhinal\u2014hippocampal system: A review of current anatomical data",
+            "url": "https://www.semanticscholar.org/paper/cbc1491a013577fc69c6e15706d5e5632bb2f3bc",
+            "venue": "Hippocampus",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2706507",
+                    "name": "G. Stuart"
+                },
+                {
+                    "authorId": "3204511",
+                    "name": "B. Sakmann"
+                }
+            ],
+            "doi": "10.1038/367069A0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c96fab0433439eeb939a891bc9365bbb5daf0852",
+            "title": "Active propagation of somatic action potentials into neocortical pyramidal cell dendrites",
+            "url": "https://www.semanticscholar.org/paper/c96fab0433439eeb939a891bc9365bbb5daf0852",
+            "venue": "Nature",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "31334062",
+                    "name": "J. Lambert"
+                }
+            ],
+            "doi": "10.1016/0006-8993(95)00910-I",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "27d2f4a7f9095fec321016d303155021aab8d4ea",
+            "title": "The excitability of CA1 pyramidal cell dendrites is modulated by a local Ca2+-dependent K+-conductance",
+            "url": "https://www.semanticscholar.org/paper/27d2f4a7f9095fec321016d303155021aab8d4ea",
+            "venue": "Brain Research",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2871213",
+                    "name": "N. Spruston"
+                },
+                {
+                    "authorId": "4107163",
+                    "name": "Y. Schiller"
+                },
+                {
+                    "authorId": "153431630",
+                    "name": "G. Stuart"
+                },
+                {
+                    "authorId": "3204511",
+                    "name": "B. Sakmann"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.7716524",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "30b7d18261f1a3792ec99b4affea2f1b50f9f2b4",
+            "title": "Activity-dependent action potential invasion and calcium influx into hippocampal CA1 dendrites.",
+            "url": "https://www.semanticscholar.org/paper/30b7d18261f1a3792ec99b4affea2f1b50f9f2b4",
+            "venue": "Science",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "143610236",
+                    "name": "J. D. Lambert"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1995.sp020595",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4fc43d293ebf0008d089ffcba485f854a70fc99c",
+            "title": "Regenerative properties of pyramidal cell dendrites in area CA1 of the rat hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/4fc43d293ebf0008d089ffcba485f854a70fc99c",
+            "venue": "The Journal of physiology",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46324673",
+                    "name": "J. C. Magee"
+                },
+                {
+                    "authorId": "145767633",
+                    "name": "D. Johnston"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.7716525",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6123b7538b80c7eaf651bc4732a6c982846a2f55",
+            "title": "Synaptic activation of voltage-gated channels in the dendrites of hippocampal pyramidal neurons.",
+            "url": "https://www.semanticscholar.org/paper/6123b7538b80c7eaf651bc4732a6c982846a2f55",
+            "venue": "Science",
+            "year": 1995
+        }
+    ],
+    "title": "Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites",
+    "topics": [
+        {
+            "topic": "Sodium",
+            "topicId": "1187",
+            "url": "https://www.semanticscholar.org/topic/1187"
+        },
+        {
+            "topic": "Dendrites",
+            "topicId": "2215",
+            "url": "https://www.semanticscholar.org/topic/2215"
+        },
+        {
+            "topic": "Pyramidal Cells",
+            "topicId": "86800",
+            "url": "https://www.semanticscholar.org/topic/86800"
+        },
+        {
+            "topic": "Tetrodotoxin",
+            "topicId": "5785",
+            "url": "https://www.semanticscholar.org/topic/5785"
+        },
+        {
+            "topic": "Bicuculline",
+            "topicId": "26289",
+            "url": "https://www.semanticscholar.org/topic/26289"
+        },
+        {
+            "topic": "Amprenavir",
+            "topicId": "53181",
+            "url": "https://www.semanticscholar.org/topic/53181"
+        },
+        {
+            "topic": "CA1 field",
+            "topicId": "1381",
+            "url": "https://www.semanticscholar.org/topic/1381"
+        },
+        {
+            "topic": "Thioctic Acid",
+            "topicId": "8368",
+            "url": "https://www.semanticscholar.org/topic/8368"
+        },
+        {
+            "topic": "Diploid Cell",
+            "topicId": "2651",
+            "url": "https://www.semanticscholar.org/topic/2651"
+        },
+        {
+            "topic": "physical hard work",
+            "topicId": "2457",
+            "url": "https://www.semanticscholar.org/topic/2457"
+        },
+        {
+            "topic": "Tissue membrane",
+            "topicId": "1269",
+            "url": "https://www.semanticscholar.org/topic/1269"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/608031026535a2b0f44c911a1319c24d131afe0a",
+    "venue": "Hippocampus",
+    "year": 1996
+}

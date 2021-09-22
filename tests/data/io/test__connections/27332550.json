@@ -1,0 +1,24 @@
+{
+    "authors": [
+        {
+            "authorId": "144613299",
+            "name": "M. Andreasen",
+            "url": "https://www.semanticscholar.org/author/144613299"
+        },
+        {
+            "authorId": "5628148",
+            "name": "S. Nedergaard",
+            "url": "https://www.semanticscholar.org/author/5628148"
+        }
+    ],
+    "corpusId": 27332550,
+    "doi": "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+    "numCitedBy": 32,
+    "numCiting": 34,
+    "title": "Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites",
+    "venue": "Hippocampus",
+    "year": 1996,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "1805590",
+            "name": "A. Datta",
+            "url": "https://www.semanticscholar.org/author/1805590"
+        },
+        {
+            "authorId": "3439744",
+            "name": "R. Ramos",
+            "url": "https://www.semanticscholar.org/author/3439744"
+        },
+        {
+            "authorId": "3288819",
+            "name": "J. C. Brumberg",
+            "url": "https://www.semanticscholar.org/author/3288819"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 14856556,
+    "doi": "10.1109/iembs.2009.5333586",
+    "numCitedBy": 27,
+    "numCiting": 20,
+    "title": "One-dimensional representation of a neuron in a uniform electric field",
+    "venue": "2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "year": 2009,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.brs.2009.03.007",
+        "10.1523/jneurosci.0095-07.2007"
+    ]
+}

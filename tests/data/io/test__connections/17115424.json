@@ -1,0 +1,50 @@
+{
+    "authors": [
+        {
+            "authorId": "144492447",
+            "name": "B. Fritsch",
+            "url": "https://www.semanticscholar.org/author/144492447"
+        },
+        {
+            "authorId": "26090635",
+            "name": "J. Reis",
+            "url": "https://www.semanticscholar.org/author/26090635"
+        },
+        {
+            "authorId": "9707046",
+            "name": "K. Martinowich",
+            "url": "https://www.semanticscholar.org/author/9707046"
+        },
+        {
+            "authorId": "4869015",
+            "name": "Heidi M. Schambra",
+            "url": "https://www.semanticscholar.org/author/4869015"
+        },
+        {
+            "authorId": "50006566",
+            "name": "Y. Ji",
+            "url": "https://www.semanticscholar.org/author/50006566"
+        },
+        {
+            "authorId": "2141461",
+            "name": "L. Cohen",
+            "url": "https://www.semanticscholar.org/author/2141461"
+        },
+        {
+            "authorId": "40148754",
+            "name": "B. Lu",
+            "url": "https://www.semanticscholar.org/author/40148754"
+        }
+    ],
+    "corpusId": 17115424,
+    "doi": "10.1016/j.neuron.2010.03.035",
+    "numCitedBy": 1024,
+    "numCiting": 49,
+    "title": "Direct Current Stimulation Promotes BDNF-Dependent Synaptic Plasticity: Potential Implications for Motor Learning",
+    "venue": "Neuron",
+    "year": 2010,
+    "local__referenced_to": [
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1016/j.brs.2009.03.007"
+    ]
+}

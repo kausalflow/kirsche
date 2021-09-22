@@ -1,0 +1,2951 @@
+{
+    "abstract": "Clinical studies have shown that cathodal transcranial direct-current stimulation (tDCS) application can produce long-term suppressive effects on drug-resistant seizures. Whether this long-term effect produced by cathodal tDCS can counterbalance the enhancement of synaptic transmission during seizures requires further investigation. Our hypothesis was that the long-term effects of DCS on seizure suppression by the application of cathodal DCS occur through a long-term depression (LTD)-like mechanism. We used a thalamocingulate brain slice preparation combined with a multielectrode array and patch recording to investigate the underlying mechanism of the suppressive effect of DCS on anterior cingulate cortex (ACC) seizures. Patch-clamp recordings showed that cathodal DCS significantly decreased spontaneous excitatory postsynaptic currents (EPSCs) and epileptic EPSCs caused by the 4-aminopyridine. Fifteen minutes of DCS application reliably induced LTD, and the synaptic activation frequency was an important factor in LTD formation. The application of DCS alone without continuous synaptic activation did not induce LTD. Direct-current stimulation-induced LTD appeared to be N-methyl-d-aspartate (NMDA)-dependent, in which the application of the NMDA receptor antagonist D-1-2-amino-5-phosphonopentanoic acid (APV) abolished DCS-induced LTD, and the immediate effect remained. Direct-current stimulation-induced LTD and the long-term effects of DCS on seizure-like activities were also abolished by okadaic acid, a protein phosphatase 1 inhibitor. The long-term effects of DCS on seizures were not influenced by the depotentiation blocker FK-506. Therefore, we conclude that the long-term effects of DCS on seizure-like activities in brain slice occur through an LTD-like mechanism.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "7782185",
+            "name": "Wei-Pang Chang",
+            "url": "https://www.semanticscholar.org/author/7782185"
+        },
+        {
+            "authorId": "5634570",
+            "name": "Hsiang-Chin Lu",
+            "url": "https://www.semanticscholar.org/author/5634570"
+        },
+        {
+            "authorId": "145013712",
+            "name": "B. Shyu",
+            "url": "https://www.semanticscholar.org/author/145013712"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2053895239",
+                    "name": "David Kaufmann"
+                },
+                {
+                    "authorId": "3252436",
+                    "name": "N. Sollmann"
+                },
+                {
+                    "authorId": "2059585496",
+                    "name": "Elisabeth Kaufmann"
+                },
+                {
+                    "authorId": "5763976",
+                    "name": "R. Veggeberg"
+                },
+                {
+                    "authorId": "6740638",
+                    "name": "Y. Tripodis"
+                },
+                {
+                    "authorId": "50101611",
+                    "name": "Pawel Wr\u00f3bel"
+                },
+                {
+                    "authorId": "1748870345",
+                    "name": "Janna Kochsiek"
+                },
+                {
+                    "authorId": "32266745",
+                    "name": "B. Martin"
+                },
+                {
+                    "authorId": "153151698",
+                    "name": "A. Lin"
+                },
+                {
+                    "authorId": "31419429",
+                    "name": "M. Coleman"
+                },
+                {
+                    "authorId": "3763852",
+                    "name": "M. Alosco"
+                },
+                {
+                    "authorId": "2240377",
+                    "name": "O. Pasternak"
+                },
+                {
+                    "authorId": "1746058",
+                    "name": "S. Bouix"
+                },
+                {
+                    "authorId": "143854877",
+                    "name": "R. Stern"
+                },
+                {
+                    "authorId": "145107775",
+                    "name": "M. Shenton"
+                },
+                {
+                    "authorId": "2994203",
+                    "name": "I. Koerte"
+                }
+            ],
+            "doi": "10.1093/cercor/bhab021",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9e163f542c714caf006d88359401acdf911f1bb",
+            "title": "Age at First Exposure to Tackle Football is Associated with Cortical Thickness in Former Professional American Football Players.",
+            "url": "https://www.semanticscholar.org/paper/c9e163f542c714caf006d88359401acdf911f1bb",
+            "venue": "Cerebral cortex",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6123432",
+                    "name": "G. G. Regner"
+                },
+                {
+                    "authorId": "32597572",
+                    "name": "I. Torres"
+                },
+                {
+                    "authorId": "30028745",
+                    "name": "Carla de Oliveira"
+                },
+                {
+                    "authorId": "4630772",
+                    "name": "P. Pfl\u00fcger"
+                },
+                {
+                    "authorId": null,
+                    "name": "Lisiane Santos da Silva"
+                },
+                {
+                    "authorId": "1393846039",
+                    "name": "V. Scarabelot"
+                },
+                {
+                    "authorId": "2096761028",
+                    "name": "Roberta Str\u00f6her"
+                },
+                {
+                    "authorId": null,
+                    "name": "Andressa de Souza"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "145701821",
+                    "name": "P. Pereira"
+                }
+            ],
+            "doi": "10.1016/j.neulet.2020.135162",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4821d45ee5f72c984892adf6187e16ebcc09a410",
+            "title": "Transcranial direct current stimulation (tDCS) affects neuroinflammation parameters and behavioral seizure activity in pentylenetetrazole-induced kindling in rats",
+            "url": "https://www.semanticscholar.org/paper/4821d45ee5f72c984892adf6187e16ebcc09a410",
+            "venue": "Neuroscience Letters",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49696940",
+                    "name": "Y. Sun"
+                },
+                {
+                    "authorId": "2037266",
+                    "name": "S. Dhamne"
+                },
+                {
+                    "authorId": "1403246939",
+                    "name": "Alejandro Carretero-Guill\u00e9n"
+                },
+                {
+                    "authorId": "144302802",
+                    "name": "R. Salvador"
+                },
+                {
+                    "authorId": "40327646",
+                    "name": "Marti C Goldenberg"
+                },
+                {
+                    "authorId": "1751586815",
+                    "name": "B. Godlewski"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "35584263",
+                    "name": "J. Madsen"
+                },
+                {
+                    "authorId": "21314013",
+                    "name": "S. Stone"
+                },
+                {
+                    "authorId": "144679534",
+                    "name": "G. Ruffini"
+                },
+                {
+                    "authorId": "1400953028",
+                    "name": "J. M\u00e1rquez-Ruiz"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                }
+            ],
+            "doi": "10.1002/ana.25822",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4caeed9db603ad5c83cdb4a917b85e0cfc5f88fc",
+            "title": "Drug-responsive inhomogeneous cortical modulation by direct current stimulation.",
+            "url": "https://www.semanticscholar.org/paper/4caeed9db603ad5c83cdb4a917b85e0cfc5f88fc",
+            "venue": "Annals of neurology",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3518709",
+                    "name": "J. Ellrich"
+                }
+            ],
+            "doi": "10.1186/s42234-020-00054-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc30ceffa780dfa5215221b7331cb8c9ca16f43c",
+            "title": "Cortical stimulation in pharmacoresistant focal epilepsies",
+            "url": "https://www.semanticscholar.org/paper/dc30ceffa780dfa5215221b7331cb8c9ca16f43c",
+            "venue": "Bioelectronic medicine",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "93944835",
+                    "name": "A. Souza"
+                },
+                {
+                    "authorId": "145203682",
+                    "name": "D. Martins"
+                },
+                {
+                    "authorId": "39858811",
+                    "name": "L. Medeiros"
+                },
+                {
+                    "authorId": "1402234730",
+                    "name": "Catharina Nucci-Martins"
+                },
+                {
+                    "authorId": "49366396",
+                    "name": "T. C. Martins"
+                },
+                {
+                    "authorId": "6490519",
+                    "name": "A. Siteneski"
+                },
+                {
+                    "authorId": "6371947",
+                    "name": "W. Caumo"
+                },
+                {
+                    "authorId": null,
+                    "name": "Adair Roberto Soares dos Santos"
+                },
+                {
+                    "authorId": "32597572",
+                    "name": "I. Torres"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2017.12.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "21fe26193d5d41ef81162fef6749718892a6b3c2",
+            "title": "Neurobiological mechanisms of antiallodynic effect of transcranial direct current stimulation (tDCS) in a mice model of neuropathic pain",
+            "url": "https://www.semanticscholar.org/paper/21fe26193d5d41ef81162fef6749718892a6b3c2",
+            "venue": "Brain Research",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6123432",
+                    "name": "G. G. Regner"
+                },
+                {
+                    "authorId": "2058093768",
+                    "name": "Patr\u00edcia Pereira"
+                },
+                {
+                    "authorId": "6598491",
+                    "name": "D. Leffa"
+                },
+                {
+                    "authorId": "30028745",
+                    "name": "Carla de Oliveira"
+                },
+                {
+                    "authorId": "6184971",
+                    "name": "R. Vercelino"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "32597572",
+                    "name": "I. Torres"
+                }
+            ],
+            "doi": "10.3389/fnins.2018.00189",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5f47a260aa33d202e3c90f35e949dbdf7969ad19",
+            "title": "Preclinical to Clinical Translation of Studies of Transcranial Direct-Current Stimulation in the Treatment of Epilepsy: A Systematic Review",
+            "url": "https://www.semanticscholar.org/paper/5f47a260aa33d202e3c90f35e949dbdf7969ad19",
+            "venue": "Front. Neurosci.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403246934",
+                    "name": "C. A. S\u00e1nchez-Le\u00f3n"
+                },
+                {
+                    "authorId": "51101432",
+                    "name": "C. Ammann"
+                },
+                {
+                    "authorId": "145608609",
+                    "name": "J. F. Medina"
+                },
+                {
+                    "authorId": "1400953028",
+                    "name": "J. M\u00e1rquez-Ruiz"
+                }
+            ],
+            "doi": "10.1007/s40473-018-0149-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "95e26bd3b0aaca7ee3606b39c73502f016444a11",
+            "title": "Using Animal Models to Improve the Design and Application of Transcranial Electrical Stimulation in Humans",
+            "url": "https://www.semanticscholar.org/paper/95e26bd3b0aaca7ee3606b39c73502f016444a11",
+            "venue": "Current Behavioral Neuroscience Reports",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7212231",
+                    "name": "L. Godlevsky"
+                },
+                {
+                    "authorId": "29848991",
+                    "name": "O. Nenova"
+                },
+                {
+                    "authorId": "29916319",
+                    "name": "M. Pervak"
+                },
+                {
+                    "authorId": "29934238",
+                    "name": "T. Prybolovets"
+                },
+                {
+                    "authorId": "29818508",
+                    "name": "K. A. Bidnyuk"
+                }
+            ],
+            "doi": "10.1007/s11062-017-9681-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2544e31d0eccf091cdb923c47e8e88185d02310b",
+            "title": "Effects of Transcranial Direct Current Stimulation of Rat Cerebral Structures on Pentylenetetrazole-Induced Seizures",
+            "url": "https://www.semanticscholar.org/paper/2544e31d0eccf091cdb923c47e8e88185d02310b",
+            "venue": "Neurophysiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2149728",
+                    "name": "M. Gschwind"
+                },
+                {
+                    "authorId": "2980798",
+                    "name": "M. Seeck"
+                }
+            ],
+            "doi": "10.1080/14737175.2016.1209410",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "32d6cb7cec8660e13cb05f628289c215390c028b",
+            "title": "Transcranial direct-current stimulation as treatment in epilepsy",
+            "url": "https://www.semanticscholar.org/paper/32d6cb7cec8660e13cb05f628289c215390c028b",
+            "venue": "Expert review of neurotherapeutics",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1691853",
+                    "name": "Y. Sun"
+                },
+                {
+                    "authorId": "35152578",
+                    "name": "J. Lipton"
+                },
+                {
+                    "authorId": "37508405",
+                    "name": "Lara M. Boyle"
+                },
+                {
+                    "authorId": "35584263",
+                    "name": "J. Madsen"
+                },
+                {
+                    "authorId": "40327646",
+                    "name": "Marti C Goldenberg"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "143608449",
+                    "name": "M. Sahin"
+                },
+                {
+                    "authorId": "3514476",
+                    "name": "A. Rotenberg"
+                }
+            ],
+            "doi": "10.1002/ana.24708",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "574f34d1914434b651111147d551b9123ba2e0dc",
+            "title": "Direct current stimulation induces mGluR5\u2010dependent neocortical plasticity",
+            "url": "https://www.semanticscholar.org/paper/574f34d1914434b651111147d551b9123ba2e0dc",
+            "venue": "Annals of neurology",
+            "year": 2016
+        }
+    ],
+    "corpusId": 207546394,
+    "doi": "10.1016/j.expneurol.2015.02.002",
+    "fieldsOfStudy": [
+        "Chemistry",
+        "Medicine"
+    ],
+    "influentialCitationCount": 1,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 10,
+    "numCiting": 77,
+    "paperId": "2a9cc604a0b25d91d6e1fa00105bf68e878aab6d",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6016859",
+                    "name": "D. Purpura"
+                },
+                {
+                    "authorId": "11286293",
+                    "name": "J. McMurtry"
+                }
+            ],
+            "doi": "10.1152/JN.1965.28.1.166",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c4c0751172fb3a72a8c6b4c5bbaf6df3016395a6",
+            "title": "INTRACELLULAR ACTIVITIES AND EVOKED POTENTIAL CHANGES DURING POLARIZATION OF MOTOR CORTEX.",
+            "url": "https://www.semanticscholar.org/paper/c4c0751172fb3a72a8c6b4c5bbaf6df3016395a6",
+            "venue": "Journal of neurophysiology",
+            "year": 1965
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2020834",
+                    "name": "G. Mazars"
+                }
+            ],
+            "doi": "10.1111/j.1528-1157.1970.tb03865.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3e2b8300d307233fda2b42869ccda22f44950f4f",
+            "title": "Criteria for Identifying Cingulate Epilepsies*",
+            "url": "https://www.semanticscholar.org/paper/3e2b8300d307233fda2b42869ccda22f44950f4f",
+            "venue": "Epilepsia",
+            "year": 1970
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3368498",
+                    "name": "S. B. Brummer"
+                },
+                {
+                    "authorId": "46652880",
+                    "name": "M. J. Turner"
+                }
+            ],
+            "doi": "10.1109/TBME.1977.326218",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "39830903cc66576a83b46d06b2eb161ebac1fc78",
+            "title": "Electrochemical Considerations for Safe Electrical Stimulation of the Nervous System with Platinum Electrodes",
+            "url": "https://www.semanticscholar.org/paper/39830903cc66576a83b46d06b2eb161ebac1fc78",
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2005678",
+                    "name": "S. Geier"
+                },
+                {
+                    "authorId": "4073225",
+                    "name": "J. Bancaud"
+                },
+                {
+                    "authorId": "6366521",
+                    "name": "J. Talairach"
+                },
+                {
+                    "authorId": "1682167",
+                    "name": "A. Bonis"
+                },
+                {
+                    "authorId": "5627757",
+                    "name": "G. Szikla"
+                },
+                {
+                    "authorId": "4604718",
+                    "name": "M. Enjelvin"
+                }
+            ],
+            "doi": "10.1212/WNL.27.10.951",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb43b267a261cb9a9198c1b573e4589a853a3fec",
+            "title": "The seizures of frontal lobe epilepsy",
+            "url": "https://www.semanticscholar.org/paper/cb43b267a261cb9a9198c1b573e4589a853a3fec",
+            "venue": "Neurology",
+            "year": 1977
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5516820",
+                    "name": "J. Gaito"
+                }
+            ],
+            "doi": "10.1017/S0317167100023702",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6a0b74541029685a0e59fde471ad9ff9a74dabc",
+            "title": "The effect of variable duration one hertz interference on kindling.",
+            "url": "https://www.semanticscholar.org/paper/c6a0b74541029685a0e59fde471ad9ff9a74dabc",
+            "venue": "The Canadian journal of neurological sciences. Le journal canadien des sciences neurologiques",
+            "year": 1980
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1981.sp013897",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "venue": "The Journal of physiology",
+            "year": 1981
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398036915",
+                    "name": "Y. Ben-Ari"
+                },
+                {
+                    "authorId": "3512903",
+                    "name": "A. Represa"
+                }
+            ],
+            "doi": "10.1016/0166-2236(90)90135-W",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a770cefbf028107677ee62b0a240796efdf9462e",
+            "title": "Brief seizure episodes induce long-term potentiation and mossy fibre sprouting in the hippocampus",
+            "url": "https://www.semanticscholar.org/paper/a770cefbf028107677ee62b0a240796efdf9462e",
+            "venue": "Trends in Neurosciences",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "101040563",
+                    "name": "P. Perreault"
+                },
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                }
+            ],
+            "doi": "10.1152/JN.1991.65.4.771",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8580456d4897b6760afca5634124e437319a3fac",
+            "title": "Physiology and pharmacology of epileptiform activity induced by 4-aminopyridine in rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/8580456d4897b6760afca5634124e437319a3fac",
+            "venue": "Journal of neurophysiology",
+            "year": 1991
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2069960327",
+                    "name": "M. Nakagawa"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1016/0006-8993(91)90801-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "89b359ab79643beca5ca6bfdad2bea158ca77ae8",
+            "title": "Suppression of spontaneous epileptiform activity with applied currents",
+            "url": "https://www.semanticscholar.org/paper/89b359ab79643beca5ca6bfdad2bea158ca77ae8",
+            "venue": "Brain Research",
+            "year": 1991
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "123257905",
+                    "name": "D. Durand"
+                },
+                {
+                    "authorId": "34438492",
+                    "name": "E. Warman"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1994.sp020381",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "872ab8b30f5054127efd27748ae681f6ba2e732d",
+            "title": "Desynchronization of epileptiform activity by extracellular current pulses in rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/872ab8b30f5054127efd27748ae681f6ba2e732d",
+            "venue": "The Journal of physiology",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4296389",
+                    "name": "R. Mulkey"
+                },
+                {
+                    "authorId": "34747765",
+                    "name": "S. Endo"
+                },
+                {
+                    "authorId": "4803939",
+                    "name": "S. Shenolikar"
+                },
+                {
+                    "authorId": "3517841",
+                    "name": "R. Malenka"
+                }
+            ],
+            "doi": "10.1038/369486A0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "eadcee0915a8dce2a6c4b37bed01ee2d59650945",
+            "title": "Involvement of a calcineurin/ inhibitor-1 phosphatase cascade in hippocampal long-term depression",
+            "url": "https://www.semanticscholar.org/paper/eadcee0915a8dce2a6c4b37bed01ee2d59650945",
+            "venue": "Nature",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48221059",
+                    "name": "A. Ajima"
+                },
+                {
+                    "authorId": "50230864",
+                    "name": "M. Ito"
+                }
+            ],
+            "doi": "10.1097/00001756-199501000-00018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5eef82c890daa369edee6ee557f5f24573544a7e",
+            "title": "A unique role of protein phosphatases in cerebellar long-term depression.",
+            "url": "https://www.semanticscholar.org/paper/5eef82c890daa369edee6ee557f5f24573544a7e",
+            "venue": "Neuroreport",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48911568",
+                    "name": "N. Islam"
+                },
+                {
+                    "authorId": "3209322",
+                    "name": "M. Aftabuddin"
+                },
+                {
+                    "authorId": "3914604",
+                    "name": "A. Moriwaki"
+                },
+                {
+                    "authorId": "49388589",
+                    "name": "Y. Hattori"
+                },
+                {
+                    "authorId": "47578233",
+                    "name": "Y. Hori"
+                }
+            ],
+            "doi": "10.1016/0006-8993(95)00434-R",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bb69918b61f0c2f7d747d65a5bc7010b823f360c",
+            "title": "Increase in the calcium level following anodal polarization in the rat brain",
+            "url": "https://www.semanticscholar.org/paper/bb69918b61f0c2f7d747d65a5bc7010b823f360c",
+            "venue": "Brain Research",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153228495",
+                    "name": "S. Weiss"
+                },
+                {
+                    "authorId": "48568751",
+                    "name": "X. Li"
+                },
+                {
+                    "authorId": "4336961",
+                    "name": "J. Rosen"
+                },
+                {
+                    "authorId": null,
+                    "name": "H Li"
+                },
+                {
+                    "authorId": "3341979",
+                    "name": "T. Heynen"
+                },
+                {
+                    "authorId": "1691441",
+                    "name": "R. Post"
+                }
+            ],
+            "doi": "10.1097/00001756-199511000-00018",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cee5ac74b7da6a2ae7e56645a4dc2c91d107f730",
+            "title": "Quenching: inhibition of development and expression of amygdala kindled seizures with low frequency stimulation.",
+            "url": "https://www.semanticscholar.org/paper/cee5ac74b7da6a2ae7e56645a4dc2c91d107f730",
+            "venue": "Neuroreport",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                }
+            ],
+            "doi": "10.1002/(SICI)1098-1063(1996)6:1<79::AID-HIPO13>3.0.CO;2-H",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "608031026535a2b0f44c911a1319c24d131afe0a",
+            "title": "Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites",
+            "url": "https://www.semanticscholar.org/paper/608031026535a2b0f44c911a1319c24d131afe0a",
+            "venue": "Hippocampus",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47483140",
+                    "name": "W. Chen"
+                },
+                {
+                    "authorId": "115936054",
+                    "name": "S. Lee"
+                },
+                {
+                    "authorId": "48057000",
+                    "name": "K. Kato"
+                },
+                {
+                    "authorId": "2696889",
+                    "name": "D. Spencer"
+                },
+                {
+                    "authorId": "144735065",
+                    "name": "G. Shepherd"
+                },
+                {
+                    "authorId": "145928785",
+                    "name": "A. Williamson"
+                }
+            ],
+            "doi": "10.1073/PNAS.93.15.8011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dcb96d5ffea5206c0a4835f57fda7617fd3cf20b",
+            "title": "Long-term modifications of synaptic efficacy in the human inferior and middle temporal cortex.",
+            "url": "https://www.semanticscholar.org/paper/dcb96d5ffea5206c0a4835f57fda7617fd3cf20b",
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39748300",
+                    "name": "M. Croning"
+                },
+                {
+                    "authorId": "2112186",
+                    "name": "G. Haddad"
+                }
+            ],
+            "doi": "10.1016/S0165-0270(98)00023-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e215ff0399a92ff2a74090b645d328f2eb0678c",
+            "title": "Comparison of brain slice chamber designs for investigations of oxygen deprivation in vitro",
+            "url": "https://www.semanticscholar.org/paper/0e215ff0399a92ff2a74090b645d328f2eb0678c",
+            "venue": "Journal of Neuroscience Methods",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3746542",
+                    "name": "W. Feindel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "155ff9be514b4a13f82a07811e0522722ad8be9d",
+            "title": "Brain stimulation combined with electrocorticography in the surgery of epilepsy: historical highlights.",
+            "url": "https://www.semanticscholar.org/paper/155ff9be514b4a13f82a07811e0522722ad8be9d",
+            "venue": "Electroencephalography and clinical neurophysiology. Supplement",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "82489090",
+                    "name": "R. Warren"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1016/S0006-8993(98)00723-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d5a5a92d27bd63d4c1b40dcf70dca39e10b015ab",
+            "title": "Effects of applied currents on spontaneous epileptiform activity induced by low calcium in the rat hippocampus",
+            "url": "https://www.semanticscholar.org/paper/d5a5a92d27bd63d4c1b40dcf70dca39e10b015ab",
+            "venue": "Brain Research",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "89896050",
+                    "name": "C. Br\u00fcckner"
+                },
+                {
+                    "authorId": "3952670",
+                    "name": "K. Stenkamp"
+                },
+                {
+                    "authorId": "4467078",
+                    "name": "H. Meierkord"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                }
+            ],
+            "doi": "10.1016/S0304-3940(99)00341-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ae5ee5b4304a1589b1f7c1908cc5cc144709a5f",
+            "title": "Epileptiform discharges induced by combined application of bicuculline and 4-aminopyridine are resistant to standard anticonvulsants in slices of rats",
+            "url": "https://www.semanticscholar.org/paper/8ae5ee5b4304a1589b1f7c1908cc5cc144709a5f",
+            "venue": "Neuroscience Letters",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32535659",
+                    "name": "H. J. Chung"
+                },
+                {
+                    "authorId": "6157880",
+                    "name": "J. Xia"
+                },
+                {
+                    "authorId": "7010344",
+                    "name": "R. Scannevin"
+                },
+                {
+                    "authorId": "47958240",
+                    "name": "X. Zhang"
+                },
+                {
+                    "authorId": "2606980",
+                    "name": "R. Huganir"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.20-19-07258.2000",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1b80c905df009283eabc8a6be6a7dd8e40c51b70",
+            "title": "Phosphorylation of the AMPA Receptor Subunit GluR2 Differentially Regulates Its Interaction with PDZ Domain-Containing Proteins",
+            "url": "https://www.semanticscholar.org/paper/1b80c905df009283eabc8a6be6a7dd8e40c51b70",
+            "venue": "The Journal of Neuroscience",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39898200",
+                    "name": "R. Ghai"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1152/JN.2000.84.1.274",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c5ff329e74ef1bfda8e936e5498ec528645ee21",
+            "title": "Effects of applied electric fields on low-calcium epileptiform activity in the CA1 region of rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/1c5ff329e74ef1bfda8e936e5498ec528645ee21",
+            "venue": "Journal of neurophysiology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38788300",
+                    "name": "E. D. Norman"
+                },
+                {
+                    "authorId": "5004844",
+                    "name": "E. Thiels"
+                },
+                {
+                    "authorId": "1696162",
+                    "name": "G. Barrionuevo"
+                },
+                {
+                    "authorId": "1842307",
+                    "name": "E. Klann"
+                }
+            ],
+            "doi": "10.1046/j.1471-4159.2000.0740192.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5fc41cf4b69ef884e73398705d095c329a1c2082",
+            "title": "Long\u2010Term Depression in the Hippocampus In Vivo Is Associated with Protein Phosphatase\u2010Dependent Alterations in Extracellular Signal\u2010Regulated Kinase",
+            "url": "https://www.semanticscholar.org/paper/5fc41cf4b69ef884e73398705d095c329a1c2082",
+            "venue": "Journal of neurochemistry",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6436551",
+                    "name": "H. Lee"
+                },
+                {
+                    "authorId": "4516033",
+                    "name": "M. Barbarosie"
+                },
+                {
+                    "authorId": "46753522",
+                    "name": "K. Kameyama"
+                },
+                {
+                    "authorId": "2356410",
+                    "name": "M. Bear"
+                },
+                {
+                    "authorId": "2606980",
+                    "name": "R. Huganir"
+                }
+            ],
+            "doi": "10.1038/35016089",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a8f7bcd157e3618d0dc3395365d6f33ec41500fa",
+            "title": "Regulation of distinct AMPA receptor phosphorylation sites during bidirectional synaptic plasticity",
+            "url": "https://www.semanticscholar.org/paper/a8f7bcd157e3618d0dc3395365d6f33ec41500fa",
+            "venue": "Nature",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "50502556",
+                    "name": "J. Lian"
+                },
+                {
+                    "authorId": "39450338",
+                    "name": "P. Hahn"
+                },
+                {
+                    "authorId": "3080729",
+                    "name": "W. Stacey"
+                },
+                {
+                    "authorId": "6500486",
+                    "name": "C. Sciortino"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.2001.0181j.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00431fcc04004d7b189527cbf414851b759cc5b7",
+            "title": "Suppression of epileptiform activity by high frequency sinusoidal fields in rat hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/00431fcc04004d7b189527cbf414851b759cc5b7",
+            "venue": "The Journal of physiology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2447256",
+                    "name": "A. Biraben"
+                },
+                {
+                    "authorId": "112866189",
+                    "name": "D. Taussig"
+                },
+                {
+                    "authorId": "48534795",
+                    "name": "P. Thomas"
+                },
+                {
+                    "authorId": "1876078",
+                    "name": "C. Even"
+                },
+                {
+                    "authorId": "145615116",
+                    "name": "J. Vignal"
+                },
+                {
+                    "authorId": "46623249",
+                    "name": "J. Scarabin"
+                },
+                {
+                    "authorId": "3310093",
+                    "name": "P. Chauvel"
+                }
+            ],
+            "doi": "10.1136/jnnp.70.2.186",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "105dd5396f8f63c599592d65465de720bc74d813",
+            "title": "Fear as the main feature of epileptic seizures",
+            "url": "https://www.semanticscholar.org/paper/105dd5396f8f63c599592d65465de720bc74d813",
+            "venue": "Journal of neurology, neurosurgery, and psychiatry",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1212/WNL.57.10.1899",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "227ee8e23975df61a34d465d6b0dd0eab494a40c",
+            "title": "Sustained excitability elevations induced by transcranial DC motor cortex stimulation in humans",
+            "url": "https://www.semanticscholar.org/paper/227ee8e23975df61a34d465d6b0dd0eab494a40c",
+            "venue": "Neurology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2054415022",
+                    "name": "N. Kemp"
+                },
+                {
+                    "authorId": "143754596",
+                    "name": "Z. Bashir"
+                }
+            ],
+            "doi": "10.1016/S0301-0082(01)00013-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "28ee329646f03a53119f18c1df6a99e33532105d",
+            "title": "Long-term depression: a cascade of induction and expression mechanisms",
+            "url": "https://www.semanticscholar.org/paper/28ee329646f03a53119f18c1df6a99e33532105d",
+            "venue": "Progress in Neurobiology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1109/5.939821",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "title": "Suppression and control of epileptiform activity by electrical stimulation: a review",
+            "url": "https://www.semanticscholar.org/paper/4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "venue": "Proc. IEEE",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2019259",
+                    "name": "N. Akamatsu"
+                },
+                {
+                    "authorId": "2124188",
+                    "name": "Y. Fueta"
+                },
+                {
+                    "authorId": "20631309",
+                    "name": "Y. Endo"
+                },
+                {
+                    "authorId": "32293878",
+                    "name": "K. Matsunaga"
+                },
+                {
+                    "authorId": null,
+                    "name": "Takenori Uozumi"
+                },
+                {
+                    "authorId": "143873012",
+                    "name": "S. Tsuji"
+                }
+            ],
+            "doi": "10.1016/S0304-3940(01)02116-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b5f03264ac33c51b2701dd129c80c181e7b3d347",
+            "title": "Decreased susceptibility to pentylenetetrazol-induced seizures after low-frequency transcranial magnetic stimulation in rats",
+            "url": "https://www.semanticscholar.org/paper/b5f03264ac33c51b2701dd129c80c181e7b3d347",
+            "venue": "Neuroscience Letters",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1925813053",
+                    "name": "B. J. Gluckman"
+                },
+                {
+                    "authorId": "145192679",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "1922683136",
+                    "name": "S. J. Schiff"
+                }
+            ],
+            "doi": "10.1034/j.1600-0404.2000.00202-24.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e67ad4e7b839da99f5cc663daf281051f6e67800",
+            "title": "Adaptive electric field control of epileptic seizures",
+            "url": "https://www.semanticscholar.org/paper/e67ad4e7b839da99f5cc663daf281051f6e67800",
+            "venue": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2391023",
+                    "name": "K. Shimono"
+                },
+                {
+                    "authorId": "32588072",
+                    "name": "M. Taketani"
+                },
+                {
+                    "authorId": "3331247",
+                    "name": "Fernando Br\u00fccher"
+                },
+                {
+                    "authorId": "34658532",
+                    "name": "Don Kubota"
+                },
+                {
+                    "authorId": "48393361",
+                    "name": "Laura Colgin"
+                },
+                {
+                    "authorId": "52152859",
+                    "name": "S. Robertson"
+                },
+                {
+                    "authorId": "144297714",
+                    "name": "R. Granger"
+                },
+                {
+                    "authorId": "144568653",
+                    "name": "G. Lynch"
+                }
+            ],
+            "doi": "10.1016/S0925-2312(01)00392-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fabf70f4eb3ffe8a1911c7d447a412ffbdb17f8f",
+            "title": "Continuous two-dimensional current source density analyses of electrophysiological activity in hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/fabf70f4eb3ffe8a1911c7d447a412ffbdb17f8f",
+            "venue": "Neurocomputing",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34624826",
+                    "name": "M. Eto"
+                },
+                {
+                    "authorId": "48275229",
+                    "name": "R. Bock"
+                },
+                {
+                    "authorId": "4061244",
+                    "name": "D. Brautigan"
+                },
+                {
+                    "authorId": "143886913",
+                    "name": "D. Linden"
+                }
+            ],
+            "doi": "10.1016/S0896-6273(02)01107-8",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "329fe018d7636782a0ce22b7c1585a78eb35db55",
+            "title": "Cerebellar Long-Term Synaptic Depression Requires PKC-Mediated Activation of CPI-17, a Myosin/Moesin Phosphatase Inhibitor",
+            "url": "https://www.semanticscholar.org/paper/329fe018d7636782a0ce22b7c1585a78eb35db55",
+            "venue": "Neuron",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6322578",
+                    "name": "M. Zaatreh"
+                },
+                {
+                    "authorId": "2696889",
+                    "name": "D. Spencer"
+                },
+                {
+                    "authorId": "2109938128",
+                    "name": "James L. Thompson"
+                },
+                {
+                    "authorId": "1840714",
+                    "name": "H. Blumenfeld"
+                },
+                {
+                    "authorId": "48208226",
+                    "name": "E. Novotny"
+                },
+                {
+                    "authorId": "144790600",
+                    "name": "R. Mattson"
+                },
+                {
+                    "authorId": "2011830",
+                    "name": "S. Spencer"
+                }
+            ],
+            "doi": "10.1046/j.1528-1157.2002.39501.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "332c158a7bc7a47296917f3f4095d994ebfcad42",
+            "title": "Frontal Lobe Tumoral Epilepsy: Clinical, Neurophysiologic Features and Predictors of Surgical\u2003Outcome",
+            "url": "https://www.semanticscholar.org/paper/332c158a7bc7a47296917f3f4095d994ebfcad42",
+            "venue": "Epilepsia",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144976115",
+                    "name": "R. Hoffman"
+                },
+                {
+                    "authorId": "2284877",
+                    "name": "I. Cavus"
+                }
+            ],
+            "doi": "10.1176/APPI.AJP.159.7.1093",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8b6423488ae21e4b9744acb8befeea97a36f2def",
+            "title": "Slow transcranial magnetic stimulation, long-term depotentiation, and brain hyperexcitability disorders.",
+            "url": "https://www.semanticscholar.org/paper/8b6423488ae21e4b9744acb8befeea97a36f2def",
+            "venue": "The American journal of psychiatry",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4366130",
+                    "name": "L. Vel\u00ed\u0161ek"
+                },
+                {
+                    "authorId": "4519305",
+                    "name": "J. Vel\u00ed\u0161kov\u00e1"
+                },
+                {
+                    "authorId": "1872827",
+                    "name": "P. Stanton"
+                }
+            ],
+            "doi": "10.1016/S0304-3940(02)00294-X",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "a68af220231776f145b3f366d53af4284806fb95",
+            "title": "Low-frequency stimulation of the kindling focus delays basolateral amygdala kindling in immature rats",
+            "url": "https://www.semanticscholar.org/paper/a68af220231776f145b3f366d53af4284806fb95",
+            "venue": "Neuroscience Letters",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                },
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "4664092",
+                    "name": "F. Tergau"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1093/BRAIN/AWF238",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "db582afc59f917a6e031ec45bc5a985e054648f4",
+            "title": "Pharmacological approach to the mechanisms of transcranial DC-stimulation-induced after-effects of human motor cortex excitability.",
+            "url": "https://www.semanticscholar.org/paper/db582afc59f917a6e031ec45bc5a985e054648f4",
+            "venue": "Brain : a journal of neurology",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "47508985",
+                    "name": "K. Fricke"
+                },
+                {
+                    "authorId": "47671562",
+                    "name": "U. Henschke"
+                },
+                {
+                    "authorId": "6838160",
+                    "name": "A. Schlitterlau"
+                },
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                },
+                {
+                    "authorId": "1902589",
+                    "name": "N. Lang"
+                },
+                {
+                    "authorId": "148058248",
+                    "name": "S. Henning"
+                },
+                {
+                    "authorId": "4664092",
+                    "name": "F. Tergau"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.049916",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "56a8b46ad8792bc4158192bdc6f0e652fca50381",
+            "title": "Pharmacological Modulation of Cortical Excitability Shifts Induced by Transcranial Direct Current Stimulation in Humans",
+            "url": "https://www.semanticscholar.org/paper/56a8b46ad8792bc4158192bdc6f0e652fca50381",
+            "venue": "The Journal of physiology",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5854514",
+                    "name": "A. Jouvenceau"
+                },
+                {
+                    "authorId": "145092037",
+                    "name": "J. Billard"
+                },
+                {
+                    "authorId": "145439511",
+                    "name": "U. Haditsch"
+                },
+                {
+                    "authorId": "3488533",
+                    "name": "I. Mansuy"
+                },
+                {
+                    "authorId": "5615799",
+                    "name": "P. Dutar"
+                }
+            ],
+            "doi": "10.1046/j.1460-9568.2003.02831.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b7f423e9bfc8b1dbdeea85d640396fae3853ee24",
+            "title": "Different phosphatase\u2010dependent mechanisms mediate long\u2010term depression and depotentiation of long\u2010term potentiation in mouse hippocampal CA1 area",
+            "url": "https://www.semanticscholar.org/paper/b7f423e9bfc8b1dbdeea85d640396fae3853ee24",
+            "venue": "The European journal of neuroscience",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50554703",
+                    "name": "Chia-Ho Lin"
+                },
+                {
+                    "authorId": "2293760",
+                    "name": "Chia-Ching Lee"
+                },
+                {
+                    "authorId": "145552287",
+                    "name": "P. Gean"
+                }
+            ],
+            "doi": "10.1124/MOL.63.1.44",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb786b22796823d5174e93aa7ea7aca82f5c0c29",
+            "title": "Involvement of a calcineurin cascade in amygdala depotentiation and quenching of fear memory.",
+            "url": "https://www.semanticscholar.org/paper/cb786b22796823d5174e93aa7ea7aca82f5c0c29",
+            "venue": "Molecular pharmacology",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50502556",
+                    "name": "J. Lian"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "6500486",
+                    "name": "C. Sciortino"
+                },
+                {
+                    "authorId": "3080729",
+                    "name": "W. Stacey"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2002.033209",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e5a4a08e75ab96ab14801f9a4757fe664cf5c5ec",
+            "title": "Local Suppression of Epileptiform Activity by Electrical Stimulation in Rat Hippocampus In Vitro",
+            "url": "https://www.semanticscholar.org/paper/e5a4a08e75ab96ab14801f9a4757fe664cf5c5ec",
+            "venue": "The Journal of physiology",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2904940",
+                    "name": "B. Albensi"
+                },
+                {
+                    "authorId": "4334776",
+                    "name": "Gabrielle Ata"
+                },
+                {
+                    "authorId": "14398198",
+                    "name": "E. Schmidt"
+                },
+                {
+                    "authorId": "5539956",
+                    "name": "Joseph D. Waterman"
+                },
+                {
+                    "authorId": "6526131",
+                    "name": "D. Janigro"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2003.11.010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "303844cf19e8c6b8720e231dc9e72acfa7bad081",
+            "title": "Activation of long-term synaptic plasticity causes suppression of epileptiform activity in rat hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/303844cf19e8c6b8720e231dc9e72acfa7bad081",
+            "venue": "Brain Research",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                },
+                {
+                    "authorId": "6838160",
+                    "name": "A. Schlitterlau"
+                },
+                {
+                    "authorId": "47671562",
+                    "name": "U. Henschke"
+                },
+                {
+                    "authorId": "47508985",
+                    "name": "K. Fricke"
+                },
+                {
+                    "authorId": "3494006",
+                    "name": "K. Frommann"
+                },
+                {
+                    "authorId": "1902589",
+                    "name": "N. Lang"
+                },
+                {
+                    "authorId": "47311986",
+                    "name": "Stefan Henning"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "4664092",
+                    "name": "F. Tergau"
+                }
+            ],
+            "doi": "10.1111/j.0953-816X.2004.03398.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "83155a3e24debf0b1fb61068e9aa0a8c13978190",
+            "title": "GABAergic modulation of DC stimulation\u2010induced motor cortex excitability shifts in humans",
+            "url": "https://www.semanticscholar.org/paper/83155a3e24debf0b1fb61068e9aa0a8c13978190",
+            "venue": "The European journal of neuroscience",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "2066058945",
+                    "name": "Hiroki Akiyama"
+                },
+                {
+                    "authorId": null,
+                    "name": "Jackie K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Fox"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.055772",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "venue": "The Journal of physiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1975692",
+                    "name": "C. Polkey"
+                }
+            ],
+            "doi": "10.1586/14737175.4.6.965",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b189a78f8468b08f2e694892aa94a7101a4593da",
+            "title": "Brain stimulation in the treatment of epilepsy",
+            "url": "https://www.semanticscholar.org/paper/b189a78f8468b08f2e694892aa94a7101a4593da",
+            "venue": "Expert review of neurotherapeutics",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144274427",
+                    "name": "W. Theodore"
+                },
+                {
+                    "authorId": "144184955",
+                    "name": "R. Fisher"
+                }
+            ],
+            "doi": "10.1016/S1474-4422(03)00664-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa278ecc673815ab0a6eb3c3cb273a993c3dcf79",
+            "title": "Brain stimulation for epilepsy",
+            "url": "https://www.semanticscholar.org/paper/fa278ecc673815ab0a6eb3c3cb273a993c3dcf79",
+            "venue": "The Lancet Neurology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144039620",
+                    "name": "P. Miranda"
+                },
+                {
+                    "authorId": "3562679",
+                    "name": "M. Lomarev"
+                },
+                {
+                    "authorId": "144594323",
+                    "name": "M. Hallett"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2006.04.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "5991754d6620f2873b429c7a84b7b753f2efc4c6",
+            "title": "Modeling the current distribution during transcranial direct current stimulation",
+            "url": "https://www.semanticscholar.org/paper/5991754d6620f2873b429c7a84b7b753f2efc4c6",
+            "venue": "Clinical Neurophysiology",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3331999",
+                    "name": "C. Lee"
+                },
+                {
+                    "authorId": "48799530",
+                    "name": "W. Chang"
+                },
+                {
+                    "authorId": "123790129",
+                    "name": "Kung-Bo Chang"
+                },
+                {
+                    "authorId": "145013712",
+                    "name": "B. Shyu"
+                }
+            ],
+            "doi": "10.1111/j.1460-9568.2007.05485.x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4b01db96ae0c2c5866b89420e0cd2621662fa7b8",
+            "title": "Synaptic organization and input\u2010specific short\u2010term plasticity in anterior cingulate cortical neurons with intact thalamic inputs",
+            "url": "https://www.semanticscholar.org/paper/4b01db96ae0c2c5866b89420e0cd2621662fa7b8",
+            "venue": "The European journal of neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73119014",
+                    "name": "T. Wagner"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "4165832",
+                    "name": "S. Fecteau"
+                },
+                {
+                    "authorId": "1855318",
+                    "name": "A. Grodzinsky"
+                },
+                {
+                    "authorId": "145150989",
+                    "name": "M. Zahn"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2007.01.027",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6a6d7bb5484028b9a9e2ebb3e95ac094713df438",
+            "title": "Transcranial direct current stimulation: A computer-based human model study",
+            "url": "https://www.semanticscholar.org/paper/6a6d7bb5484028b9a9e2ebb3e95ac094713df438",
+            "venue": "NeuroImage",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6143733",
+                    "name": "F. Ivy Carroll"
+                },
+                {
+                    "authorId": "144321592",
+                    "name": "W. Ma"
+                },
+                {
+                    "authorId": "2220270",
+                    "name": "H. Navarro"
+                },
+                {
+                    "authorId": "49735565",
+                    "name": "P. Abraham"
+                },
+                {
+                    "authorId": "152488434",
+                    "name": "S. A. Wolckenhauer"
+                },
+                {
+                    "authorId": "3619098",
+                    "name": "M. I. Damaj"
+                },
+                {
+                    "authorId": "144341006",
+                    "name": "B. Martin"
+                }
+            ],
+            "doi": "10.1016/J.BMC.2006.10.061",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "96d1898551d3cacc3535cfc31ed6394e977282f8",
+            "title": "Synthesis, nicotinic acetylcholine receptor binding, antinociceptive and seizure properties of methyllycaconitine analogs.",
+            "url": "https://www.semanticscholar.org/paper/96d1898551d3cacc3535cfc31ed6394e977282f8",
+            "venue": "Bioorganic & medicinal chemistry",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3212731",
+                    "name": "M. Kuo"
+                },
+                {
+                    "authorId": "6148230",
+                    "name": "J. Grosch"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.4104-07.2007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9ded47a244cd725b3540165980f20ede5d178492",
+            "title": "Focusing Effect of Acetylcholine on Neuroplasticity in the Human Motor Cortex",
+            "url": "https://www.semanticscholar.org/paper/9ded47a244cd725b3540165980f20ede5d178492",
+            "venue": "The Journal of Neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47942651",
+                    "name": "Sa\u00efd Kourrich"
+                },
+                {
+                    "authorId": "34425870",
+                    "name": "S. D. Glasgow"
+                },
+                {
+                    "authorId": "4776862",
+                    "name": "D. A. Caruana"
+                },
+                {
+                    "authorId": "145456385",
+                    "name": "C. A. Chapman"
+                }
+            ],
+            "doi": "10.1155/2008/840374",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0df3ad0e4c012c7a1b7d77ff01e0035e5ffe17f8",
+            "title": "Postsynaptic Signals Mediating Induction of Long-Term Synaptic Depression in the Entorhinal Cortex",
+            "url": "https://www.semanticscholar.org/paper/0df3ad0e4c012c7a1b7d77ff01e0035e5ffe17f8",
+            "venue": "Neural plasticity",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6050087",
+                    "name": "B. Cheeran"
+                },
+                {
+                    "authorId": "2444424",
+                    "name": "P. Talelli"
+                },
+                {
+                    "authorId": "4181567",
+                    "name": "F. Mori"
+                },
+                {
+                    "authorId": "1889587",
+                    "name": "G. Koch"
+                },
+                {
+                    "authorId": "2886854",
+                    "name": "A. Suppa"
+                },
+                {
+                    "authorId": "2565032",
+                    "name": "M. Edwards"
+                },
+                {
+                    "authorId": "144198334",
+                    "name": "H. Houlden"
+                },
+                {
+                    "authorId": "145379714",
+                    "name": "K. Bhatia"
+                },
+                {
+                    "authorId": "49413313",
+                    "name": "R. Greenwood"
+                },
+                {
+                    "authorId": "144408932",
+                    "name": "J. Rothwell"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2008.159905",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "68a89e9a95d18cec339f563f72196834ae57941d",
+            "title": "A common polymorphism in the brain\u2010derived neurotrophic factor gene (BDNF) modulates human cortical plasticity and the response to rTMS",
+            "url": "https://www.semanticscholar.org/paper/68a89e9a95d18cec339f563f72196834ae57941d",
+            "venue": "The Journal of physiology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50992879",
+                    "name": "H. Vacher"
+                },
+                {
+                    "authorId": "144640032",
+                    "name": "D. Mohapatra"
+                },
+                {
+                    "authorId": "4860949",
+                    "name": "J. Trimmer"
+                }
+            ],
+            "doi": "10.1152/physrev.00002.2008",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b734f625f457feac806b21043269ca812911c99e",
+            "title": "Localization and targeting of voltage-dependent ion channels in mammalian central neurons.",
+            "url": "https://www.semanticscholar.org/paper/b734f625f457feac806b21043269ca812911c99e",
+            "venue": "Physiological reviews",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4107163",
+                    "name": "Y. Schiller"
+                },
+                {
+                    "authorId": "18469854",
+                    "name": "Yussef Najjar"
+                }
+            ],
+            "doi": "10.1212/01.wnl.0000286959.22040.6e",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d119cf46935052973eb9ddf21ec03c482e0ab3d0",
+            "title": "Quantifying the response to antiepileptic drugs",
+            "url": "https://www.semanticscholar.org/paper/d119cf46935052973eb9ddf21ec03c482e0ab3d0",
+            "venue": "Neurology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "9707046",
+                    "name": "K. Martinowich"
+                },
+                {
+                    "authorId": "4869015",
+                    "name": "Heidi M. Schambra"
+                },
+                {
+                    "authorId": "50006566",
+                    "name": "Yuanyuan Ji"
+                },
+                {
+                    "authorId": "2141461",
+                    "name": "L. Cohen"
+                },
+                {
+                    "authorId": "40148754",
+                    "name": "B. Lu"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2010.03.035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "title": "Direct Current Stimulation Promotes BDNF-Dependent Synaptic Plasticity: Potential Implications for Motor Learning",
+            "url": "https://www.semanticscholar.org/paper/70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "venue": "Neuron",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144640327",
+                    "name": "A. Karim"
+                },
+                {
+                    "authorId": "48997157",
+                    "name": "M. Schneider"
+                },
+                {
+                    "authorId": "48954960",
+                    "name": "M. Lotze"
+                },
+                {
+                    "authorId": "3206231",
+                    "name": "R. Veit"
+                },
+                {
+                    "authorId": "3286054",
+                    "name": "P. Sauseng"
+                },
+                {
+                    "authorId": "144623745",
+                    "name": "C. Braun"
+                },
+                {
+                    "authorId": "145198983",
+                    "name": "N. Birbaumer"
+                }
+            ],
+            "doi": "10.1093/cercor/bhp090",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a7161e54c00de4cb6f686ce4b0503639f1f41038",
+            "title": "The truth about lying: inhibition of the anterior prefrontal cortex improves deceptive behavior.",
+            "url": "https://www.semanticscholar.org/paper/a7161e54c00de4cb6f686ce4b0503639f1f41038",
+            "venue": "Cerebral cortex",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1957646",
+                    "name": "D. Benninger"
+                },
+                {
+                    "authorId": "3562679",
+                    "name": "M. Lomarev"
+                },
+                {
+                    "authorId": "46626265",
+                    "name": "G. Lopez"
+                },
+                {
+                    "authorId": "2464800",
+                    "name": "E. Wassermann"
+                },
+                {
+                    "authorId": "47057466",
+                    "name": "Xiaobai Li"
+                },
+                {
+                    "authorId": "46378152",
+                    "name": "E. Considine"
+                },
+                {
+                    "authorId": "144594323",
+                    "name": "M. Hallett"
+                }
+            ],
+            "doi": "10.1136/jnnp.2009.202556",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e391b440c36751a2f7c5c733e9a873d724b2d3c1",
+            "title": "Transcranial direct current stimulation for the treatment of Parkinson's disease",
+            "url": "https://www.semanticscholar.org/paper/e391b440c36751a2f7c5c733e9a873d724b2d3c1",
+            "venue": "Journal of Neurology, Neurosurgery & Psychiatry",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4559465",
+                    "name": "G. Collingridge"
+                },
+                {
+                    "authorId": "6481699",
+                    "name": "S. Peineau"
+                },
+                {
+                    "authorId": "1829692",
+                    "name": "J. Howland"
+                },
+                {
+                    "authorId": "39691230",
+                    "name": "Y. Wang"
+                }
+            ],
+            "doi": "10.1038/nrn2867",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f24a464887779364194987e9191810fe604e4eaa",
+            "title": "Long-term depression in the CNS",
+            "url": "https://www.semanticscholar.org/paper/f24a464887779364194987e9191810fe604e4eaa",
+            "venue": "Nature Reviews Neuroscience",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7782185",
+                    "name": "Wei-Pang Chang"
+                },
+                {
+                    "authorId": "3852797",
+                    "name": "Jiun-Shian Wu"
+                },
+                {
+                    "authorId": "3331999",
+                    "name": "C. Lee"
+                },
+                {
+                    "authorId": "32360021",
+                    "name": "B. Vogt"
+                },
+                {
+                    "authorId": "48274427",
+                    "name": "B. Shyu"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2011.03312.x",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "30669185ab74d53e7c92cd4af4c2733722f929d7",
+            "title": "Spatiotemporal organization and thalamic modulation of seizures in the mouse medial thalamic\u2010anterior cingulate slice",
+            "url": "https://www.semanticscholar.org/paper/30669185ab74d53e7c92cd4af4c2733722f929d7",
+            "venue": "Epilepsia",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2165558",
+                    "name": "D. Keeser"
+                },
+                {
+                    "authorId": "2310159",
+                    "name": "T. Meindl"
+                },
+                {
+                    "authorId": "34703156",
+                    "name": "Julie Bor"
+                },
+                {
+                    "authorId": "36542668",
+                    "name": "U. Palm"
+                },
+                {
+                    "authorId": "2534407",
+                    "name": "O. Pogarell"
+                },
+                {
+                    "authorId": "2233159",
+                    "name": "C. Mulert"
+                },
+                {
+                    "authorId": "6004320",
+                    "name": "J. Brunelin"
+                },
+                {
+                    "authorId": "143804307",
+                    "name": "H. M\u00f6ller"
+                },
+                {
+                    "authorId": "145371637",
+                    "name": "M. Reiser"
+                },
+                {
+                    "authorId": "2097032",
+                    "name": "F. Padberg"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0542-11.2011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c8e377a81ad22cbb4d7d7229e64f71730554d3d9",
+            "title": "Prefrontal Transcranial Direct Current Stimulation Changes Connectivity of Resting-State Networks during fMRI",
+            "url": "https://www.semanticscholar.org/paper/c8e377a81ad22cbb4d7d7229e64f71730554d3d9",
+            "venue": "The Journal of Neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5041968",
+                    "name": "Soon-Won Yook"
+                },
+                {
+                    "authorId": "2259513",
+                    "name": "S. Park"
+                },
+                {
+                    "authorId": "32813449",
+                    "name": "J. Seo"
+                },
+                {
+                    "authorId": "98057156",
+                    "name": "Sun-Jun Kim"
+                },
+                {
+                    "authorId": "2196620",
+                    "name": "M. Ko"
+                }
+            ],
+            "doi": "10.5535/arm.2011.35.4.579",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "eba58bd21bc008608b1815292d5154824e8b0f47",
+            "title": "Suppression of Seizure by Cathodal Transcranial Direct Current Stimulation in an Epileptic Patient - A Case Report -",
+            "url": "https://www.semanticscholar.org/paper/eba58bd21bc008608b1815292d5154824e8b0f47",
+            "venue": "Annals of rehabilitation medicine",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2361237",
+                    "name": "S. Ayache"
+                },
+                {
+                    "authorId": "98745009",
+                    "name": "W. Farhat"
+                },
+                {
+                    "authorId": "144752573",
+                    "name": "H. Zouari"
+                },
+                {
+                    "authorId": "145418985",
+                    "name": "H. Hosseini"
+                },
+                {
+                    "authorId": "3483801",
+                    "name": "V. Mylius"
+                },
+                {
+                    "authorId": "145908078",
+                    "name": "Jean-Pascal Lefaucheur"
+                }
+            ],
+            "doi": "10.1586/ern.12.83",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0481108e6b5dc696322b4358a1a18a135499ef9c",
+            "title": "Stroke rehabilitation using noninvasive cortical stimulation: motor deficit",
+            "url": "https://www.semanticscholar.org/paper/0481108e6b5dc696322b4358a1a18a135499ef9c",
+            "venue": "Expert review of neurotherapeutics",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143781914",
+                    "name": "N. Hansen"
+                }
+            ],
+            "doi": "10.3389/fpsyt.2012.00048",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6e708b5c9417a6843244fcba692987447223dfb4",
+            "title": "Action Mechanisms of Transcranial Direct Current Stimulation in Alzheimer\u2019s Disease and Memory Loss",
+            "url": "https://www.semanticscholar.org/paper/6e708b5c9417a6843244fcba692987447223dfb4",
+            "venue": "Front. Psychiatry",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4105593",
+                    "name": "A. Brunoni"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "3093598",
+                    "name": "N. Bolognini"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "73119014",
+                    "name": "T. Wagner"
+                },
+                {
+                    "authorId": "2372957",
+                    "name": "L. Merabet"
+                },
+                {
+                    "authorId": "143834965",
+                    "name": "D. Edwards"
+                },
+                {
+                    "authorId": "1399157500",
+                    "name": "A. Valero-Cabr\u00e9"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "2469461",
+                    "name": "R. Ferrucci"
+                },
+                {
+                    "authorId": "144104229",
+                    "name": "A. Priori"
+                },
+                {
+                    "authorId": "4225409",
+                    "name": "P. Boggio"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                }
+            ],
+            "doi": "10.1016/j.brs.2011.03.002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "acf9e2fc4f0e78791aed0801bac4060efb4d57a9",
+            "title": "Clinical research with transcranial direct current stimulation (tDCS): Challenges and future directions",
+            "url": "https://www.semanticscholar.org/paper/acf9e2fc4f0e78791aed0801bac4060efb4d57a9",
+            "venue": "Brain Stimulation",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6946987",
+                    "name": "J. Grundey"
+                },
+                {
+                    "authorId": "6589031",
+                    "name": "N. Thirugnanasambandam"
+                },
+                {
+                    "authorId": "40585612",
+                    "name": "K. Kaminsky"
+                },
+                {
+                    "authorId": "38707228",
+                    "name": "A. Drees"
+                },
+                {
+                    "authorId": "5081955",
+                    "name": "Angela C. Skwirba"
+                },
+                {
+                    "authorId": "1902589",
+                    "name": "N. Lang"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "153882700",
+                    "name": "M. Nitsche"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.3660-11.2012",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ef499fa4d70b439ea4411f86ae730214e8139a1d",
+            "title": "Neuroplasticity in Cigarette Smokers Is Altered under Withdrawal and Partially Restituted by Nicotine Exposition",
+            "url": "https://www.semanticscholar.org/paper/ef499fa4d70b439ea4411f86ae730214e8139a1d",
+            "venue": "The Journal of Neuroscience",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50039847",
+                    "name": "A. Kabakov"
+                },
+                {
+                    "authorId": "36928974",
+                    "name": "P. Muller"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "5859161",
+                    "name": "F. Jensen"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                }
+            ],
+            "doi": "10.1152/jn.00715.2011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f8b86ad5c78a9edc42d50d516d5b3d48b6433a80",
+            "title": "Contribution of axonal orientation to pathway-dependent modulation of excitatory transmission by direct current stimulation in isolated rat hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/f8b86ad5c78a9edc42d50d516d5b3d48b6433a80",
+            "venue": "Journal of neurophysiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6351280",
+                    "name": "Narong Auvichayapat"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                },
+                {
+                    "authorId": "3698780",
+                    "name": "R. Gersner"
+                },
+                {
+                    "authorId": "4811972",
+                    "name": "Sudarat Ngodklang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Somsak Tiamkao"
+                },
+                {
+                    "authorId": null,
+                    "name": "Wichittra Tassaneeyakul"
+                },
+                {
+                    "authorId": "4917538",
+                    "name": "Paradee Auvichayapat"
+                }
+            ],
+            "doi": "10.1016/j.brs.2013.01.009",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "52aa7886522ed694e0856b48c17b2c3026f6482c",
+            "title": "Transcranial Direct Current Stimulation for Treatment of Refractory Childhood Focal\u00a0Epilepsy",
+            "url": "https://www.semanticscholar.org/paper/52aa7886522ed694e0856b48c17b2c3026f6482c",
+            "venue": "Brain Stimulation",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3674866",
+                    "name": "S. Karok"
+                },
+                {
+                    "authorId": "6588511",
+                    "name": "A. G. Witney"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0085693",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e7494293cd1973cee59aec49be4def13bec01c8",
+            "title": "Enhanced Motor Learning Following Task-Concurrent Dual Transcranial Direct Current Stimulation",
+            "url": "https://www.semanticscholar.org/paper/5e7494293cd1973cee59aec49be4def13bec01c8",
+            "venue": "PloS one",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7782185",
+                    "name": "Wei-Pang Chang"
+                },
+                {
+                    "authorId": "7162531",
+                    "name": "J. J. Wu"
+                },
+                {
+                    "authorId": "145013712",
+                    "name": "B. Shyu"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0062952",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "78c7145410bace08bcf7f7646ff37558a56bab4d",
+            "title": "Thalamic Modulation of Cingulate Seizure Activity Via the Regulation of Gap Junctions in Mice Thalamocingulate Slice",
+            "url": "https://www.semanticscholar.org/paper/78c7145410bace08bcf7f7646ff37558a56bab4d",
+            "venue": "PloS one",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "24553661",
+                    "name": "J. Nelson"
+                },
+                {
+                    "authorId": "145031439",
+                    "name": "R. McKinley"
+                },
+                {
+                    "authorId": "48331187",
+                    "name": "E. Golob"
+                },
+                {
+                    "authorId": "3030883",
+                    "name": "J. Warm"
+                },
+                {
+                    "authorId": "3264674",
+                    "name": "R. Parasuraman"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2012.11.061",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cd5341fb1cad1489566c3d78908d065452e0b268",
+            "title": "Enhancing vigilance in operators with prefrontal cortex transcranial direct current stimulation (tDCS)",
+            "url": "https://www.semanticscholar.org/paper/cd5341fb1cad1489566c3d78908d065452e0b268",
+            "venue": "NeuroImage",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47708178",
+                    "name": "S. Nadkarni"
+                },
+                {
+                    "authorId": "145966661",
+                    "name": "O. Devinsky"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c9d09564efa4f4350e99bf44913c00208b36afb",
+            "title": "Cingulate Cortex Seizures",
+            "url": "https://www.semanticscholar.org/paper/4c9d09564efa4f4350e99bf44913c00208b36afb",
+            "venue": "",
+            "year": 2015
+        }
+    ],
+    "title": "Treatment with direct-current stimulation against cingulate seizure-like activity induced by 4-aminopyridine and bicuculline in an in vitro mouse model",
+    "topics": [
+        {
+            "topic": "Seizures",
+            "topicId": "134",
+            "url": "https://www.semanticscholar.org/topic/134"
+        },
+        {
+            "topic": "dalfampridine",
+            "topicId": "11670",
+            "url": "https://www.semanticscholar.org/topic/11670"
+        },
+        {
+            "topic": "Bicuculline",
+            "topicId": "26289",
+            "url": "https://www.semanticscholar.org/topic/26289"
+        },
+        {
+            "topic": "Deoxycytidine",
+            "topicId": "39415",
+            "url": "https://www.semanticscholar.org/topic/39415"
+        },
+        {
+            "topic": "N-Methylaspartate",
+            "topicId": "2221",
+            "url": "https://www.semanticscholar.org/topic/2221"
+        },
+        {
+            "topic": "Okadaic Acid",
+            "topicId": "163649",
+            "url": "https://www.semanticscholar.org/topic/163649"
+        },
+        {
+            "topic": "Excitatory Postsynaptic Currents",
+            "topicId": "580262",
+            "url": "https://www.semanticscholar.org/topic/580262"
+        },
+        {
+            "topic": "In Vitro [Publication Type]",
+            "topicId": "148897",
+            "url": "https://www.semanticscholar.org/topic/148897"
+        },
+        {
+            "topic": "Epilepsy",
+            "topicId": "940",
+            "url": "https://www.semanticscholar.org/topic/940"
+        },
+        {
+            "topic": "Amprenavir",
+            "topicId": "53181",
+            "url": "https://www.semanticscholar.org/topic/53181"
+        },
+        {
+            "topic": "Thioctic Acid",
+            "topicId": "8368",
+            "url": "https://www.semanticscholar.org/topic/8368"
+        },
+        {
+            "topic": "Cycloserine",
+            "topicId": "48270",
+            "url": "https://www.semanticscholar.org/topic/48270"
+        },
+        {
+            "topic": "Depressive disorder",
+            "topicId": "335",
+            "url": "https://www.semanticscholar.org/topic/335"
+        },
+        {
+            "topic": "Gray matter of anterior cingulate gyrus",
+            "topicId": "3438694",
+            "url": "https://www.semanticscholar.org/topic/3438694"
+        },
+        {
+            "topic": "Cingulate Cortex",
+            "topicId": "1408",
+            "url": "https://www.semanticscholar.org/topic/1408"
+        },
+        {
+            "topic": "FK-506",
+            "topicId": "150162",
+            "url": "https://www.semanticscholar.org/topic/150162"
+        },
+        {
+            "topic": "Counterbalance Device Component",
+            "topicId": "1130547",
+            "url": "https://www.semanticscholar.org/topic/1130547"
+        },
+        {
+            "topic": "Depotentiation",
+            "topicId": "682198",
+            "url": "https://www.semanticscholar.org/topic/682198"
+        },
+        {
+            "topic": "Transcranial Direct Current Stimulation",
+            "topicId": "37392",
+            "url": "https://www.semanticscholar.org/topic/37392"
+        },
+        {
+            "topic": "Postsynaptic Current",
+            "topicId": "580263",
+            "url": "https://www.semanticscholar.org/topic/580263"
+        },
+        {
+            "topic": "Long-Term Synaptic Depression",
+            "topicId": "57666",
+            "url": "https://www.semanticscholar.org/topic/57666"
+        },
+        {
+            "topic": "Synaptic Transmission",
+            "topicId": "3495",
+            "url": "https://www.semanticscholar.org/topic/3495"
+        },
+        {
+            "topic": "Aspartic Acid",
+            "topicId": "1145",
+            "url": "https://www.semanticscholar.org/topic/1145"
+        },
+        {
+            "topic": "N-Methyl-D-Aspartate Receptors",
+            "topicId": "2222",
+            "url": "https://www.semanticscholar.org/topic/2222"
+        },
+        {
+            "topic": "Staphylococcal Protein A",
+            "topicId": "869",
+            "url": "https://www.semanticscholar.org/topic/869"
+        },
+        {
+            "topic": "Protein Phosphatase 1",
+            "topicId": "365178",
+            "url": "https://www.semanticscholar.org/topic/365178"
+        },
+        {
+            "topic": "Ultrasonography, Doppler, Transcranial",
+            "topicId": "231124",
+            "url": "https://www.semanticscholar.org/topic/231124"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/2a9cc604a0b25d91d6e1fa00105bf68e878aab6d",
+    "venue": "Experimental Neurology",
+    "year": 2015
+}

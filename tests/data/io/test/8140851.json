@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {
+            "authorId": "3131367",
+            "name": "A. Rahman",
+            "url": "https://www.semanticscholar.org/author/3131367"
+        },
+        {
+            "authorId": "50104489",
+            "name": "Belen Lafon",
+            "url": "https://www.semanticscholar.org/author/50104489"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 8140851,
+    "doi": "10.1113/jp273005",
+    "numCitedBy": 42,
+    "numCiting": 44,
+    "title": "Direct current stimulation boosts synaptic gain and cooperativity in vitro",
+    "venue": "The Journal of physiology",
+    "year": 2017,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1152/jn.00715.2011",
+        "10.1113/jphysiol.2012.247171",
+        "10.1016/j.brs.2009.03.007",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}

@@ -1,0 +1,3108 @@
+{
+    "abstract": "BACKGROUND\nTranscranial direct current stimulation [(t)DCS], modulates cortical excitability and promotes neuroplasticity. Microglia has been identified to respond to electrical currents as well as neuronal activity, but its response to DCS is mostly unknown.\n\n\nOBJECTIVE\nThis study addresses effects of DCS applied in vivo to the sensorimotor cortex on physiological microglia properties and neuron-microglia communication.\n\n\nMETHODS\nTime lapse in vivo 2-photon microscopy in anaesthetized mice was timely coupled with DCS of the sensorimotor cortex to observe microglia dynamics on a population-based and single cell level. Neuron-microglia communication during DCS was investigated in mice with a functional knock out of the fractalkine receptor CX3CR1. Moreover, the role of voltage gated microglial channels and DCS effects on phagocytosis were studied.\n\n\nRESULTS\nDCS promoted several physiological microglia properties, depending on the glial activation state and stimulation intensity. On a single cell level, process motility was predominantly enhanced in ramified cells whereas horizontal soma movement and galvanotaxis was pronounced in reactive microglia. Blockage of voltage sensitive microglial channels suppressed DCS effects in vivo and in vitro. Microglial motility changes were partially driven by the fractalkine signaling pathway. Moreover, phagocytosis increased after DCS in vitro.\n\n\nCONCLUSION\nMicroglia dynamics are rapidly influenced by DCS. This is the first in vivo demonstration of a direct effect of electrical currents on microglia and indirect effects potentially driven by neuronal activity via the fractalkine pathway.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "3647350",
+            "name": "A. Gellner",
+            "url": "https://www.semanticscholar.org/author/3647350"
+        },
+        {
+            "authorId": "26090635",
+            "name": "J. Reis",
+            "url": "https://www.semanticscholar.org/author/26090635"
+        },
+        {
+            "authorId": "4128667",
+            "name": "B. Fiebich",
+            "url": "https://www.semanticscholar.org/author/4128667"
+        },
+        {
+            "authorId": "144492447",
+            "name": "B. Fritsch",
+            "url": "https://www.semanticscholar.org/author/144492447"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [],
+    "corpusId": 237102854,
+    "doi": "10.1016/j.brs.2021.08.007",
+    "fieldsOfStudy": [
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 0,
+    "numCiting": 111,
+    "paperId": "3c5bae099600fad9cc1436a76502717ab93a8325",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5149252",
+                    "name": "L. Bindman"
+                },
+                {
+                    "authorId": "4049518",
+                    "name": "O. Lippold"
+                },
+                {
+                    "authorId": "143923001",
+                    "name": "J. Redfearn"
+                }
+            ],
+            "doi": "10.1038/196584A0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6030ed6628d1e7d83f21191ebf322bfee738b8d3",
+            "title": "Long-lasting Changes in the Level of the Electrical Activity of the Cerebral Cortex produced by Polarizing Currents",
+            "url": "https://www.semanticscholar.org/paper/6030ed6628d1e7d83f21191ebf322bfee738b8d3",
+            "venue": "Nature",
+            "year": 1962
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6235320",
+                    "name": "I. Gartside"
+                }
+            ],
+            "doi": "10.1038/220382a0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ac88843efa016bed0f6e92f1c59c4259df4d02e8",
+            "title": "Mechanisms of Sustained Increases of Firing Rate of Neurones in the Rat Cerebral Cortex after Polarization: Reverberating Circuits or Modification of Synaptic Conductance?",
+            "url": "https://www.semanticscholar.org/paper/ac88843efa016bed0f6e92f1c59c4259df4d02e8",
+            "venue": "Nature",
+            "year": 1968
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38466590",
+                    "name": "K. R. Robinson"
+                }
+            ],
+            "doi": "10.1083/JCB.101.6.2023",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f7c24957181dac34b519a0cf065e769059bd1207",
+            "title": "The responses of cells to electrical fields: a review",
+            "url": "https://www.semanticscholar.org/paper/f7c24957181dac34b519a0cf065e769059bd1207",
+            "venue": "The Journal of cell biology",
+            "year": 1985
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "90596458",
+                    "name": "L. Lawson"
+                },
+                {
+                    "authorId": "144390057",
+                    "name": "V. Perry"
+                },
+                {
+                    "authorId": "4265981",
+                    "name": "P. Dri"
+                },
+                {
+                    "authorId": "144365682",
+                    "name": "S. Gordon"
+                }
+            ],
+            "doi": "10.1016/0306-4522(90)90229-W",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5db7515c01d3f3b72534500b583f61e5fdfeeabe",
+            "title": "Heterogeneity in the distribution and morphology of microglia in the normal adult mouse brain",
+            "url": "https://www.semanticscholar.org/paper/5db7515c01d3f3b72534500b583f61e5fdfeeabe",
+            "venue": "Neuroscience",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4690282",
+                    "name": "C. Colton"
+                },
+                {
+                    "authorId": "2086751130",
+                    "name": "M. Jia"
+                },
+                {
+                    "authorId": "2107438479",
+                    "name": "M. Li"
+                },
+                {
+                    "authorId": "49793452",
+                    "name": "D. Gilbert"
+                }
+            ],
+            "doi": "10.1152/AJPCELL.1994.266.6.C1650",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fc9640e318123f739c5ccbaa7710dcb43358ca5f",
+            "title": "K+ modulation of microglial superoxide production: involvement of voltage-gated Ca2+ channels.",
+            "url": "https://www.semanticscholar.org/paper/fc9640e318123f739c5ccbaa7710dcb43358ca5f",
+            "venue": "The American journal of physiology",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "93389245",
+                    "name": "H. Rauer"
+                },
+                {
+                    "authorId": "4915610",
+                    "name": "S. Grissmer"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3ed0b1676fb039204d270441107fb03bc0f8ed6a",
+            "title": "Evidence for an internal phenylalkylamine action on the voltage-gated potassium channel Kv1.3.",
+            "url": "https://www.semanticscholar.org/paper/3ed0b1676fb039204d270441107fb03bc0f8ed6a",
+            "venue": "Molecular pharmacology",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3874537",
+                    "name": "J. Galvanovskis"
+                },
+                {
+                    "authorId": "2423886",
+                    "name": "J. Sandblom"
+                }
+            ],
+            "doi": "10.1016/S0006-3495(97)78333-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f2ccdb29b273485f0599a0eb8a130034f737749c",
+            "title": "Amplification of electromagnetic signals by ion channels.",
+            "url": "https://www.semanticscholar.org/paper/f2ccdb29b273485f0599a0eb8a130034f737749c",
+            "venue": "Biophysical journal",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "28008909",
+                    "name": "S. Kotecha"
+                },
+                {
+                    "authorId": "3708433",
+                    "name": "L. Schlichter"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.19-24-10680.1999",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0a9eb16ad00405f7183763f047b484fd016c2f37",
+            "title": "A Kv1.5 to Kv1.3 Switch in Endogenous Hippocampal Microglia and a Role in Proliferation",
+            "url": "https://www.semanticscholar.org/paper/0a9eb16ad00405f7183763f047b484fd016c2f37",
+            "venue": "The Journal of Neuroscience",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3576525",
+                    "name": "V. Silei"
+                },
+                {
+                    "authorId": "6593015",
+                    "name": "C. Fabrizi"
+                },
+                {
+                    "authorId": "1718078",
+                    "name": "G. Venturini"
+                },
+                {
+                    "authorId": "6054032",
+                    "name": "M. Salmona"
+                },
+                {
+                    "authorId": "33516597",
+                    "name": "Giuliana Lauro"
+                }
+            ],
+            "doi": "10.1016/S0006-8993(98)01272-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1ed4b9c6a2238da51e193cb47b9d4905a7d79e0f",
+            "title": "Activation of microglial cells by PrP and \u03b2-amyloid fragments raises intracellular calcium through L-type voltage sensitive calcium channels",
+            "url": "https://www.semanticscholar.org/paper/1ed4b9c6a2238da51e193cb47b9d4905a7d79e0f",
+            "venue": "Brain Research",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8161858",
+                    "name": "R. J. R\u00f6be"
+                },
+                {
+                    "authorId": "4915610",
+                    "name": "S. Grissmer"
+                }
+            ],
+            "doi": "10.1038/sj.bjp.0703723",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "16e5df18e3614644ba98d761226aa8de7a05972a",
+            "title": "Block of the lymphocyte K+ channel mKv1.3 by the phenylalkylamine verapamil: Kinetic aspects of block and disruption of accumulation of block by a single point mutation",
+            "url": "https://www.semanticscholar.org/paper/16e5df18e3614644ba98d761226aa8de7a05972a",
+            "venue": "British journal of pharmacology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Steffen Jung"
+                },
+                {
+                    "authorId": "4508720",
+                    "name": "J. Aliberti"
+                },
+                {
+                    "authorId": "2121635756",
+                    "name": "Petra Graemmel"
+                },
+                {
+                    "authorId": "34539449",
+                    "name": "M. Sunshine"
+                },
+                {
+                    "authorId": "5728490",
+                    "name": "G. Kreutzberg"
+                },
+                {
+                    "authorId": "144488491",
+                    "name": "A. Sher"
+                },
+                {
+                    "authorId": "2261812",
+                    "name": "D. Littman"
+                }
+            ],
+            "doi": "10.1128/MCB.20.11.4106-4114.2000",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6701dd43b7c1ff8f51e5612cc4223a4f86d4cee1",
+            "title": "Analysis of Fractalkine Receptor CX3CR1 Function by Targeted Deletion and Green Fluorescent Protein Reporter Gene Insertion",
+            "url": "https://www.semanticscholar.org/paper/6701dd43b7c1ff8f51e5612cc4223a4f86d4cee1",
+            "venue": "Molecular and Cellular Biology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.2000.t01-1-00633.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dce237e1cd5ef88dea2de7abf0bb4656ae586c15",
+            "title": "Excitability changes induced in the human motor cortex by weak transcranial direct current stimulation",
+            "url": "https://www.semanticscholar.org/paper/dce237e1cd5ef88dea2de7abf0bb4656ae586c15",
+            "venue": "The Journal of physiology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1212/WNL.57.10.1899",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "227ee8e23975df61a34d465d6b0dd0eab494a40c",
+            "title": "Sustained excitability elevations induced by transcranial DC motor cortex stimulation in humans",
+            "url": "https://www.semanticscholar.org/paper/227ee8e23975df61a34d465d6b0dd0eab494a40c",
+            "venue": "Neurology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4469861",
+                    "name": "Aikaterini Zoumi"
+                },
+                {
+                    "authorId": "2319473",
+                    "name": "A. Yeh"
+                },
+                {
+                    "authorId": "2785275",
+                    "name": "B. Tromberg"
+                }
+            ],
+            "doi": "10.1073/pnas.172368799",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "217c4666bd3738b90f65df9a593e10c432647a8c",
+            "title": "Imaging cells and extracellular matrix in vivo by using second-harmonic generation and two-photon excited fluorescence",
+            "url": "https://www.semanticscholar.org/paper/217c4666bd3738b90f65df9a593e10c432647a8c",
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2561097",
+                    "name": "M. Mycielska"
+                },
+                {
+                    "authorId": "1913925",
+                    "name": "M. Djamgoz"
+                }
+            ],
+            "doi": "10.1242/jcs.01125",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "9ef872e30a6add05175aafc1893a3378dd921a94",
+            "title": "Cellular mechanisms of direct-current electric field effects: galvanotaxis and metastatic disease",
+            "url": "https://www.semanticscholar.org/paper/9ef872e30a6add05175aafc1893a3378dd921a94",
+            "venue": "Journal of Cell Science",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48557817",
+                    "name": "D. Davalos"
+                },
+                {
+                    "authorId": "5379789",
+                    "name": "J. Grutzendler"
+                },
+                {
+                    "authorId": "48636662",
+                    "name": "G. Yang"
+                },
+                {
+                    "authorId": "1590793400",
+                    "name": "Jiyun V Kim"
+                },
+                {
+                    "authorId": "145916439",
+                    "name": "Y. Zuo"
+                },
+                {
+                    "authorId": "2836173",
+                    "name": "Steffen Jung"
+                },
+                {
+                    "authorId": "2261812",
+                    "name": "D. Littman"
+                },
+                {
+                    "authorId": "145425159",
+                    "name": "Michael Loran Dustin"
+                },
+                {
+                    "authorId": "3996416",
+                    "name": "W. Gan"
+                }
+            ],
+            "doi": "10.1038/nn1472",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "224652d920e232f794db9357f359886cb5d52a28",
+            "title": "ATP mediates rapid microglial response to local brain injury in vivo",
+            "url": "https://www.semanticscholar.org/paper/224652d920e232f794db9357f359886cb5d52a28",
+            "venue": "Nature Neuroscience",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5048068",
+                    "name": "A. Nimmerjahn"
+                },
+                {
+                    "authorId": "144203392",
+                    "name": "F. Kirchhoff"
+                },
+                {
+                    "authorId": "1879301",
+                    "name": "F. Helmchen"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.1110647",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "6a456a26c2ca5864e51c4660b5d1bfd83276b8a1",
+            "title": "Resting Microglial Cells Are Highly Dynamic Surveillants of Brain Parenchyma in Vivo",
+            "url": "https://www.semanticscholar.org/paper/6a456a26c2ca5864e51c4660b5d1bfd83276b8a1",
+            "venue": "Science",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6458806",
+                    "name": "A. Kindzelskii"
+                },
+                {
+                    "authorId": "3106780",
+                    "name": "H. Petty"
+                }
+            ],
+            "doi": "10.1007/s00249-005-0001-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "77f4a2365ba1b6ffc8d13e049654b1359c29671a",
+            "title": "Ion channel clustering enhances weak electric field detection by neutrophils: apparent roles of SKF96365-sensitive cation channels and myeloperoxidase trafficking in cellular responses",
+            "url": "https://www.semanticscholar.org/paper/77f4a2365ba1b6ffc8d13e049654b1359c29671a",
+            "venue": "European Biophysics Journal",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5021426",
+                    "name": "C. Fordyce"
+                },
+                {
+                    "authorId": "6131237",
+                    "name": "R. Jagasia"
+                },
+                {
+                    "authorId": "48386788",
+                    "name": "Xiaoping Zhu"
+                },
+                {
+                    "authorId": "3708433",
+                    "name": "L. Schlichter"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.1251-05.2005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a7a1a14e70a9aa31cf6b409f71fc1e874e324eb",
+            "title": "Microglia Kv1.3 Channels Contribute to Their Ability to Kill Neurons",
+            "url": "https://www.semanticscholar.org/paper/8a7a1a14e70a9aa31cf6b409f71fc1e874e324eb",
+            "venue": "The Journal of Neuroscience",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2270401",
+                    "name": "C. McCaig"
+                },
+                {
+                    "authorId": "3730580",
+                    "name": "A. Rajnicek"
+                },
+                {
+                    "authorId": "39400450",
+                    "name": "Bing Song"
+                },
+                {
+                    "authorId": "145095209",
+                    "name": "Min Zhao"
+                }
+            ],
+            "doi": "10.1152/PHYSREV.00020.2004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8f44b250b0d72bb76376464dc374bd07f12a4324",
+            "title": "Controlling cell behavior electrically: current views and future potential.",
+            "url": "https://www.semanticscholar.org/paper/8f44b250b0d72bb76376464dc374bd07f12a4324",
+            "venue": "Physiological reviews",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5298114",
+                    "name": "W. Carbonell"
+                },
+                {
+                    "authorId": "4054868",
+                    "name": "S. Murase"
+                },
+                {
+                    "authorId": "144670899",
+                    "name": "A. Horwitz"
+                },
+                {
+                    "authorId": "2567347",
+                    "name": "J. Mandell"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.5171-04.2005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cbc8642990021e206c7c6d50cd5bd5b7b12e21c7",
+            "title": "Migration of Perilesional Microglia after Focal Brain Injury and Modulation by CC Chemokine Receptor 5: An In Situ Time-Lapse Confocal Imaging Study",
+            "url": "https://www.semanticscholar.org/paper/cbc8642990021e206c7c6d50cd5bd5b7b12e21c7",
+            "venue": "The Journal of Neuroscience",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5467371",
+                    "name": "U. Pannasch"
+                },
+                {
+                    "authorId": "3660987",
+                    "name": "K. F\u00e4rber"
+                },
+                {
+                    "authorId": "4435599",
+                    "name": "C. Nolte"
+                },
+                {
+                    "authorId": "39764468",
+                    "name": "M. Blonski"
+                },
+                {
+                    "authorId": "145812006",
+                    "name": "S. Chiu"
+                },
+                {
+                    "authorId": "5958157",
+                    "name": "A. Messing"
+                },
+                {
+                    "authorId": "3285479",
+                    "name": "H. Kettenmann"
+                }
+            ],
+            "doi": "10.1016/j.mcn.2006.08.009",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8ebd043fd7b84088dc90e1e1b4e378fc3cfaaa75",
+            "title": "The potassium channels Kv1.5 and Kv1.3 modulate distinct functions of microglia",
+            "url": "https://www.semanticscholar.org/paper/8ebd043fd7b84088dc90e1e1b4e378fc3cfaaa75",
+            "venue": "Molecular and Cellular Neuroscience",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143926552",
+                    "name": "A. Cardona"
+                },
+                {
+                    "authorId": "6705075",
+                    "name": "E. Pioro"
+                },
+                {
+                    "authorId": "39305628",
+                    "name": "Margaret E. Sasse"
+                },
+                {
+                    "authorId": "2061161605",
+                    "name": "V. Kostenko"
+                },
+                {
+                    "authorId": "4947915",
+                    "name": "Sandra M. Cardona"
+                },
+                {
+                    "authorId": "46938884",
+                    "name": "I. Dijkstra"
+                },
+                {
+                    "authorId": "39252986",
+                    "name": "Deren Huang"
+                },
+                {
+                    "authorId": "5339354",
+                    "name": "G. Kidd"
+                },
+                {
+                    "authorId": "25176434",
+                    "name": "S. Dombrowski"
+                },
+                {
+                    "authorId": "144663568",
+                    "name": "Ranjan Dutta"
+                },
+                {
+                    "authorId": "89340703",
+                    "name": "Jar\u2010Chi Lee"
+                },
+                {
+                    "authorId": "40003883",
+                    "name": "D. Cook"
+                },
+                {
+                    "authorId": "2836173",
+                    "name": "Steffen Jung"
+                },
+                {
+                    "authorId": "3672507",
+                    "name": "S. Lira"
+                },
+                {
+                    "authorId": "2261812",
+                    "name": "D. Littman"
+                },
+                {
+                    "authorId": "5676586",
+                    "name": "R. Ransohoff"
+                }
+            ],
+            "doi": "10.1038/nn1715",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c5398cca4c6d5342b3e1568b08deddea57a9ab4f",
+            "title": "Control of microglial neurotoxicity by the fractalkine receptor",
+            "url": "https://www.semanticscholar.org/paper/c5398cca4c6d5342b3e1568b08deddea57a9ab4f",
+            "venue": "Nature Neuroscience",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109368676",
+                    "name": "Hua-Tai Xu"
+                },
+                {
+                    "authorId": "153212483",
+                    "name": "F. Pan"
+                },
+                {
+                    "authorId": "48636662",
+                    "name": "G. Yang"
+                },
+                {
+                    "authorId": "3996416",
+                    "name": "W. Gan"
+                }
+            ],
+            "doi": "10.1038/nn1883",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "82b3b2cef1b2b4f50022770778bf9538cba878bc",
+            "title": "Choice of cranial window type for in vivo imaging affects dendritic spine turnover in the cortex",
+            "url": "https://www.semanticscholar.org/paper/82b3b2cef1b2b4f50022770778bf9538cba878bc",
+            "venue": "Nature Neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2121590585",
+                    "name": "Simon B. Brown"
+                },
+                {
+                    "authorId": "4754569",
+                    "name": "I. Dransfield"
+                }
+            ],
+            "doi": "10.1100/tsw.2008.158",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "06796e06d696bb34422af121a3f66183cdb77e32",
+            "title": "Electric Fields and Inflammation: May the Force be with You",
+            "url": "https://www.semanticscholar.org/paper/06796e06d696bb34422af121a3f66183cdb77e32",
+            "venue": "TheScientificWorldJournal",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "4869015",
+                    "name": "Heidi M. Schambra"
+                },
+                {
+                    "authorId": "2141461",
+                    "name": "L. Cohen"
+                },
+                {
+                    "authorId": "34260660",
+                    "name": "Ethan R. Buch"
+                },
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                },
+                {
+                    "authorId": "3028569",
+                    "name": "E. Zarahn"
+                },
+                {
+                    "authorId": "2341711",
+                    "name": "P. Celnik"
+                },
+                {
+                    "authorId": "3124681",
+                    "name": "J. Krakauer"
+                }
+            ],
+            "doi": "10.1073/pnas.0805413106",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6c732a0bd0f6eed8a3994414df8d72939694bf45",
+            "title": "Noninvasive cortical stimulation enhances motor skill acquisition over multiple days through an effect on consolidation",
+            "url": "https://www.semanticscholar.org/paper/6c732a0bd0f6eed8a3994414df8d72939694bf45",
+            "venue": "Proceedings of the National Academy of Sciences",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48463561",
+                    "name": "A. Holtmaat"
+                },
+                {
+                    "authorId": "2784075",
+                    "name": "T. Bonhoeffer"
+                },
+                {
+                    "authorId": "144630798",
+                    "name": "David K. Chow"
+                },
+                {
+                    "authorId": "5339369",
+                    "name": "J. Chuckowree"
+                },
+                {
+                    "authorId": "2361874",
+                    "name": "V. D. Paola"
+                },
+                {
+                    "authorId": "2337469",
+                    "name": "S. Hofer"
+                },
+                {
+                    "authorId": "2589317",
+                    "name": "M. H\u00fcbener"
+                },
+                {
+                    "authorId": "4053574",
+                    "name": "T. Keck"
+                },
+                {
+                    "authorId": "144237098",
+                    "name": "G. Knott"
+                },
+                {
+                    "authorId": "2004120",
+                    "name": "W. A. Lee"
+                },
+                {
+                    "authorId": "3848104",
+                    "name": "R. Mostany"
+                },
+                {
+                    "authorId": "1393678113",
+                    "name": "T. Mrsic-Flogel"
+                },
+                {
+                    "authorId": "4317551",
+                    "name": "E. Nedivi"
+                },
+                {
+                    "authorId": "1399293331",
+                    "name": "C. Portera-Cailliau"
+                },
+                {
+                    "authorId": "145919007",
+                    "name": "K. Svoboda"
+                },
+                {
+                    "authorId": "3222224",
+                    "name": "J. Trachtenberg"
+                },
+                {
+                    "authorId": "3614577",
+                    "name": "L. Wilbrecht"
+                }
+            ],
+            "doi": "10.1038/nprot.2009.89",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "843c999b1b57e02a424d3099d29f61dc5fdbfc81",
+            "title": "Long-term, high-resolution imaging in the mouse neocortex through a chronic cranial window",
+            "url": "https://www.semanticscholar.org/paper/843c999b1b57e02a424d3099d29f61dc5fdbfc81",
+            "venue": "Nature Protocols",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "9707046",
+                    "name": "K. Martinowich"
+                },
+                {
+                    "authorId": "4869015",
+                    "name": "Heidi M. Schambra"
+                },
+                {
+                    "authorId": "50006566",
+                    "name": "Y. Ji"
+                },
+                {
+                    "authorId": "2141461",
+                    "name": "L. Cohen"
+                },
+                {
+                    "authorId": "40148754",
+                    "name": "B. Lu"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2010.03.035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "title": "Direct Current Stimulation Promotes BDNF-Dependent Synaptic Plasticity: Potential Implications for Motor Learning",
+            "url": "https://www.semanticscholar.org/paper/70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "venue": "Neuron",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47486421",
+                    "name": "D. Wachter"
+                },
+                {
+                    "authorId": "47134379",
+                    "name": "A. Wrede"
+                },
+                {
+                    "authorId": "1398608896",
+                    "name": "W. Schulz-Schaeffer"
+                },
+                {
+                    "authorId": "1404505810",
+                    "name": "Ali Taghizadeh-Waghefi"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "5028009",
+                    "name": "A. Kutschenko"
+                },
+                {
+                    "authorId": "2067507446",
+                    "name": "V. Rohde"
+                },
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                }
+            ],
+            "doi": "10.1016/j.expneurol.2010.12.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "650c8fc254a0d5765ef108cb97b08ec5bd9d271e",
+            "title": "Transcranial direct current stimulation induces polarity-specific changes of cortical blood perfusion in the rat",
+            "url": "https://www.semanticscholar.org/paper/650c8fc254a0d5765ef108cb97b08ec5bd9d271e",
+            "venue": "Experimental Neurology",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21103278",
+                    "name": "J. Rogers"
+                },
+                {
+                    "authorId": "38607167",
+                    "name": "Josh M. Morganti"
+                },
+                {
+                    "authorId": "4621447",
+                    "name": "A. Bachstetter"
+                },
+                {
+                    "authorId": "50689816",
+                    "name": "C. Hudson"
+                },
+                {
+                    "authorId": "6473657",
+                    "name": "M. Peters"
+                },
+                {
+                    "authorId": "6472400",
+                    "name": "Bethany A Grimmig"
+                },
+                {
+                    "authorId": "4314393",
+                    "name": "E. Weeber"
+                },
+                {
+                    "authorId": "2490465",
+                    "name": "P. Bickford"
+                },
+                {
+                    "authorId": "4003347",
+                    "name": "C. Gemma"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.3667-11.2011",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c383e9882f31ee7aa97098f0739bdd9de6db4831",
+            "title": "CX3CR1 Deficiency Leads to Impairment of Hippocampal Cognitive Function and Synaptic Plasticity",
+            "url": "https://www.semanticscholar.org/paper/c383e9882f31ee7aa97098f0739bdd9de6db4831",
+            "venue": "The Journal of Neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3285479",
+                    "name": "H. Kettenmann"
+                },
+                {
+                    "authorId": "143697974",
+                    "name": "U. Hanisch"
+                },
+                {
+                    "authorId": "49727538",
+                    "name": "M. Noda"
+                },
+                {
+                    "authorId": "3922054",
+                    "name": "A. Verkhratsky"
+                }
+            ],
+            "doi": "10.1152/physrev.00011.2010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c8803716db0ba076e7c8ec624529859b16f7e0a3",
+            "title": "Physiology of microglia.",
+            "url": "https://www.semanticscholar.org/paper/c8803716db0ba076e7c8ec624529859b16f7e0a3",
+            "venue": "Physiological reviews",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4440983",
+                    "name": "R. Paolicelli"
+                },
+                {
+                    "authorId": "3833825",
+                    "name": "G. Bolasco"
+                },
+                {
+                    "authorId": "2054481353",
+                    "name": "F. Pagani"
+                },
+                {
+                    "authorId": "2098761599",
+                    "name": "L. Maggi"
+                },
+                {
+                    "authorId": "6532202",
+                    "name": "M. Scianni"
+                },
+                {
+                    "authorId": "6838911",
+                    "name": "P. Panzanelli"
+                },
+                {
+                    "authorId": "4611602",
+                    "name": "M. Giustetto"
+                },
+                {
+                    "authorId": "145797046",
+                    "name": "Tiago A. Ferreira"
+                },
+                {
+                    "authorId": "5607387",
+                    "name": "E. Guiducci"
+                },
+                {
+                    "authorId": "1742474944",
+                    "name": "Laura Dumas"
+                },
+                {
+                    "authorId": "5037620",
+                    "name": "D. Ragozzino"
+                },
+                {
+                    "authorId": "38832031",
+                    "name": "C. Gross"
+                }
+            ],
+            "doi": "10.1126/science.1202529",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ca7f905a4115266720cf5a5e5d0b6c772b82f3a5",
+            "title": "Synaptic Pruning by Microglia Is Necessary for Normal Brain Development",
+            "url": "https://www.semanticscholar.org/paper/ca7f905a4115266720cf5a5e5d0b6c772b82f3a5",
+            "venue": "Science",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3699094",
+                    "name": "Yelena Y. Grinberg"
+                },
+                {
+                    "authorId": "144762744",
+                    "name": "J. Milton"
+                },
+                {
+                    "authorId": "4828206",
+                    "name": "R. P. Kraig"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0019294",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d19144217bbb93c3851979a3f4eb2184d17d27ff",
+            "title": "Spreading Depression Sends Microglia on L\u00e9vy Flights",
+            "url": "https://www.semanticscholar.org/paper/d19144217bbb93c3851979a3f4eb2184d17d27ff",
+            "venue": "PloS one",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3411234",
+                    "name": "M. A. Rueger"
+                },
+                {
+                    "authorId": "4417201",
+                    "name": "Meike H. Keuters"
+                },
+                {
+                    "authorId": "3410998",
+                    "name": "M. Walberer"
+                },
+                {
+                    "authorId": "144820086",
+                    "name": "Ramona Braun"
+                },
+                {
+                    "authorId": "49273774",
+                    "name": "R. Klein"
+                },
+                {
+                    "authorId": "2298841",
+                    "name": "R. Sparing"
+                },
+                {
+                    "authorId": "38644159",
+                    "name": "G. Fink"
+                },
+                {
+                    "authorId": "144039238",
+                    "name": "R. Graf"
+                },
+                {
+                    "authorId": "144422394",
+                    "name": "M. Schroeter"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0043776",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "39f62f96d91ad6b521e700d3d7dc71097d62c73b",
+            "title": "Multi-Session Transcranial Direct Current Stimulation (tDCS) Elicits Inflammatory and Regenerative Processes in the Rat Brain",
+            "url": "https://www.semanticscholar.org/paper/39f62f96d91ad6b521e700d3d7dc71097d62c73b",
+            "venue": "PloS one",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5942983",
+                    "name": "J. Ruohonen"
+                },
+                {
+                    "authorId": "144184784",
+                    "name": "J. Karhu"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2012.02.082",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "59e67fc4ac5c75d5296f78210fbfed7ce5d38fd1",
+            "title": "tDCS possibly stimulates glial cells",
+            "url": "https://www.semanticscholar.org/paper/59e67fc4ac5c75d5296f78210fbfed7ce5d38fd1",
+            "venue": "Clinical Neurophysiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40568135",
+                    "name": "F. Ranieri"
+                },
+                {
+                    "authorId": "31587957",
+                    "name": "M. Podda"
+                },
+                {
+                    "authorId": "48980642",
+                    "name": "E. Riccardi"
+                },
+                {
+                    "authorId": "4266615",
+                    "name": "G. Frisullo"
+                },
+                {
+                    "authorId": "5542603",
+                    "name": "M. Dileone"
+                },
+                {
+                    "authorId": "6473082",
+                    "name": "P. Profice"
+                },
+                {
+                    "authorId": "5062011",
+                    "name": "F. Pilato"
+                },
+                {
+                    "authorId": "2137200",
+                    "name": "V. Di Lazzaro"
+                },
+                {
+                    "authorId": "145367636",
+                    "name": "C. Grassi"
+                }
+            ],
+            "doi": "10.1152/jn.00319.2011",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c6ffe1d98a89f2dcdf94e2a98a4d6fcb0f1c26c7",
+            "title": "Modulation of LTP at rat hippocampal CA3-CA1 synapses by direct current stimulation.",
+            "url": "https://www.semanticscholar.org/paper/c6ffe1d98a89f2dcdf94e2a98a4d6fcb0f1c26c7",
+            "venue": "Journal of neurophysiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3032174",
+                    "name": "Johannes E. Schindelin"
+                },
+                {
+                    "authorId": "1398461214",
+                    "name": "I. Arganda-Carreras"
+                },
+                {
+                    "authorId": "2427247",
+                    "name": "E. Frise"
+                },
+                {
+                    "authorId": "2129065",
+                    "name": "V. Kaynig"
+                },
+                {
+                    "authorId": "50516076",
+                    "name": "M. Longair"
+                },
+                {
+                    "authorId": "3146692",
+                    "name": "Tobias Pietzsch"
+                },
+                {
+                    "authorId": "8614408",
+                    "name": "S. Preibisch"
+                },
+                {
+                    "authorId": "1680265",
+                    "name": "C. Rueden"
+                },
+                {
+                    "authorId": "1889009",
+                    "name": "S. Saalfeld"
+                },
+                {
+                    "authorId": "10182247",
+                    "name": "B. Schmid"
+                },
+                {
+                    "authorId": "4575601",
+                    "name": "J. Tinevez"
+                },
+                {
+                    "authorId": "1648702805",
+                    "name": "D. J. White"
+                },
+                {
+                    "authorId": "2204140",
+                    "name": "V. Hartenstein"
+                },
+                {
+                    "authorId": "2504157",
+                    "name": "K. Eliceiri"
+                },
+                {
+                    "authorId": "2931840",
+                    "name": "P. Toman\u00e7ak"
+                },
+                {
+                    "authorId": "145844120",
+                    "name": "A. Cardona"
+                }
+            ],
+            "doi": "10.1038/nmeth.2019",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "cb178455f37be8cdeaf34d5ac899fcd661016b7e",
+            "title": "Fiji: an open-source platform for biological-image analysis",
+            "url": "https://www.semanticscholar.org/paper/cb178455f37be8cdeaf34d5ac899fcd661016b7e",
+            "venue": "Nature Methods",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6178721",
+                    "name": "Ross Corriden"
+                },
+                {
+                    "authorId": "4826018",
+                    "name": "P. Insel"
+                }
+            ],
+            "doi": "10.1007/s11302-012-9311-x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f601972990281002578e6455b9beeda01121d011",
+            "title": "New insights regarding the regulation of chemotaxis by nucleotides, adenosine, and their receptors",
+            "url": "https://www.semanticscholar.org/paper/f601972990281002578e6455b9beeda01121d011",
+            "venue": "Purinergic Signalling",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21473091",
+                    "name": "Dorothy P. Schafer"
+                },
+                {
+                    "authorId": "4753999",
+                    "name": "Emily K. Lehrman"
+                },
+                {
+                    "authorId": "2022622",
+                    "name": "B. Stevens"
+                }
+            ],
+            "doi": "10.1002/glia.22389",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c4a1e9f49f2b40058d846bd6f121796dca408c0",
+            "title": "The \u201cquad\u2010partite\u201d synapse: Microglia\u2010synapse interactions in the developing and mature CNS",
+            "url": "https://www.semanticscholar.org/paper/4c4a1e9f49f2b40058d846bd6f121796dca408c0",
+            "venue": "Glia",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3285479",
+                    "name": "H. Kettenmann"
+                },
+                {
+                    "authorId": "144203392",
+                    "name": "F. Kirchhoff"
+                },
+                {
+                    "authorId": "3922054",
+                    "name": "A. Verkhratsky"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2012.12.023",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c01065ac5c00ab600bf705b30673ffc32def1407",
+            "title": "Microglia: New Roles for the Synaptic Stripper",
+            "url": "https://www.semanticscholar.org/paper/c01065ac5c00ab600bf705b30673ffc32def1407",
+            "venue": "Neuron",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145497711",
+                    "name": "Simon J. Pelletier"
+                },
+                {
+                    "authorId": "3983690",
+                    "name": "M. Lagac\u00e9"
+                },
+                {
+                    "authorId": "1398952415",
+                    "name": "I. St-Amour"
+                },
+                {
+                    "authorId": "6297083",
+                    "name": "Dany Arsenault"
+                },
+                {
+                    "authorId": "7022057",
+                    "name": "G. Cisbani"
+                },
+                {
+                    "authorId": "5237346",
+                    "name": "A. Chabrat"
+                },
+                {
+                    "authorId": "4165832",
+                    "name": "S. Fecteau"
+                },
+                {
+                    "authorId": "145012403",
+                    "name": "M. L\u00e9vesque"
+                },
+                {
+                    "authorId": "3790312",
+                    "name": "F. Cicchetti"
+                }
+            ],
+            "doi": "10.1093/ijnp/pyu090",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce37e46834083b70599637ed59b8ebc7ee2124b0",
+            "title": "The Morphological and Molecular Changes of Brain Cells Exposed to Direct Current Electric Field Stimulation",
+            "url": "https://www.semanticscholar.org/paper/ce37e46834083b70599637ed59b8ebc7ee2124b0",
+            "venue": "The international journal of neuropsychopharmacology",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3507980",
+                    "name": "T. Schilling"
+                },
+                {
+                    "authorId": "34747742",
+                    "name": "C. Eder"
+                }
+            ],
+            "doi": "10.1002/glia.22776",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1218cad22b477b8624f2867461d8554a9ed47b65",
+            "title": "Microglial K+ Channel Expression in Young Adult and Aged Mice",
+            "url": "https://www.semanticscholar.org/paper/1218cad22b477b8624f2867461d8554a9ed47b65",
+            "venue": "Glia",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48226890",
+                    "name": "Joyce G Rohan"
+                },
+                {
+                    "authorId": "7555115",
+                    "name": "Kimberly A. K. Carhuatanta"
+                },
+                {
+                    "authorId": "5832444",
+                    "name": "S. McInturf"
+                },
+                {
+                    "authorId": "6378455",
+                    "name": "Molly K. Miklasevich"
+                },
+                {
+                    "authorId": "3238294",
+                    "name": "R. Jankord"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.2376-15.2015",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e1658378fd78050379998d2a113a5ff4b8af9933",
+            "title": "Modulating Hippocampal Plasticity with In Vivo Brain Stimulation",
+            "url": "https://www.semanticscholar.org/paper/e1658378fd78050379998d2a113a5ff4b8af9933",
+            "venue": "The Journal of Neuroscience",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1398826432",
+                    "name": "J. Espinosa-Parrilla"
+                },
+                {
+                    "authorId": "1432636829",
+                    "name": "M. Mart\u00ednez-Moreno"
+                },
+                {
+                    "authorId": "6498555",
+                    "name": "X. Gasull"
+                },
+                {
+                    "authorId": "6384963",
+                    "name": "N. Mahy"
+                },
+                {
+                    "authorId": "2107266451",
+                    "name": "M. Rodr\u00edguez"
+                }
+            ],
+            "doi": "10.1016/j.mcn.2014.12.004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e69dd3cadb6a211f07e5b8ed5ff257d58f843634",
+            "title": "The L-type voltage-gated calcium channel modulates microglial pro-inflammatory activity",
+            "url": "https://www.semanticscholar.org/paper/e69dd3cadb6a211f07e5b8ed5ff257d58f843634",
+            "venue": "Molecular and Cellular Neuroscience",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4858195",
+                    "name": "U. Eyo"
+                },
+                {
+                    "authorId": "38140318",
+                    "name": "N. Gu"
+                },
+                {
+                    "authorId": "30284932",
+                    "name": "Srijisnu De"
+                },
+                {
+                    "authorId": "2822716",
+                    "name": "H. Dong"
+                },
+                {
+                    "authorId": "37557112",
+                    "name": "J. Richardson"
+                },
+                {
+                    "authorId": "2197023",
+                    "name": "Long-Jun Wu"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.3279-14.2015",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f6794066a6b7774c8271f57820b76d2040b4e471",
+            "title": "Modulation of Microglial Process Convergence Toward Neuronal Dendrites by Extracellular Calcium",
+            "url": "https://www.semanticscholar.org/paper/f6794066a6b7774c8271f57820b76d2040b4e471",
+            "venue": "The Journal of Neuroscience",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6844851",
+                    "name": "A. Pikhovych"
+                },
+                {
+                    "authorId": "5647596",
+                    "name": "N. P. Stolberg"
+                },
+                {
+                    "authorId": "6305188",
+                    "name": "Lea Jessica Flitsch"
+                },
+                {
+                    "authorId": "38967378",
+                    "name": "H. L. Walter"
+                },
+                {
+                    "authorId": "144039238",
+                    "name": "R. Graf"
+                },
+                {
+                    "authorId": "38644159",
+                    "name": "G. Fink"
+                },
+                {
+                    "authorId": "144422394",
+                    "name": "M. Schroeter"
+                },
+                {
+                    "authorId": "3411234",
+                    "name": "M. A. Rueger"
+                }
+            ],
+            "doi": "10.1155/2016/2715196",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "04324f83147fbb977e33e29174d5a221f54d9361",
+            "title": "Transcranial Direct Current Stimulation Modulates Neurogenesis and Microglia Activation in the Mouse Brain",
+            "url": "https://www.semanticscholar.org/paper/04324f83147fbb977e33e29174d5a221f54d9361",
+            "venue": "Stem cells international",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "3928591",
+                    "name": "Pnina Grossman"
+                },
+                {
+                    "authorId": "145561621",
+                    "name": "C. Thomas"
+                },
+                {
+                    "authorId": "2250474",
+                    "name": "A. Zannou"
+                },
+                {
+                    "authorId": "1405855598",
+                    "name": "Jimmy Jiang"
+                },
+                {
+                    "authorId": "2116105810",
+                    "name": "Tatheer Adnan"
+                },
+                {
+                    "authorId": "4636238",
+                    "name": "Antonios P. Mourdoukoutas"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "4225409",
+                    "name": "P. Boggio"
+                },
+                {
+                    "authorId": "2078374635",
+                    "name": "A. Brunoni"
+                },
+                {
+                    "authorId": "6030243",
+                    "name": "L. Charvet"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                },
+                {
+                    "authorId": "5181546",
+                    "name": "B. Gillick"
+                },
+                {
+                    "authorId": "144460348",
+                    "name": "R. Hamilton"
+                },
+                {
+                    "authorId": "3298865",
+                    "name": "B. Hampstead"
+                },
+                {
+                    "authorId": "3238294",
+                    "name": "R. Jankord"
+                },
+                {
+                    "authorId": "1933521",
+                    "name": "A. Kirton"
+                },
+                {
+                    "authorId": "5271545",
+                    "name": "H. Knotkov\u00e1"
+                },
+                {
+                    "authorId": "2725033",
+                    "name": "D. Liebetanz"
+                },
+                {
+                    "authorId": "3869732",
+                    "name": "Anli Liu"
+                },
+                {
+                    "authorId": "144119296",
+                    "name": "C. Loo"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "145697038",
+                    "name": "J. Richardson"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                },
+                {
+                    "authorId": "1903267",
+                    "name": "P. Turkeltaub"
+                },
+                {
+                    "authorId": "2856044",
+                    "name": "A. Woods"
+                }
+            ],
+            "doi": "10.1016/j.brs.2016.06.004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "05b064c7bfd7e0c0e76fea54f107e60126624a13",
+            "title": "Safety of Transcranial Direct Current Stimulation: Evidence Based Update 2016",
+            "url": "https://www.semanticscholar.org/paper/05b064c7bfd7e0c0e76fea54f107e60126624a13",
+            "venue": "Brain Stimulation",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3647350",
+                    "name": "A. Gellner"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                }
+            ],
+            "doi": "10.3389/fncel.2016.00188",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4c4ecbdd7993a37648543187a4c0b7e3f5dac5af",
+            "title": "Glia: A Neglected Player in Non-invasive Direct Current Brain Stimulation",
+            "url": "https://www.semanticscholar.org/paper/4c4ecbdd7993a37648543187a4c0b7e3f5dac5af",
+            "venue": "Front. Cell. Neurosci.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1691853",
+                    "name": "Y. Sun"
+                },
+                {
+                    "authorId": "35152578",
+                    "name": "J. Lipton"
+                },
+                {
+                    "authorId": "37508405",
+                    "name": "Lara M. Boyle"
+                },
+                {
+                    "authorId": "35584263",
+                    "name": "J. Madsen"
+                },
+                {
+                    "authorId": "40327646",
+                    "name": "Marti C Goldenberg"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "143608449",
+                    "name": "M. Sahin"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                }
+            ],
+            "doi": "10.1002/ana.24708",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "574f34d1914434b651111147d551b9123ba2e0dc",
+            "title": "Direct current stimulation induces mGluR5\u2010dependent neocortical plasticity",
+            "url": "https://www.semanticscholar.org/paper/574f34d1914434b651111147d551b9123ba2e0dc",
+            "venue": "Annals of neurology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31587957",
+                    "name": "M. Podda"
+                },
+                {
+                    "authorId": "4786490",
+                    "name": "S. Cocco"
+                },
+                {
+                    "authorId": "6647065",
+                    "name": "A. Mastrodonato"
+                },
+                {
+                    "authorId": "50160503",
+                    "name": "S. Fusco"
+                },
+                {
+                    "authorId": "49261829",
+                    "name": "L. Leone"
+                },
+                {
+                    "authorId": "5556219",
+                    "name": "S. Barbati"
+                },
+                {
+                    "authorId": "5977710",
+                    "name": "C. Colussi"
+                },
+                {
+                    "authorId": "3759568",
+                    "name": "C. Ripoli"
+                },
+                {
+                    "authorId": "145367636",
+                    "name": "C. Grassi"
+                }
+            ],
+            "doi": "10.1038/srep22180",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "92207162a7be7893c46ea2a81fd4d77d57e1b69e",
+            "title": "Anodal transcranial direct current stimulation boosts synaptic plasticity and memory in mice via epigenetic regulation of Bdnf expression",
+            "url": "https://www.semanticscholar.org/paper/92207162a7be7893c46ea2a81fd4d77d57e1b69e",
+            "venue": "Scientific reports",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3905025",
+                    "name": "H. Monai"
+                },
+                {
+                    "authorId": "2330481",
+                    "name": "M. Ohkura"
+                },
+                {
+                    "authorId": "2110038286",
+                    "name": "Mika Tanaka"
+                },
+                {
+                    "authorId": "48537426",
+                    "name": "Y. Oe"
+                },
+                {
+                    "authorId": "47970376",
+                    "name": "Ayumu Konno"
+                },
+                {
+                    "authorId": "35114658",
+                    "name": "H. Hirai"
+                },
+                {
+                    "authorId": "34162721",
+                    "name": "K. Mikoshiba"
+                },
+                {
+                    "authorId": "3496258",
+                    "name": "S. Itohara"
+                },
+                {
+                    "authorId": "144011741",
+                    "name": "J. Nakai"
+                },
+                {
+                    "authorId": "6203171",
+                    "name": "Y. Iwai"
+                },
+                {
+                    "authorId": "6900648",
+                    "name": "H. Hirase"
+                }
+            ],
+            "doi": "10.1038/ncomms11100",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "93a5ae7b1a905b0a03bd14876275829af11cc039",
+            "title": "Calcium imaging reveals glial involvement in transcranial direct current stimulation-induced plasticity in mouse brain",
+            "url": "https://www.semanticscholar.org/paper/93a5ae7b1a905b0a03bd14876275829af11cc039",
+            "venue": "Nature communications",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1399450259",
+                    "name": "Anika Schopf"
+                },
+                {
+                    "authorId": "48951487",
+                    "name": "C. Boehler"
+                },
+                {
+                    "authorId": "4938445",
+                    "name": "M. Asplund"
+                }
+            ],
+            "doi": "10.1016/j.bioelechem.2015.12.007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c2939a49709bb612bede98199dcdfa7aacaa3359",
+            "title": "Analytical methods to determine electrochemical factors in electrotaxis setups and their implications for experimental design.",
+            "url": "https://www.semanticscholar.org/paper/c2939a49709bb612bede98199dcdfa7aacaa3359",
+            "venue": "Bioelectrochemistry",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5093616",
+                    "name": "G. Sipe"
+                },
+                {
+                    "authorId": "2641860",
+                    "name": "R. L. Lowery"
+                },
+                {
+                    "authorId": "37019609",
+                    "name": "M. Tremblay"
+                },
+                {
+                    "authorId": "32046570",
+                    "name": "E. A. Kelly"
+                },
+                {
+                    "authorId": "4520501",
+                    "name": "C. Lamantia"
+                },
+                {
+                    "authorId": "4011324",
+                    "name": "A. Majewska"
+                }
+            ],
+            "doi": "10.1038/ncomms10905",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c4565f14c58891ada54c925caf6ad31f949be259",
+            "title": "Microglial P2Y12 is necessary for synaptic plasticity in mouse visual cortex",
+            "url": "https://www.semanticscholar.org/paper/c4565f14c58891ada54c925caf6ad31f949be259",
+            "venue": "Nature communications",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2646601",
+                    "name": "M. Jackson"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "5967575",
+                    "name": "Doris Ling"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2016.08.016",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "title": "Animal models of transcranial direct current stimulation: Methods and mechanisms",
+            "url": "https://www.semanticscholar.org/paper/d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "venue": "Clinical Neurophysiology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48832676",
+                    "name": "H. Nguyen"
+                },
+                {
+                    "authorId": "5784886",
+                    "name": "E. M. Gr\u00f6ssinger"
+                },
+                {
+                    "authorId": "2070535466",
+                    "name": "M. Horiuchi"
+                },
+                {
+                    "authorId": "2111797693",
+                    "name": "Kyle W. Davis"
+                },
+                {
+                    "authorId": "1712720",
+                    "name": "Lee-way Jin"
+                },
+                {
+                    "authorId": "4137790",
+                    "name": "Izumi Maezawa"
+                },
+                {
+                    "authorId": "4255920",
+                    "name": "H. Wulff"
+                }
+            ],
+            "doi": "10.1002/glia.23078",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "00c478305f4bd9560183730a96f4894b9ea16f39",
+            "title": "Differential Kv1.3, KCa3.1, and Kir2.1 expression in \u201cclassically\u201d and \u201calternatively\u201d activated microglia",
+            "url": "https://www.semanticscholar.org/paper/00c478305f4bd9560183730a96f4894b9ea16f39",
+            "venue": "Glia",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4288979",
+                    "name": "Tuan Leng Tay"
+                },
+                {
+                    "authorId": "5535173",
+                    "name": "Julie C. Savage"
+                },
+                {
+                    "authorId": "6418627",
+                    "name": "C. Hui"
+                },
+                {
+                    "authorId": "38905240",
+                    "name": "K. Bisht"
+                },
+                {
+                    "authorId": "37019609",
+                    "name": "M. Tremblay"
+                }
+            ],
+            "doi": "10.1113/JP272134",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1d2eea23734b033bc608dbdabb916fe9883c1d7d",
+            "title": "Microglia across the lifespan: from origin to function in brain development, plasticity and cognition",
+            "url": "https://www.semanticscholar.org/paper/1d2eea23734b033bc608dbdabb916fe9883c1d7d",
+            "venue": "The Journal of physiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "4446368",
+                    "name": "M. Bridi"
+                },
+                {
+                    "authorId": "145716408",
+                    "name": "T. Abel"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1016/j.brs.2016.10.001",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "title": "Direct Current Stimulation Modulates LTP and LTD: Activity Dependence and Dendritic Effects",
+            "url": "https://www.semanticscholar.org/paper/3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "venue": "Brain Stimulation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "4446368",
+                    "name": "M. Bridi"
+                },
+                {
+                    "authorId": "145716408",
+                    "name": "T. Abel"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1016/j.brs.2017.04.014",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4b1ca0b3e4c2853491c78f3c53776279ac630072",
+            "title": "Direct current stimulation modulates LTP and LTD: activity dependence and dendritic effects",
+            "url": "https://www.semanticscholar.org/paper/4b1ca0b3e4c2853491c78f3c53776279ac630072",
+            "venue": "Brain Stimulation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2641860",
+                    "name": "R. L. Lowery"
+                },
+                {
+                    "authorId": "37019609",
+                    "name": "M. Tremblay"
+                },
+                {
+                    "authorId": "26737564",
+                    "name": "Brittany E. Hopkins"
+                },
+                {
+                    "authorId": "4011324",
+                    "name": "A. Majewska"
+                }
+            ],
+            "doi": "10.1002/glia.23192",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5e1331e4b59aab942ddd515f8987ed57b0a7fd59",
+            "title": "The microglial fractalkine receptor is not required for activity\u2010dependent plasticity in the mouse visual system",
+            "url": "https://www.semanticscholar.org/paper/5e1331e4b59aab942ddd515f8987ed57b0a7fd59",
+            "venue": "Glia",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2612137",
+                    "name": "S. Wolf"
+                },
+                {
+                    "authorId": "143679029",
+                    "name": "H. Boddeke"
+                },
+                {
+                    "authorId": "3285479",
+                    "name": "H. Kettenmann"
+                }
+            ],
+            "doi": "10.1146/annurev-physiol-022516-034406",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7dcfcac09b1106c237f457d1c423bc077a895e8e",
+            "title": "Microglia in Physiology and Disease.",
+            "url": "https://www.semanticscholar.org/paper/7dcfcac09b1106c237f457d1c423bc077a895e8e",
+            "venue": "Annual review of physiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2115702278",
+                    "name": "Yang Fan"
+                },
+                {
+                    "authorId": "31547242",
+                    "name": "Lirui Xie"
+                },
+                {
+                    "authorId": "35127609",
+                    "name": "C. Chung"
+                }
+            ],
+            "doi": "10.14348/molcells.2017.0011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "886b2cb5d983d5931977b8a30e3ed546e60cc99e",
+            "title": "Signaling Pathways Controlling Microglia Chemotaxis",
+            "url": "https://www.semanticscholar.org/paper/886b2cb5d983d5931977b8a30e3ed546e60cc99e",
+            "venue": "Molecules and cells",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "34260660",
+                    "name": "Ethan R. Buch"
+                },
+                {
+                    "authorId": "1983771",
+                    "name": "E. Santarnecchi"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "144734520",
+                    "name": "J. Born"
+                },
+                {
+                    "authorId": "2341711",
+                    "name": "P. Celnik"
+                },
+                {
+                    "authorId": "29239499",
+                    "name": "J. Classen"
+                },
+                {
+                    "authorId": "3019244",
+                    "name": "C. Gerloff"
+                },
+                {
+                    "authorId": "144594323",
+                    "name": "M. Hallett"
+                },
+                {
+                    "authorId": "3303639",
+                    "name": "F. Hummel"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "2408205",
+                    "name": "E. Robertson"
+                },
+                {
+                    "authorId": "144408932",
+                    "name": "J. Rothwell"
+                },
+                {
+                    "authorId": "49924795",
+                    "name": "Marco Sandrini"
+                },
+                {
+                    "authorId": "4869015",
+                    "name": "Heidi M. Schambra"
+                },
+                {
+                    "authorId": "2464800",
+                    "name": "E. Wassermann"
+                },
+                {
+                    "authorId": "1922575",
+                    "name": "U. Ziemann"
+                },
+                {
+                    "authorId": "2141461",
+                    "name": "L. Cohen"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2017.01.004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d6e80f796259e8b16c30f849270f074ad0547988",
+            "title": "Effects of tDCS on motor learning and memory formation: A consensus and critical position paper",
+            "url": "https://www.semanticscholar.org/paper/d6e80f796259e8b16c30f849270f074ad0547988",
+            "venue": "Clinical Neurophysiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3696258",
+                    "name": "S. W. Saliba"
+                },
+                {
+                    "authorId": "37020207",
+                    "name": "A. R. Marcotegui"
+                },
+                {
+                    "authorId": "113097598",
+                    "name": "Ellen Fortw\u00e4ngler"
+                },
+                {
+                    "authorId": "113060414",
+                    "name": "Johannes Ditrich"
+                },
+                {
+                    "authorId": "5478503",
+                    "name": "J. Perazzo"
+                },
+                {
+                    "authorId": "144879709",
+                    "name": "E. Mu\u00f1oz"
+                },
+                {
+                    "authorId": "133583555",
+                    "name": "A. C. P. de Oliveira"
+                },
+                {
+                    "authorId": "4128667",
+                    "name": "B. Fiebich"
+                }
+            ],
+            "doi": "10.1186/s12974-017-1014-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f4ae73ee9976c41ad8710f6ca83bc08b3877f487",
+            "title": "AM404, paracetamol metabolite, prevents prostaglandin synthesis in activated microglia by inhibiting COX activity",
+            "url": "https://www.semanticscholar.org/paper/f4ae73ee9976c41ad8710f6ca83bc08b3877f487",
+            "venue": "Journal of Neuroinflammation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5708704",
+                    "name": "L. Weinhard"
+                },
+                {
+                    "authorId": "31314580",
+                    "name": "Giulia di Bartolomei"
+                },
+                {
+                    "authorId": "3833825",
+                    "name": "G. Bolasco"
+                },
+                {
+                    "authorId": "49612373",
+                    "name": "P. Machado"
+                },
+                {
+                    "authorId": "3707667",
+                    "name": "N. Schieber"
+                },
+                {
+                    "authorId": "6481465",
+                    "name": "Urte Neniskyte"
+                },
+                {
+                    "authorId": "40793420",
+                    "name": "Melanie Exiga"
+                },
+                {
+                    "authorId": "30728006",
+                    "name": "August\u0117 Vadi\u0161i\u016bt\u0117"
+                },
+                {
+                    "authorId": "2751048",
+                    "name": "A. Raggioli"
+                },
+                {
+                    "authorId": "3546290",
+                    "name": "A. Schertel"
+                },
+                {
+                    "authorId": "2021624",
+                    "name": "Y. Schwab"
+                },
+                {
+                    "authorId": "38832031",
+                    "name": "C. Gross"
+                }
+            ],
+            "doi": "10.1038/s41467-018-03566-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14e0cd52faee7bbd8a440cfa15fe4b893d601220",
+            "title": "Microglia remodel synapses by presynaptic trogocytosis and spine head filopodia induction",
+            "url": "https://www.semanticscholar.org/paper/14e0cd52faee7bbd8a440cfa15fe4b893d601220",
+            "venue": "Nature Communications",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48907737",
+                    "name": "Ryohei Akiyoshi"
+                },
+                {
+                    "authorId": "3751601",
+                    "name": "H. Wake"
+                },
+                {
+                    "authorId": "143786046",
+                    "name": "D. Kato"
+                },
+                {
+                    "authorId": "47477912",
+                    "name": "Hiroshi Horiuchi"
+                },
+                {
+                    "authorId": "51886765",
+                    "name": "Riho Ono"
+                },
+                {
+                    "authorId": "51885134",
+                    "name": "Ako Ikegami"
+                },
+                {
+                    "authorId": "51905653",
+                    "name": "Koichiro Haruwaka"
+                },
+                {
+                    "authorId": "144943482",
+                    "name": "T. Omori"
+                },
+                {
+                    "authorId": "4468748",
+                    "name": "Y. Tachibana"
+                },
+                {
+                    "authorId": "5779315",
+                    "name": "A. Moorhouse"
+                },
+                {
+                    "authorId": "5787009",
+                    "name": "J. Nabekura"
+                }
+            ],
+            "doi": "10.1523/ENEURO.0088-18.2018",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1a02778f48f61bbb91ff9122f11a81f414954e6d",
+            "title": "Microglia Enhance Synapse Activity to Promote Local Network Synchronization",
+            "url": "https://www.semanticscholar.org/paper/1a02778f48f61bbb91ff9122f11a81f414954e6d",
+            "venue": "eNeuro",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2038118164",
+                    "name": "A. Covelo"
+                },
+                {
+                    "authorId": "2793145",
+                    "name": "A. Araque"
+                }
+            ],
+            "doi": "10.7554/eLife.32237",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1ddd96518ae26feeb8cbd42501d935118e770a6a",
+            "title": "Neuronal activity determines distinct gliotransmitter release from a single astrocyte",
+            "url": "https://www.semanticscholar.org/paper/1ddd96518ae26feeb8cbd42501d935118e770a6a",
+            "venue": "eLife",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4858195",
+                    "name": "U. Eyo"
+                },
+                {
+                    "authorId": "145327336",
+                    "name": "Mingshu Mo"
+                },
+                {
+                    "authorId": "34198232",
+                    "name": "Min-Hee Yi"
+                },
+                {
+                    "authorId": "28662641",
+                    "name": "M. Murugan"
+                },
+                {
+                    "authorId": "2108272355",
+                    "name": "Junting Liu"
+                },
+                {
+                    "authorId": "40998601",
+                    "name": "Rohan Yarlagadda"
+                },
+                {
+                    "authorId": "1557483324",
+                    "name": "David J. Margolis"
+                },
+                {
+                    "authorId": "4257550",
+                    "name": "P. Xu"
+                },
+                {
+                    "authorId": "2197023",
+                    "name": "Long-Jun Wu"
+                }
+            ],
+            "doi": "10.1016/j.celrep.2018.04.001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "da752b14b81ccda7960b9b02c0c3c58b69a098be",
+            "title": "P2Y12R-Dependent Translocation Mechanisms Gate the Changing Microglial Landscape",
+            "url": "https://www.semanticscholar.org/paper/da752b14b81ccda7960b9b02c0c3c58b69a098be",
+            "venue": "Cell reports",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1404382019",
+                    "name": "Genevieve Saw"
+                },
+                {
+                    "authorId": "2326733",
+                    "name": "Kumar Krishna"
+                },
+                {
+                    "authorId": "47147502",
+                    "name": "Neelima Gupta"
+                },
+                {
+                    "authorId": "2014267",
+                    "name": "T. Soong"
+                },
+                {
+                    "authorId": "5876333",
+                    "name": "K. Mallilankaraman"
+                },
+                {
+                    "authorId": "4023688",
+                    "name": "S. Sajikumar"
+                },
+                {
+                    "authorId": "144374148",
+                    "name": "S. T. Dheen"
+                }
+            ],
+            "doi": "10.1002/glia.23748",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3308d00366c58b2c40a964658ce591c47097bc4e",
+            "title": "Epigenetic regulation of microglial phosphatidylinositol 3\u2010kinase pathway involved in long\u2010term potentiation and synaptic plasticity in rats",
+            "url": "https://www.semanticscholar.org/paper/3308d00366c58b2c40a964658ce591c47097bc4e",
+            "venue": "Glia",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5885732",
+                    "name": "M. Koletar"
+                },
+                {
+                    "authorId": "34567203",
+                    "name": "A. Dorr"
+                },
+                {
+                    "authorId": "145270605",
+                    "name": "Mary E. Brown"
+                },
+                {
+                    "authorId": "4357594",
+                    "name": "J. McLaurin"
+                },
+                {
+                    "authorId": "1681378",
+                    "name": "B. Stefanovic"
+                }
+            ],
+            "doi": "10.1038/s41598-019-41966-9",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "45d699adf6bd827107197a0deb35a913c689baba",
+            "title": "Refinement of a chronic cranial window implant in the rat for longitudinal in vivo two\u2013photon fluorescence microscopy of neurovascular function",
+            "url": "https://www.semanticscholar.org/paper/45d699adf6bd827107197a0deb35a913c689baba",
+            "venue": "Scientific Reports",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47242099",
+                    "name": "Tianwen Gao"
+                },
+                {
+                    "authorId": "145755823",
+                    "name": "S. Raza"
+                },
+                {
+                    "authorId": "1678461498",
+                    "name": "Supriya Ramesha"
+                },
+                {
+                    "authorId": "134524953",
+                    "name": "Ngozi Nwabueze"
+                },
+                {
+                    "authorId": "2370800",
+                    "name": "Amelia J. Tomkins"
+                },
+                {
+                    "authorId": "40665510",
+                    "name": "L. Cheng"
+                },
+                {
+                    "authorId": "48290639",
+                    "name": "Hailian Xiao"
+                },
+                {
+                    "authorId": "2067758780",
+                    "name": "M. Yepes"
+                },
+                {
+                    "authorId": "5322687",
+                    "name": "S. Rangaraju"
+                }
+            ],
+            "doi": "10.1186/s12974-019-1510-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "70fea9a05788817816510a1a93e2d147d072b69b",
+            "title": "Temporal profiling of Kv1.3 channel expression in brain mononuclear phagocytes following ischemic stroke",
+            "url": "https://www.semanticscholar.org/paper/70fea9a05788817816510a1a93e2d147d072b69b",
+            "venue": "Journal of Neuroinflammation",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143751092",
+                    "name": "Radha Raghuraman"
+                },
+                {
+                    "authorId": "6354415",
+                    "name": "A. Karthikeyan"
+                },
+                {
+                    "authorId": "32706195",
+                    "name": "Wong Lik Wei"
+                },
+                {
+                    "authorId": "2093529150",
+                    "name": "S. Dheen"
+                },
+                {
+                    "authorId": "4023688",
+                    "name": "S. Sajikumar"
+                }
+            ],
+            "doi": "10.1016/j.nlm.2019.107039",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aec387d0a941798d8742d9e252d84ac3460082aa",
+            "title": "Activation of microglia in acute hippocampal slices affects activity-dependent long-term potentiation and synaptic tagging and capture in area CA1",
+            "url": "https://www.semanticscholar.org/paper/aec387d0a941798d8742d9e252d84ac3460082aa",
+            "venue": "Neurobiology of Learning and Memory",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39506408",
+                    "name": "Rianne D Stowell"
+                },
+                {
+                    "authorId": "5093616",
+                    "name": "G. Sipe"
+                },
+                {
+                    "authorId": "40643687",
+                    "name": "R. Dawes"
+                },
+                {
+                    "authorId": "32831475",
+                    "name": "Hanna N. Batchelor"
+                },
+                {
+                    "authorId": "91597199",
+                    "name": "Katheryn A. Lordy"
+                },
+                {
+                    "authorId": "21460084",
+                    "name": "Brendan S Whitelaw"
+                },
+                {
+                    "authorId": "1380104895",
+                    "name": "Mark B. Stoessel"
+                },
+                {
+                    "authorId": "5775374",
+                    "name": "J. Bidlack"
+                },
+                {
+                    "authorId": "153207841",
+                    "name": "E. Brown"
+                },
+                {
+                    "authorId": "2227142",
+                    "name": "M. Sur"
+                },
+                {
+                    "authorId": "4011324",
+                    "name": "A. Majewska"
+                }
+            ],
+            "doi": "10.1038/s41593-019-0514-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be46d5ce3454271d808cce28d09f00e9074cee2d",
+            "title": "Noradrenergic signaling the wakeful state inhibits microglial surveillance and synaptic plasticity in the mouse visual cortex.",
+            "url": "https://www.semanticscholar.org/paper/be46d5ce3454271d808cce28d09f00e9074cee2d",
+            "venue": "Nature Neuroscience",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36632449",
+                    "name": "M. E. Choudhury"
+                },
+                {
+                    "authorId": "36527821",
+                    "name": "Kazuya Miyanishi"
+                },
+                {
+                    "authorId": "32222270",
+                    "name": "H. Takeda"
+                },
+                {
+                    "authorId": "47408488",
+                    "name": "Afsana Islam"
+                },
+                {
+                    "authorId": "153271287",
+                    "name": "Nayu Matsuoka"
+                },
+                {
+                    "authorId": "4050592",
+                    "name": "M. Kubo"
+                },
+                {
+                    "authorId": "15964918",
+                    "name": "Shirabe Matsumoto"
+                },
+                {
+                    "authorId": "32472446",
+                    "name": "T. Kunieda"
+                },
+                {
+                    "authorId": "4452964",
+                    "name": "M. Nomoto"
+                },
+                {
+                    "authorId": "145196951",
+                    "name": "Hajime Yano"
+                },
+                {
+                    "authorId": "34576070",
+                    "name": "J. Tanaka"
+                }
+            ],
+            "doi": "10.1002/glia.23698",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bf405218427e4b38a5b920faca2b28295cc51f03",
+            "title": "Phagocytic elimination of synapses by microglia during sleep",
+            "url": "https://www.semanticscholar.org/paper/bf405218427e4b38a5b920faca2b28295cc51f03",
+            "venue": "Glia",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "30159388",
+                    "name": "T. Mishima"
+                },
+                {
+                    "authorId": "4042469",
+                    "name": "T. Nagai"
+                },
+                {
+                    "authorId": "3528887",
+                    "name": "Kazuko Yahagi"
+                },
+                {
+                    "authorId": "66705454",
+                    "name": "Sonam Akther"
+                },
+                {
+                    "authorId": "48537426",
+                    "name": "Y. Oe"
+                },
+                {
+                    "authorId": "3905025",
+                    "name": "H. Monai"
+                },
+                {
+                    "authorId": "2772036",
+                    "name": "S. Kohsaka"
+                },
+                {
+                    "authorId": "6900648",
+                    "name": "H. Hirase"
+                }
+            ],
+            "doi": "10.1523/ENEURO.0204-19.2019",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e0e118173fe770fa37479a26d91ef64c34a79162",
+            "title": "Transcranial Direct Current Stimulation (tDCS) Induces Adrenergic Receptor-Dependent Microglial Morphological Changes in Mice",
+            "url": "https://www.semanticscholar.org/paper/e0e118173fe770fa37479a26d91ef64c34a79162",
+            "venue": "eNeuro",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403701606",
+                    "name": "Irune D\u00edaz-Aparicio"
+                },
+                {
+                    "authorId": "36771071",
+                    "name": "I. Paris"
+                },
+                {
+                    "authorId": "1421506737",
+                    "name": "Virginia Sierra-Torre"
+                },
+                {
+                    "authorId": "1421515208",
+                    "name": "Ainhoa Plaza-Zabala"
+                },
+                {
+                    "authorId": "1401578636",
+                    "name": "Noelia Rodr\u00edguez-Iglesias"
+                },
+                {
+                    "authorId": "1441333887",
+                    "name": "Mar M\u00e1rquez-Ropero"
+                },
+                {
+                    "authorId": "5170360",
+                    "name": "S. Beccari"
+                },
+                {
+                    "authorId": "1474359837",
+                    "name": "Paloma Huguet"
+                },
+                {
+                    "authorId": "4882227",
+                    "name": "Oihane Abiega"
+                },
+                {
+                    "authorId": "2646138",
+                    "name": "E. Alberdi"
+                },
+                {
+                    "authorId": "49193596",
+                    "name": "C. Matute"
+                },
+                {
+                    "authorId": "3295222",
+                    "name": "I. Bernales"
+                },
+                {
+                    "authorId": "2055673582",
+                    "name": "A. Schulz"
+                },
+                {
+                    "authorId": "4780119",
+                    "name": "Lilla Otrokocsi"
+                },
+                {
+                    "authorId": "4822629",
+                    "name": "B. Sperl\u00e1gh"
+                },
+                {
+                    "authorId": "3637106",
+                    "name": "Kaisa E. Happonen"
+                },
+                {
+                    "authorId": "82130676",
+                    "name": "G. Lemke"
+                },
+                {
+                    "authorId": "102112504",
+                    "name": "M. Maletic-Savatic"
+                },
+                {
+                    "authorId": "152955014",
+                    "name": "J. Valero"
+                },
+                {
+                    "authorId": "48673057",
+                    "name": "A. Sierra"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0993-19.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d8171ac3fa4609617cb52986633009741438c6d",
+            "title": "Microglia Actively Remodel Adult Hippocampal Neurogenesis through the Phagocytosis Secretome",
+            "url": "https://www.semanticscholar.org/paper/0d8171ac3fa4609617cb52986633009741438c6d",
+            "venue": "The Journal of Neuroscience",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3647350",
+                    "name": "A. Gellner"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "1394499479",
+                    "name": "Carsten Holtick"
+                },
+                {
+                    "authorId": "144453625",
+                    "name": "C. Schubert"
+                },
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                }
+            ],
+            "doi": "10.1016/j.brs.2019.07.026",
+            "intent": [
+                "result",
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7028bbbb68e22ed9e420acf1076d43398132aad1",
+            "title": "Direct current stimulation-induced synaptic plasticity in the sensorimotor cortex: structure follows function",
+            "url": "https://www.semanticscholar.org/paper/7028bbbb68e22ed9e420acf1076d43398132aad1",
+            "venue": "Brain Stimulation",
+            "year": 2020
+        }
+    ],
+    "title": "Electrified microglia: Impact of direct current stimulation on diverse properties of the most versatile brain cell",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/3c5bae099600fad9cc1436a76502717ab93a8325",
+    "venue": "Brain Stimulation",
+    "year": 2021
+}

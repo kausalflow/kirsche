@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "3439744",
+            "name": "R. Ramos",
+            "url": "https://www.semanticscholar.org/author/3439744"
+        },
+        {
+            "authorId": "3288819",
+            "name": "J. C. Brumberg",
+            "url": "https://www.semanticscholar.org/author/3288819"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 3894753,
+    "doi": "10.1016/j.brs.2009.03.007",
+    "numCitedBy": 489,
+    "numCiting": 88,
+    "title": "Role of cortical cell type and morphology in subthreshold and suprathreshold uniform electric field stimulation in vitro\n",
+    "venue": "Brain Stimulation",
+    "year": 2009,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}

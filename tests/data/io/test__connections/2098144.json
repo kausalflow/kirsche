@@ -1,0 +1,56 @@
+{
+    "authors": [
+        {
+            "authorId": "3131367",
+            "name": "A. Rahman",
+            "url": "https://www.semanticscholar.org/author/3131367"
+        },
+        {
+            "authorId": "2605353",
+            "name": "D. Reato",
+            "url": "https://www.semanticscholar.org/author/2605353"
+        },
+        {
+            "authorId": "36415421",
+            "name": "M. Arlotti",
+            "url": "https://www.semanticscholar.org/author/36415421"
+        },
+        {
+            "authorId": "3255541",
+            "name": "F. Gasca",
+            "url": "https://www.semanticscholar.org/author/3255541"
+        },
+        {
+            "authorId": "1805590",
+            "name": "A. Datta",
+            "url": "https://www.semanticscholar.org/author/1805590"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 2098144,
+    "doi": "10.1113/jphysiol.2012.247171",
+    "numCitedBy": 375,
+    "numCiting": 62,
+    "title": "Cellular effects of acute direct current stimulation: somatic and synaptic terminal effects",
+    "venue": "The Journal of physiology",
+    "year": 2013,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1016/j.brs.2009.03.007",
+        "10.1152/jn.00715.2011",
+        "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+        "10.1152/jn.00319.2011",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

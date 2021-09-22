@@ -6,6 +6,7 @@ import click
 from loguru import logger
 
 from kirsche.utils.io import load_json, save_json, save_batch_json
+from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE
 
 
 def append_connections(
@@ -66,6 +67,7 @@ def save_connected_papers(
 
     if save_keys is None:
         save_keys = [
+            "corpusId",
             "title",
             "authors",
             "doi",
@@ -74,11 +76,14 @@ def save_connected_papers(
             "numCiting",
             "year",
             connection_field_name,
-        ]
+        ] + UNIQUE_ID_PRECEDENCE
+        save_keys = list(set(save_keys))
+        logger.debug(f"Saving only {save_keys} keys from the original paper metadata")
 
     records = [{k: v for k, v in p.items() if k in save_keys} for p in records]
 
     if target:
+        logger.debug(f"Saving connected papers to {target}")
         save_batch_json(records, target)
 
     return records

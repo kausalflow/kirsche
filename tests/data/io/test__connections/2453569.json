@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "authorId": "2605353",
+            "name": "D. Reato",
+            "url": "https://www.semanticscholar.org/author/2605353"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        }
+    ],
+    "corpusId": 2453569,
+    "doi": "10.1152/jn.00208.2014",
+    "numCitedBy": 35,
+    "numCiting": 100,
+    "title": "Lasting modulation of in vitro oscillatory activity with weak direct current stimulation.",
+    "venue": "Journal of neurophysiology",
+    "year": 2015,
+    "local__referenced_to": [
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1016/j.brs.2009.03.007",
+        "10.1152/jn.00715.2011",
+        "10.1152/jn.00319.2011",
+        "10.1113/jphysiol.2012.247171",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

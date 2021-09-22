@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {
+            "authorId": "50039847",
+            "name": "A. Kabakov",
+            "url": "https://www.semanticscholar.org/author/50039847"
+        },
+        {
+            "authorId": "36928974",
+            "name": "P. Muller",
+            "url": "https://www.semanticscholar.org/author/36928974"
+        },
+        {
+            "authorId": "1390039794",
+            "name": "\u00c1. Pascual-Leone",
+            "url": "https://www.semanticscholar.org/author/1390039794"
+        },
+        {
+            "authorId": "5859161",
+            "name": "F. Jensen",
+            "url": "https://www.semanticscholar.org/author/5859161"
+        },
+        {
+            "authorId": "50075282",
+            "name": "A. Rotenberg",
+            "url": "https://www.semanticscholar.org/author/50075282"
+        }
+    ],
+    "corpusId": 14603831,
+    "doi": "10.1152/jn.00715.2011",
+    "numCitedBy": 158,
+    "numCiting": 31,
+    "title": "Contribution of axonal orientation to pathway-dependent modulation of excitatory transmission by direct current stimulation in isolated rat hippocampus.",
+    "venue": "Journal of neurophysiology",
+    "year": 2012,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772"
+    ]
+}

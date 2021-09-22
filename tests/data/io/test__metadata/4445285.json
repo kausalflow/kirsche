@@ -1,0 +1,175 @@
+{
+    "abstract": "Cathodal transcranial direct-current stimulation (tDCS) induces suppressive effects on drug-resistant seizures. To perform effective actions, the stimulation parameters (e.g., orientation, field strength, and stimulation duration) need to be examined in mice brain slice preparations. Testing and arranging the orientation of the electrode relative to the position of the mice brain slice are feasible. The present method preserves the thalamocingulate pathway to evaluate the effect of DCS on anterior cingulate cortex seizure-like activities. The results of the multichannel array recordings indicated that cathodal DCS significantly decreased the amplitude of the stimulation-evoked responses and duration of 4-aminopyridine and bicuculline-induced seizure-like activity. This study also found that cathodal DCS applications at 15 min caused long-term depression in the thalamocingulate pathway. The present study investigates the effects of DCS on thalamocingulate synaptic plasticity and acute seizure-like activities. The current procedure can test the optimal stimulation parameters including orientation, field strength, and stimulation duration in an in vitro mouse model. Also, the method can evaluate the effects of DCS on cortical seizure-like activities at both the cellular and network levels.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "5634570",
+            "name": "Hsiang-Chin Lu",
+            "url": "https://www.semanticscholar.org/author/5634570"
+        },
+        {
+            "authorId": "2048852128",
+            "name": "Wei-Jen Chang",
+            "url": "https://www.semanticscholar.org/author/2048852128"
+        },
+        {
+            "authorId": "7782185",
+            "name": "Wei-Pang Chang",
+            "url": "https://www.semanticscholar.org/author/7782185"
+        },
+        {
+            "authorId": "145013712",
+            "name": "B. Shyu",
+            "url": "https://www.semanticscholar.org/author/145013712"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1390795742",
+                    "name": "Lei Dong"
+                },
+                {
+                    "authorId": "6533002",
+                    "name": "G. Li"
+                },
+                {
+                    "authorId": "145644821",
+                    "name": "Y. Gao"
+                },
+                {
+                    "authorId": "144919026",
+                    "name": "Ling Lin"
+                },
+                {
+                    "authorId": "47833809",
+                    "name": "Yu Zheng"
+                },
+                {
+                    "authorId": "152782551",
+                    "name": "Xueqiu Cao"
+                }
+            ],
+            "doi": "10.1111/ejn.14705",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ee2a2fefd7917450b48beee2262a1c039a1f5855",
+            "title": "Exploring the form- and time-dependent effect of low frequency electromagnetic fields on maintenance of hippocampal long-term potentiation.",
+            "url": "https://www.semanticscholar.org/paper/ee2a2fefd7917450b48beee2262a1c039a1f5855",
+            "venue": "The European journal of neuroscience",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48569239",
+                    "name": "X. Li"
+                },
+                {
+                    "authorId": "7214288",
+                    "name": "H. Zhang"
+                },
+                {
+                    "authorId": "47598607",
+                    "name": "Q. Wang"
+                },
+                {
+                    "authorId": "12977441",
+                    "name": "Dian-Wen Zhang"
+                },
+                {
+                    "authorId": "143723336",
+                    "name": "D. Wu"
+                },
+                {
+                    "authorId": "50135819",
+                    "name": "W. Li"
+                },
+                {
+                    "authorId": "92804449",
+                    "name": "Zhe-Shan Quan"
+                }
+            ],
+            "doi": "10.3390/molecules22071134",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d4314e039ecd87c58ffb7d4e2e1d58d6a878f4be",
+            "title": "Current Study of the Mechanism of Action of the Potential Anti-Epileptic Agent Q808",
+            "url": "https://www.semanticscholar.org/paper/d4314e039ecd87c58ffb7d4e2e1d58d6a878f4be",
+            "venue": "Molecules",
+            "year": 2017
+        }
+    ],
+    "corpusId": 4445285,
+    "doi": "10.3791/53709",
+    "fieldsOfStudy": [
+        "Chemistry",
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": false,
+    "is_open_access": true,
+    "is_publisher_licensed": false,
+    "numCitedBy": 2,
+    "numCiting": 0,
+    "paperId": "f6cee2ea0392d5c95c68d7d192075489c5b158f8",
+    "references": [],
+    "title": "Direct-current Stimulation and Multi-electrode Array Recording of Seizure-like Activity in Mice Brain Slice Preparation.",
+    "topics": [
+        {
+            "topic": "Seizures",
+            "topicId": "134",
+            "url": "https://www.semanticscholar.org/topic/134"
+        },
+        {
+            "topic": "Deoxycytidine",
+            "topicId": "39415",
+            "url": "https://www.semanticscholar.org/topic/39415"
+        },
+        {
+            "topic": "Bicuculline",
+            "topicId": "26289",
+            "url": "https://www.semanticscholar.org/topic/26289"
+        },
+        {
+            "topic": "dalfampridine",
+            "topicId": "11670",
+            "url": "https://www.semanticscholar.org/topic/11670"
+        },
+        {
+            "topic": "Depressive disorder",
+            "topicId": "335",
+            "url": "https://www.semanticscholar.org/topic/335"
+        },
+        {
+            "topic": "Cingulate Cortex",
+            "topicId": "1408",
+            "url": "https://www.semanticscholar.org/topic/1408"
+        },
+        {
+            "topic": "In Vitro [Publication Type]",
+            "topicId": "148897",
+            "url": "https://www.semanticscholar.org/topic/148897"
+        },
+        {
+            "topic": "Transcranial Direct Current Stimulation",
+            "topicId": "37392",
+            "url": "https://www.semanticscholar.org/topic/37392"
+        },
+        {
+            "topic": "Neuronal Plasticity",
+            "topicId": "38023",
+            "url": "https://www.semanticscholar.org/topic/38023"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/f6cee2ea0392d5c95c68d7d192075489c5b158f8",
+    "venue": "Journal of visualized experiments : JoVE",
+    "year": 2016
+}

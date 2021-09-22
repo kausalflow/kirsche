@@ -1,0 +1,655 @@
+{
+    "abstract": "Small (down to 1 mV/mm) electric fields will polarize neurons by only a small amount; for this reason small electric fields have previously been considered to have no physiologically relevant effects. However, here we propose a novel mechanism by which the non-linear properties of single neurons 'amplify' very small electric fields. Specifically, an amplified change in timing of action potential firing (DeltaT) is inversely proportional to the slope of depolarizing ramp stimulation and proportional to the amount of polarization (DeltaV) caused by the electric fields: DeltaT=DeltaV/(ramp slope). Thus, when responding to slow depolarizing synaptic input, small electric fields can have significant effects on spike timing. Hippocampal CA1 pyramidal neurons were depolarized with injections of depolarizing current ramps approximating synaptic input. Simultaneously, neurons were polarized by either DC holding currents or extracellular uniform DC electrical fields and the resulting changes in spike timing quantified. Consistent with our hypothesis, the polarization induced by each method was found to affect firing time linearly with the amount of polarization, scaled (amplified) with the inverse of the injected ramp slope consistent with our hypothesis",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2365118",
+                    "name": "M. Gleichmann"
+                },
+                {
+                    "authorId": "46776275",
+                    "name": "Vivian W. Chow"
+                },
+                {
+                    "authorId": "2769699",
+                    "name": "M. Mattson"
+                }
+            ],
+            "doi": "10.3233/JAD-2010-101674",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a094c8e27d244a2313b5244992ebf480b6a06f37",
+            "title": "Homeostatic disinhibition in the aging brain and Alzheimer's disease.",
+            "url": "https://www.semanticscholar.org/paper/a094c8e27d244a2313b5244992ebf480b6a06f37",
+            "venue": "Journal of Alzheimer's disease : JAD",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32325948",
+                    "name": "S. Makeig"
+                },
+                {
+                    "authorId": "147156654",
+                    "name": "Julie Onton smakeig"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bd799dd8372020b062d4384ff105992f786dcd51",
+            "title": "ERP Features and EEG Dynamics : An ICA Perspective",
+            "url": "https://www.semanticscholar.org/paper/bd799dd8372020b062d4384ff105992f786dcd51",
+            "venue": "",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40000986",
+                    "name": "Rick Ayer"
+                },
+                {
+                    "authorId": "153666057",
+                    "name": "Tim Bergel"
+                },
+                {
+                    "authorId": "144923588",
+                    "name": "S. Gray"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "32695c5fcc51006520491142b0a1eb385a40bfb1",
+            "title": "SpikeTimingAmplifiestheEffectofElectricFieldson Neurons:ImplicationsforEndogenousFieldEffects",
+            "url": "https://www.semanticscholar.org/paper/32695c5fcc51006520491142b0a1eb385a40bfb1",
+            "venue": "",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7649031",
+                    "name": "Julia Berzhanskaya"
+                },
+                {
+                    "authorId": "1682821",
+                    "name": "A. Gorchetchnikov"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1016/j.neucom.2006.10.124",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "93f7be1d3015cd6139d834e1e4528d8c34bba9aa",
+            "title": "Switching between gamma and theta: Dynamic network control using subthreshold electric fields",
+            "url": "https://www.semanticscholar.org/paper/93f7be1d3015cd6139d834e1e4528d8c34bba9aa",
+            "venue": "Neurocomputing",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "6367062",
+                    "name": "Y. Su"
+                },
+                {
+                    "authorId": "49211962",
+                    "name": "Je Hi An"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0095-07.2007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "title": "Spike Timing Amplifies the Effect of Electric Fields on Neurons: Implications for Endogenous Field Effects",
+            "url": "https://www.semanticscholar.org/paper/b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "venue": "The Journal of Neuroscience",
+            "year": 2007
+        }
+    ],
+    "corpusId": 8333505,
+    "doi": "10.1109/IEMBS.2006.259636",
+    "fieldsOfStudy": [
+        "Computer Science",
+        "Physics",
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 5,
+    "numCiting": 19,
+    "paperId": "629e7ac58eaf40f2eda0c4e850aca2c539c02c99",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1981.sp013897",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "venue": "The Journal of physiology",
+            "year": 1981
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2562404",
+                    "name": "D. Faber"
+                },
+                {
+                    "authorId": "3055878",
+                    "name": "H. Korn"
+                }
+            ],
+            "doi": "10.1038/305802A0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2c04e6427e89c2fb08100269d05e9eb81dca14c8",
+            "title": "Field effects trigger post-anodal rebound excitation in vertebrate CNS",
+            "url": "https://www.semanticscholar.org/paper/2c04e6427e89c2fb08100269d05e9eb81dca14c8",
+            "venue": "Nature",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1855194",
+                    "name": "Z. Mainen"
+                },
+                {
+                    "authorId": "1714528",
+                    "name": "T. Sejnowski"
+                }
+            ],
+            "doi": "10.1038/382363A0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f4bf16705b7caf0e36f76aab031bf1d84c4a6c2a",
+            "title": "Influence of dendritic structure on firing pattern in model neocortical neurons",
+            "url": "https://www.semanticscholar.org/paper/f4bf16705b7caf0e36f76aab031bf1d84c4a6c2a",
+            "venue": "Nature",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7334586",
+                    "name": "R. de Ruyter van Steveninck"
+                },
+                {
+                    "authorId": "3352690",
+                    "name": "G. Lewen"
+                },
+                {
+                    "authorId": "41208304",
+                    "name": "S. Strong"
+                },
+                {
+                    "authorId": "2146103",
+                    "name": "R. Koberle"
+                },
+                {
+                    "authorId": "1762240",
+                    "name": "W. Bialek"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.275.5307.1805",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ceea7a2e5b61ff315b3847a8d3dd8270dc22217e",
+            "title": "Reproducibility and Variability in Neural Spike Trains",
+            "url": "https://www.semanticscholar.org/paper/ceea7a2e5b61ff315b3847a8d3dd8270dc22217e",
+            "venue": "Science",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2820324",
+                    "name": "D. Fricker"
+                },
+                {
+                    "authorId": "6790713",
+                    "name": "J. Verheugen"
+                },
+                {
+                    "authorId": "144990204",
+                    "name": "R. Miles"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.1999.0791s.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0cc2299b763996aa156d9123760bc71d086d1799",
+            "title": "Cell\u2010attached measurements of the firing threshold of rat hippocampal neurones",
+            "url": "https://www.semanticscholar.org/paper/0cc2299b763996aa156d9123760bc71d086d1799",
+            "venue": "The Journal of physiology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4637815",
+                    "name": "H. Kashiwadani"
+                },
+                {
+                    "authorId": "46834688",
+                    "name": "Y. F. Sasaki"
+                },
+                {
+                    "authorId": "34915570",
+                    "name": "N. Uchida"
+                },
+                {
+                    "authorId": "74267296",
+                    "name": "K. Mori"
+                }
+            ],
+            "doi": "10.1152/JN.1999.82.4.1786",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "55b4e87cbe1c708d086649c43d7e47b25461c541",
+            "title": "Synchronized oscillatory discharges of mitral/tufted cells with different molecular receptive ranges in the rabbit olfactory bulb.",
+            "url": "https://www.semanticscholar.org/paper/55b4e87cbe1c708d086649c43d7e47b25461c541",
+            "venue": "Journal of neurophysiology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4009273",
+                    "name": "L. Trussell"
+                }
+            ],
+            "doi": "10.1146/ANNUREV.PHYSIOL.61.1.477",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed650235481e6bcdd7232faff0e835811098c973",
+            "title": "Synaptic mechanisms for coding timing in auditory neurons.",
+            "url": "https://www.semanticscholar.org/paper/ed650235481e6bcdd7232faff0e835811098c973",
+            "venue": "Annual review of physiology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39898200",
+                    "name": "R. Ghai"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1152/JN.2000.84.1.274",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1c5ff329e74ef1bfda8e936e5498ec528645ee21",
+            "title": "Effects of applied electric fields on low-calcium epileptiform activity in the CA1 region of rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/1c5ff329e74ef1bfda8e936e5498ec528645ee21",
+            "venue": "Journal of neurophysiology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6105822",
+                    "name": "Pamela Reinagel"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.20-14-05392.2000",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22b44517447c13eb0806ad3597eeac0922a31ae4",
+            "title": "Temporal Coding of Visual Information in the Thalamus",
+            "url": "https://www.semanticscholar.org/paper/22b44517447c13eb0806ad3597eeac0922a31ae4",
+            "venue": "The Journal of Neuroscience",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4193325",
+                    "name": "P. Kara"
+                },
+                {
+                    "authorId": "6105822",
+                    "name": "Pamela Reinagel"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                }
+            ],
+            "doi": "10.1016/S0896-6273(00)00072-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4dc9a67909f8a008a68752e048a040a42174bfff",
+            "title": "Low Response Variability in Simultaneously Recorded Retinal, Thalamic, and Cortical Neurons",
+            "url": "https://www.semanticscholar.org/paper/4dc9a67909f8a008a68752e048a040a42174bfff",
+            "venue": "Neuron",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1906397",
+                    "name": "A. Riehle"
+                },
+                {
+                    "authorId": "31498094",
+                    "name": "F. Grammont"
+                },
+                {
+                    "authorId": "1693609",
+                    "name": "M. Diesmann"
+                },
+                {
+                    "authorId": "1680854",
+                    "name": "S. Gr\u00fcn"
+                }
+            ],
+            "doi": "10.1016/S0928-4257(00)01100-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d23122ba104227efd2a708c70749d2f2e9320f19",
+            "title": "Dynamical changes and temporal precision of synchronized spiking activity in monkey motor cortex during movement preparation",
+            "url": "https://www.semanticscholar.org/paper/d23122ba104227efd2a708c70749d2f2e9320f19",
+            "venue": "Journal of Physiology-Paris",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1109/5.939821",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "title": "Suppression and control of epileptiform activity by electrical stimulation: a review",
+            "url": "https://www.semanticscholar.org/paper/4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "venue": "Proc. IEEE",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32645462",
+                    "name": "J. Francis"
+                },
+                {
+                    "authorId": "2811697",
+                    "name": "B. Gluckman"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.23-19-07255.2003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8e9386a1bc3d07ab10f7e27a2a3c7db98115dfcb",
+            "title": "Sensitivity of Neurons to Weak Electric Fields",
+            "url": "https://www.semanticscholar.org/paper/8e9386a1bc3d07ab10f7e27a2a3c7db98115dfcb",
+            "venue": "The Journal of Neuroscience",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145906932",
+                    "name": "Michael DeWeese"
+                },
+                {
+                    "authorId": "145447060",
+                    "name": "M. Wehr"
+                },
+                {
+                    "authorId": "3199565",
+                    "name": "A. Zador"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.23-21-07940.2003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "aafdbca50d0614577f3025003aab970ae92e6e27",
+            "title": "Binary Spiking in Auditory Cortex",
+            "url": "https://www.semanticscholar.org/paper/aafdbca50d0614577f3025003aab970ae92e6e27",
+            "venue": "The Journal of Neuroscience",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144931354",
+                    "name": "K. Harris"
+                },
+                {
+                    "authorId": "5799995",
+                    "name": "J. Csicsvari"
+                },
+                {
+                    "authorId": "6900648",
+                    "name": "H. Hirase"
+                },
+                {
+                    "authorId": "49170135",
+                    "name": "G. Dragoi"
+                },
+                {
+                    "authorId": "144128278",
+                    "name": "G. Buzs\u00e1ki"
+                }
+            ],
+            "doi": "10.1038/nature01834",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "eb84341018bc6e5775815a37c74876e1e5a1e5fb",
+            "title": "Organization of cell assemblies in the hippocampus",
+            "url": "https://www.semanticscholar.org/paper/eb84341018bc6e5775815a37c74876e1e5a1e5fb",
+            "venue": "Nature",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "2066058945",
+                    "name": "Hiroki Akiyama"
+                },
+                {
+                    "authorId": null,
+                    "name": "Jackie K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Fox"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.055772",
+            "intent": [
+                "result",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "venue": "The Journal of physiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145737846",
+                    "name": "L.C. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1109/IEMBS.2004.1404271",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9b8012ddd8f06db9f55c67a2e3aa0c64b32bfe8f",
+            "title": "Model of the effect of extracellular fields on spike time coherence",
+            "url": "https://www.semanticscholar.org/paper/9b8012ddd8f06db9f55c67a2e3aa0c64b32bfe8f",
+            "venue": "The 26th Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+            "year": 2004
+        }
+    ],
+    "title": "Amplification of small electric fields by neurons; implications for spike timing",
+    "topics": [
+        {
+            "topic": "Neurons",
+            "topicId": "4011",
+            "url": "https://www.semanticscholar.org/topic/4011"
+        },
+        {
+            "topic": "electric field",
+            "topicId": "5788",
+            "url": "https://www.semanticscholar.org/topic/5788"
+        },
+        {
+            "topic": "Pyramidal Cells",
+            "topicId": "86800",
+            "url": "https://www.semanticscholar.org/topic/86800"
+        },
+        {
+            "topic": "Hippocampus (Brain)",
+            "topicId": "1384",
+            "url": "https://www.semanticscholar.org/topic/1384"
+        },
+        {
+            "topic": "CA1 field",
+            "topicId": "1381",
+            "url": "https://www.semanticscholar.org/topic/1381"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/629e7ac58eaf40f2eda0c4e850aca2c539c02c99",
+    "venue": "2006 International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "year": 2006
+}

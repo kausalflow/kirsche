@@ -1,0 +1,51 @@
+{
+    "authors": [
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "48124211",
+            "name": "M. Inoue",
+            "url": "https://www.semanticscholar.org/author/48124211"
+        },
+        {
+            "authorId": "2066058945",
+            "name": "Hiroki Akiyama",
+            "url": "https://www.semanticscholar.org/author/2066058945"
+        },
+        {
+            "authorId": "3513656",
+            "name": "J. Deans",
+            "url": "https://www.semanticscholar.org/author/3513656"
+        },
+        {
+            "authorId": "144854361",
+            "name": "J. Fox",
+            "url": "https://www.semanticscholar.org/author/144854361"
+        },
+        {
+            "authorId": "1819882",
+            "name": "H. Miyakawa",
+            "url": "https://www.semanticscholar.org/author/1819882"
+        },
+        {
+            "authorId": "144356606",
+            "name": "J. Jefferys",
+            "url": "https://www.semanticscholar.org/author/144356606"
+        }
+    ],
+    "corpusId": 12466774,
+    "doi": "10.1113/jphysiol.2003.055772",
+    "numCitedBy": 571,
+    "numCiting": 59,
+    "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+    "venue": "The Journal of physiology",
+    "year": 2004,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+        "10.1113/jphysiol.2002.033209"
+    ]
+}

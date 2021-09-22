@@ -1,0 +1,38 @@
+{
+    "authors": [
+        {
+            "authorId": "3647350",
+            "name": "A. Gellner",
+            "url": "https://www.semanticscholar.org/author/3647350"
+        },
+        {
+            "authorId": "26090635",
+            "name": "J. Reis",
+            "url": "https://www.semanticscholar.org/author/26090635"
+        },
+        {
+            "authorId": "4128667",
+            "name": "B. Fiebich",
+            "url": "https://www.semanticscholar.org/author/4128667"
+        },
+        {
+            "authorId": "144492447",
+            "name": "B. Fritsch",
+            "url": "https://www.semanticscholar.org/author/144492447"
+        }
+    ],
+    "corpusId": 237102854,
+    "doi": "10.1016/j.brs.2021.08.007",
+    "numCitedBy": 0,
+    "numCiting": 111,
+    "title": "Electrified microglia: Impact of direct current stimulation on diverse properties of the most versatile brain cell",
+    "venue": "Brain Stimulation",
+    "year": 2021,
+    "local__referenced_to": [
+        "10.1093/ijnp/pyu090",
+        "10.1152/jn.00319.2011",
+        "10.1016/j.brs.2016.10.001",
+        "10.1002/ana.24708",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

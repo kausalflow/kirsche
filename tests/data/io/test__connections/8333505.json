@@ -1,0 +1,30 @@
+{
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 8333505,
+    "doi": "10.1109/iembs.2006.259636",
+    "numCitedBy": 5,
+    "numCiting": 19,
+    "title": "Amplification of small electric fields by neurons; implications for spike timing",
+    "venue": "2006 International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "year": 2006,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1113/jphysiol.2003.055772"
+    ]
+}

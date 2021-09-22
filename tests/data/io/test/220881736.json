@@ -1,0 +1,57 @@
+{
+    "authors": [
+        {
+            "authorId": "153923408",
+            "name": "Alysia Ross",
+            "url": "https://www.semanticscholar.org/author/153923408"
+        },
+        {
+            "authorId": "52020710",
+            "name": "Viktoria Xing",
+            "url": "https://www.semanticscholar.org/author/52020710"
+        },
+        {
+            "authorId": "89782535",
+            "name": "T. Wang",
+            "url": "https://www.semanticscholar.org/author/89782535"
+        },
+        {
+            "authorId": "2070914113",
+            "name": "Samantha C. Bureau",
+            "url": "https://www.semanticscholar.org/author/2070914113"
+        },
+        {
+            "authorId": "1844595113",
+            "name": "Giovana A. Link",
+            "url": "https://www.semanticscholar.org/author/1844595113"
+        },
+        {
+            "authorId": "3073501",
+            "name": "T. Fortin",
+            "url": "https://www.semanticscholar.org/author/3073501"
+        },
+        {
+            "authorId": "49732777",
+            "name": "Hui Zhang",
+            "url": "https://www.semanticscholar.org/author/49732777"
+        },
+        {
+            "authorId": "4311193",
+            "name": "S. Hayley",
+            "url": "https://www.semanticscholar.org/author/4311193"
+        },
+        {
+            "authorId": "1845793684",
+            "name": "Hongyu Sun",
+            "url": "https://www.semanticscholar.org/author/1845793684"
+        }
+    ],
+    "corpusId": 220881736,
+    "doi": "10.1186/s13041-020-00648-8",
+    "numCitedBy": 3,
+    "numCiting": 76,
+    "title": "Alleviating toxic \u03b1-Synuclein accumulation by membrane depolarization: evidence from an in vitro model of Parkinson\u2019s disease",
+    "venue": "Molecular Brain",
+    "year": 2020,
+    "local__referenced_to": []
+}

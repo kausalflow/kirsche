@@ -1,0 +1,34 @@
+{
+    "authors": [
+        {
+            "authorId": "7782185",
+            "name": "Wei-Pang Chang",
+            "url": "https://www.semanticscholar.org/author/7782185"
+        },
+        {
+            "authorId": "5634570",
+            "name": "Hsiang-Chin Lu",
+            "url": "https://www.semanticscholar.org/author/5634570"
+        },
+        {
+            "authorId": "145013712",
+            "name": "B. Shyu",
+            "url": "https://www.semanticscholar.org/author/145013712"
+        }
+    ],
+    "corpusId": 207546394,
+    "doi": "10.1016/j.expneurol.2015.02.002",
+    "numCitedBy": 10,
+    "numCiting": 77,
+    "title": "Treatment with direct-current stimulation against cingulate seizure-like activity induced by 4-aminopyridine and bicuculline in an in vitro mouse model",
+    "venue": "Experimental Neurology",
+    "year": 2015,
+    "local__referenced_to": [
+        "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+        "10.1113/jphysiol.2003.055772",
+        "10.1152/jn.00715.2011",
+        "10.1016/j.neuron.2010.03.035",
+        "10.1113/jphysiol.2002.033209",
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}

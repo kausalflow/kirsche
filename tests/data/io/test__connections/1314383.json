@@ -1,0 +1,41 @@
+{
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "6367062",
+            "name": "Y. Su",
+            "url": "https://www.semanticscholar.org/author/6367062"
+        },
+        {
+            "authorId": "49211962",
+            "name": "Je Hi An",
+            "url": "https://www.semanticscholar.org/author/49211962"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 1314383,
+    "doi": "10.1523/jneurosci.0095-07.2007",
+    "numCitedBy": 205,
+    "numCiting": 79,
+    "title": "Spike Timing Amplifies the Effect of Electric Fields on Neurons: Implications for Endogenous Field Effects",
+    "venue": "The Journal of Neuroscience",
+    "year": 2007,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1109/iembs.2006.259636",
+        "10.1113/jphysiol.2003.055772"
+    ]
+}
