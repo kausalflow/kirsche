@@ -115,7 +115,7 @@ def save_batch_json(
 
     if data_path.is_dir() or (mode == "multi"):
         if not data_path.exists():
-            data_path.mkdir()
+            data_path.mkdir(parents=True)
         logger.debug(f"saving all data records to {data_path} folder")
         data_path_all_json = list(data_path.glob("*.json"))
         logger.debug(f"Found {len(data_path_all_json)} json files in {data_path}.")
