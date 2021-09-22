@@ -41,7 +41,11 @@ def append_connections(
         ]
         ps_referenced_to = []
         for pt in papers:
-            pt_doi = pt.get("doi", "").lower()
+            pt_doi = pt.get("doi", "")
+            if not pt_doi:
+                pt_doi = ""
+            else:
+                pt_doi = pt_doi.lower()
             if pt_doi in ps_reference_dois:
                 ps_referenced_to.append(pt_doi)
 
