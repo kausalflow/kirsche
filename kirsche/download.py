@@ -8,6 +8,7 @@ from loguru import logger
 
 from kirsche.utils.bib import get_unique_ids_from_bib
 from kirsche.utils.semanticscholar import get_paper_info
+from kirsche.utils.io import save_batch_json
 
 
 def list_dois(
@@ -74,8 +75,7 @@ def download_metadata(
 
     if target:
         logger.debug(f"Saving to {target}")
-        with open(target, "w") as f:
-            json.dump(paper_info, f, indent=4)
+        save_batch_json(paper_info, target)
         logger.debug(f"Saved to {target}")
 
     return paper_info
