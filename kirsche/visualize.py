@@ -34,6 +34,12 @@ def visualize(nodes: list, edges: list, title: str, target: Union[str, Path]) ->
     :param target: target file path
     """
 
+    if isinstance(target, str):
+        target = Path(target)
+
+    if not target.parent.exists():
+        target.parent.mkdir(parents=True)
+
     # Build the graph and export it to html file
     (
         Graph(init_opts=opts.InitOpts(width="1600px", height="800px"))
