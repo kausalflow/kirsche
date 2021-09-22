@@ -18,7 +18,8 @@ from typing import Union, Optional
 from pathlib import Path
 
 logger.remove()
-logger.add(sys.stderr, level="INFO", enqueue=True)
+# logger.add(sys.stderr, level="INFO", enqueue=True)
+logger.add(sys.stderr, level="DEBUG", enqueue=True)
 
 
 __CWD__ = os.getcwd()
@@ -45,6 +46,7 @@ def _metadata(
     """
 
     if target_metadata_path:
+        logger.debug(f"Target metadata path: {target_metadata_path} exists. looking for existing metadata...")
         existing_metadata = load_batch_json(target_metadata_path)
         if existing_metadata:
             logger.debug(
@@ -56,10 +58,13 @@ def _metadata(
     if existing_records:
         existing_metadata = existing_metadata + existing_records
 
+    if existing_metadata:
+        logger.debug(f"{len(existing_metadata)} existing metadta")
+
     click.echo(f"Retrieving unique ids...")
     logger.debug(f"loading bib {source_bib_file}")
     bib_content = load_bib(source_bib_file)
-    logger.debug(f"bib {source_bib_file} content: {bib_content}")
+    # logger.debug(f"bib {source_bib_file} content: {bib_content}")
     if source_bib_file:
         paper_id = list_unique_ids(source_bib_file)
     elif isinstance(paper_id, str):
@@ -69,7 +74,7 @@ def _metadata(
 
     logger.debug(f"({len(paper_id)}) Filter out existing records...")
     paper_id = [i for i in paper_id if not record_exists(i, existing_metadata)]
-    logger.debug(f"{len(paper_id)} ids to be downloaded")
+    logger.info(f"{len(paper_id)} ids to be downloaded")
 
     if not paper_id:
         click.secho(
@@ -194,7 +199,7 @@ def connections(paper_id, source_bib_file, source_metadata_path, connected_paper
 
         records = _metadata(paper_id, source_bib_file, None, sleep_time, existing_records=existing_connected_papers)
     else:
-        records = load_json(source_metadata_path)
+        records = load_batch_json(source_metadata_path)
     click.secho(f"  Retrieved {len(records)} records.")
 
     click.secho(f"Connecting papers...")

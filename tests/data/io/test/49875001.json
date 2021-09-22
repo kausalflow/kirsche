@@ -1,0 +1,54 @@
+{
+    "authors": [
+        {
+            "authorId": "37304148",
+            "name": "Charles V. Latchoumane",
+            "url": "https://www.semanticscholar.org/author/37304148"
+        },
+        {
+            "authorId": "39354566",
+            "name": "L. Jackson",
+            "url": "https://www.semanticscholar.org/author/39354566"
+        },
+        {
+            "authorId": "32247948",
+            "name": "M. Sendi",
+            "url": "https://www.semanticscholar.org/author/32247948"
+        },
+        {
+            "authorId": "3889451",
+            "name": "K. F. Tehrani",
+            "url": "https://www.semanticscholar.org/author/3889451"
+        },
+        {
+            "authorId": "6093434",
+            "name": "L. Mortensen",
+            "url": "https://www.semanticscholar.org/author/6093434"
+        },
+        {
+            "authorId": "4046863",
+            "name": "S. Stice",
+            "url": "https://www.semanticscholar.org/author/4046863"
+        },
+        {
+            "authorId": "1766812",
+            "name": "Maysam Ghovanloo",
+            "url": "https://www.semanticscholar.org/author/1766812"
+        },
+        {
+            "authorId": "47747564",
+            "name": "L. Karumbaiah",
+            "url": "https://www.semanticscholar.org/author/47747564"
+        }
+    ],
+    "corpusId": 49875001,
+    "doi": "10.1038/s41598-018-29069-3",
+    "numCitedBy": 13,
+    "numCiting": 114,
+    "title": "Chronic Electrical Stimulation Promotes the Excitability and Plasticity of ESC-derived Neurons following Glutamate-induced Inhibition In vitro",
+    "venue": "Scientific Reports",
+    "year": 2018,
+    "local__referenced_to": [
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

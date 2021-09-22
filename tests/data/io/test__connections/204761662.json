@@ -1,0 +1,49 @@
+{
+    "authors": [
+        {
+            "authorId": "39934585",
+            "name": "G. Kronberg",
+            "url": "https://www.semanticscholar.org/author/39934585"
+        },
+        {
+            "authorId": "3131367",
+            "name": "A. Rahman",
+            "url": "https://www.semanticscholar.org/author/3131367"
+        },
+        {
+            "authorId": "46320110",
+            "name": "Mahima Sharma",
+            "url": "https://www.semanticscholar.org/author/46320110"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        }
+    ],
+    "corpusId": 204761662,
+    "doi": "10.1016/j.brs.2019.10.014",
+    "numCitedBy": 31,
+    "numCiting": 102,
+    "title": "Direct current stimulation boosts hebbian plasticity in vitro",
+    "venue": "Brain Stimulation",
+    "year": 2020,
+    "local__referenced_to": [
+        "10.1093/cercor/bhx158",
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1016/j.brs.2009.03.007",
+        "10.1152/jn.00319.2011",
+        "10.1016/j.brs.2016.10.001",
+        "10.1016/j.brs.2016.08.014",
+        "10.1113/jphysiol.2012.247171",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.2003.055772",
+        "10.1002/ana.24708",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

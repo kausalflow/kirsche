@@ -1,0 +1,57 @@
+{
+    "authors": [
+        {
+            "authorId": "1691853",
+            "name": "Y. Sun",
+            "url": "https://www.semanticscholar.org/author/1691853"
+        },
+        {
+            "authorId": "35152578",
+            "name": "J. Lipton",
+            "url": "https://www.semanticscholar.org/author/35152578"
+        },
+        {
+            "authorId": "37508405",
+            "name": "Lara M. Boyle",
+            "url": "https://www.semanticscholar.org/author/37508405"
+        },
+        {
+            "authorId": "35584263",
+            "name": "J. Madsen",
+            "url": "https://www.semanticscholar.org/author/35584263"
+        },
+        {
+            "authorId": "40327646",
+            "name": "Marti C Goldenberg",
+            "url": "https://www.semanticscholar.org/author/40327646"
+        },
+        {
+            "authorId": "1390039794",
+            "name": "\u00c1. Pascual-Leone",
+            "url": "https://www.semanticscholar.org/author/1390039794"
+        },
+        {
+            "authorId": "143608449",
+            "name": "M. Sahin",
+            "url": "https://www.semanticscholar.org/author/143608449"
+        },
+        {
+            "authorId": "50075282",
+            "name": "A. Rotenberg",
+            "url": "https://www.semanticscholar.org/author/50075282"
+        }
+    ],
+    "corpusId": 15640516,
+    "doi": "10.1002/ana.24708",
+    "numCitedBy": 29,
+    "numCiting": 55,
+    "title": "Direct current stimulation induces mGluR5\u2010dependent neocortical plasticity",
+    "venue": "Annals of neurology",
+    "year": 2016,
+    "local__referenced_to": [
+        "10.1152/jn.00715.2011",
+        "10.1016/j.expneurol.2015.02.002",
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

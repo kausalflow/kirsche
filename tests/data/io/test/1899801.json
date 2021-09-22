@@ -1,0 +1,60 @@
+{
+    "authors": [
+        {
+            "authorId": "40568135",
+            "name": "F. Ranieri",
+            "url": "https://www.semanticscholar.org/author/40568135"
+        },
+        {
+            "authorId": "31587957",
+            "name": "M. Podda",
+            "url": "https://www.semanticscholar.org/author/31587957"
+        },
+        {
+            "authorId": "48980642",
+            "name": "E. Riccardi",
+            "url": "https://www.semanticscholar.org/author/48980642"
+        },
+        {
+            "authorId": "4266615",
+            "name": "G. Frisullo",
+            "url": "https://www.semanticscholar.org/author/4266615"
+        },
+        {
+            "authorId": "5542603",
+            "name": "M. Dileone",
+            "url": "https://www.semanticscholar.org/author/5542603"
+        },
+        {
+            "authorId": "6473082",
+            "name": "P. Profice",
+            "url": "https://www.semanticscholar.org/author/6473082"
+        },
+        {
+            "authorId": "5062011",
+            "name": "F. Pilato",
+            "url": "https://www.semanticscholar.org/author/5062011"
+        },
+        {
+            "authorId": "2137200",
+            "name": "V. Di Lazzaro",
+            "url": "https://www.semanticscholar.org/author/2137200"
+        },
+        {
+            "authorId": "145367636",
+            "name": "C. Grassi",
+            "url": "https://www.semanticscholar.org/author/145367636"
+        }
+    ],
+    "corpusId": 1899801,
+    "doi": "10.1152/jn.00319.2011",
+    "numCitedBy": 163,
+    "numCiting": 87,
+    "title": "Modulation of LTP at rat hippocampal CA3-CA1 synapses by direct current stimulation.",
+    "venue": "Journal of neurophysiology",
+    "year": 2012,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

@@ -1,0 +1,4921 @@
+{
+    "abstract": "Epileptic seizures are associated with neuronal hyperactivity. Here, however, we investigated whether continuous neuronal firing is necessary to maintain electrographic seizures. We studied a class of \"low-Ca2+\" ictal epileptiform bursts, induced in rat hippocampal slices, that are characterized by prolonged (2-15 s) interruptions in population spike generation. We found that, during these interruptions, neuronal firing was suppressed rather than desynchronized. Intracellular current injection, application of extracellular uniform electric fields, and antidromic stimulation showed that the source of action potential disruption was depolarization block. The duration of the extracellular potassium transients associated with each ictal burst was not affected by disruptions in neuronal firing. Application of phenytoin or veratridine indicated a critical role for the persistent sodium current in maintaining depolarization block. Our results show that continuous neuronal firing is not necessary for the maintenance of experimental electrographic seizures.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "39450338",
+            "name": "P. Hahn",
+            "url": "https://www.semanticscholar.org/author/39450338"
+        },
+        {
+            "authorId": "144854361",
+            "name": "J. Fox",
+            "url": "https://www.semanticscholar.org/author/144854361"
+        },
+        {
+            "authorId": "144356606",
+            "name": "J. Jefferys",
+            "url": "https://www.semanticscholar.org/author/144356606"
+        }
+    ],
+    "citationVelocity": 6,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4542677",
+                    "name": "Eric R. Wengert"
+                },
+                {
+                    "authorId": "145215228",
+                    "name": "K. Wedgwood"
+                },
+                {
+                    "authorId": "41035624",
+                    "name": "P. Wagley"
+                },
+                {
+                    "authorId": "1416773357",
+                    "name": "Samantha M. Strohm"
+                },
+                {
+                    "authorId": "150263659",
+                    "name": "Payal S Panchal"
+                },
+                {
+                    "authorId": "2048197269",
+                    "name": "Abrar Idrissi Majidi"
+                },
+                {
+                    "authorId": "4342006",
+                    "name": "I. Wenker"
+                },
+                {
+                    "authorId": "152946520",
+                    "name": "R. Gaykema"
+                },
+                {
+                    "authorId": "34838532",
+                    "name": "Manoj K Patel"
+                }
+            ],
+            "doi": "10.1101/2021.02.05.429987",
+            "intent": [
+                "background",
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "8d5ad8dd4b4e7d584debf017cc7251aedbe3dbf5",
+            "title": "Somatostatin-positive Interneurons Contribute to Seizures in SCN8A Epileptic Encephalopathy",
+            "url": "https://www.semanticscholar.org/paper/8d5ad8dd4b4e7d584debf017cc7251aedbe3dbf5",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146481340",
+                    "name": "D. Depannemaecker"
+                },
+                {
+                    "authorId": "3118329",
+                    "name": "A. Ivanov"
+                },
+                {
+                    "authorId": "31631314",
+                    "name": "Davide Lillo"
+                },
+                {
+                    "authorId": "78696151",
+                    "name": "L. Spek"
+                },
+                {
+                    "authorId": "145904983",
+                    "name": "C. Bernard"
+                },
+                {
+                    "authorId": "2068912",
+                    "name": "Viktor Jirsa"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "baadf96b9bc078e641d9669a6e82672cd14dfd18",
+            "title": "A unified physiological framework of transitions between seizures, status epilepticus and depolarization block at the single neuron level",
+            "url": "https://www.semanticscholar.org/paper/baadf96b9bc078e641d9669a6e82672cd14dfd18",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143770317",
+                    "name": "Omar J. Ahmed"
+                },
+                {
+                    "authorId": "36423273",
+                    "name": "Tibin T. John"
+                },
+                {
+                    "authorId": "2921163",
+                    "name": "S. Sudhakar"
+                },
+                {
+                    "authorId": "150088078",
+                    "name": "E. Brennan"
+                },
+                {
+                    "authorId": null,
+                    "name": "Alcides Lorenzo Gonzalez"
+                },
+                {
+                    "authorId": "4504381",
+                    "name": "Jason S Naftulin"
+                },
+                {
+                    "authorId": "50383226",
+                    "name": "E. Eskandar"
+                },
+                {
+                    "authorId": "2057639368",
+                    "name": "J. Madsen"
+                },
+                {
+                    "authorId": "145271667",
+                    "name": "G. Cosgrove"
+                },
+                {
+                    "authorId": "145418102",
+                    "name": "A. Blum"
+                },
+                {
+                    "authorId": "2059228506",
+                    "name": "N. S. Potter"
+                },
+                {
+                    "authorId": "2093725",
+                    "name": "G. Mashour"
+                },
+                {
+                    "authorId": "2109871",
+                    "name": "L. Hochberg"
+                },
+                {
+                    "authorId": "145629563",
+                    "name": "S. Cash"
+                }
+            ],
+            "doi": "10.1101/2020.10.09.20204206",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0c6322cbdaf84c5726115fab833b250b2afedbc7",
+            "title": "Two modes of inhibitory neuronal shutdown distinctly amplify seizures in humans",
+            "url": "https://www.semanticscholar.org/paper/0c6322cbdaf84c5726115fab833b250b2afedbc7",
+            "venue": "medRxiv",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35400274",
+                    "name": "T. Fardet"
+                },
+                {
+                    "authorId": "145039541",
+                    "name": "A. Levina"
+                }
+            ],
+            "doi": "10.1101/2020.02.19.955898",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4361d48bd5621b21e5337b6ff78fcc52cb39c7d4",
+            "title": "Simple models including energy and spike constraints reproduce complex activity patterns and metabolic disruptions",
+            "url": "https://www.semanticscholar.org/paper/4361d48bd5621b21e5337b6ff78fcc52cb39c7d4",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35400274",
+                    "name": "T. Fardet"
+                },
+                {
+                    "authorId": "1500650308",
+                    "name": "A. Levina"
+                }
+            ],
+            "doi": "10.1101/2020.02.19.955898",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4b2a2536646ff3e3f85fd2738fe1200ec9fdb7b2",
+            "title": "Energy-based models to describe complex neuronal activities and metabolic constraints",
+            "url": "https://www.semanticscholar.org/paper/4b2a2536646ff3e3f85fd2738fe1200ec9fdb7b2",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146481340",
+                    "name": "D. Depannemaecker"
+                },
+                {
+                    "authorId": "3118329",
+                    "name": "A. Ivanov"
+                },
+                {
+                    "authorId": "31631314",
+                    "name": "Davide Lillo"
+                },
+                {
+                    "authorId": "78696151",
+                    "name": "L. Spek"
+                },
+                {
+                    "authorId": "145904983",
+                    "name": "C. Bernard"
+                },
+                {
+                    "authorId": "2068912",
+                    "name": "Viktor Jirsa"
+                }
+            ],
+            "doi": "10.1101/2020.10.23.352021",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5d98688b1e276c6f5a79d0f87bfcb21985905061",
+            "title": "A unified physiological framework of transitions between seizures, sustained ictal activity and depolarization block at the single neuron level",
+            "url": "https://www.semanticscholar.org/paper/5d98688b1e276c6f5a79d0f87bfcb21985905061",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Damien Depannemaecker"
+                },
+                {
+                    "authorId": null,
+                    "name": "Anton Ivanov"
+                },
+                {
+                    "authorId": null,
+                    "name": "Davide Lillo"
+                },
+                {
+                    "authorId": null,
+                    "name": "Len Spek"
+                },
+                {
+                    "authorId": null,
+                    "name": "Christophe Bernard"
+                },
+                {
+                    "authorId": null,
+                    "name": "Viktor Jirsa"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6acfd01f77fd3832542d0dfda1c6c47f8057e284",
+            "title": "Full title: A unified physiological framework of transitions between seizures, status epilepticus and depolarization block at the single neuron level Short Title: Dynamics of pathologic behaviors at single neuron level",
+            "url": "https://www.semanticscholar.org/paper/6acfd01f77fd3832542d0dfda1c6c47f8057e284",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48623642",
+                    "name": "Yangyang Yu"
+                },
+                {
+                    "authorId": "2033379558",
+                    "name": "Zhixuan Yuan"
+                },
+                {
+                    "authorId": "144145161",
+                    "name": "Y. Fan"
+                },
+                {
+                    "authorId": "49298469",
+                    "name": "Jiajia Li"
+                },
+                {
+                    "authorId": "9287744",
+                    "name": "Y. Wu"
+                }
+            ],
+            "doi": "10.1155/2020/8864246",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "71a9abd7c36ea7fa3608c177f81510aa224c0386",
+            "title": "Dynamic Transitions in Neuronal Network Firing Sustained by Abnormal Astrocyte Feedback",
+            "url": "https://www.semanticscholar.org/paper/71a9abd7c36ea7fa3608c177f81510aa224c0386",
+            "venue": "Neural plasticity",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2261051",
+                    "name": "Zhongquan Gao"
+                },
+                {
+                    "authorId": "2033379558",
+                    "name": "Zhixuan Yuan"
+                },
+                {
+                    "authorId": "2108306800",
+                    "name": "Zuo Wang"
+                },
+                {
+                    "authorId": "33591038",
+                    "name": "Peihua Feng"
+                }
+            ],
+            "doi": "10.1155/2020/8899577",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "919e8df674927b3bed1131b4b6be97a001946af0",
+            "title": "Modulation of Astrocytes on Mode Selection of Neuron Firing Driven by Electromagnetic Induction",
+            "url": "https://www.semanticscholar.org/paper/919e8df674927b3bed1131b4b6be97a001946af0",
+            "venue": "Neural plasticity",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "146481340",
+                    "name": "D. Depannemaecker"
+                },
+                {
+                    "authorId": "32089761",
+                    "name": "L. E. C. Santos"
+                },
+                {
+                    "authorId": "144082900",
+                    "name": "A. M. Rodrigues"
+                },
+                {
+                    "authorId": "83645663",
+                    "name": "C. Scorza"
+                },
+                {
+                    "authorId": "2708896",
+                    "name": "F. Scorza"
+                },
+                {
+                    "authorId": "3026535",
+                    "name": "Ant\u00f4nio-Carlos G. Almeida"
+                }
+            ],
+            "doi": "10.1016/j.neunet.2019.09.038",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "94ca66bc0a0cf5297f21ac9b1821424526204788",
+            "title": "Realistic spiking neural network: Non-synaptic mechanisms improve convergence in cell assembly",
+            "url": "https://www.semanticscholar.org/paper/94ca66bc0a0cf5297f21ac9b1821424526204788",
+            "venue": "Neural Networks",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38695136",
+                    "name": "A. Latorre"
+                },
+                {
+                    "authorId": "3264367",
+                    "name": "L. Rocchi"
+                },
+                {
+                    "authorId": "5642775",
+                    "name": "F. Magrinelli"
+                },
+                {
+                    "authorId": "3615158",
+                    "name": "E. Mulroy"
+                },
+                {
+                    "authorId": "47214710",
+                    "name": "A. Berardelli"
+                },
+                {
+                    "authorId": "144408932",
+                    "name": "J. Rothwell"
+                },
+                {
+                    "authorId": "145379714",
+                    "name": "K. Bhatia"
+                }
+            ],
+            "doi": "10.1093/brain/awaa129",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f789654e040530591e08c063335cecc5ad27c288",
+            "title": "Unravelling the enigma of cortical tremor and other forms of cortical myoclonus.",
+            "url": "https://www.semanticscholar.org/paper/f789654e040530591e08c063335cecc5ad27c288",
+            "venue": "Brain : a journal of neurology",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2593325",
+                    "name": "C. Schevon"
+                },
+                {
+                    "authorId": "47003988",
+                    "name": "S. Tobochnik"
+                },
+                {
+                    "authorId": "31587402",
+                    "name": "Tahra L. Eissa"
+                },
+                {
+                    "authorId": "10779950",
+                    "name": "E. Merricks"
+                },
+                {
+                    "authorId": "152823621",
+                    "name": "B. Gill"
+                },
+                {
+                    "authorId": "91192783",
+                    "name": "R. R. Parrish"
+                },
+                {
+                    "authorId": "6348542",
+                    "name": "L. Bateman"
+                },
+                {
+                    "authorId": "2671690",
+                    "name": "G. Mckhann"
+                },
+                {
+                    "authorId": "116544018",
+                    "name": "R. Emerson"
+                },
+                {
+                    "authorId": "4056324",
+                    "name": "A. Trevelyan"
+                }
+            ],
+            "doi": "10.1016/j.nbd.2019.03.015",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f2edd7c29c5e66cd28c223c2f0d26526548267c",
+            "title": "Multiscale recordings reveal the dynamic spatial structure of human seizures",
+            "url": "https://www.semanticscholar.org/paper/2f2edd7c29c5e66cd28c223c2f0d26526548267c",
+            "venue": "Neurobiology of Disease",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2921163",
+                    "name": "S. Sudhakar"
+                },
+                {
+                    "authorId": "2061466169",
+                    "name": "Thomas J Choi"
+                },
+                {
+                    "authorId": "143770317",
+                    "name": "O. J. Ahmed"
+                }
+            ],
+            "doi": "10.1089/neu.2018.6065",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3785f462427704a8743dad417e6e8ed35b6b9469",
+            "title": "Biophysical Modeling Suggests Optimal Drug Combinations for Improving the Efficacy of GABA Agonists after Traumatic Brain Injuries.",
+            "url": "https://www.semanticscholar.org/paper/3785f462427704a8743dad417e6e8ed35b6b9469",
+            "venue": "Journal of neurotrauma",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2349215",
+                    "name": "P. Toglia"
+                },
+                {
+                    "authorId": "144299734",
+                    "name": "G. Ullah"
+                }
+            ],
+            "doi": "10.1007/s10827-019-00724-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3d1cb345aa2176c31107ff334106d6b01672c03c",
+            "title": "Mitochondrial dysfunction and role in spreading depolarization and seizure",
+            "url": "https://www.semanticscholar.org/paper/3d1cb345aa2176c31107ff334106d6b01672c03c",
+            "venue": "Journal of Computational Neuroscience",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48415567",
+                    "name": "G. Berecki"
+                },
+                {
+                    "authorId": "48368314",
+                    "name": "Alexander Bryson"
+                },
+                {
+                    "authorId": "6659344",
+                    "name": "Jan Terhag"
+                },
+                {
+                    "authorId": "5189471",
+                    "name": "S. Maljevic"
+                },
+                {
+                    "authorId": "6379934",
+                    "name": "E. Gazina"
+                },
+                {
+                    "authorId": "47367542",
+                    "name": "Sean L. Hill"
+                },
+                {
+                    "authorId": "2118841",
+                    "name": "S. Petrou"
+                }
+            ],
+            "doi": "10.1002/ana.25438",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "679985a065d3b9811c5f900882e40028e360abbd",
+            "title": "SCN1A gain of function in early infantile encephalopathy",
+            "url": "https://www.semanticscholar.org/paper/679985a065d3b9811c5f900882e40028e360abbd",
+            "venue": "Annals of neurology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2305872",
+                    "name": "B. Knauer"
+                },
+                {
+                    "authorId": "2531401",
+                    "name": "M. Yoshida"
+                }
+            ],
+            "doi": "10.1002/hipo.23078",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac97eb1f4045eae7a4e69f342f4fb6848cb077cd",
+            "title": "Switching between persistent firing and depolarization block in individual rat CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/ac97eb1f4045eae7a4e69f342f4fb6848cb077cd",
+            "venue": "Hippocampus",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39822242",
+                    "name": "M. Curtis"
+                },
+                {
+                    "authorId": "6062483",
+                    "name": "L. Librizzi"
+                },
+                {
+                    "authorId": "143798001",
+                    "name": "L. Uva"
+                },
+                {
+                    "authorId": "2982045",
+                    "name": "V. Gnatkovsky"
+                }
+            ],
+            "doi": "10.1016/j.nbd.2019.02.007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c9d0fdbc6dff1d590d4f4f96d35add0676b9b752",
+            "title": "GABAA receptor-mediated networks during focal seizure onset and progression in vitro\n",
+            "url": "https://www.semanticscholar.org/paper/c9d0fdbc6dff1d590d4f4f96d35add0676b9b752",
+            "venue": "Neurobiology of Disease",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8036672",
+                    "name": "Tianke Li"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "d566eeed4ca5bd3313732c7bd48134e58dceb41d",
+            "title": "Extending firing rate models to include ionic effects",
+            "url": "https://www.semanticscholar.org/paper/d566eeed4ca5bd3313732c7bd48134e58dceb41d",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "102132585",
+                    "name": "A. Ruiz\u2010Nu\u00f1o"
+                },
+                {
+                    "authorId": "37944449",
+                    "name": "Dolores Miranda"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "2026242",
+                    "name": "P. Jiruska"
+                },
+                {
+                    "authorId": "144854361",
+                    "name": "J. E. Fox"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1101/280321",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2c1606d3df975eebcc6e1931fdfec72667ec1725",
+            "title": "Synaptic transmission modulates while non-synaptic processes govern the transition from pre-ictal to seizure activity in vitro",
+            "url": "https://www.semanticscholar.org/paper/2c1606d3df975eebcc6e1931fdfec72667ec1725",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6955651",
+                    "name": "M. Mantegazza"
+                },
+                {
+                    "authorId": "5932160",
+                    "name": "S. Cest\u00e8le"
+                }
+            ],
+            "doi": "10.1016/j.neulet.2017.11.025",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "44c1af853584f0c4789988e1df1c3514d544ff17",
+            "title": "Pathophysiological mechanisms of migraine and epilepsy: Similarities and differences",
+            "url": "https://www.semanticscholar.org/paper/44c1af853584f0c4789988e1df1c3514d544ff17",
+            "venue": "Neuroscience Letters",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1929200",
+                    "name": "V. Grigorovsky"
+                },
+                {
+                    "authorId": "1396272594",
+                    "name": "Berj L. Bardakjian"
+                }
+            ],
+            "doi": "10.1109/TBME.2017.2757878",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "7832d04e8cad5e0465ecdd65c02ae31c52e5aa18",
+            "title": "Low-to-High Cross-Frequency Coupling in the Electrical Rhythms as Biomarker for Hyperexcitable Neuroglial Networks of the Brain",
+            "url": "https://www.semanticscholar.org/paper/7832d04e8cad5e0465ecdd65c02ae31c52e5aa18",
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49082754",
+                    "name": "Mengmeng Du"
+                },
+                {
+                    "authorId": "47787085",
+                    "name": "Jia-Jia Li"
+                },
+                {
+                    "authorId": "1692551",
+                    "name": "L. Chen"
+                },
+                {
+                    "authorId": "48623269",
+                    "name": "Yuguo Yu"
+                },
+                {
+                    "authorId": "50118130",
+                    "name": "Y. Wu"
+                }
+            ],
+            "doi": "10.1371/journal.pcbi.1005877",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "82687dd7cd192e87807226d9ecb593f9f948a851",
+            "title": "Astrocytic Kir4.1 channels and gap junctions account for spontaneous epileptic seizure",
+            "url": "https://www.semanticscholar.org/paper/82687dd7cd192e87807226d9ecb593f9f948a851",
+            "venue": "PLoS Comput. Biol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39822242",
+                    "name": "M. Curtis"
+                },
+                {
+                    "authorId": "143798001",
+                    "name": "L. Uva"
+                },
+                {
+                    "authorId": "2982045",
+                    "name": "V. Gnatkovsky"
+                },
+                {
+                    "authorId": "6062483",
+                    "name": "L. Librizzi"
+                }
+            ],
+            "doi": "10.1016/j.eplepsyres.2018.04.005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b5a7f840bdb1b0151c4b9f6ffc5ecd7ffeb0af94",
+            "title": "Potassium dynamics and seizures: Why is potassium ictogenic?",
+            "url": "https://www.semanticscholar.org/paper/b5a7f840bdb1b0151c4b9f6ffc5ecd7ffeb0af94",
+            "venue": "Epilepsy Research",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144318676",
+                    "name": "M. Sanjay"
+                },
+                {
+                    "authorId": "6776371",
+                    "name": "S. B. Krothapalli"
+                }
+            ],
+            "doi": "10.1007/978-3-319-99103-0_22",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c6e77d66a1fb8d691018f8fd37533ba99e7592b0",
+            "title": "Modelling Epileptic Activity in Hippocampal CA3",
+            "url": "https://www.semanticscholar.org/paper/c6e77d66a1fb8d691018f8fd37533ba99e7592b0",
+            "venue": "",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35577019",
+                    "name": "Adam R Neumann"
+                },
+                {
+                    "authorId": "1993155",
+                    "name": "R. Raedt"
+                },
+                {
+                    "authorId": "3506709",
+                    "name": "H. Steenland"
+                },
+                {
+                    "authorId": "40266547",
+                    "name": "M. Sprengers"
+                },
+                {
+                    "authorId": "27037142",
+                    "name": "Katarzyna Bzymek"
+                },
+                {
+                    "authorId": "2740466",
+                    "name": "Z. Navratilova"
+                },
+                {
+                    "authorId": "5392651",
+                    "name": "Lilia Mesina"
+                },
+                {
+                    "authorId": "49598499",
+                    "name": "J. Xie"
+                },
+                {
+                    "authorId": "4512914",
+                    "name": "Val\u00e9rie Lapointe"
+                },
+                {
+                    "authorId": "46620380",
+                    "name": "F. Kloosterman"
+                },
+                {
+                    "authorId": "3062155",
+                    "name": "K. Vonck"
+                },
+                {
+                    "authorId": "28947249",
+                    "name": "P. Boon"
+                },
+                {
+                    "authorId": "2620559",
+                    "name": "I. Soltesz"
+                },
+                {
+                    "authorId": "33259752",
+                    "name": "B. McNaughton"
+                },
+                {
+                    "authorId": "7766405",
+                    "name": "A. Luczak"
+                }
+            ],
+            "doi": "10.1093/brain/awx179",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "153be597e7f3b46b0a55288b1fa9d87faab001ad",
+            "title": "Involvement of fast-spiking cells in ictal sequences during spontaneous seizures in rats with chronic temporal lobe epilepsy",
+            "url": "https://www.semanticscholar.org/paper/153be597e7f3b46b0a55288b1fa9d87faab001ad",
+            "venue": "Brain : a journal of neurology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49298469",
+                    "name": "Jiajia Li"
+                },
+                {
+                    "authorId": "3401487",
+                    "name": "Yonghui Xie"
+                },
+                {
+                    "authorId": "48623269",
+                    "name": "Yuguo Yu"
+                },
+                {
+                    "authorId": "49082754",
+                    "name": "Mengmeng Du"
+                },
+                {
+                    "authorId": "145406507",
+                    "name": "R. Wang"
+                },
+                {
+                    "authorId": "50118130",
+                    "name": "Y. Wu"
+                }
+            ],
+            "doi": "10.1007/S11431-016-9056-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3be7c7ff76468a2fc34225c3e3d7b26a0b539aa7",
+            "title": "A neglected GABAergic astrocyte: Calcium dynamics and involvement in seizure activity",
+            "url": "https://www.semanticscholar.org/paper/3be7c7ff76468a2fc34225c3e3d7b26a0b539aa7",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1423566750",
+                    "name": "Nariman Hossein-Javaheri"
+                },
+                {
+                    "authorId": "4236971",
+                    "name": "M. P. Wilkie"
+                },
+                {
+                    "authorId": "48334130",
+                    "name": "Wudu E. Lado"
+                },
+                {
+                    "authorId": "3537103",
+                    "name": "L. Buck"
+                }
+            ],
+            "doi": "10.1242/jeb.146605",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "756195a3ff84934722e34c49083423a5abc8777e",
+            "title": "Stellate and pyramidal neurons in goldfish telencephalon respond differently to anoxia and GABA receptor inhibition",
+            "url": "https://www.semanticscholar.org/paper/756195a3ff84934722e34c49083423a5abc8777e",
+            "venue": "Journal of Experimental Biology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29667424",
+                    "name": "Rebecca Diez"
+                },
+                {
+                    "authorId": "1842753",
+                    "name": "M. J. Richardson"
+                },
+                {
+                    "authorId": "2221836",
+                    "name": "M. Wall"
+                }
+            ],
+            "doi": "10.3389/fncir.2017.00075",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "906069b0caa73f493fd0e7521d985fac1317e479",
+            "title": "Reducing Extracellular Ca2+ Induces Adenosine Release via Equilibrative Nucleoside Transporters to Provide Negative Feedback Control of Activity in the Hippocampus",
+            "url": "https://www.semanticscholar.org/paper/906069b0caa73f493fd0e7521d985fac1317e479",
+            "venue": "Front. Neural Circuits",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144318676",
+                    "name": "M. Sanjay"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d8327224757a0117b25c5808e8b23e655ea68335",
+            "title": "Computational network modelling of excitatory and inhibitory responses in hippocampal Ca3 neurons",
+            "url": "https://www.semanticscholar.org/paper/d8327224757a0117b25c5808e8b23e655ea68335",
+            "venue": "",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4869196",
+                    "name": "Stefanos Stagkourakis"
+                },
+                {
+                    "authorId": "48206784",
+                    "name": "Hoseok Kim"
+                },
+                {
+                    "authorId": "3801343",
+                    "name": "D. Lyons"
+                },
+                {
+                    "authorId": "6406627",
+                    "name": "C. Broberger"
+                }
+            ],
+            "doi": "10.1016/j.celrep.2016.03.062",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0f98b0a395fb9a6ed09dd890b8fa64b5387bb0aa",
+            "title": "Dopamine Autoreceptor Regulation of a Hypothalamic Dopaminergic Network",
+            "url": "https://www.semanticscholar.org/paper/0f98b0a395fb9a6ed09dd890b8fa64b5387bb0aa",
+            "venue": "Cell reports",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13992274",
+                    "name": "A. Yusuf"
+                },
+                {
+                    "authorId": "39531879",
+                    "name": "J. Ayo"
+                },
+                {
+                    "authorId": "49811165",
+                    "name": "A. A. Abba"
+                },
+                {
+                    "authorId": "30107587",
+                    "name": "A. Mohammed"
+                },
+                {
+                    "authorId": "46896085",
+                    "name": "F. Kalume"
+                }
+            ],
+            "doi": "10.4314/JAAPS.V4I2",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "1a14ee0991c0e0d2c09e06508c4b5c3cb9d87ab7",
+            "title": "Elevated extracellular potassium ion concentrations suppress hippocampal oscillations in a mouse model of Dravet syndrome in-vitro",
+            "url": "https://www.semanticscholar.org/paper/1a14ee0991c0e0d2c09e06508c4b5c3cb9d87ab7",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1708704",
+                    "name": "J. Li"
+                },
+                {
+                    "authorId": "144595691",
+                    "name": "J. Tang"
+                },
+                {
+                    "authorId": "145091197",
+                    "name": "Jun Ma"
+                },
+                {
+                    "authorId": "49082754",
+                    "name": "Mengmeng Du"
+                },
+                {
+                    "authorId": "144588331",
+                    "name": "R. Wang"
+                },
+                {
+                    "authorId": "48607768",
+                    "name": "Ying Wu"
+                }
+            ],
+            "doi": "10.1038/srep32343",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "29dbcc50f9e21a9d7cf85999ffb2b72e276613d3",
+            "title": "Dynamic transition of neuronal firing induced by abnormal astrocytic glutamate oscillation",
+            "url": "https://www.semanticscholar.org/paper/29dbcc50f9e21a9d7cf85999ffb2b72e276613d3",
+            "venue": "Scientific reports",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2071709992",
+                    "name": "S. Thompson"
+                },
+                {
+                    "authorId": "9922886",
+                    "name": "B. Krishnan"
+                },
+                {
+                    "authorId": "1398297195",
+                    "name": "J. Gonz\u00e1lez-Mart\u00ednez"
+                },
+                {
+                    "authorId": "2666096",
+                    "name": "J. Bulacio"
+                },
+                {
+                    "authorId": null,
+                    "name": "L. Jehi"
+                },
+                {
+                    "authorId": null,
+                    "name": "J. Mosher"
+                },
+                {
+                    "authorId": null,
+                    "name": "A. Alexopoulos"
+                },
+                {
+                    "authorId": "2401295",
+                    "name": "R. Burgess"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2015.03.020",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2d3973413a15a5e9465ba9333c80e4a4b2efe954",
+            "title": "Ictal infraslow activity in stereoelectroencephalography: Beyond the \u201cDC shift\u201d",
+            "url": "https://www.semanticscholar.org/paper/2d3973413a15a5e9465ba9333c80e4a4b2efe954",
+            "venue": "Clinical Neurophysiology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1423566750",
+                    "name": "Nariman Hossein-Javaheri"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2dc97e26de99d44355292e07a44d6e56b33cdc24",
+            "title": "Goldfish Pyramidal and Stellate Neurons Respond Differently to Anoxia",
+            "url": "https://www.semanticscholar.org/paper/2dc97e26de99d44355292e07a44d6e56b33cdc24",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40578774",
+                    "name": "G. Florence"
+                },
+                {
+                    "authorId": "35631145",
+                    "name": "K. Sameshima"
+                },
+                {
+                    "authorId": "7596809",
+                    "name": "E. Fonoff"
+                },
+                {
+                    "authorId": "1839470",
+                    "name": "C. Hamani"
+                }
+            ],
+            "doi": "10.1177/1073858415591964",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3ccd70128c4e60ff782fade693b9da41beaad9a6",
+            "title": "Deep Brain Stimulation",
+            "url": "https://www.semanticscholar.org/paper/3ccd70128c4e60ff782fade693b9da41beaad9a6",
+            "venue": "The Neuroscientist : a review journal bringing neurobiology, neurology and psychiatry",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                },
+                {
+                    "authorId": "2332896",
+                    "name": "L. Prida"
+                },
+                {
+                    "authorId": "7992816",
+                    "name": "F. Wendling"
+                },
+                {
+                    "authorId": "145005154",
+                    "name": "A. Bragin"
+                },
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                },
+                {
+                    "authorId": "144247380",
+                    "name": "I. Timofeev"
+                },
+                {
+                    "authorId": "144065003",
+                    "name": "F. D. Silva"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7db769606645573ba755137d9730bc659b4d4d75",
+            "title": "The University of Birmingham ( Live System ) Mechanisms of physiological and epileptic HFO generation",
+            "url": "https://www.semanticscholar.org/paper/7db769606645573ba755137d9730bc659b4d4d75",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1412467811",
+                    "name": "Jefferys Jgr."
+                },
+                {
+                    "authorId": "2026242",
+                    "name": "Premysl Jiruska"
+                }
+            ],
+            "doi": "10.1201/b10866-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "92f96c3ed83972cad02479687c9989d67f3ac495",
+            "title": "Basic mechanisms of seizure generation",
+            "url": "https://www.semanticscholar.org/paper/92f96c3ed83972cad02479687c9989d67f3ac495",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1779587",
+                    "name": "T. Kameneva"
+                },
+                {
+                    "authorId": "3322959",
+                    "name": "M. Maturana"
+                },
+                {
+                    "authorId": "4782047",
+                    "name": "A. E. Hadjinicolaou"
+                },
+                {
+                    "authorId": "2042556",
+                    "name": "S. L. Cloherty"
+                },
+                {
+                    "authorId": "145058211",
+                    "name": "M. Ibbotson"
+                },
+                {
+                    "authorId": "2807319",
+                    "name": "D. Grayden"
+                },
+                {
+                    "authorId": "2687713",
+                    "name": "A. Burkitt"
+                },
+                {
+                    "authorId": "144323150",
+                    "name": "H. Meffin"
+                }
+            ],
+            "doi": "10.1088/1741-2560/13/1/016017",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "998eb1e4740bae45803205bb0bd6e61dad89080f",
+            "title": "Retinal ganglion cells: mechanisms underlying depolarization block and differential responses to high frequency electrical stimulation of ON and OFF cells.",
+            "url": "https://www.semanticscholar.org/paper/998eb1e4740bae45803205bb0bd6e61dad89080f",
+            "venue": "Journal of neural engineering",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2108741119",
+                    "name": "Lihua Wang"
+                },
+                {
+                    "authorId": "46387335",
+                    "name": "Suzie Dufour"
+                },
+                {
+                    "authorId": "2664715",
+                    "name": "T. Valiante"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1142/S0129065716500441",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a4265e00ea9dc278b90937527025c3b425eab83",
+            "title": "Extracellular Potassium and Seizures: Excitation, Inhibition and the Role of Ih",
+            "url": "https://www.semanticscholar.org/paper/9a4265e00ea9dc278b90937527025c3b425eab83",
+            "venue": "Int. J. Neural Syst.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49082754",
+                    "name": "Mengmeng Du"
+                },
+                {
+                    "authorId": "1708704",
+                    "name": "J. Li"
+                },
+                {
+                    "authorId": "144588331",
+                    "name": "R. Wang"
+                },
+                {
+                    "authorId": "48607768",
+                    "name": "Ying Wu"
+                }
+            ],
+            "doi": "10.1007/s11571-016-9390-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bad163fff65efd1a08ad032b75066c724b6b06cb",
+            "title": "The influence of potassium concentration on epileptic seizures in a coupled neuronal model in the hippocampus",
+            "url": "https://www.semanticscholar.org/paper/bad163fff65efd1a08ad032b75066c724b6b06cb",
+            "venue": "Cognitive Neurodynamics",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3282851",
+                    "name": "R. K\u00f6hling"
+                },
+                {
+                    "authorId": "3636547",
+                    "name": "J. Wolfart"
+                }
+            ],
+            "doi": "10.1101/cshperspect.a022871",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bfbdfff4ebddc3090f6cb9ffd91c1349bd8fb04f",
+            "title": "Potassium Channels in Epilepsy.",
+            "url": "https://www.semanticscholar.org/paper/bfbdfff4ebddc3090f6cb9ffd91c1349bd8fb04f",
+            "venue": "Cold Spring Harbor perspectives in medicine",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                },
+                {
+                    "authorId": "2332896",
+                    "name": "L. Prida"
+                },
+                {
+                    "authorId": "7992816",
+                    "name": "F. Wendling"
+                },
+                {
+                    "authorId": "145005154",
+                    "name": "A. Bragin"
+                },
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                },
+                {
+                    "authorId": "144247380",
+                    "name": "I. Timofeev"
+                },
+                {
+                    "authorId": "144065003",
+                    "name": "F. D. Silva"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e5b4ea72b696fc095b8cae195cfafe4b2a73c8b7",
+            "title": "The University of Birmingham Mechanisms of physiological and epileptic HFO generation",
+            "url": "https://www.semanticscholar.org/paper/e5b4ea72b696fc095b8cae195cfafe4b2a73c8b7",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145383837",
+                    "name": "M. Sanjay"
+                },
+                {
+                    "authorId": "2502801",
+                    "name": "S. Neymotin"
+                },
+                {
+                    "authorId": "6776371",
+                    "name": "S. B. Krothapalli"
+                }
+            ],
+            "doi": "10.1002/hipo.22440",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "04899db36c2aa732ac03eecf44ae246f1ac51675",
+            "title": "Impaired dendritic inhibition leads to epileptic activity in a computer model of CA3",
+            "url": "https://www.semanticscholar.org/paper/04899db36c2aa732ac03eecf44ae246f1ac51675",
+            "venue": "Hippocampus",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37189729",
+                    "name": "A. Guly\u00e1s"
+                },
+                {
+                    "authorId": "2095307168",
+                    "name": "Tam\u00e1s T Freund"
+                }
+            ],
+            "doi": "10.1016/j.conb.2014.07.020",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "15b26388775cba88f1a688de72b489b00c936725",
+            "title": "Generation of physiological and pathological high frequency oscillations: the role of perisomatic inhibition in sharp-wave ripple and interictal spike generation",
+            "url": "https://www.semanticscholar.org/paper/15b26388775cba88f1a688de72b489b00c936725",
+            "venue": "Current Opinion in Neurobiology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3053902",
+                    "name": "William Barnett"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "20de1222f6a0e0ba1c0b158a525ae79ade127c3d",
+            "title": "Mechanisms of the Coregulation of Multiple Ionic Currents for the Control of Neuronal Activity",
+            "url": "https://www.semanticscholar.org/paper/20de1222f6a0e0ba1c0b158a525ae79ade127c3d",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1768871",
+                    "name": "G. Ullah"
+                },
+                {
+                    "authorId": "1762945",
+                    "name": "Y. Wei"
+                },
+                {
+                    "authorId": "1784960",
+                    "name": "M. Dahlem"
+                },
+                {
+                    "authorId": "1758850",
+                    "name": "M. Wechselberger"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1371/journal.pcbi.1004414",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "479305ec78ac4662ccdd889db956d6921567d1c8",
+            "title": "The Role of Cell Volume in the Dynamics of Seizure, Spreading Depression, and Anoxic Depolarization",
+            "url": "https://www.semanticscholar.org/paper/479305ec78ac4662ccdd889db956d6921567d1c8",
+            "venue": "PLoS Comput. Biol.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48840903",
+                    "name": "J. T. Brown"
+                },
+                {
+                    "authorId": "4262540",
+                    "name": "M. Bal"
+                },
+                {
+                    "authorId": "47539545",
+                    "name": "J. Zhang"
+                },
+                {
+                    "authorId": "5102447",
+                    "name": "O. Zaika"
+                },
+                {
+                    "authorId": "145018106",
+                    "name": "C. C. Hernandez"
+                },
+                {
+                    "authorId": "33511430",
+                    "name": "M. S. Shapiro"
+                },
+                {
+                    "authorId": "4072469",
+                    "name": "R. Leao"
+                },
+                {
+                    "authorId": "2831099",
+                    "name": "Hui Min Tan"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4ceabcdcb2318f2b8f5e20776e32a844643d0cfa",
+            "title": "TransmissionFiring in the Absence of Synaptic KCNQ/Kv7 Channel Regulation of Hippocampal",
+            "url": "https://www.semanticscholar.org/paper/4ceabcdcb2318f2b8f5e20776e32a844643d0cfa",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5543753",
+                    "name": "Patrizia Aracri"
+                },
+                {
+                    "authorId": "47148079",
+                    "name": "Elisabetta Colombo"
+                },
+                {
+                    "authorId": "6955651",
+                    "name": "Massimo Mantegazza"
+                },
+                {
+                    "authorId": "6994832",
+                    "name": "Paolo Scalmani"
+                },
+                {
+                    "authorId": "6856771",
+                    "name": "Giulia Curia"
+                },
+                {
+                    "authorId": "144182660",
+                    "name": "Giuliano Avanzini"
+                },
+                {
+                    "authorId": "5430251",
+                    "name": "David E Featherstone"
+                },
+                {
+                    "authorId": "4227841",
+                    "name": "Scott A. Shippy"
+                },
+                {
+                    "authorId": "8007570",
+                    "name": "Antonny Czarnecki"
+                },
+                {
+                    "authorId": "4070349",
+                    "name": "Vincent Magloire"
+                },
+                {
+                    "authorId": "144027805",
+                    "name": "J\u00fcrg Streit"
+                },
+                {
+                    "authorId": "46958731",
+                    "name": "Kumar Venkatesan"
+                },
+                {
+                    "authorId": "46398998",
+                    "name": "Yue Liu"
+                },
+                {
+                    "authorId": "145349600",
+                    "name": "Mitchell Goldfarb"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b3275ee22b587bf7de28ae708e28e460d92f039a",
+            "title": "Current in Sensorimotor Cortex Layer-Specific Properties of the Persistent Sodium",
+            "url": "https://www.semanticscholar.org/paper/b3275ee22b587bf7de28ae708e28e460d92f039a",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36554428",
+                    "name": "M. Abramian"
+                },
+                {
+                    "authorId": "2674844",
+                    "name": "N. Lovell"
+                },
+                {
+                    "authorId": "144161511",
+                    "name": "J. Morley"
+                },
+                {
+                    "authorId": "1744518",
+                    "name": "G. Suaning"
+                },
+                {
+                    "authorId": "1704310",
+                    "name": "S. Dokos"
+                }
+            ],
+            "doi": "10.1088/1741-2560/12/1/016002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c10bbbca4eca2eecbb7077a6485e95c2662d3edd",
+            "title": "Activation and inhibition of retinal ganglion cells in response to epiretinal electrical stimulation: a computational modelling study.",
+            "url": "https://www.semanticscholar.org/paper/c10bbbca4eca2eecbb7077a6485e95c2662d3edd",
+            "venue": "Journal of neural engineering",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6391431",
+                    "name": "A. Herman"
+                },
+                {
+                    "authorId": "3331073",
+                    "name": "Longwen Huang"
+                },
+                {
+                    "authorId": "6193133",
+                    "name": "Dona K. Murphey"
+                },
+                {
+                    "authorId": "39627171",
+                    "name": "I. Garcia"
+                },
+                {
+                    "authorId": "5506522",
+                    "name": "Benjamin R Arenkiel"
+                }
+            ],
+            "doi": "10.7554/eLife.01481",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2a4c7720e5dc5894d6d18d9e5cb36e834a802e43",
+            "title": "Cell type-specific and time-dependent light exposure contribute to silencing in neurons expressing Channelrhodopsin-2",
+            "url": "https://www.semanticscholar.org/paper/2a4c7720e5dc5894d6d18d9e5cb36e834a802e43",
+            "venue": "eLife",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6382720",
+                    "name": "M. R. Karl\u00f3cai"
+                },
+                {
+                    "authorId": "3874399",
+                    "name": "Z. Kohus"
+                },
+                {
+                    "authorId": "2304029",
+                    "name": "S. K\u00e1li"
+                },
+                {
+                    "authorId": "2870547",
+                    "name": "I. Ulbert"
+                },
+                {
+                    "authorId": "49095930",
+                    "name": "G. Szab\u00f3"
+                },
+                {
+                    "authorId": "4122923",
+                    "name": "Z. M\u00e1t\u00e9"
+                },
+                {
+                    "authorId": "2485910",
+                    "name": "T. Freund"
+                },
+                {
+                    "authorId": "37189729",
+                    "name": "A. Guly\u00e1s"
+                }
+            ],
+            "doi": "10.1093/brain/awt348",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "de0501798848457436023a7fae2fdceb287bb50c",
+            "title": "Physiological sharp wave-ripples and interictal events in vitro: what's the difference?",
+            "url": "https://www.semanticscholar.org/paper/de0501798848457436023a7fae2fdceb287bb50c",
+            "venue": "Brain : a journal of neurology",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40578774",
+                    "name": "G. Florence"
+                },
+                {
+                    "authorId": "143842718",
+                    "name": "J. Kurths"
+                },
+                {
+                    "authorId": "6437269",
+                    "name": "B. Machado"
+                },
+                {
+                    "authorId": "7596809",
+                    "name": "E. Fonoff"
+                },
+                {
+                    "authorId": "1878495",
+                    "name": "H. A. Cerdeira"
+                },
+                {
+                    "authorId": "1832745",
+                    "name": "M. Teixeira"
+                },
+                {
+                    "authorId": "35631145",
+                    "name": "K. Sameshima"
+                }
+            ],
+            "doi": "10.1140/EPJST/E2014-02304-X",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed43f90edec2eef8150e782b27d559df7b523a99",
+            "title": "Neuronal excitability level transition induced by electrical stimulation",
+            "url": "https://www.semanticscholar.org/paper/ed43f90edec2eef8150e782b27d559df7b523a99",
+            "venue": "",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2581093",
+                    "name": "W. Barnett"
+                },
+                {
+                    "authorId": "1432604651",
+                    "name": "Gabrielle O\u2019Brien"
+                },
+                {
+                    "authorId": "3290214",
+                    "name": "G. Cymbalyuk"
+                }
+            ],
+            "doi": "10.1016/j.jneumeth.2013.08.021",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70f473e85d79e9993e666afb217f65dbd135ea07",
+            "title": "Bistability of silence and seizure-like bursting",
+            "url": "https://www.semanticscholar.org/paper/70f473e85d79e9993e666afb217f65dbd135ea07",
+            "venue": "Journal of Neuroscience Methods",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2133272",
+                    "name": "Zhouyan Feng"
+                },
+                {
+                    "authorId": "47410524",
+                    "name": "Xiaojing Zheng"
+                },
+                {
+                    "authorId": "144763320",
+                    "name": "Y. Yu"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2013.02.048",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e4b94fed39c9cb9c082b3f6c767dedda876ed10b",
+            "title": "Functional disconnection of axonal fibers generated by high frequency stimulation in the hippocampal CA1 region in-vivo",
+            "url": "https://www.semanticscholar.org/paper/e4b94fed39c9cb9c082b3f6c767dedda876ed10b",
+            "venue": "Brain Research",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49510183",
+                    "name": "A. R. Moore"
+                },
+                {
+                    "authorId": "145662100",
+                    "name": "W. Zhou"
+                },
+                {
+                    "authorId": "5835175",
+                    "name": "I. Jakov\u010devski"
+                },
+                {
+                    "authorId": "117054761",
+                    "name": "N. Zecevic"
+                },
+                {
+                    "authorId": "3680866",
+                    "name": "S. Antic"
+                }
+            ],
+            "doi": "10.1007/978-1-62703-020-5_3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4038d51056a0c7fe2950a637660b081dc199e01b",
+            "title": "Physiological Properties of Human Fetal Cortex In Vitro",
+            "url": "https://www.semanticscholar.org/paper/4038d51056a0c7fe2950a637660b081dc199e01b",
+            "venue": "",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1384701150",
+                    "name": "Hui Ye"
+                },
+                {
+                    "authorId": "5187077",
+                    "name": "J. Buttigieg"
+                },
+                {
+                    "authorId": "94173089",
+                    "name": "Y. Wan"
+                },
+                {
+                    "authorId": "48093872",
+                    "name": "J. Wang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Sarah Figley"
+                },
+                {
+                    "authorId": "1781212",
+                    "name": "M. Fehlings"
+                }
+            ],
+            "doi": "10.1016/j.nbd.2012.04.006",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6220784ca9d5207ea37c593a6b7b0fbe5f6ad29b",
+            "title": "Expression and functional role of BK channels in chronically injured spinal cord white matter",
+            "url": "https://www.semanticscholar.org/paper/6220784ca9d5207ea37c593a6b7b0fbe5f6ad29b",
+            "venue": "Neurobiology of Disease",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                },
+                {
+                    "authorId": "2332896",
+                    "name": "L. Prida"
+                },
+                {
+                    "authorId": "7992816",
+                    "name": "F. Wendling"
+                },
+                {
+                    "authorId": "145005154",
+                    "name": "A. Bragin"
+                },
+                {
+                    "authorId": null,
+                    "name": "Massimo Avoli"
+                },
+                {
+                    "authorId": null,
+                    "name": "Igor Timofeev"
+                },
+                {
+                    "authorId": "144065003",
+                    "name": "F. Silva"
+                }
+            ],
+            "doi": "10.1016/j.pneurobio.2012.02.005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "79319abb7fa481ea75babfd7183e9ec6949cacb5",
+            "title": "Mechanisms of physiological and epileptic HFO generation",
+            "url": "https://www.semanticscholar.org/paper/79319abb7fa481ea75babfd7183e9ec6949cacb5",
+            "venue": "Progress in Neurobiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5494704",
+                    "name": "Kajsa M Igelstr\u00f6m"
+                },
+                {
+                    "authorId": "3893207",
+                    "name": "P. Heyward"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2012.03660.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "81255fddcb4c482a126f71034a85ac0d4f70519a",
+            "title": "Inhibition of hippocampal excitability by citalopram",
+            "url": "https://www.semanticscholar.org/paper/81255fddcb4c482a126f71034a85ac0d4f70519a",
+            "venue": "Epilepsia",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1773380",
+                    "name": "Xing-xing Wu"
+                },
+                {
+                    "authorId": "7752242",
+                    "name": "J. Shuai"
+                }
+            ],
+            "doi": "10.1103/PHYSREVE.85.061911",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a88949791e99b87692de7c988e6657f8a06d1452",
+            "title": "Multistability in a neuron model with extracellular potassium dynamics.",
+            "url": "https://www.semanticscholar.org/paper/a88949791e99b87692de7c988e6657f8a06d1452",
+            "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47332964",
+                    "name": "Kajsa M Igelstr\u00f6m"
+                },
+                {
+                    "authorId": "3893207",
+                    "name": "P. Heyward"
+                }
+            ],
+            "doi": "10.1016/j.eplepsyres.2012.03.019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aa839e4b1050b228f8b81bf17d15b9b51fb48dbb",
+            "title": "The antidepressant drug fluoxetine inhibits persistent sodium currents and seizure-like events",
+            "url": "https://www.semanticscholar.org/paper/aa839e4b1050b228f8b81bf17d15b9b51fb48dbb",
+            "venue": "Epilepsy Research",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3123303",
+                    "name": "W. Truccolo"
+                },
+                {
+                    "authorId": "5339906",
+                    "name": "J. Donoghue"
+                },
+                {
+                    "authorId": "2109871",
+                    "name": "L. Hochberg"
+                },
+                {
+                    "authorId": "3215270",
+                    "name": "E. Eskandar"
+                },
+                {
+                    "authorId": "35584263",
+                    "name": "J. Madsen"
+                },
+                {
+                    "authorId": "33609197",
+                    "name": "W. Anderson"
+                },
+                {
+                    "authorId": "144760584",
+                    "name": "E. Brown"
+                },
+                {
+                    "authorId": "2397180",
+                    "name": "E. Halgren"
+                },
+                {
+                    "authorId": "145629563",
+                    "name": "S. Cash"
+                }
+            ],
+            "doi": "10.1038/nn.2782",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "79c4b722c562b992f1da2b3679e0cbeaa95c2837",
+            "title": "Single-neuron dynamics in human focal epilepsy",
+            "url": "https://www.semanticscholar.org/paper/79c4b722c562b992f1da2b3679e0cbeaa95c2837",
+            "venue": "Nature Neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5494704",
+                    "name": "Kajsa M Igelstr\u00f6m"
+                },
+                {
+                    "authorId": "5231446",
+                    "name": "Cristina H. Shirley"
+                },
+                {
+                    "authorId": "3893207",
+                    "name": "P. Heyward"
+                }
+            ],
+            "doi": "10.1152/jn.00601.2011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8577db2b5eccfb769ac29c04c877bfdf3939a855",
+            "title": "Low-magnesium medium induces epileptiform activity in mouse olfactory bulb slices.",
+            "url": "https://www.semanticscholar.org/paper/8577db2b5eccfb769ac29c04c877bfdf3939a855",
+            "venue": "Journal of neurophysiology",
+            "year": 2011
+        },
+        {
+            "arxivId": "0806.3738",
+            "authors": [
+                {
+                    "authorId": "47729451",
+                    "name": "J. R. Cressman"
+                },
+                {
+                    "authorId": "1768871",
+                    "name": "G. Ullah"
+                },
+                {
+                    "authorId": "3273830",
+                    "name": "J. Ziburkus"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                },
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                }
+            ],
+            "doi": "10.1007/s10827-011-0333-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8ae1d603127dfb986e48f3d35710caee8c356202",
+            "title": "Erratum to: The influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: I. Single neuron dynamics",
+            "url": "https://www.semanticscholar.org/paper/8ae1d603127dfb986e48f3d35710caee8c356202",
+            "venue": "Journal of Computational Neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4505497",
+                    "name": "D. Shin"
+                },
+                {
+                    "authorId": "5668888",
+                    "name": "W. Yu"
+                },
+                {
+                    "authorId": "143775877",
+                    "name": "A. Sutton"
+                },
+                {
+                    "authorId": "4003096",
+                    "name": "Megan E Calos"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1152/jn.00770.2010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a0a92ea9c4b14b0445c199869ca86fddbd4558df",
+            "title": "Elevated potassium elicits recurrent surges of large GABAA-receptor-mediated post-synaptic currents in hippocampal CA3 pyramidal neurons.",
+            "url": "https://www.semanticscholar.org/paper/a0a92ea9c4b14b0445c199869ca86fddbd4558df",
+            "venue": "Journal of neurophysiology",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144732479",
+                    "name": "J. N. Grimes"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a14ae76797567ea3fdb833c8fb2b4ba4aa4bdce9",
+            "title": "Characterization of in vitro epileptiform activity and propagation in the in utero irradiated rat model",
+            "url": "https://www.semanticscholar.org/paper/a14ae76797567ea3fdb833c8fb2b4ba4aa4bdce9",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": "1012.3124",
+            "authors": [
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                },
+                {
+                    "authorId": "1837460",
+                    "name": "J. R. Cressman"
+                }
+            ],
+            "doi": "10.1007/s10867-010-9212-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e5ada54cab512945d146c36dc1845eed84c722b2",
+            "title": "Ion concentration dynamics as a mechanism for neuronal bursting",
+            "url": "https://www.semanticscholar.org/paper/e5ada54cab512945d146c36dc1845eed84c722b2",
+            "venue": "Journal of biological physics",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "21702806",
+                    "name": "Zhou-yan Feng"
+                },
+                {
+                    "authorId": "153080151",
+                    "name": "X. Zheng"
+                },
+                {
+                    "authorId": "49060696",
+                    "name": "Cong Tian"
+                },
+                {
+                    "authorId": "46396121",
+                    "name": "Y. Wang"
+                },
+                {
+                    "authorId": "4116729",
+                    "name": "Hao-yu Xing"
+                }
+            ],
+            "doi": "10.1631/jzus.B1000316",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fcef1b1d65b4d93900cf56d3989522a9fdda808c",
+            "title": "Changes of paired-pulse evoked responses during the development of epileptic activity in the hippocampus",
+            "url": "https://www.semanticscholar.org/paper/fcef1b1d65b4d93900cf56d3989522a9fdda808c",
+            "venue": "Journal of Zhejiang University SCIENCE B",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1768871",
+                    "name": "G. Ullah"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1371/journal.pcbi.1000776",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0db0a76334b19ad1293206b246ec3af06b83987c",
+            "title": "Assimilating Seizure Dynamics",
+            "url": "https://www.semanticscholar.org/paper/0db0a76334b19ad1293206b246ec3af06b83987c",
+            "venue": "PLoS Comput. Biol.",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3298464",
+                    "name": "Ruchi Parekh"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "20bb539be2a271b21435b53a8c594e8c6acfc8c0",
+            "title": "Interactions between oriens, basket and pyramidal cells during in vitro seizure-like events in CA1 of the rat hippocampus",
+            "url": "https://www.semanticscholar.org/paper/20bb539be2a271b21435b53a8c594e8c6acfc8c0",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47459794",
+                    "name": "Flavio Fr\u00f6hlich"
+                },
+                {
+                    "authorId": "1714528",
+                    "name": "T. Sejnowski"
+                },
+                {
+                    "authorId": "143968639",
+                    "name": "M. Bazhenov"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.1239-10.2010",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "330a089946d9a94610c4dd13646b459df842ba59",
+            "title": "Network Bistability Mediates Spontaneous Transitions between Normal and Pathological Brain States",
+            "url": "https://www.semanticscholar.org/paper/330a089946d9a94610c4dd13646b459df842ba59",
+            "venue": "The Journal of Neuroscience",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2026242",
+                    "name": "P. Jiruska"
+                },
+                {
+                    "authorId": "90539927",
+                    "name": "A. D. Powell"
+                },
+                {
+                    "authorId": "3513656",
+                    "name": "J. Deans"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2010.02619.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "568a29001a23aeb0bfe0c15b4769de7be8aa93f7",
+            "title": "Effects of direct brain stimulation depend on seizure dynamics",
+            "url": "https://www.semanticscholar.org/paper/568a29001a23aeb0bfe0c15b4769de7be8aa93f7",
+            "venue": "Epilepsia",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144211751",
+                    "name": "Stephen Fried"
+                },
+                {
+                    "authorId": "49950629",
+                    "name": "Fred A Lado"
+                }
+            ],
+            "doi": "10.1007/978-1-84882-128-6_37",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "69c4a746f269e7717ddee8e8cf0015ba377d22cc",
+            "title": "Pathophysiology of Termination of Seizures",
+            "url": "https://www.semanticscholar.org/paper/69c4a746f269e7717ddee8e8cf0015ba377d22cc",
+            "venue": "",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1406115651",
+                    "name": "Damian Seung-Ho Shin"
+                },
+                {
+                    "authorId": "5668888",
+                    "name": "W. Yu"
+                },
+                {
+                    "authorId": "40372125",
+                    "name": "Adrian P. Fawcett"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2010.03.023",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "6ac598cb6032328d4ffb7aa1ec543c3e46f3e4a8",
+            "title": "Characterizing the persistent CA3 interneuronal spiking activity in elevated extracellular potassium in the young rat hippocampus",
+            "url": "https://www.semanticscholar.org/paper/6ac598cb6032328d4ffb7aa1ec543c3e46f3e4a8",
+            "venue": "Brain Research",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2935229",
+                    "name": "W. L\u00f6scher"
+                },
+                {
+                    "authorId": "3282851",
+                    "name": "R. K\u00f6hling"
+                }
+            ],
+            "doi": "10.1016/j.yebeh.2010.06.035",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9d68b44769947784f1f6cc1433047596c86edf0a",
+            "title": "Functional, metabolic, and synaptic changes after seizures as potential targets for antiepileptic therapy",
+            "url": "https://www.semanticscholar.org/paper/9d68b44769947784f1f6cc1433047596c86edf0a",
+            "venue": "Epilepsy & Behavior",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145214968",
+                    "name": "S. Sunderam"
+                },
+                {
+                    "authorId": "2811697",
+                    "name": "B. Gluckman"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.yebeh.2009.10.017",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f6cc8062f608ce06f0b987c4dda88f72107a5bf8",
+            "title": "Toward rational design of electrical stimulation strategies for epilepsy control",
+            "url": "https://www.semanticscholar.org/paper/f6cc8062f608ce06f0b987c4dda88f72107a5bf8",
+            "venue": "Epilepsy & Behavior",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48373447",
+                    "name": "S. Padmanabhan"
+                },
+                {
+                    "authorId": "144644855",
+                    "name": "B. Prasad"
+                }
+            ],
+            "doi": "10.1016/j.neuroscience.2009.06.041",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1f987299f7bb40f99b8080cb369bf58d6aa00bf3",
+            "title": "Sustained depolarization decreases calcium/calmodulin-dependent protein kinase II activity and gene expression in dopamine neurons",
+            "url": "https://www.semanticscholar.org/paper/1f987299f7bb40f99b8080cb369bf58d6aa00bf3",
+            "venue": "Neuroscience",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1971170",
+                    "name": "S. Sunderam"
+                },
+                {
+                    "authorId": "2244770",
+                    "name": "N. Chernyy"
+                },
+                {
+                    "authorId": "144500678",
+                    "name": "N. Peixoto"
+                },
+                {
+                    "authorId": "23599025",
+                    "name": "J. Mason"
+                },
+                {
+                    "authorId": "5943015",
+                    "name": "S. Weinstein"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                },
+                {
+                    "authorId": "2811697",
+                    "name": "B. Gluckman"
+                }
+            ],
+            "doi": "10.1088/1741-2560/6/4/046009",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "46a460ecab6fa02e64e7275bd9132f26afad5525",
+            "title": "Seizure entrainment with polarizing low-frequency electric fields in a chronic animal epilepsy model.",
+            "url": "https://www.semanticscholar.org/paper/46a460ecab6fa02e64e7275bd9132f26afad5525",
+            "venue": "Journal of neural engineering",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145617634",
+                    "name": "D. O. C. Santos"
+                },
+                {
+                    "authorId": "144082900",
+                    "name": "A. Rodrigues"
+                },
+                {
+                    "authorId": "7161917",
+                    "name": "A. G. de Almeida"
+                },
+                {
+                    "authorId": "153823200",
+                    "name": "R. Dickman"
+                }
+            ],
+            "doi": "10.1088/1478-3975/6/4/046019",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6eef8690f555da450b76d0dbbc4164bd9fcb8e83",
+            "title": "Firing patterns and synchronization in nonsynaptic epileptiform activity: the effect of gap junctions modulated by potassium accumulation.",
+            "url": "https://www.semanticscholar.org/paper/6eef8690f555da450b76d0dbbc4164bd9fcb8e83",
+            "venue": "Physical biology",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47704394",
+                    "name": "J. Skov"
+                },
+                {
+                    "authorId": "5628148",
+                    "name": "S. Nedergaard"
+                },
+                {
+                    "authorId": "144613299",
+                    "name": "M. Andreasen"
+                }
+            ],
+            "doi": "10.1016/j.brainres.2008.11.043",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7fbc59a9bf226bb0af42c42fa96f45d4357e7948",
+            "title": "The slow Ca2+-dependent K+-current facilitates synchronization of hyperexcitable pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/7fbc59a9bf226bb0af42c42fa96f45d4357e7948",
+            "venue": "Brain Research",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29110889",
+                    "name": "L. Chaieb"
+                },
+                {
+                    "authorId": "144361427",
+                    "name": "G. Kov\u00e1cs"
+                },
+                {
+                    "authorId": "2089292",
+                    "name": "Csaba Cziraki"
+                },
+                {
+                    "authorId": "2429633",
+                    "name": "M. Greenlee"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "50572291",
+                    "name": "A. Antal"
+                }
+            ],
+            "doi": "10.1007/s00221-009-1938-7",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b41145f5680d97f5c31404abc11ce4df6e018d22",
+            "title": "Short-duration transcranial random noise stimulation induces blood oxygenation level dependent response attenuation in the human motor cortex",
+            "url": "https://www.semanticscholar.org/paper/b41145f5680d97f5c31404abc11ce4df6e018d22",
+            "venue": "Experimental Brain Research",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4505497",
+                    "name": "Damian S Shin"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d4208b09d3c2229235171c1ade03331543c36d2",
+            "title": "Title: Enhanced I H Depresses Rat Entopeduncular Nucleus Neuronal Activity from High Frequency Stimulation or Raised K Running Title: I H Channel Enhancement Depresses Basal Ganglia Neuronal Activity",
+            "url": "https://www.semanticscholar.org/paper/0d4208b09d3c2229235171c1ade03331543c36d2",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35041213",
+                    "name": "H. H. Hansen"
+                },
+                {
+                    "authorId": "4240127",
+                    "name": "O. Waroux"
+                },
+                {
+                    "authorId": "2034814",
+                    "name": "V. Seutin"
+                },
+                {
+                    "authorId": "4856217",
+                    "name": "T. Jentsch"
+                },
+                {
+                    "authorId": "4666582",
+                    "name": "S. Aznar"
+                },
+                {
+                    "authorId": "2593840",
+                    "name": "J. Mikkelsen"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2007.149450",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19ee4bdd7719537715e3dc04dad78465b2cb57ef",
+            "title": "Kv7 channels: interaction with dopaminergic and serotonergic neurotransmission in the CNS",
+            "url": "https://www.semanticscholar.org/paper/19ee4bdd7719537715e3dc04dad78465b2cb57ef",
+            "venue": "The Journal of physiology",
+            "year": 2008
+        },
+        {
+            "arxivId": "0806.3741",
+            "authors": [
+                {
+                    "authorId": "1768871",
+                    "name": "G. Ullah"
+                },
+                {
+                    "authorId": "47729451",
+                    "name": "J. R. Cressman"
+                },
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1007/s10827-008-0130-6",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "1c4c9556379ca7c4ff82a3fc2d467c55d1a92cbc",
+            "title": "The influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: II. Network and glial dynamics",
+            "url": "https://www.semanticscholar.org/paper/1c4c9556379ca7c4ff82a3fc2d467c55d1a92cbc",
+            "venue": "Journal of Computational Neuroscience",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                },
+                {
+                    "authorId": "1837460",
+                    "name": "J. R. Cressman"
+                },
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                },
+                {
+                    "authorId": "3273830",
+                    "name": "J. Ziburkus"
+                }
+            ],
+            "doi": "10.1016/B978-012373649-9.50033-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2b4d664f53b785e993376dd6c780674cad261881",
+            "title": "30 \u2013 Towards a Dynamics of Seizure Mechanics",
+            "url": "https://www.semanticscholar.org/paper/2b4d664f53b785e993376dd6c780674cad261881",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4505497",
+                    "name": "D. Shin"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1152/jn.01065.2007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f453f68dd6dabb8884b8a42495332565661c3de",
+            "title": "Enhanced Ih depresses rat entopeduncular nucleus neuronal activity from high-frequency stimulation or raised Ke+.",
+            "url": "https://www.semanticscholar.org/paper/2f453f68dd6dabb8884b8a42495332565661c3de",
+            "venue": "Journal of neurophysiology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144032775",
+                    "name": "M. Samoilova"
+                },
+                {
+                    "authorId": "2095455364",
+                    "name": "Kirsten Wentlandt"
+                },
+                {
+                    "authorId": "4922786",
+                    "name": "Y. Adamchik"
+                },
+                {
+                    "authorId": "3475286",
+                    "name": "A. Velumian"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1016/j.expneurol.2008.01.005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "41d6b45fbfcaaaa2a914af48a951c77d668f11a0",
+            "title": "Connexin 43 mimetic peptides inhibit spontaneous epileptiform activity in organotypic hippocampal slice cultures",
+            "url": "https://www.semanticscholar.org/paper/41d6b45fbfcaaaa2a914af48a951c77d668f11a0",
+            "venue": "Experimental Neurology",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6367062",
+                    "name": "Y. Su"
+                },
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "3908651",
+                    "name": "Jake Vaynshteyn"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2008.01592.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4d0b9119387fb92b39e59c845e403e89822cbdbc",
+            "title": "Effects of high\u2010frequency stimulation on epileptiform activity in vitro: ON/OFF control paradigm",
+            "url": "https://www.semanticscholar.org/paper/4d0b9119387fb92b39e59c845e403e89822cbdbc",
+            "venue": "Epilepsia",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40524035",
+                    "name": "R. Meier"
+                },
+                {
+                    "authorId": "49932571",
+                    "name": "H. Dittrich"
+                },
+                {
+                    "authorId": "1429272343",
+                    "name": "A. Schulze-Bonhage"
+                },
+                {
+                    "authorId": "1708291",
+                    "name": "A. Aertsen"
+                }
+            ],
+            "doi": "10.1097/WNP.0b013e3181775993",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "725025031518be2c815fce1ed2a169c86e6c865e",
+            "title": "Detecting Epileptic Seizures in Long-term Human EEG: A New Approach to Automatic Online and Real-Time Detection and Classification of Polymorphic Seizure Patterns",
+            "url": "https://www.semanticscholar.org/paper/725025031518be2c815fce1ed2a169c86e6c865e",
+            "venue": "Journal of clinical neurophysiology : official publication of the American Electroencephalographic Society",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47729451",
+                    "name": "J. R. Cressman"
+                },
+                {
+                    "authorId": "1768871",
+                    "name": "G. Ullah"
+                },
+                {
+                    "authorId": "3273830",
+                    "name": "J. Ziburkus"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                },
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                }
+            ],
+            "doi": "10.1007/s10827-008-0132-4",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e6dad35982f464fff7a3916ab38dd1b349f3b309",
+            "title": "The influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: I. Single neuron dynamics",
+            "url": "https://www.semanticscholar.org/paper/e6dad35982f464fff7a3916ab38dd1b349f3b309",
+            "venue": "Journal of Computational Neuroscience",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49950629",
+                    "name": "F. Lado"
+                },
+                {
+                    "authorId": "2572540",
+                    "name": "S. Mosh\u00e9"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2008.01669.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fa1eafb89264d9c934e5b2517e26d7c4e15ad761",
+            "title": "How do seizures stop?",
+            "url": "https://www.semanticscholar.org/paper/fa1eafb89264d9c934e5b2517e26d7c4e15ad761",
+            "venue": "Epilepsia",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2107132656",
+                    "name": "D. S. Shin"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "feb876fb5d3a8ba4e44493ac6291b0e17e01aaa2",
+            "title": "K Neuronal Activity From High-Frequency Stimulation or Depresses Rat",
+            "url": "https://www.semanticscholar.org/paper/feb876fb5d3a8ba4e44493ac6291b0e17e01aaa2",
+            "venue": "",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2107132656",
+                    "name": "D. S. Shin"
+                },
+                {
+                    "authorId": "144032775",
+                    "name": "M. Samoilova"
+                },
+                {
+                    "authorId": "1765755",
+                    "name": "M. Cotic"
+                },
+                {
+                    "authorId": "48571077",
+                    "name": "L. Zhang"
+                },
+                {
+                    "authorId": "4889485",
+                    "name": "J. Brotchie"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1016/j.neuroscience.2007.06.055",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0c2d6ee3209c97e03061a51d490c30b53e7ee433",
+            "title": "High frequency stimulation or elevated K+ depresses neuronal activity in the rat entopeduncular nucleus",
+            "url": "https://www.semanticscholar.org/paper/0c2d6ee3209c97e03061a51d490c30b53e7ee433",
+            "venue": "Neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144854361",
+                    "name": "J. Fox"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1016/j.neulet.2006.10.021",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "23bca5f31683e7bc1b184253b87260c19b429b27",
+            "title": "The effect of neuronal population size on the development of epileptiform discharges in the low calcium model of epilepsy",
+            "url": "https://www.semanticscholar.org/paper/23bca5f31683e7bc1b184253b87260c19b429b27",
+            "venue": "Neuroscience Letters",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19184438",
+                    "name": "S. Piccinin"
+                },
+                {
+                    "authorId": "4295628",
+                    "name": "A. Randall"
+                },
+                {
+                    "authorId": "1762985",
+                    "name": "J. Brown"
+                }
+            ],
+            "doi": "10.1152/JN.01083.2005",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "75d4311327ffca5dc0e2676e373847d8522f658a",
+            "title": "KCNQ/Kv7 channel regulation of hippocampal gamma-frequency firing in the absence of synaptic transmission.",
+            "url": "https://www.semanticscholar.org/paper/75d4311327ffca5dc0e2676e373847d8522f658a",
+            "venue": "Journal of neurophysiology",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1404096961",
+                    "name": "J. Mu\u00f1oz-Cuevas"
+                },
+                {
+                    "authorId": "5747023",
+                    "name": "H. Vara"
+                },
+                {
+                    "authorId": "4293346",
+                    "name": "A. Colino"
+                }
+            ],
+            "doi": "10.1016/j.neuroscience.2006.07.020",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "912c61125fcb01e3370b9594b52318c29fed309a",
+            "title": "Augmentation of excitability in the hippocampus of juvenile rat",
+            "url": "https://www.semanticscholar.org/paper/912c61125fcb01e3370b9594b52318c29fed309a",
+            "venue": "Neuroscience",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2133272",
+                    "name": "Zhouyan Feng"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.2006.00499.x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b22e7bcdef3fb89c8847b083c6fe119dd6229a85",
+            "title": "Effects of Potassium Concentration on Firing Patterns of Low\u2010Calcium Epileptiform Activity in Anesthetized Rat Hippocampus: Inducing of Persistent Spike Activity",
+            "url": "https://www.semanticscholar.org/paper/b22e7bcdef3fb89c8847b083c6fe119dd6229a85",
+            "venue": "Epilepsia",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3273830",
+                    "name": "J. Ziburkus"
+                },
+                {
+                    "authorId": "47729451",
+                    "name": "J. R. Cressman"
+                },
+                {
+                    "authorId": "145174933",
+                    "name": "E. Barreto"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1152/JN.01378.2005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bc2e67434e5198e7e5a9fa09b4b4703b2a4f5ab7",
+            "title": "Interneuron and pyramidal cell interplay during in vitro seizure-like events.",
+            "url": "https://www.semanticscholar.org/paper/bc2e67434e5198e7e5a9fa09b4b4703b2a4f5ab7",
+            "venue": "Journal of neurophysiology",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "19184438",
+                    "name": "S. Piccinin"
+                },
+                {
+                    "authorId": "4295628",
+                    "name": "A. Randall"
+                },
+                {
+                    "authorId": "1762985",
+                    "name": "J. Brown"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "c01bcb615d6cb7c41c07bd87e9f46579591d99a9",
+            "title": "Transmission Gamma-Frequency Firing in the Absence of Synaptic KCNQ / Kv 7 Channel Regulation of Hippocampal",
+            "url": "https://www.semanticscholar.org/paper/c01bcb615d6cb7c41c07bd87e9f46579591d99a9",
+            "venue": "",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5543753",
+                    "name": "P. Aracri"
+                },
+                {
+                    "authorId": "50170165",
+                    "name": "E. Colombo"
+                },
+                {
+                    "authorId": "6955651",
+                    "name": "M. Mantegazza"
+                },
+                {
+                    "authorId": "6994832",
+                    "name": "P. Scalmani"
+                },
+                {
+                    "authorId": "6856771",
+                    "name": "G. Curia"
+                },
+                {
+                    "authorId": "144182660",
+                    "name": "G. Avanzini"
+                },
+                {
+                    "authorId": "144876065",
+                    "name": "S. Franceschetti"
+                }
+            ],
+            "doi": "10.1152/JN.00588.2005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6b8eeb660e6f236c988ee77193d39bbeaa95b56",
+            "title": "Layer-specific properties of the persistent sodium current in sensorimotor cortex.",
+            "url": "https://www.semanticscholar.org/paper/c6b8eeb660e6f236c988ee77193d39bbeaa95b56",
+            "venue": "Journal of neurophysiology",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8157512",
+                    "name": "D. J. Pinto"
+                },
+                {
+                    "authorId": "35464694",
+                    "name": "S. L. Patrick"
+                },
+                {
+                    "authorId": "50526567",
+                    "name": "Wendy K. C. Huang"
+                },
+                {
+                    "authorId": "1937706",
+                    "name": "B. Connors"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.2278-05.2005",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "03b93606c5111239351a6928c452bad9b0caa277",
+            "title": "Initiation, Propagation, and Termination of Epileptiform Activity in Rodent Neocortex In Vitro Involve Distinct Mechanisms",
+            "url": "https://www.semanticscholar.org/paper/03b93606c5111239351a6928c452bad9b0caa277",
+            "venue": "The Journal of Neuroscience",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47881426",
+                    "name": "V. Santhakumar"
+                },
+                {
+                    "authorId": "2255376",
+                    "name": "I. Aradi"
+                },
+                {
+                    "authorId": "144286865",
+                    "name": "I. Soltesz"
+                }
+            ],
+            "doi": "10.1152/JN.00777.2004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "27b700e7cbe5524cc550ae7a6acf7fea36691f8d",
+            "title": "Role of mossy fiber sprouting and mossy cell loss in hyperexcitability: a network model of the dentate gyrus incorporating cell types and axonal topography.",
+            "url": "https://www.semanticscholar.org/paper/27b700e7cbe5524cc550ae7a6acf7fea36691f8d",
+            "venue": "Journal of neurophysiology",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8185816",
+                    "name": "M. Vreugdenhil"
+                },
+                {
+                    "authorId": "2826740",
+                    "name": "E. Bracci"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2004.075390",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dfb32b9fb9be78a9a9d528ab0f1c703c213339df",
+            "title": "Layer\u2010specific pyramidal cell oscillations evoked by tetanic stimulation in the rat hippocampal area CA1 in vitro and in vivo",
+            "url": "https://www.semanticscholar.org/paper/dfb32b9fb9be78a9a9d528ab0f1c703c213339df",
+            "venue": "The Journal of physiology",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144854357",
+                    "name": "J. Fox"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1152/JN.00123.2004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "330a83bee5998eb23d94eb2c87966537eb2d35b6",
+            "title": "Tissue resistance changes and the profile of synchronized neuronal activity during ictal events in the low-calcium model of epilepsy.",
+            "url": "https://www.semanticscholar.org/paper/330a83bee5998eb23d94eb2c87966537eb2d35b6",
+            "venue": "Journal of neurophysiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1954196",
+                    "name": "M. Derchansky"
+                },
+                {
+                    "authorId": "2582279",
+                    "name": "E. Shahar"
+                },
+                {
+                    "authorId": "2585549",
+                    "name": "R. Wennberg"
+                },
+                {
+                    "authorId": "144032775",
+                    "name": "M. Samoilova"
+                },
+                {
+                    "authorId": "6930088",
+                    "name": "S. S. Jahromi"
+                },
+                {
+                    "authorId": "2272416",
+                    "name": "P. A. Abdelmalik"
+                },
+                {
+                    "authorId": "51008140",
+                    "name": "L. Zhang"
+                },
+                {
+                    "authorId": "1751851",
+                    "name": "P. Carlen"
+                }
+            ],
+            "doi": "10.1002/HIPO.20007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5a7b9be6a9f4bebf3916f428b3893c69e28eff27",
+            "title": "Model of frequent, recurrent, and spontaneous seizures in the intact mouse hippocampus",
+            "url": "https://www.semanticscholar.org/paper/5a7b9be6a9f4bebf3916f428b3893c69e28eff27",
+            "venue": "Hippocampus",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50403637",
+                    "name": "D. C. Lee"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e7804882ecefb295fff320101c354ba8737db5ba",
+            "title": "STRUCTURE-FUNCTION RELATIONSHIPS IN CENTRAL NERVOUS SYSTEM NEURONS ACTIVATED BY EXTRACELLULAR ELECTRIC FIELDS",
+            "url": "https://www.semanticscholar.org/paper/e7804882ecefb295fff320101c354ba8737db5ba",
+            "venue": "",
+            "year": 2004
+        }
+    ],
+    "corpusId": 1588983,
+    "doi": "10.1152/JN.00467.2003",
+    "fieldsOfStudy": [
+        "Chemistry",
+        "Medicine"
+    ],
+    "influentialCitationCount": 3,
+    "isOpenAccess": true,
+    "isPublisherLicensed": false,
+    "is_open_access": true,
+    "is_publisher_licensed": false,
+    "numCitedBy": 105,
+    "numCiting": 57,
+    "paperId": "43f3bc458cf95140a6d50877857b7410009a1664",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5177815",
+                    "name": "E. Kandel"
+                },
+                {
+                    "authorId": "3850688",
+                    "name": "W. Spencer"
+                }
+            ],
+            "doi": "10.1111/j.1528-1167.1961.tb06247.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e7e24ed2821db09d7da1cc77e5c12b9761b79631",
+            "title": "The Pyramidal Cell during Hippocampal Seizure",
+            "url": "https://www.semanticscholar.org/paper/e7e24ed2821db09d7da1cc77e5c12b9761b79631",
+            "venue": "Epilepsia",
+            "year": 1961
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2169135",
+                    "name": "J. Meyer"
+                },
+                {
+                    "authorId": "8334079",
+                    "name": "F. Gotoh"
+                },
+                {
+                    "authorId": "5288873",
+                    "name": "E. Favale"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ce691a536b5b1c6fb1c815aa0cf5e3bf8c28eba0",
+            "title": "Cerebral metabolism during epileptic seizures in man.",
+            "url": "https://www.semanticscholar.org/paper/ce691a536b5b1c6fb1c815aa0cf5e3bf8c28eba0",
+            "venue": "Electroencephalography and clinical neurophysiology",
+            "year": 1966
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4476813",
+                    "name": "A. Fertziger"
+                },
+                {
+                    "authorId": "3086878",
+                    "name": "J. Ranck"
+                }
+            ],
+            "doi": "10.1016/0014-4886(70)90150-0",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "769aa20f3039cef80fa8a828f9681ba7f3ec7538",
+            "title": "Potassium accumulation in interstitial space during epileptiform seizures.",
+            "url": "https://www.semanticscholar.org/paper/769aa20f3039cef80fa8a828f9681ba7f3ec7538",
+            "venue": "Experimental neurology",
+            "year": 1970
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6724603",
+                    "name": "M. Dichter"
+                },
+                {
+                    "authorId": "2680634",
+                    "name": "C. Herman"
+                },
+                {
+                    "authorId": "49497405",
+                    "name": "M. Selzer"
+                }
+            ],
+            "doi": "10.1016/0006-8993(72)90177-1",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d9b4e4f816c36770997caeca8e9f2e7baf3a5097",
+            "title": "Silent cells during interictal discharges and seizures in hippocampal penicillin foci. Evidence for the role of extracellular K+ in the transition from the interictal state to seizures.",
+            "url": "https://www.semanticscholar.org/paper/d9b4e4f816c36770997caeca8e9f2e7baf3a5097",
+            "venue": "Brain research",
+            "year": 1972
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144184955",
+                    "name": "R. Fisher"
+                },
+                {
+                    "authorId": "3666762",
+                    "name": "T. Pedley"
+                },
+                {
+                    "authorId": "31790314",
+                    "name": "W. Moody"
+                },
+                {
+                    "authorId": "144340481",
+                    "name": "D. Prince"
+                }
+            ],
+            "doi": "10.1001/ARCHNEUR.1976.00500020004002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7d1a6a8af9d68559ff721747579842d1db414664",
+            "title": "The role of extracellular potassium in hippocampal epilepsy.",
+            "url": "https://www.semanticscholar.org/paper/7d1a6a8af9d68559ff721747579842d1db414664",
+            "venue": "Archives of neurology",
+            "year": 1976
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1814475",
+                    "name": "G. Somjen"
+                }
+            ],
+            "doi": "10.1146/ANNUREV.PH.41.030179.001111",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "131cd6181dc33c6c3788ae98d75e43a15eedc83b",
+            "title": "Extracellular potassium in the mammalian central nervous system.",
+            "url": "https://www.semanticscholar.org/paper/131cd6181dc33c6c3788ae98d75e43a15eedc83b",
+            "venue": "Annual review of physiology",
+            "year": 1979
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1981.sp013897",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "venue": "The Journal of physiology",
+            "year": 1981
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                },
+                {
+                    "authorId": "48713543",
+                    "name": "H. Haas"
+                }
+            ],
+            "doi": "10.1038/300448A0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4f9c0f4cd3c96f7ae9b7aea8039e88a58babbc15",
+            "title": "Synchronized bursting of CA1 hippocampal pyramidal cells in the absence of synaptic transmission",
+            "url": "https://www.semanticscholar.org/paper/4f9c0f4cd3c96f7ae9b7aea8039e88a58babbc15",
+            "venue": "Nature",
+            "year": 1982
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144646636",
+                    "name": "C. Taylor"
+                },
+                {
+                    "authorId": "143837475",
+                    "name": "F. E. Dudek"
+                }
+            ],
+            "doi": "10.1126/SCIENCE.7134978",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "94101d291e9d2e94dcaa2d707ee825ff91be8f75",
+            "title": "Synchronous neural afterdischarges in rat hippocampal slices without active chemical synapses.",
+            "url": "https://www.semanticscholar.org/paper/94101d291e9d2e94dcaa2d707ee825ff91be8f75",
+            "venue": "Science",
+            "year": 1982
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3502228",
+                    "name": "E. Sykov\u00e1"
+                }
+            ],
+            "doi": "10.1016/0079-6107(83)90006-8",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "e0c6042307670b568be97a6273de9f69ce3f5fd5",
+            "title": "Extracellular K+ accumulation in the central nervous system.",
+            "url": "https://www.semanticscholar.org/paper/e0c6042307670b568be97a6273de9f69ce3f5fd5",
+            "venue": "Progress in biophysics and molecular biology",
+            "year": 1983
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5939634",
+                    "name": "W. Blume"
+                },
+                {
+                    "authorId": "143853797",
+                    "name": "G. Young"
+                },
+                {
+                    "authorId": "39963977",
+                    "name": "J. Lemieux"
+                }
+            ],
+            "doi": "10.1016/0013-4694(84)90151-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7599d0f44517eab49e0d7c030aa12cb8e884951c",
+            "title": "EEG morphology of partial epileptic seizures.",
+            "url": "https://www.semanticscholar.org/paper/7599d0f44517eab49e0d7c030aa12cb8e884951c",
+            "venue": "Electroencephalography and clinical neurophysiology",
+            "year": 1984
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48713543",
+                    "name": "H. Haas"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1984.sp015371",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a2e129da104d75824b055bad2c664804f66b3302",
+            "title": "Low\u2010calcium field burst discharges of CA1 pyramidal neurones in rat hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/a2e129da104d75824b055bad2c664804f66b3302",
+            "venue": "The Journal of physiology",
+            "year": 1984
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                },
+                {
+                    "authorId": "144876065",
+                    "name": "S. Franceschetti"
+                },
+                {
+                    "authorId": "3428715",
+                    "name": "B. Hamon"
+                },
+                {
+                    "authorId": "3401754",
+                    "name": "A. Konnerth"
+                },
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                }
+            ],
+            "doi": "10.1016/0006-8993(85)90338-5",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "01c1a08866f52f8e762467390e255e0086446ffe",
+            "title": "Effects of anticonvulsants on spontaneous epileptiform activity which develops in the absence of chemical synaptic transmission in hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/01c1a08866f52f8e762467390e255e0086446ffe",
+            "venue": "Brain Research",
+            "year": 1985
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1814475",
+                    "name": "G. Somjen"
+                },
+                {
+                    "authorId": "40553192",
+                    "name": "P. Aitken"
+                },
+                {
+                    "authorId": "4475367",
+                    "name": "J. Giacchino"
+                },
+                {
+                    "authorId": "3930789",
+                    "name": "J. McNamara"
+                }
+            ],
+            "doi": "10.1152/JN.1985.53.4.1079",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dc790039517d536eea1ffc9bb283977920ab2c3a",
+            "title": "Sustained potential shifts and paroxysmal discharges in hippocampal formation.",
+            "url": "https://www.semanticscholar.org/paper/dc790039517d536eea1ffc9bb283977920ab2c3a",
+            "venue": "Journal of neurophysiology",
+            "year": 1985
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3401754",
+                    "name": "A. Konnerth"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                },
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                }
+            ],
+            "doi": "10.1152/JN.1986.56.2.409",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0e882175311d96ece30746d1a2b7b0a63f293094",
+            "title": "Nonsynaptic epileptogenesis in the mammalian hippocampus in vitro. I. Development of seizurelike activity in low extracellular calcium.",
+            "url": "https://www.semanticscholar.org/paper/0e882175311d96ece30746d1a2b7b0a63f293094",
+            "venue": "Journal of neurophysiology",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3972133",
+                    "name": "H. Lux"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                },
+                {
+                    "authorId": "2754889",
+                    "name": "I. Dietzel"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5102f3c7badbc2c0ed7e71258783078c747265df",
+            "title": "Ionic changes and alterations in the size of the extracellular space during epileptic activity.",
+            "url": "https://www.semanticscholar.org/paper/5102f3c7badbc2c0ed7e71258783078c747265df",
+            "venue": "Advances in neurology",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                },
+                {
+                    "authorId": "3401754",
+                    "name": "A. Konnerth"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                }
+            ],
+            "doi": "10.1152/JN.1986.56.2.424",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "66d78d252f8fe45e1dc4f8e89e97c5b8209ea062",
+            "title": "Nonsynaptic epileptogenesis in the mammalian hippocampus in vitro. II. Role of extracellular potassium.",
+            "url": "https://www.semanticscholar.org/paper/66d78d252f8fe45e1dc4f8e89e97c5b8209ea062",
+            "venue": "Journal of neurophysiology",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                },
+                {
+                    "authorId": "2134679",
+                    "name": "M. Selzer"
+                },
+                {
+                    "authorId": "144496345",
+                    "name": "J. Pincus"
+                }
+            ],
+            "doi": "10.1002/ANA.410200202",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b1ff58b3fd08f1e37a3b0a3a7323b77d11a7d93d",
+            "title": "Phenytoin: Mechanisms of its anticonvulsant action",
+            "url": "https://www.semanticscholar.org/paper/b1ff58b3fd08f1e37a3b0a3a7323b77d11a7d93d",
+            "venue": "Annals of neurology",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4724557",
+                    "name": "T. Babb"
+                },
+                {
+                    "authorId": "144244388",
+                    "name": "C. Wilson"
+                },
+                {
+                    "authorId": "1404531756",
+                    "name": "M. Isokawa-Akesson"
+                }
+            ],
+            "doi": "10.1016/0013-4694(87)90093-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0d7ae6fbb1edfbca3fac35527d4d5cee05b3df65",
+            "title": "Firing patterns of human limbic neurons during stereoencephalography (SEEG) and clinical temporal lobe seizures.",
+            "url": "https://www.semanticscholar.org/paper/0d7ae6fbb1edfbca3fac35527d4d5cee05b3df65",
+            "venue": "Electroencephalography and clinical neurophysiology",
+            "year": 1987
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1772522",
+                    "name": "I. Nelken"
+                },
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f7550e60d07d03041de9157637abb94f0df4e371",
+            "title": "The role of interstitial potassium in the generation of low-calcium hippocampal seizures.",
+            "url": "https://www.semanticscholar.org/paper/f7550e60d07d03041de9157637abb94f0df4e371",
+            "venue": "Israel journal of medical sciences",
+            "year": 1987
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5726256",
+                    "name": "S. Traynelis"
+                },
+                {
+                    "authorId": "2077026",
+                    "name": "R. Dingledine"
+                }
+            ],
+            "doi": "10.1152/JN.1988.59.1.259",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "12f4b765580e3dfe9504409e12887b7a8f3743a0",
+            "title": "Potassium-induced spontaneous electrographic seizures in the rat hippocampal slice.",
+            "url": "https://www.semanticscholar.org/paper/12f4b765580e3dfe9504409e12887b7a8f3743a0",
+            "venue": "Journal of neurophysiology",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145389846",
+                    "name": "D. Albrecht"
+                },
+                {
+                    "authorId": "4495219",
+                    "name": "G. Rausche"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                }
+            ],
+            "doi": "10.1016/0006-8993(89)90741-5",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "614fe50f8eb9823035314068fd541e994db41f9a",
+            "title": "Reflections of low calcium epileptiform activity from area CA1 into dentate gyrus in the rat hippocampal slice",
+            "url": "https://www.semanticscholar.org/paper/614fe50f8eb9823035314068fd541e994db41f9a",
+            "venue": "Brain Research",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                },
+                {
+                    "authorId": "39133875",
+                    "name": "Christian Drapeau"
+                },
+                {
+                    "authorId": "4363871",
+                    "name": "P. Perreault"
+                },
+                {
+                    "authorId": "5042860",
+                    "name": "J. Louvel"
+                },
+                {
+                    "authorId": "4403593",
+                    "name": "R. Pumain"
+                }
+            ],
+            "doi": "10.1152/JN.1990.64.6.1747",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0fcef8894014d5dd8f98a2af7d13a3d371a94b46",
+            "title": "Epileptiform activity induced by low chloride medium in the CA1 subfield of the hippocampal slice.",
+            "url": "https://www.semanticscholar.org/paper/0fcef8894014d5dd8f98a2af7d13a3d371a94b46",
+            "venue": "Journal of neurophysiology",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1097/00004691-199307000-00004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "41dd4468f300878fc8b6427d1438e29782fa2c7a",
+            "title": "Ictal Patterns in Experimental Models of Epilepsy",
+            "url": "https://www.semanticscholar.org/paper/41dd4468f300878fc8b6427d1438e29782fa2c7a",
+            "venue": "Journal of clinical neurophysiology : official publication of the American Electroencephalographic Society",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6695375",
+                    "name": "M. Segal"
+                }
+            ],
+            "doi": "10.1152/JN.1994.72.4.1874",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3ac09eb1d17f6cd1a82a7340e067514b8c695b39",
+            "title": "Endogenous bursts underlie seizurelike activity in solitary excitatory hippocampal neurons in microcultures.",
+            "url": "https://www.semanticscholar.org/paper/3ac09eb1d17f6cd1a82a7340e067514b8c695b39",
+            "venue": "Journal of neurophysiology",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1097/00019052-199404000-00007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bf1012ffe0edb2523c227672dad9b2d7ff670127",
+            "title": "Experimental neurobiology of epilepsies.",
+            "url": "https://www.semanticscholar.org/paper/bf1012ffe0edb2523c227672dad9b2d7ff670127",
+            "venue": "Current opinion in neurology",
+            "year": 1994
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145209922",
+                    "name": "G. Alarcon"
+                },
+                {
+                    "authorId": "145524287",
+                    "name": "C. Binnie"
+                },
+                {
+                    "authorId": "143606756",
+                    "name": "R. Elwes"
+                },
+                {
+                    "authorId": "1975692",
+                    "name": "C. Polkey"
+                }
+            ],
+            "doi": "10.1016/0013-4694(94)00286-T",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1f00d052b486b1a31b51013f0778c4fab92854ba",
+            "title": "Power spectrum and intracranial EEG patterns at seizure onset in partial epilepsy.",
+            "url": "https://www.semanticscholar.org/paper/1f00d052b486b1a31b51013f0778c4fab92854ba",
+            "venue": "Electroencephalography and clinical neurophysiology",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144493515",
+                    "name": "A. Ikeda"
+                },
+                {
+                    "authorId": "2055453",
+                    "name": "K. Terada"
+                },
+                {
+                    "authorId": "9857262",
+                    "name": "N. Mikuni"
+                },
+                {
+                    "authorId": "1945395779",
+                    "name": "Richard C. Burgess"
+                },
+                {
+                    "authorId": "49371351",
+                    "name": "Y. Comair"
+                },
+                {
+                    "authorId": "47968113",
+                    "name": "W. Taki"
+                },
+                {
+                    "authorId": "93906456",
+                    "name": "T. Hamano"
+                },
+                {
+                    "authorId": "77962996",
+                    "name": "J. Kimura"
+                },
+                {
+                    "authorId": "1945402595",
+                    "name": "Hans O.L\u00fcders"
+                },
+                {
+                    "authorId": "29663318",
+                    "name": "H. Shibasaki"
+                }
+            ],
+            "doi": "10.1111/j.1528-1157.1996.tb00631.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "230411a43c43c3f92d130c5518c63e20f440f41f",
+            "title": "Subdural Recording of Ictal DC Shifts in Neocortical Seizures in Humans",
+            "url": "https://www.semanticscholar.org/paper/230411a43c43c3f92d130c5518c63e20f440f41f",
+            "venue": "Epilepsia",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4512934",
+                    "name": "G. Tunnicliff"
+                }
+            ],
+            "doi": "10.1016/S0306-3623(96)00062-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "4ef24e5c6b94d5a14f516f6ea88be7bd5c0c2dcc",
+            "title": "Basis of the antiseizure action of phenytoin.",
+            "url": "https://www.semanticscholar.org/paper/4ef24e5c6b94d5a14f516f6ea88be7bd5c0c2dcc",
+            "venue": "General pharmacology",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4164818",
+                    "name": "P. Patrylo"
+                },
+                {
+                    "authorId": "47881893",
+                    "name": "A. Kuhn"
+                },
+                {
+                    "authorId": "103371807",
+                    "name": "J. Schweitzer"
+                },
+                {
+                    "authorId": "143837475",
+                    "name": "F. E. Dudek"
+                }
+            ],
+            "doi": "10.1016/0306-4522(96)00111-X",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "8215001848f415470cf6a0a0315356ebf3f37311",
+            "title": "MULTIPLE-UNIT RECORDINGS DURING SLOW FIELD-POTENTIAL SHIFTS IN LOW-[Ca2+]o SOLUTIONS IN RAT HIPPOCAMPAL AND CORTICAL SLICES",
+            "url": "https://www.semanticscholar.org/paper/8215001848f415470cf6a0a0315356ebf3f37311",
+            "venue": "Neuroscience",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6835057",
+                    "name": "K. Alkadhi"
+                },
+                {
+                    "authorId": "2683356",
+                    "name": "L. Tian"
+                }
+            ],
+            "doi": "10.1016/0306-4522(95)00488-2",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d2fe187669b5b53a70daef6ccce82d980d4d8311",
+            "title": "Veratridine-enhanced persistent sodium current induces bursting in CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/d2fe187669b5b53a70daef6ccce82d980d4d8311",
+            "venue": "Neuroscience",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33053932",
+                    "name": "M. Jensen"
+                },
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                }
+            ],
+            "doi": "10.1152/JN.1997.77.3.1224",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1cc6040d90e4690bf3975785455007e0d406557e",
+            "title": "Role of intrinsic burst firing, potassium accumulation, and electrical coupling in the elevated potassium model of hippocampal epilepsy.",
+            "url": "https://www.semanticscholar.org/paper/1cc6040d90e4690bf3975785455007e0d406557e",
+            "venue": "Journal of neurophysiology",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145005155",
+                    "name": "A. Bragin"
+                },
+                {
+                    "authorId": "25465745",
+                    "name": "M. Penttonen"
+                },
+                {
+                    "authorId": "153527476",
+                    "name": "G. Buzs\u00e1ki"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.17-07-02567.1997",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d52c08162965965fb916b418db791480ad99f4e0",
+            "title": "Termination of Epileptic Afterdischarge in the Hippocampus",
+            "url": "https://www.semanticscholar.org/paper/d52c08162965965fb916b418db791480ad99f4e0",
+            "venue": "The Journal of Neuroscience",
+            "year": 1997
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32494868",
+                    "name": "Atsuki Ikeda"
+                },
+                {
+                    "authorId": "5702453",
+                    "name": "W. Taki"
+                },
+                {
+                    "authorId": "32472446",
+                    "name": "T. Kunieda"
+                },
+                {
+                    "authorId": "2055453",
+                    "name": "K. Terada"
+                },
+                {
+                    "authorId": "9857262",
+                    "name": "N. Mikuni"
+                },
+                {
+                    "authorId": "46603983",
+                    "name": "T. Nagamine"
+                },
+                {
+                    "authorId": "35388220",
+                    "name": "S. Yazawa"
+                },
+                {
+                    "authorId": "2631445",
+                    "name": "S. Ohara"
+                },
+                {
+                    "authorId": "7510573",
+                    "name": "T. Hori"
+                },
+                {
+                    "authorId": "4241041",
+                    "name": "R. Kaji"
+                },
+                {
+                    "authorId": "77962996",
+                    "name": "J. Kimura"
+                },
+                {
+                    "authorId": "2174440",
+                    "name": "H. Shibasaki"
+                }
+            ],
+            "doi": "10.1093/BRAIN/122.5.827",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "56e1251c43ac411372e91591f0c163f4d908eccb",
+            "title": "Focal ictal direct current shifts in human epilepsy as studied by subdural and scalp recording.",
+            "url": "https://www.semanticscholar.org/paper/56e1251c43ac411372e91591f0c163f4d908eccb",
+            "venue": "Brain : a journal of neurology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "32494868",
+                    "name": "Atsuki Ikeda"
+                },
+                {
+                    "authorId": "46603983",
+                    "name": "T. Nagamine"
+                },
+                {
+                    "authorId": "32472446",
+                    "name": "T. Kunieda"
+                },
+                {
+                    "authorId": "35388220",
+                    "name": "S. Yazawa"
+                },
+                {
+                    "authorId": "2631445",
+                    "name": "S. Ohara"
+                },
+                {
+                    "authorId": "5702453",
+                    "name": "W. Taki"
+                },
+                {
+                    "authorId": "101054544",
+                    "name": "J. Kimura"
+                },
+                {
+                    "authorId": "2174440",
+                    "name": "H. Shibasaki"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "63ace74acc6ce3883effa453198950be2b188aec",
+            "title": "Clonic convulsion caused by epileptic discharges arising from the human supplementary motor area as studied by subdural recording.",
+            "url": "https://www.semanticscholar.org/paper/63ace74acc6ce3883effa453198950be2b188aec",
+            "venue": "Epileptic disorders : international epilepsy journal with videotape",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "79363507",
+                    "name": "M. Bialer"
+                },
+                {
+                    "authorId": "33277612",
+                    "name": "S. I. Johannessen"
+                },
+                {
+                    "authorId": "5115433",
+                    "name": "H. Kupferberg"
+                },
+                {
+                    "authorId": "66492944",
+                    "name": "R. Levy"
+                },
+                {
+                    "authorId": "6894549",
+                    "name": "E. Perucca"
+                }
+            ],
+            "doi": "10.1016/S0920-1211(98)00108-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8c1e2d5edb5137512e60bd7330c53dbc04db5ba0",
+            "title": "Progress report on new antiepileptic drugs: a summary of the fourth Eilat conference (EILAT IV)",
+            "url": "https://www.semanticscholar.org/paper/8c1e2d5edb5137512e60bd7330c53dbc04db5ba0",
+            "venue": "Epilepsy Research",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "39898200",
+                    "name": "R. Ghai"
+                },
+                {
+                    "authorId": "4556151",
+                    "name": "S. Baraban"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1152/JN.1999.82.5.2262",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "dbeb46278899d25764fb5cebbacf88b80941b601",
+            "title": "Modulation of burst frequency, duration, and amplitude in the zero-Ca(2+) model of epileptiform activity.",
+            "url": "https://www.semanticscholar.org/paper/dbeb46278899d25764fb5cebbacf88b80941b601",
+            "venue": "Journal of neurophysiology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                },
+                {
+                    "authorId": "1699129",
+                    "name": "A. Bernasconi"
+                },
+                {
+                    "authorId": "2497972",
+                    "name": "D. Mattia"
+                },
+                {
+                    "authorId": "145401288",
+                    "name": "A. Olivier"
+                },
+                {
+                    "authorId": "4616873",
+                    "name": "G. Hwa"
+                }
+            ],
+            "doi": "10.1002/1531-8249(199912)46:6<816::AID-ANA3>3.0.CO;2-O",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e333160f42cfa749da64d160076fff7ea666dff0",
+            "title": "Epileptiform discharges in the human dysplastic neocortex: In vitro physiology and pharmacology",
+            "url": "https://www.semanticscholar.org/paper/e333160f42cfa749da64d160076fff7ea666dff0",
+            "venue": "Annals of neurology",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145964881",
+                    "name": "H. Kager"
+                },
+                {
+                    "authorId": "145068203",
+                    "name": "W. Wadman"
+                },
+                {
+                    "authorId": "1814475",
+                    "name": "G. Somjen"
+                }
+            ],
+            "doi": "10.1152/JN.2000.84.1.495",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "dd2ead9dd9b043f5b80a6c6d9a9c8c6ed19f2598",
+            "title": "Simulated seizures and spreading depression in a neuron model incorporating interstitial space and ion concentrations.",
+            "url": "https://www.semanticscholar.org/paper/dd2ead9dd9b043f5b80a6c6d9a9c8c6ed19f2598",
+            "venue": "Journal of neurophysiology",
+            "year": 2000
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "50502556",
+                    "name": "J. Lian"
+                },
+                {
+                    "authorId": "39450338",
+                    "name": "P. Hahn"
+                },
+                {
+                    "authorId": "3080729",
+                    "name": "W. Stacey"
+                },
+                {
+                    "authorId": "6500486",
+                    "name": "C. Sciortino"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.2001.0181j.x",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "00431fcc04004d7b189527cbf414851b759cc5b7",
+            "title": "Suppression of epileptiform activity by high frequency sinusoidal fields in rat hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/00431fcc04004d7b189527cbf414851b759cc5b7",
+            "venue": "The Journal of physiology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1109/5.939821",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "title": "Suppression and control of epileptiform activity by electrical stimulation: a review",
+            "url": "https://www.semanticscholar.org/paper/4c46ec22d6d0c943c9272ca4ca61eff32e8ce48e",
+            "venue": "Proc. IEEE",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143992840",
+                    "name": "J. Kearney"
+                },
+                {
+                    "authorId": "7249938",
+                    "name": "N. W. Plummer"
+                },
+                {
+                    "authorId": "144067321",
+                    "name": "M. Smith"
+                },
+                {
+                    "authorId": "144031810",
+                    "name": "J. Kapur"
+                },
+                {
+                    "authorId": null,
+                    "name": "T. R Cummins"
+                },
+                {
+                    "authorId": null,
+                    "name": "S. G Waxman"
+                },
+                {
+                    "authorId": "7030274",
+                    "name": "A. L. Goldin"
+                },
+                {
+                    "authorId": "5681779",
+                    "name": "M. Meisler"
+                }
+            ],
+            "doi": "10.1016/S0306-4522(00)00479-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5e016b00125c4c209701aeafc6510dd6815e47ff",
+            "title": "A gain-of-function mutation in the sodium channel gene Scn2a results in seizures and behavioral abnormalities",
+            "url": "https://www.semanticscholar.org/paper/5e016b00125c4c209701aeafc6510dd6815e47ff",
+            "venue": "Neuroscience",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5681779",
+                    "name": "M. Meisler"
+                },
+                {
+                    "authorId": "143992840",
+                    "name": "J. Kearney"
+                },
+                {
+                    "authorId": "6532997",
+                    "name": "R. Ottman"
+                },
+                {
+                    "authorId": "5155469",
+                    "name": "A. Escayg"
+                }
+            ],
+            "doi": "10.1146/ANNUREV.GENET.35.102401.091142",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6b5839c318fc45fbca39d910c421219d7789b331",
+            "title": "Identification of epilepsy genes in human and mouse.",
+            "url": "https://www.semanticscholar.org/paper/6b5839c318fc45fbca39d910c421219d7789b331",
+            "venue": "Annual review of genetics",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4403683",
+                    "name": "H. Su"
+                },
+                {
+                    "authorId": "6478622",
+                    "name": "G. Alroy"
+                },
+                {
+                    "authorId": "2860095",
+                    "name": "E. Kirson"
+                },
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.21-12-04173.2001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "9ea5da69b8405bd66cc6143bbdf1fe782be41fb3",
+            "title": "Extracellular Calcium Modulates Persistent Sodium Current-Dependent Burst-Firing in Hippocampal Pyramidal Neurons",
+            "url": "https://www.semanticscholar.org/paper/9ea5da69b8405bd66cc6143bbdf1fe782be41fb3",
+            "venue": "The Journal of Neuroscience",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1762805",
+                    "name": "T. Netoff"
+                },
+                {
+                    "authorId": "1766099",
+                    "name": "S. Schiff"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.22-16-07297.2002",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5895ad046557e0d90af968ad952bd3393260df75",
+            "title": "Decreased Neuronal Synchronization during Experimental Seizures",
+            "url": "https://www.semanticscholar.org/paper/5895ad046557e0d90af968ad952bd3393260df75",
+            "venue": "The Journal of Neuroscience",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "4556151",
+                    "name": "S. Baraban"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1152/JN.00196.2001",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "99bd96d5e54d07c94fa7af564ba86b430271e793",
+            "title": "Conditions sufficient for nonsynaptic epileptogenesis in the CA1 region of hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/99bd96d5e54d07c94fa7af564ba86b430271e793",
+            "venue": "Journal of neurophysiology",
+            "year": 2002
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7752242",
+                    "name": "J. Shuai"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "39450338",
+                    "name": "P. Hahn"
+                },
+                {
+                    "authorId": "50502556",
+                    "name": "J. Lian"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1016/S0006-3495(03)75017-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "5dfaf253e0fb34b644688d9444f74b5eb507fb4b",
+            "title": "Ionic mechanisms underlying spontaneous CA1 neuronal firing in Ca2+-free solution.",
+            "url": "https://www.semanticscholar.org/paper/5dfaf253e0fb34b644688d9444f74b5eb507fb4b",
+            "venue": "Biophysical journal",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "144854357",
+                    "name": "J. Fox"
+                },
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1152/JN.00764.2002",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "fa6e0ad829c2d02bde6ba90fe504010c461c6668",
+            "title": "Neuronal aggregate formation underlies spatiotemporal dynamics of nonsynaptic seizure initiation.",
+            "url": "https://www.semanticscholar.org/paper/fa6e0ad829c2d02bde6ba90fe504010c461c6668",
+            "venue": "Journal of neurophysiology",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2386865",
+                    "name": "Y. Yaari"
+                },
+                {
+                    "authorId": "3401754",
+                    "name": "A. Konnerth"
+                },
+                {
+                    "authorId": "88425101",
+                    "name": "U. Heinemann"
+                }
+            ],
+            "doi": "10.1007/BF00236813",
+            "intent": [
+                "background",
+                "methodology",
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "32231bf8ca1c3fc07ac785f6becaebce8287fbc2",
+            "title": "Spontaneous epileptiform activity of ca1 hippocampal neurons in low extracellular calcium solutions",
+            "url": "https://www.semanticscholar.org/paper/32231bf8ca1c3fc07ac785f6becaebce8287fbc2",
+            "venue": "Experimental Brain Research",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2212817",
+                    "name": "G. Rose"
+                },
+                {
+                    "authorId": "48095063",
+                    "name": "H. Olpe"
+                },
+                {
+                    "authorId": "48713543",
+                    "name": "H. Haas"
+                }
+            ],
+            "doi": "10.1007/BF00633203",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": false,
+            "paperId": "39589401c3920e5f11e241af6bcb2518038b869e",
+            "title": "Testing of prototype antiepileptics in hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/39589401c3920e5f11e241af6bcb2518038b869e",
+            "venue": "Naunyn-Schmiedeberg's Archives of Pharmacology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49198734",
+                    "name": "P. Andersen"
+                },
+                {
+                    "authorId": "50743262",
+                    "name": "T. Bliss"
+                },
+                {
+                    "authorId": "3963621",
+                    "name": "K. Skrede"
+                }
+            ],
+            "doi": "10.1007/BF00234086",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c5d66f43135e94815286906706a3236f91ae0908",
+            "title": "Unit analysis of hippocampal population spikes",
+            "url": "https://www.semanticscholar.org/paper/c5d66f43135e94815286906706a3236f91ae0908",
+            "venue": "Experimental Brain Research",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49878988",
+                    "name": "R. Jones"
+                },
+                {
+                    "authorId": "38909576",
+                    "name": "U. Heinemann"
+                }
+            ],
+            "doi": "10.1007/BF00235992",
+            "intent": [
+                "background",
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "ed2c08af3d512d84aaf0f7face07c3eb4731c2b9",
+            "title": "Abolition of the orthodromically evoked IPSP of CA1 pyramidal cells before the EPSP during washout of calcium from hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/ed2c08af3d512d84aaf0f7face07c3eb4731c2b9",
+            "venue": "Experimental Brain Research",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5473921",
+                    "name": "N. Agopyan"
+                },
+                {
+                    "authorId": "2704942",
+                    "name": "M. Avoli"
+                }
+            ],
+            "doi": "10.1007/BF00406611",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "fabd4b873c3cd372d2ca314e945bdee37d772a13",
+            "title": "Synaptic and non-synaptic mechanisms underlying low calcium bursts in the in vitro hippocampal slice",
+            "url": "https://www.semanticscholar.org/paper/fabd4b873c3cd372d2ca314e945bdee37d772a13",
+            "venue": "Experimental Brain Research",
+            "year": 2004
+        }
+    ],
+    "title": "Depolarization block of neurons during maintenance of electrographic seizures.",
+    "topics": [
+        {
+            "topic": "Seizures",
+            "topicId": "134",
+            "url": "https://www.semanticscholar.org/topic/134"
+        },
+        {
+            "topic": "Phenytoin",
+            "topicId": "27125",
+            "url": "https://www.semanticscholar.org/topic/27125"
+        },
+        {
+            "topic": "Veratridine",
+            "topicId": "26748",
+            "url": "https://www.semanticscholar.org/topic/26748"
+        },
+        {
+            "topic": "Potassium",
+            "topicId": "1194",
+            "url": "https://www.semanticscholar.org/topic/1194"
+        },
+        {
+            "topic": "Sodium",
+            "topicId": "1187",
+            "url": "https://www.semanticscholar.org/topic/1187"
+        },
+        {
+            "topic": "Epilepsy",
+            "topicId": "940",
+            "url": "https://www.semanticscholar.org/topic/940"
+        },
+        {
+            "topic": "Attention deficit hyperactivity disorder",
+            "topicId": "3786",
+            "url": "https://www.semanticscholar.org/topic/3786"
+        },
+        {
+            "topic": "Hyperactive behavior",
+            "topicId": "3788",
+            "url": "https://www.semanticscholar.org/topic/3788"
+        },
+        {
+            "topic": "Electroconvulsive Therapy",
+            "topicId": "819",
+            "url": "https://www.semanticscholar.org/topic/819"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/43f3bc458cf95140a6d50877857b7410009a1664",
+    "venue": "Journal of neurophysiology",
+    "year": 2003
+}

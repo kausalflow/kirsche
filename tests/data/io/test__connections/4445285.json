@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "5634570",
+            "name": "Hsiang-Chin Lu",
+            "url": "https://www.semanticscholar.org/author/5634570"
+        },
+        {
+            "authorId": "2048852128",
+            "name": "Wei-Jen Chang",
+            "url": "https://www.semanticscholar.org/author/2048852128"
+        },
+        {
+            "authorId": "7782185",
+            "name": "Wei-Pang Chang",
+            "url": "https://www.semanticscholar.org/author/7782185"
+        },
+        {
+            "authorId": "145013712",
+            "name": "B. Shyu",
+            "url": "https://www.semanticscholar.org/author/145013712"
+        }
+    ],
+    "corpusId": 4445285,
+    "doi": "10.3791/53709",
+    "numCitedBy": 2,
+    "numCiting": 0,
+    "title": "Direct-current Stimulation and Multi-electrode Array Recording of Seizure-like Activity in Mice Brain Slice Preparation.",
+    "venue": "Journal of visualized experiments : JoVE",
+    "year": 2016,
+    "local__referenced_to": []
+}

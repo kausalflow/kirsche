@@ -1,0 +1,1457 @@
+{
+    "abstract": "The neocortex is the most common target of sub-dural electrotherapy and non-invasive brain stimulation modalities including transcranial magnetic stimulation (TMS) and transcranial direct current simulation (tDCS). Specific neuronal elements targeted by cortical stimulation are considered to underlie therapeutic effects, but the exact cell-type(s) affected by these methods remains poorly understood. We determined if neuronal morphology predicted responses to subthreshold uniform electric fields. We characterized the effects of subthreshold electrical stimulation on identified cortical neurons in vitro. Uniform electric fields were applied to rat motor cortex brain slices, while recording from interneurons and pyramidal cells across cortical layers, using whole cell patch clamp. Neuron morphology was reconstructed following intracellular dialysis of biocytin. Based solely on volume-weighted morphology, we developed a simplified model of neuronal polarization by sub-threshold electric field: an electrotonically linear cylinder that further predicts polarization at distal dendritic tree terminations. We found that neuronal morphology correlated with somatic sub-threshold polarization. Layer V/VI pyramidal neuron somata (individually) and dendrites (averaging across neurons) were most sensitive to sub-threshold fields. This analysis was extended to predict a terminal polarization of a human cortical neuron as 1.44 mV during tDCS.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "2433485",
+            "name": "T. Radman",
+            "url": "https://www.semanticscholar.org/author/2433485"
+        },
+        {
+            "authorId": "1805590",
+            "name": "A. Datta",
+            "url": "https://www.semanticscholar.org/author/1805590"
+        },
+        {
+            "authorId": "3439744",
+            "name": "R. Ramos",
+            "url": "https://www.semanticscholar.org/author/3439744"
+        },
+        {
+            "authorId": "3288819",
+            "name": "J. C. Brumberg",
+            "url": "https://www.semanticscholar.org/author/3288819"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49842109",
+                    "name": "S. Rampersad"
+                },
+                {
+                    "authorId": "1390104222",
+                    "name": "Biel Roig-Solvas"
+                },
+                {
+                    "authorId": "4828653",
+                    "name": "M. Yarossi"
+                },
+                {
+                    "authorId": "144717403",
+                    "name": "P. Kulkarni"
+                },
+                {
+                    "authorId": "1983771",
+                    "name": "E. Santarnecchi"
+                },
+                {
+                    "authorId": "2601492",
+                    "name": "A. Dorval"
+                },
+                {
+                    "authorId": "144123084",
+                    "name": "D. Brooks"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2019.116124",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "107c1c539f43e5dad9f00e9684f29bbd77a1ca09",
+            "title": "Prospects for transcranial temporal interference stimulation in humans: A computational study",
+            "url": "https://www.semanticscholar.org/paper/107c1c539f43e5dad9f00e9684f29bbd77a1ca09",
+            "venue": "NeuroImage",
+            "year": 2019
+        },
+        {
+            "arxivId": "1903.10626",
+            "authors": [
+                {
+                    "authorId": "5524893",
+                    "name": "M. \u010cuki\u0107"
+                }
+            ],
+            "doi": "10.3389/fpsyg.2019.02923",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "648a48a924ee91a82f216bb92e9cf5c1d32c4942",
+            "title": "The role of physiological complexity changes in resting-state EEG in clinical effectiveness of rTMS and tDCS in treatments of resistant depression",
+            "url": "https://www.semanticscholar.org/paper/648a48a924ee91a82f216bb92e9cf5c1d32c4942",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49842109",
+                    "name": "S. Rampersad"
+                },
+                {
+                    "authorId": "1390104222",
+                    "name": "Biel Roig-Solvas"
+                },
+                {
+                    "authorId": "151142660",
+                    "name": "Mathew Yarossi"
+                },
+                {
+                    "authorId": "144717403",
+                    "name": "P. Kulkarni"
+                },
+                {
+                    "authorId": "34595930",
+                    "name": "E. Santarnecchi"
+                },
+                {
+                    "authorId": "2601492",
+                    "name": "A. Dorval"
+                },
+                {
+                    "authorId": "144123084",
+                    "name": "D. Brooks"
+                }
+            ],
+            "doi": "10.1101/602102",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6c5dd9e89bae9414aaeb8fe516aa55b62ed1b952",
+            "title": "Prospects for transcranial temporal interference stimulation in humans: a computational study",
+            "url": "https://www.semanticscholar.org/paper/6c5dd9e89bae9414aaeb8fe516aa55b62ed1b952",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "48018510",
+                    "name": "P. Williams"
+                },
+                {
+                    "authorId": "1399986837",
+                    "name": "John H. Martin"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.jneumeth.2019.108446",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "abc3ea1aa977d632feb2b9d2f9b5528ee2b493ae",
+            "title": "The Quasi-uniform assumption for Spinal Cord Stimulation translational research",
+            "url": "https://www.semanticscholar.org/paper/abc3ea1aa977d632feb2b9d2f9b5528ee2b493ae",
+            "venue": "Journal of Neuroscience Methods",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48775750",
+                    "name": "A. Singh"
+                },
+                {
+                    "authorId": "1414025509",
+                    "name": "T. Erwin-Grabner"
+                },
+                {
+                    "authorId": "1401728253",
+                    "name": "R. Goya-Maldonado"
+                },
+                {
+                    "authorId": "50572291",
+                    "name": "A. Antal"
+                }
+            ],
+            "doi": "10.1159/000502149",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b4bcf8b8b0a9102e34c83caed918c726599fc569",
+            "title": "Transcranial Magnetic and Direct Current Stimulation in the Treatment of Depression: Basic Mechanisms and Challenges of Two Commonly Used Brain Stimulation Methods in Interventional Psychiatry",
+            "url": "https://www.semanticscholar.org/paper/b4bcf8b8b0a9102e34c83caed918c726599fc569",
+            "venue": "Neuropsychobiology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2856044",
+                    "name": "A. Woods"
+                },
+                {
+                    "authorId": "34602190",
+                    "name": "R. Cohen"
+                },
+                {
+                    "authorId": "1743490",
+                    "name": "M. Marsiske"
+                },
+                {
+                    "authorId": "34776743",
+                    "name": "G. Alexander"
+                },
+                {
+                    "authorId": "1748503",
+                    "name": "S. Czaja"
+                },
+                {
+                    "authorId": "143919744",
+                    "name": "S. Wu"
+                }
+            ],
+            "doi": "10.1016/j.cct.2017.11.017",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cb3d71aa268c037b43c1b93aefc1404823eb4815",
+            "title": "Augmenting cognitive training in older adults (The ACT Study): Design and Methods of a Phase III tDCS and cognitive training trial.",
+            "url": "https://www.semanticscholar.org/paper/cb3d71aa268c037b43c1b93aefc1404823eb4815",
+            "venue": "Contemporary clinical trials",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46531497",
+                    "name": "S. Brennan"
+                },
+                {
+                    "authorId": "3500618",
+                    "name": "D. McLoughlin"
+                },
+                {
+                    "authorId": "1397363194",
+                    "name": "R. O'Connell"
+                },
+                {
+                    "authorId": "38537447",
+                    "name": "J. Bogue"
+                },
+                {
+                    "authorId": "1402981457",
+                    "name": "S. O'Connor"
+                },
+                {
+                    "authorId": "49491120",
+                    "name": "Caroline McHugh"
+                },
+                {
+                    "authorId": "36771494",
+                    "name": "M. Glennon"
+                }
+            ],
+            "doi": "10.1080/13803395.2016.1230595",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "068923fcc5c5c36331b5350516a8a0aa69d904ba",
+            "title": "Anodal transcranial direct current stimulation of the left dorsolateral prefrontal cortex enhances emotion recognition in depressed patients and controls",
+            "url": "https://www.semanticscholar.org/paper/068923fcc5c5c36331b5350516a8a0aa69d904ba",
+            "venue": "Journal of clinical and experimental neuropsychology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2179113",
+                    "name": "Eric J. Blumberg"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "254a71864a489a06f3fca033d26d5f3b1d054407",
+            "title": "Transcranial direct current stimulation modulates performance in challenging situations",
+            "url": "https://www.semanticscholar.org/paper/254a71864a489a06f3fca033d26d5f3b1d054407",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1396130577",
+                    "name": "A. O'Brien"
+                },
+                {
+                    "authorId": "97047928",
+                    "name": "R. Amorim"
+                },
+                {
+                    "authorId": "3297555",
+                    "name": "R. Rushmore"
+                },
+                {
+                    "authorId": "143848125",
+                    "name": "U. Eden"
+                },
+                {
+                    "authorId": "123199108",
+                    "name": "L. Afifi"
+                },
+                {
+                    "authorId": "31780172",
+                    "name": "L. Dipietro"
+                },
+                {
+                    "authorId": "50448172",
+                    "name": "T. Wagner"
+                },
+                {
+                    "authorId": "1399157500",
+                    "name": "A. Valero-Cabr\u00e9"
+                }
+            ],
+            "doi": "10.3389/fnhum.2016.00545",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "484663dda1b4e8da8a302bc33c7922c0f0d7142e",
+            "title": "Motor Cortex Neurostimulation Technologies for Chronic Post-stroke Pain: Implications of Tissue Damage on Stimulation Currents",
+            "url": "https://www.semanticscholar.org/paper/484663dda1b4e8da8a302bc33c7922c0f0d7142e",
+            "venue": "Front. Hum. Neurosci.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145949251",
+                    "name": "P. Ciechanski"
+                },
+                {
+                    "authorId": "1933521",
+                    "name": "A. Kirton"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-802001-2.00005-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "48865d670b5582642ce53daa7a47dab241ff39c3",
+            "title": "Transcranial Direct-Current Stimulation (tDCS): Principles and Emerging Applications in Children",
+            "url": "https://www.semanticscholar.org/paper/48865d670b5582642ce53daa7a47dab241ff39c3",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                },
+                {
+                    "authorId": "48921030",
+                    "name": "M. Nitsche"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                }
+            ],
+            "doi": "10.1027/1016-9040/A000242",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0c7ab6ee46776022e4d2cb6a1e62c815341712f",
+            "title": "Application of Transcranial Electric Stimulation (tDCS, tACS, tRNS)",
+            "url": "https://www.semanticscholar.org/paper/d0c7ab6ee46776022e4d2cb6a1e62c815341712f",
+            "venue": "",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/bs.pbr.2015.09.003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "08633f9275903f1c1d4f75fe232f8ba121eeddb6",
+            "title": "Multilevel computational models for predicting the cellular effects of noninvasive brain stimulation.",
+            "url": "https://www.semanticscholar.org/paper/08633f9275903f1c1d4f75fe232f8ba121eeddb6",
+            "venue": "Progress in brain research",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "4636238",
+                    "name": "Antonios P. Mourdoukoutas"
+                },
+                {
+                    "authorId": "6742276",
+                    "name": "M. Aboseria"
+                },
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "40574051",
+                    "name": "D. Adair"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                }
+            ],
+            "doi": "10.1016/bs.pbr.2015.08.005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "13befa8745c66e5e011b9f4a44f335099257c50f",
+            "title": "Modeling sequence and quasi-uniform assumption in computational neurostimulation.",
+            "url": "https://www.semanticscholar.org/paper/13befa8745c66e5e011b9f4a44f335099257c50f",
+            "venue": "Progress in brain research",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35747558",
+                    "name": "C. Looi"
+                },
+                {
+                    "authorId": "7314101",
+                    "name": "R. C. Kadosh"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-417042-1.00012-7",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "602a49a71d53a4c550eeaf12e82b0ac4d6cb5bde",
+            "title": "The Use of Transcranial Direct Current Stimulation for Cognitive Enhancement",
+            "url": "https://www.semanticscholar.org/paper/602a49a71d53a4c550eeaf12e82b0ac4d6cb5bde",
+            "venue": "",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4775517",
+                    "name": "Y. H. Kwon"
+                },
+                {
+                    "authorId": "32232564",
+                    "name": "K. Kang"
+                },
+                {
+                    "authorId": "4864169",
+                    "name": "S. Son"
+                },
+                {
+                    "authorId": "32351947",
+                    "name": "Na Kyung Lee"
+                }
+            ],
+            "doi": "10.4103/1673-5374.153697",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a4aa9ca09e73072b2c6ad9ef09fb180c0cbb548",
+            "title": "Is effect of transcranial direct current stimulation on visuomotor coordination dependent on task difficulty?",
+            "url": "https://www.semanticscholar.org/paper/8a4aa9ca09e73072b2c6ad9ef09fb180c0cbb548",
+            "venue": "Neural regeneration research",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2179113",
+                    "name": "Eric J. Blumberg"
+                },
+                {
+                    "authorId": "2184984",
+                    "name": "M. Peterson"
+                },
+                {
+                    "authorId": "3264674",
+                    "name": "R. Parasuraman"
+                }
+            ],
+            "doi": "10.3389/fnsys.2015.00003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c9746460782bfe40298a4b3df038e99e8931f06c",
+            "title": "Enhancing multiple object tracking performance with noninvasive brain stimulation: a causal role for the anterior intraparietal sulcus",
+            "url": "https://www.semanticscholar.org/paper/c9746460782bfe40298a4b3df038e99e8931f06c",
+            "venue": "Front. Syst. Neurosci.",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5403097",
+                    "name": "A. Picelli"
+                },
+                {
+                    "authorId": "7624896",
+                    "name": "E. Chemello"
+                },
+                {
+                    "authorId": "7205734",
+                    "name": "P. Castellazzi"
+                },
+                {
+                    "authorId": "5347831",
+                    "name": "L. Roncari"
+                },
+                {
+                    "authorId": "3554098",
+                    "name": "A. Waldner"
+                },
+                {
+                    "authorId": "6978117",
+                    "name": "L. Saltuari"
+                },
+                {
+                    "authorId": "145305135",
+                    "name": "Nicola Smania"
+                }
+            ],
+            "doi": "10.3233/RNN-140474",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d923856fedf6b6478aba109acf80237ced23a9f8",
+            "title": "Combined effects of transcranial direct current stimulation (tDCS) and transcutaneous spinal direct current stimulation (tsDCS) on robot-assisted gait training in patients with chronic stroke: A pilot, double blind, randomized controlled trial.",
+            "url": "https://www.semanticscholar.org/paper/d923856fedf6b6478aba109acf80237ced23a9f8",
+            "venue": "Restorative neurology and neuroscience",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3577122",
+                    "name": "Shani Stern"
+                },
+                {
+                    "authorId": "1402913093",
+                    "name": "Andres Agudelo-Toro"
+                },
+                {
+                    "authorId": "48502149",
+                    "name": "A. Rotem"
+                },
+                {
+                    "authorId": "145453044",
+                    "name": "E. Moses"
+                },
+                {
+                    "authorId": "2670502",
+                    "name": "A. Neef"
+                }
+            ],
+            "doi": "10.1371/journal.pone.0132577",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dc6a61374b0080ca9a249ae0cf91d1199efa60b2",
+            "title": "Chronaxie Measurements in Patterned Neuronal Cultures from Rat Hippocampus",
+            "url": "https://www.semanticscholar.org/paper/dc6a61374b0080ca9a249ae0cf91d1199efa60b2",
+            "venue": "PloS one",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47486966",
+                    "name": "Maximilian Lenz"
+                },
+                {
+                    "authorId": "4175573",
+                    "name": "Steffen Platschek"
+                },
+                {
+                    "authorId": "2964400",
+                    "name": "V. Priesemann"
+                },
+                {
+                    "authorId": "40464028",
+                    "name": "Denise Becker"
+                },
+                {
+                    "authorId": "3734620",
+                    "name": "L. Willems"
+                },
+                {
+                    "authorId": "1922575",
+                    "name": "U. Ziemann"
+                },
+                {
+                    "authorId": "2946031",
+                    "name": "T. Deller"
+                },
+                {
+                    "authorId": "1429805350",
+                    "name": "F. M\u00fcller-Dahlhaus"
+                },
+                {
+                    "authorId": "23816154",
+                    "name": "P. Jedlicka"
+                },
+                {
+                    "authorId": "49470781",
+                    "name": "A. Vlachos"
+                }
+            ],
+            "doi": "10.1007/s00429-014-0859-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "48118b1f8ba1e982652401c5f0cac63e0c3e3fab",
+            "title": "Repetitive magnetic stimulation induces plasticity of excitatory postsynapses on proximal dendrites of cultured mouse CA1 pyramidal neurons",
+            "url": "https://www.semanticscholar.org/paper/48118b1f8ba1e982652401c5f0cac63e0c3e3fab",
+            "venue": "Brain Structure and Function",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49842109",
+                    "name": "S. Rampersad"
+                },
+                {
+                    "authorId": "40541311",
+                    "name": "A. M. Janssen"
+                },
+                {
+                    "authorId": "48654201",
+                    "name": "F. Lucka"
+                },
+                {
+                    "authorId": "46292980",
+                    "name": "U. Aydin"
+                },
+                {
+                    "authorId": "145067571",
+                    "name": "B. Lanfer"
+                },
+                {
+                    "authorId": "33433711",
+                    "name": "S. Lew"
+                },
+                {
+                    "authorId": "2430202",
+                    "name": "C. Wolters"
+                },
+                {
+                    "authorId": "2363254",
+                    "name": "D. Stegeman"
+                },
+                {
+                    "authorId": "144279724",
+                    "name": "T. Oostendorp"
+                }
+            ],
+            "doi": "10.1109/TNSRE.2014.2308997",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7dedbe91946519f8d5d28f838bc82d57a7228a3e",
+            "title": "Simulating Transcranial Direct Current Stimulation With a Detailed Anisotropic Human Head Model",
+            "url": "https://www.semanticscholar.org/paper/7dedbe91946519f8d5d28f838bc82d57a7228a3e",
+            "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2100972",
+                    "name": "B. Coffman"
+                },
+                {
+                    "authorId": "1834427",
+                    "name": "V. Clark"
+                },
+                {
+                    "authorId": "3264674",
+                    "name": "R. Parasuraman"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2013.07.083",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b42426fcc01a451cdbda07b3504afbedb52c8903",
+            "title": "Battery powered thought: Enhancement of attention, learning, and memory in healthy adults using transcranial direct current stimulation",
+            "url": "https://www.semanticscholar.org/paper/b42426fcc01a451cdbda07b3504afbedb52c8903",
+            "venue": "NeuroImage",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49445681",
+                    "name": "Christopher N. David"
+                },
+                {
+                    "authorId": "2649450",
+                    "name": "J. Rapoport"
+                },
+                {
+                    "authorId": "29211966",
+                    "name": "N. Gogtay"
+                }
+            ],
+            "doi": "10.1586/ern.13.29",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ddc23984105d05d8a35775515d8bef78c5ffd0a8",
+            "title": "Treatments in context: transcranial direct current brain stimulation as a potential treatment in pediatric psychosis",
+            "url": "https://www.semanticscholar.org/paper/ddc23984105d05d8a35775515d8bef78c5ffd0a8",
+            "venue": "Expert review of neurotherapeutics",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2420923",
+                    "name": "A. A. Abed"
+                },
+                {
+                    "authorId": "3817928",
+                    "name": "S. Yin"
+                },
+                {
+                    "authorId": "1744518",
+                    "name": "G. Suaning"
+                },
+                {
+                    "authorId": "2674844",
+                    "name": "N. Lovell"
+                },
+                {
+                    "authorId": "1704310",
+                    "name": "S. Dokos"
+                }
+            ],
+            "doi": "10.1109/EMBC.2012.6345908",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4553f2f95be4735d2957d3e26f80b673a2682731",
+            "title": "Convolution based method for calculating inputs from dendritic fields in a continuum model of the retina",
+            "url": "https://www.semanticscholar.org/paper/4553f2f95be4735d2957d3e26f80b673a2682731",
+            "venue": "2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145289431",
+                    "name": "L. Marshall"
+                },
+                {
+                    "authorId": "144734521",
+                    "name": "J. Born"
+                }
+            ],
+            "doi": "10.1016/J.JSMC.2010.12.003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "441765d453d3ce0884bee1b321d53b4a378b8c9f",
+            "title": "Brain Stimulation During Sleep",
+            "url": "https://www.semanticscholar.org/paper/441765d453d3ce0884bee1b321d53b4a378b8c9f",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6641895",
+                    "name": "Jay S. Reidler"
+                },
+                {
+                    "authorId": "2309765",
+                    "name": "S. Zaghi"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                }
+            ],
+            "doi": "10.1016/B978-0-12-382235-2.00012-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6c3fa900d8cae7b8bcc51cccaaae23cfc160c0f0",
+            "title": "Chapter 12 \u2013 Neurophysiological Effects of Transcranial Direct Current Stimulation",
+            "url": "https://www.semanticscholar.org/paper/6c3fa900d8cae7b8bcc51cccaaae23cfc160c0f0",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3891298",
+                    "name": "R. Coben"
+                },
+                {
+                    "authorId": "49338061",
+                    "name": "James R. Evans"
+                }
+            ],
+            "doi": "10.1016/c2009-0-64101-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "71f321315fe8a0896bdf10ec8061f228457d1b68",
+            "title": "Neurofeedback and neuromodulation techniques and applications",
+            "url": "https://www.semanticscholar.org/paper/71f321315fe8a0896bdf10ec8061f228457d1b68",
+            "venue": "",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1693892",
+                    "name": "R. Polan\u00eda"
+                },
+                {
+                    "authorId": null,
+                    "name": "Michael A. Nitsche"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1002/hbm.21104",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ac20318e87c6d572008ed3cd8b5f207f4041032e",
+            "title": "Modulating functional connectivity patterns and topological functional organization of the human brain with transcranial direct current stimulation",
+            "url": "https://www.semanticscholar.org/paper/ac20318e87c6d572008ed3cd8b5f207f4041032e",
+            "venue": "Human brain mapping",
+            "year": 2011
+        }
+    ],
+    "corpusId": 14856556,
+    "doi": "10.1109/IEMBS.2009.5333586",
+    "fieldsOfStudy": [
+        "Physics",
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 27,
+    "numCiting": 20,
+    "paperId": "3c6d39f1b6779202b0d9d6cb869776ec0d7ac82c",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1768682",
+                    "name": "D. Tranchina"
+                },
+                {
+                    "authorId": "100549025",
+                    "name": "C. Nicholson"
+                }
+            ],
+            "doi": "10.1016/S0006-3495(86)83558-5",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "044cd554f45b09e986533bad2884e5a1dae121ec",
+            "title": "A model for the polarization of neurons by extrinsically applied electric fields.",
+            "url": "https://www.semanticscholar.org/paper/044cd554f45b09e986533bad2884e5a1dae121ec",
+            "venue": "Biophysical journal",
+            "year": 1986
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49201953",
+                    "name": "G. Meyer"
+                }
+            ],
+            "doi": "10.1002/CNE.902620306",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7222b9efec8e964f4b712041f5b7811fb0ec7c09",
+            "title": "Forms and spatial arrangement of neurons in the primary motor cortex of man",
+            "url": "https://www.semanticscholar.org/paper/7222b9efec8e964f4b712041f5b7811fb0ec7c09",
+            "venue": "The Journal of comparative neurology",
+            "year": 1987
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144870078",
+                    "name": "C. Y. Chan"
+                },
+                {
+                    "authorId": "1866498",
+                    "name": "J. Hounsgaard"
+                },
+                {
+                    "authorId": "144241608",
+                    "name": "C. Nicholson"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1988.sp017232",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a80e229a1c5e812df61ac34121ddf31e23e9bf1",
+            "title": "Effects of electric fields on transmembrane potential and excitability of turtle cerebellar Purkinje cells in vitro.",
+            "url": "https://www.semanticscholar.org/paper/9a80e229a1c5e812df61ac34121ddf31e23e9bf1",
+            "venue": "The Journal of physiology",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2767880",
+                    "name": "R. Plonsey"
+                },
+                {
+                    "authorId": "31067699",
+                    "name": "K. W. Altman"
+                }
+            ],
+            "doi": "10.1109/5.9658",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bf8843033f9536d7dbcfa5c6944000ebd6678a15",
+            "title": "Electrical stimulation of excitable cells-a model approach",
+            "url": "https://www.semanticscholar.org/paper/bf8843033f9536d7dbcfa5c6944000ebd6678a15",
+            "venue": "",
+            "year": 1988
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1853474",
+                    "name": "F. Rattay"
+                }
+            ],
+            "doi": "10.1109/10.32099",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f15eb04a0e2cd3f48f983e4a9cc01174251b3e12",
+            "title": "Analysis of models for extracellular fiber stimulation",
+            "url": "https://www.semanticscholar.org/paper/f15eb04a0e2cd3f48f983e4a9cc01174251b3e12",
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "year": 1989
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5143336",
+                    "name": "A. Larkman"
+                },
+                {
+                    "authorId": "4694569",
+                    "name": "G. Major"
+                },
+                {
+                    "authorId": "3783400",
+                    "name": "K. Stratford"
+                },
+                {
+                    "authorId": "2780100",
+                    "name": "J. Jack"
+                }
+            ],
+            "doi": "10.1002/CNE.903230202",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c2212dc30c59ef38268734101f1b9c700b69c3cd",
+            "title": "Dendritic morphology of pyramidal neurones of the visual cortex of the rat. IV: Electrical geometry",
+            "url": "https://www.semanticscholar.org/paper/c2212dc30c59ef38268734101f1b9c700b69c3cd",
+            "venue": "The Journal of comparative neurology",
+            "year": 1992
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "122039785",
+                    "name": "S. Nagarajan"
+                },
+                {
+                    "authorId": "123257905",
+                    "name": "D. Durand"
+                },
+                {
+                    "authorId": "122464630",
+                    "name": "E. Warman"
+                }
+            ],
+            "doi": "10.1109/10.245636",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2ca92ba732d6109d978455979b79617ed80ef50d",
+            "title": "Effects of induced electric fields on finite neuronal structures: a simulation study",
+            "url": "https://www.semanticscholar.org/paper/2ca92ba732d6109d978455979b79617ed80ef50d",
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "year": 1993
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2767880",
+                    "name": "R. Plonsey"
+                },
+                {
+                    "authorId": "2002968",
+                    "name": "R. Barr"
+                }
+            ],
+            "doi": "10.1109/51.715497",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "14ab8182e4f5b72ae486f993f09eb38c6980c7c2",
+            "title": "Electric field stimulation of excitable tissue.",
+            "url": "https://www.semanticscholar.org/paper/14ab8182e4f5b72ae486f993f09eb38c6980c7c2",
+            "venue": "IEEE transactions on bio-medical engineering",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "2066058945",
+                    "name": "Hiroki Akiyama"
+                },
+                {
+                    "authorId": null,
+                    "name": "Jackie K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Fox"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.055772",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "venue": "The Journal of physiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1399157500",
+                    "name": "A. Valero-Cabr\u00e9"
+                },
+                {
+                    "authorId": "2683017",
+                    "name": "B. Payne"
+                },
+                {
+                    "authorId": "36553942",
+                    "name": "J. Rushmore"
+                },
+                {
+                    "authorId": "2128068",
+                    "name": "S. Lomber"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                }
+            ],
+            "doi": "10.1007/s00221-004-2140-6",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c58fd3d045c6b8e0fd65d45ece924a895373d5a8",
+            "title": "Impact of repetitive transcranial magnetic stimulation of the parietal cortex on metabolic brain activity: a 14C-2DG tracing study in the cat",
+            "url": "https://www.semanticscholar.org/paper/c58fd3d045c6b8e0fd65d45ece924a895373d5a8",
+            "venue": "Experimental Brain Research",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "73119014",
+                    "name": "T. Wagner"
+                },
+                {
+                    "authorId": "1762504",
+                    "name": "F. Fregni"
+                },
+                {
+                    "authorId": "4165832",
+                    "name": "S. Fecteau"
+                },
+                {
+                    "authorId": "1855318",
+                    "name": "A. Grodzinsky"
+                },
+                {
+                    "authorId": "145150989",
+                    "name": "M. Zahn"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2007.01.027",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6a6d7bb5484028b9a9e2ebb3e95ac094713df438",
+            "title": "Transcranial direct current stimulation: A computer-based human model study",
+            "url": "https://www.semanticscholar.org/paper/6a6d7bb5484028b9a9e2ebb3e95ac094713df438",
+            "venue": "NeuroImage",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "6367062",
+                    "name": "Y. Su"
+                },
+                {
+                    "authorId": "49211962",
+                    "name": "Je Hi An"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0095-07.2007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "title": "Spike Timing Amplifies the Effect of Electric Fields on Neurons: Implications for Endogenous Field Effects",
+            "url": "https://www.semanticscholar.org/paper/b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "venue": "The Journal of Neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439744",
+                    "name": "R. Ramos"
+                },
+                {
+                    "authorId": "49804631",
+                    "name": "P. Smith"
+                },
+                {
+                    "authorId": "4235109",
+                    "name": "Christopher DeCola"
+                },
+                {
+                    "authorId": "49284199",
+                    "name": "D. Tam"
+                },
+                {
+                    "authorId": "48895654",
+                    "name": "Oscar Corzo"
+                },
+                {
+                    "authorId": "3288819",
+                    "name": "J. C. Brumberg"
+                }
+            ],
+            "doi": "10.1093/cercor/bhn019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "52946c20d21f2306c432835a369cb26cf75849e7",
+            "title": "Cytoarchitecture and transcriptional profiles of neocortical malformations in inbred mice.",
+            "url": "https://www.semanticscholar.org/paper/52946c20d21f2306c432835a369cb26cf75849e7",
+            "venue": "Cerebral cortex",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3439744",
+                    "name": "R. Ramos"
+                },
+                {
+                    "authorId": "46262213",
+                    "name": "D. Tam"
+                },
+                {
+                    "authorId": "3288819",
+                    "name": "J. C. Brumberg"
+                }
+            ],
+            "doi": "10.1016/j.neuroscience.2008.02.069",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8fd17f02f32b2dddb25f1a153953560152d0b2d9",
+            "title": "Physiology and morphology of callosal projection neurons in mouse",
+            "url": "https://www.semanticscholar.org/paper/8fd17f02f32b2dddb25f1a153953560152d0b2d9",
+            "venue": "Neuroscience",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1805590",
+                    "name": "A. Datta"
+                },
+                {
+                    "authorId": "3865600",
+                    "name": "Maged M. Elwassif"
+                },
+                {
+                    "authorId": "2190417",
+                    "name": "F. Battaglia"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1088/1741-2560/5/2/007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a35c6bcdc0530f236afc2e6c1ee9c76c266e93e7",
+            "title": "Transcranial current stimulation focality using disc and ring electrode configurations: FEM analysis.",
+            "url": "https://www.semanticscholar.org/paper/a35c6bcdc0530f236afc2e6c1ee9c76c266e93e7",
+            "venue": "Journal of neural engineering",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "3439744",
+                    "name": "R. Ramos"
+                },
+                {
+                    "authorId": "3288819",
+                    "name": "J. C. Brumberg"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.brs.2009.03.007",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3e9d005447307990b63854933812749e2ebdef1d",
+            "title": "Role of cortical cell type and morphology in subthreshold and suprathreshold uniform electric field stimulation in vitro\n",
+            "url": "https://www.semanticscholar.org/paper/3e9d005447307990b63854933812749e2ebdef1d",
+            "venue": "Brain Stimulation",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144097954",
+                    "name": "W. Rall"
+                }
+            ],
+            "doi": "10.1002/CPHY.CP010103",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "39cfb6387d0c32a5123e167f851d00cd3832ed29",
+            "title": "Core Conductor Theory and Cable Properties of Neurons",
+            "url": "https://www.semanticscholar.org/paper/39cfb6387d0c32a5123e167f851d00cd3832ed29",
+            "venue": "",
+            "year": 2011
+        }
+    ],
+    "title": "One-dimensional representation of a neuron in a uniform electric field",
+    "topics": [
+        {
+            "topic": "Neurons",
+            "topicId": "4011",
+            "url": "https://www.semanticscholar.org/topic/4011"
+        },
+        {
+            "topic": "Pyramidal Cells",
+            "topicId": "86800",
+            "url": "https://www.semanticscholar.org/topic/86800"
+        },
+        {
+            "topic": "electric field",
+            "topicId": "5788",
+            "url": "https://www.semanticscholar.org/topic/5788"
+        },
+        {
+            "topic": "Transcranial magnetic stimulation",
+            "topicId": "19842",
+            "url": "https://www.semanticscholar.org/topic/19842"
+        },
+        {
+            "topic": "Interneurons",
+            "topicId": "1009",
+            "url": "https://www.semanticscholar.org/topic/1009"
+        },
+        {
+            "topic": "Dendrites",
+            "topicId": "2215",
+            "url": "https://www.semanticscholar.org/topic/2215"
+        },
+        {
+            "topic": "Electric stimulation technique",
+            "topicId": "9362",
+            "url": "https://www.semanticscholar.org/topic/9362"
+        },
+        {
+            "topic": "Neocortex",
+            "topicId": "3752",
+            "url": "https://www.semanticscholar.org/topic/3752"
+        },
+        {
+            "topic": "Transcranial Direct Current Stimulation",
+            "topicId": "37392",
+            "url": "https://www.semanticscholar.org/topic/37392"
+        },
+        {
+            "topic": "Electric Stimulation Therapy",
+            "topicId": "117711",
+            "url": "https://www.semanticscholar.org/topic/117711"
+        },
+        {
+            "topic": "anatomical layer",
+            "topicId": "3245",
+            "url": "https://www.semanticscholar.org/topic/3245"
+        },
+        {
+            "topic": "In Vitro [Publication Type]",
+            "topicId": "148897",
+            "url": "https://www.semanticscholar.org/topic/148897"
+        },
+        {
+            "topic": "Diploid Cell",
+            "topicId": "2651",
+            "url": "https://www.semanticscholar.org/topic/2651"
+        },
+        {
+            "topic": "Cerebral cortex",
+            "topicId": "2890",
+            "url": "https://www.semanticscholar.org/topic/2890"
+        },
+        {
+            "topic": "Electroconvulsive Therapy",
+            "topicId": "819",
+            "url": "https://www.semanticscholar.org/topic/819"
+        },
+        {
+            "topic": "dendritic tree",
+            "topicId": "197164",
+            "url": "https://www.semanticscholar.org/topic/197164"
+        },
+        {
+            "topic": "biocytin",
+            "topicId": "15472",
+            "url": "https://www.semanticscholar.org/topic/15472"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/3c6d39f1b6779202b0d9d6cb869776ec0d7ac82c",
+    "venue": "2009 Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
+    "year": 2009
+}

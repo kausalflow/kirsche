@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {
+            "authorId": "50502556",
+            "name": "J. Lian",
+            "url": "https://www.semanticscholar.org/author/50502556"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "2073366460",
+            "name": "C. Sciortino",
+            "url": "https://www.semanticscholar.org/author/2073366460"
+        },
+        {
+            "authorId": "3080729",
+            "name": "W. Stacey",
+            "url": "https://www.semanticscholar.org/author/3080729"
+        },
+        {
+            "authorId": "40209884",
+            "name": "D. Durand",
+            "url": "https://www.semanticscholar.org/author/40209884"
+        }
+    ],
+    "corpusId": 28599007,
+    "doi": "10.1113/jphysiol.2002.033209",
+    "numCitedBy": 160,
+    "numCiting": 40,
+    "title": "Local Suppression of Epileptiform Activity by Electrical Stimulation in Rat Hippocampus In Vitro",
+    "venue": "The Journal of physiology",
+    "year": 2003,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}

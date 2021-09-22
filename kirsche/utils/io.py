@@ -23,6 +23,20 @@ def load_json(data_file: Union[str, Path]) -> dict:
     return data.copy()
 
 
+def is_dir(path: Union[str, Path]) -> bool:
+    """Check if the given path is a directory
+
+    :param path: path to be checked
+    """
+    if isinstance(path, str):
+        path = Path(path)
+
+    if path.exists():
+        return path.is_dir()
+    else:
+        return str(path).endswith("/")
+
+
 def load_batch_json(data_path: Union[str, Path]) -> Union[dict, list]:
     """load data from json file(s)
 
@@ -71,7 +85,8 @@ def save_json(data: Union[dict, list], data_file: Union[str, Path]) -> None:
 
 
 def save_batch_json(
-    records: list, data_path: Union[str, Path], unique_key=None
+    records: list, data_path: Union[str, Path], unique_key=None,
+    mode = None
 ) -> None:
     """save data to json file.
 
@@ -89,10 +104,18 @@ def save_batch_json(
     if isinstance(data_path, str):
         data_path = Path(data_path)
 
+    if not data_path.exists():
+        if str(data_path).endswith(".json"):
+            mode = "single"
+        else:
+            mode = "multi"
+
     if unique_key is None:
         unique_key = "corpusId"
 
-    if data_path.is_dir():
+    if data_path.is_dir() or (mode == "multi"):
+        if not data_path.exists():
+            data_path.mkdir()
         logger.debug(f"saving all data records to {data_path} folder")
         data_path_all_json = list(data_path.glob("*.json"))
         logger.debug(f"Found {len(data_path_all_json)} json files in {data_path}.")
@@ -109,11 +132,10 @@ def save_batch_json(
             logger.debug(f"saving data to {data_file}")
             save_json(record, data_file)
 
-    elif data_path.is_file():
+    else:
         logger.debug(f"loading data from a single file {data_path}")
-        data = save_json(records, data_path)
+        save_json(records, data_path)
 
-    return data
 
 
 def record_exists(
@@ -149,7 +171,23 @@ def record_exists(
     for record in existing_records:
         for k in keys:
             k_value = record.get(k, "")
-            if k_value == cleansing_id:
+            if k_value.lower() == cleansing_id.lower():
                 return True
 
     return exists
+
+
+if __name__ == "__main__":
+
+    test_path = "tests/data/io/test__metadata"
+    existing_metadata = load_batch_json(test_path)
+
+    print(existing_metadata[0]["doi"])
+
+    print(
+        [
+            record_exists(i["doi"], existing_metadata) for i in existing_metadata
+        ]
+    )
+
+    pass

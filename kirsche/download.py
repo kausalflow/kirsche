@@ -67,9 +67,20 @@ def download_metadata(
     """
 
     paper_info = []
+    fail_flag = 0
     for doi in unique_ids:
         logger.debug(f"Getting info for {doi}")
-        paper_info.append(get_paper_info(doi))
+        if fail_flag <= 10:
+            try:
+                doi_paper_info = get_paper_info(doi)
+                paper_info.append(doi_paper_info)
+            except Exception as e:
+                logger.error(f"{doi} failed: {e}")
+                fail_flag += 1
+                continue
+        else:
+            logger.error(f"Failed too many times downloading data... breaking out")
+            break
 
         time.sleep(sleep_time)
 

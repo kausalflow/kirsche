@@ -1,0 +1,2207 @@
+{
+    "abstract": "Parkinson\u2019s disease (PD) is characterized by the formation of toxic, fibrillar form alpha-synuclein (\u03b1-Syn) protein aggregates in dopaminergic neurons. Accumulating evidence has shown a multifactorial interplay between the intracellular calcium elevation and \u03b1-Syn dynamics. However, whether membrane depolarization regulates toxic \u03b1-Syn aggregates remains unclear. To understand this better, we used an in vitro \u03b1-Syn preformed fibrils (PFF) model of PD in human neural cells. We demonstrated functional membrane depolarization in differentiated SH-SY5Y cells induced by two independent treatments: high extracellular K + and the GABA A receptor blocker picrotoxin. We then observed that these treatments significantly alleviated toxic \u03b1-Syn aggregation in PFF-treated SH-SY5Y cells. Moreover, clinically relevant direct current stimulation (DCS) also remarkably decreased toxic \u03b1-Syn aggregation in PFF-treated SH-SY5Y cells. Taken together, our findings suggest that membrane depolarization plays an important role in alleviating PFF-induced toxic \u03b1-Syn aggregates, and that it may represent a novel therapeutic mechanism for PD.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "153923408",
+            "name": "Alysia Ross",
+            "url": "https://www.semanticscholar.org/author/153923408"
+        },
+        {
+            "authorId": "52020710",
+            "name": "Viktoria Xing",
+            "url": "https://www.semanticscholar.org/author/52020710"
+        },
+        {
+            "authorId": "89782535",
+            "name": "T. Wang",
+            "url": "https://www.semanticscholar.org/author/89782535"
+        },
+        {
+            "authorId": "2070914113",
+            "name": "Samantha C. Bureau",
+            "url": "https://www.semanticscholar.org/author/2070914113"
+        },
+        {
+            "authorId": "1844595113",
+            "name": "Giovana A. Link",
+            "url": "https://www.semanticscholar.org/author/1844595113"
+        },
+        {
+            "authorId": "3073501",
+            "name": "T. Fortin",
+            "url": "https://www.semanticscholar.org/author/3073501"
+        },
+        {
+            "authorId": "49732777",
+            "name": "Hui Zhang",
+            "url": "https://www.semanticscholar.org/author/49732777"
+        },
+        {
+            "authorId": "4311193",
+            "name": "S. Hayley",
+            "url": "https://www.semanticscholar.org/author/4311193"
+        },
+        {
+            "authorId": "1845793684",
+            "name": "Hongyu Sun",
+            "url": "https://www.semanticscholar.org/author/1845793684"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4154248",
+                    "name": "S. Durell"
+                },
+                {
+                    "authorId": "144920356",
+                    "name": "H. Guy"
+                }
+            ],
+            "doi": "10.1101/2021.02.22.432295",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "17f555d7f039309e27391d7a819ee1641f19899a",
+            "title": "The amyloid concentric \u03b2-barrel hypothesis: models of Synuclein oligomers, annular protofibrils, lipoproteins, and transmembrane channels",
+            "url": "https://www.semanticscholar.org/paper/17f555d7f039309e27391d7a819ee1641f19899a",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "H, Guy"
+                },
+                {
+                    "authorId": null,
+                    "name": "Stewart Durell"
+                }
+            ],
+            "doi": "10.22541/AU.162022312.26421399/V1",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6e2ca4fefa032c876581f02e74229fb15160f43c",
+            "title": "The amyloid concentric \u03b2-barrel hypothesis: models of Synuclein oligomers, annular protofibrils, lipoproteins, and transmembrane channels.",
+            "url": "https://www.semanticscholar.org/paper/6e2ca4fefa032c876581f02e74229fb15160f43c",
+            "venue": "",
+            "year": 2021
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5795213",
+                    "name": "F. Cankara"
+                },
+                {
+                    "authorId": "2008353901",
+                    "name": "Z. \u00c7elik"
+                },
+                {
+                    "authorId": "1404515035",
+                    "name": "Caner G\u00fcnayd\u0131n"
+                }
+            ],
+            "doi": "10.1016/j.neulet.2021.135908",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "a18e0a9f0468d4aa6d48eb8cfe2d2e68bc0a54b1",
+            "title": "Cannabinoid receptor-1 has an effect on CD200 under rotenone and alpha-synuclein induced stress",
+            "url": "https://www.semanticscholar.org/paper/a18e0a9f0468d4aa6d48eb8cfe2d2e68bc0a54b1",
+            "venue": "Neuroscience Letters",
+            "year": 2021
+        }
+    ],
+    "corpusId": 220881736,
+    "doi": "10.1186/s13041-020-00648-8",
+    "fieldsOfStudy": [
+        "Chemistry",
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": false,
+    "isPublisherLicensed": true,
+    "is_open_access": false,
+    "is_publisher_licensed": true,
+    "numCitedBy": 3,
+    "numCiting": 76,
+    "paperId": "20b08f525620ae2e9dc889b226296af231d29240",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "87817949",
+                    "name": "J. Biedler"
+                },
+                {
+                    "authorId": "87601756",
+                    "name": "S. Roffler-Tarlov"
+                },
+                {
+                    "authorId": "2498680",
+                    "name": "M. Schachner"
+                },
+                {
+                    "authorId": "46863281",
+                    "name": "L. Freedman"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2e77014213a930781f32e38d45bb259d0b3da2b5",
+            "title": "Multiple neurotransmitter synthesis by human neuroblastoma cell lines and clones.",
+            "url": "https://www.semanticscholar.org/paper/2e77014213a930781f32e38d45bb259d0b3da2b5",
+            "venue": "Cancer research",
+            "year": 1978
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2157220",
+                    "name": "R. Ross"
+                },
+                {
+                    "authorId": "3945418",
+                    "name": "J. L. Biedler"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "54703cb21fd45973f6ee13980c58b3934f24ab3a",
+            "title": "Presence and regulation of tyrosinase activity in human neuroblastoma cell variants in vitro.",
+            "url": "https://www.semanticscholar.org/paper/54703cb21fd45973f6ee13980c58b3934f24ab3a",
+            "venue": "Cancer research",
+            "year": 1985
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143868789",
+                    "name": "M. Toselli"
+                },
+                {
+                    "authorId": "5537462",
+                    "name": "P. Tosetti"
+                },
+                {
+                    "authorId": "4071560",
+                    "name": "V. Taglietti"
+                }
+            ],
+            "doi": "10.1152/JN.1998.79.2.648",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c342a344cbcfa867ad057631e49692cca6809d62",
+            "title": "Functional changes in sodium conductances in the human neuroblastoma cell line SH-SY5Y during in vitro differentiation.",
+            "url": "https://www.semanticscholar.org/paper/c342a344cbcfa867ad057631e49692cca6809d62",
+            "venue": "Journal of neurophysiology",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2109301928",
+                    "name": "G. Wang"
+                },
+                {
+                    "authorId": "3187778",
+                    "name": "M. Z. Humayun"
+                }
+            ],
+            "doi": "10.1007/S004380050204",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ff86b90c325da818c4aeb9fc50965828b2100f5c",
+            "title": "Induction of the",
+            "url": "https://www.semanticscholar.org/paper/ff86b90c325da818c4aeb9fc50965828b2100f5c",
+            "venue": "",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4845225",
+                    "name": "C. Moellentine"
+                },
+                {
+                    "authorId": "3461590",
+                    "name": "T. Rummans"
+                },
+                {
+                    "authorId": "4654167",
+                    "name": "J. Ahlskog"
+                },
+                {
+                    "authorId": "5677722",
+                    "name": "W. Harmsen"
+                },
+                {
+                    "authorId": "35244952",
+                    "name": "V. Suman"
+                },
+                {
+                    "authorId": "2058992002",
+                    "name": "M. K. O\u2019Connor"
+                },
+                {
+                    "authorId": "32468161",
+                    "name": "J. Black"
+                },
+                {
+                    "authorId": "8383185",
+                    "name": "T. Pileggi"
+                }
+            ],
+            "doi": "10.1176/JNP.10.2.187",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e05c13d41928430fb4ed8b532ca45d845159fec0",
+            "title": "Effectiveness of ECT in patients with parkinsonism.",
+            "url": "https://www.semanticscholar.org/paper/e05c13d41928430fb4ed8b532ca45d845159fec0",
+            "venue": "The Journal of neuropsychiatry and clinical neurosciences",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143866105",
+                    "name": "S. Chandra"
+                },
+                {
+                    "authorId": "2109472264",
+                    "name": "Xiaocheng Chen"
+                },
+                {
+                    "authorId": "4164608",
+                    "name": "J. Rizo"
+                },
+                {
+                    "authorId": "145904579",
+                    "name": "R. Jahn"
+                },
+                {
+                    "authorId": "4704732",
+                    "name": "T. S\u00fcdhof"
+                }
+            ],
+            "doi": "10.1074/JBC.M213128200",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "17bf6ad3407fd854886239e31931cdae4ba17922",
+            "title": "A Broken \u03b1-Helix in Folded \u03b1-Synuclein*",
+            "url": "https://www.semanticscholar.org/paper/17bf6ad3407fd854886239e31931cdae4ba17922",
+            "venue": "The Journal of Biological Chemistry",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2085437762",
+                    "name": "H. V. D. Togt"
+                }
+            ],
+            "doi": "10.1016/S1084-8045(02)00061-9",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "34b9635d7779e219e9d60e0d3d33919ca9bc123c",
+            "title": "Publisher's Note",
+            "url": "https://www.semanticscholar.org/paper/34b9635d7779e219e9d60e0d3d33919ca9bc123c",
+            "venue": "J. Netw. Comput. Appl.",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143866105",
+                    "name": "S. Chandra"
+                },
+                {
+                    "authorId": "49227407",
+                    "name": "Gilbert Gallardo"
+                },
+                {
+                    "authorId": "1401513783",
+                    "name": "R. Fern\u00e1ndez-Chac\u00f3n"
+                },
+                {
+                    "authorId": "3055281",
+                    "name": "O. Schl\u00fcter"
+                },
+                {
+                    "authorId": "4704732",
+                    "name": "T. S\u00fcdhof"
+                }
+            ],
+            "doi": "10.1016/j.cell.2005.09.028",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "230576870c2dd4eb336103fc05240724abd482b9",
+            "title": "\u03b1-Synuclein Cooperates with CSP\u03b1 in Preventing Neurodegeneration",
+            "url": "https://www.semanticscholar.org/paper/230576870c2dd4eb336103fc05240724abd482b9",
+            "venue": "Cell",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4922601",
+                    "name": "Doris L. Fortin"
+                },
+                {
+                    "authorId": "5764423",
+                    "name": "V. Nemani"
+                },
+                {
+                    "authorId": "4264196",
+                    "name": "S. Voglmaier"
+                },
+                {
+                    "authorId": "5421317",
+                    "name": "Malcolm D. Anthony"
+                },
+                {
+                    "authorId": "145377370",
+                    "name": "T. A. Ryan"
+                },
+                {
+                    "authorId": "143625182",
+                    "name": "R. Edwards"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.2922-05.2005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "62139dd5e53e3cc266aaf2330212b839a3b8794d",
+            "title": "Neural Activity Controls the Synaptic Accumulation of \u03b1-Synuclein",
+            "url": "https://www.semanticscholar.org/paper/62139dd5e53e3cc266aaf2330212b839a3b8794d",
+            "venue": "The Journal of Neuroscience",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1491799321",
+                    "name": "Houeto Jean-Luc"
+                }
+            ],
+            "doi": "10.1093/ageing/afgi30",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "880ff9a2d1b63cc77e6fcf02a68a38ab8439bcc3",
+            "title": "[Parkinson's disease].",
+            "url": "https://www.semanticscholar.org/paper/880ff9a2d1b63cc77e6fcf02a68a38ab8439bcc3",
+            "venue": "La Revue du praticien",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143866105",
+                    "name": "S. Chandra"
+                },
+                {
+                    "authorId": "49227407",
+                    "name": "Gilbert Gallardo"
+                },
+                {
+                    "authorId": "1401513783",
+                    "name": "R. Fern\u00e1ndez-Chac\u00f3n"
+                },
+                {
+                    "authorId": "3055281",
+                    "name": "O. Schl\u00fcter"
+                },
+                {
+                    "authorId": "4704732",
+                    "name": "T. S\u00fcdhof"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f68a427ae905c9a217fef95c73fdfb499d637cb5",
+            "title": "Alpha-synuclein cooperates with CSPalpha in preventing neurodegeneration.",
+            "url": "https://www.semanticscholar.org/paper/f68a427ae905c9a217fef95c73fdfb499d637cb5",
+            "venue": "Cell",
+            "year": 2005
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2122814147",
+                    "name": "Tingting Yang"
+                },
+                {
+                    "authorId": "2116841531",
+                    "name": "C. Hsu"
+                },
+                {
+                    "authorId": "48739800",
+                    "name": "W. Liao"
+                },
+                {
+                    "authorId": "38900574",
+                    "name": "J. Chuang"
+                }
+            ],
+            "doi": "10.1007/s00401-007-0297-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cc29b261cb89ae4d11c57c6c6cf443e5edcc43a3",
+            "title": "Heat shock protein 70 expression in epilepsy suggests stress rather than protection",
+            "url": "https://www.semanticscholar.org/paper/cc29b261cb89ae4d11c57c6c6cf443e5edcc43a3",
+            "venue": "Acta Neuropathologica",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145694654",
+                    "name": "P. Arun"
+                },
+                {
+                    "authorId": "6709324",
+                    "name": "C. N. Madhavarao"
+                },
+                {
+                    "authorId": "1686801",
+                    "name": "J. Moffett"
+                },
+                {
+                    "authorId": "40622901",
+                    "name": "A. Namboodiri"
+                }
+            ],
+            "doi": "10.1111/j.1471-4159.2008.05524.x",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "e02d09d0ba59ed4dc129a75e1482725a0d0d6468",
+            "title": "Antipsychotic drugs increase N\u2010acetylaspartate and N\u2010acetylaspartylglutamate in SH\u2010SY5Y human neuroblastoma cells",
+            "url": "https://www.semanticscholar.org/paper/e02d09d0ba59ed4dc129a75e1482725a0d0d6468",
+            "venue": "Journal of neurochemistry",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8542333",
+                    "name": "Katherina Vamvaca"
+                },
+                {
+                    "authorId": "4591758",
+                    "name": "M. J. Volles"
+                },
+                {
+                    "authorId": "5174905",
+                    "name": "P. Lansbury"
+                }
+            ],
+            "doi": "10.1016/j.jmb.2009.03.021",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "be926d3ed537e20391b34c0002724c2b6f05d22f",
+            "title": "The first N-terminal amino acids of alpha-synuclein are essential for alpha-helical structure formation in vitro and membrane binding in yeast.",
+            "url": "https://www.semanticscholar.org/paper/be926d3ed537e20391b34c0002724c2b6f05d22f",
+            "venue": "Journal of molecular biology",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31918092",
+                    "name": "Sebastian McClendon"
+                },
+                {
+                    "authorId": "6591882",
+                    "name": "Carla C. Rospigliosi"
+                },
+                {
+                    "authorId": "5222855",
+                    "name": "D. Eliezer"
+                }
+            ],
+            "doi": "10.1002/pro.149",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "dda99ca73ce174f4145c87652b525afaa1fa7e61",
+            "title": "Charge neutralization and collapse of the C\u2010terminal tail of alpha\u2010synuclein at low pH",
+            "url": "https://www.semanticscholar.org/paper/dda99ca73ce174f4145c87652b525afaa1fa7e61",
+            "venue": "Protein science : a publication of the Protein Society",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2376960",
+                    "name": "Evangelia Emmanouilidou"
+                },
+                {
+                    "authorId": "8357919",
+                    "name": "Katerina Melachroinou"
+                },
+                {
+                    "authorId": "6102042",
+                    "name": "T. Roumeliotis"
+                },
+                {
+                    "authorId": "2965035",
+                    "name": "S. Garbis"
+                },
+                {
+                    "authorId": "1394112581",
+                    "name": "M. Ntzouni"
+                },
+                {
+                    "authorId": "145497543",
+                    "name": "L. Margaritis"
+                },
+                {
+                    "authorId": "3026996",
+                    "name": "L. Stefanis"
+                },
+                {
+                    "authorId": "2585801",
+                    "name": "K. Vekrellis"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.5699-09.2010",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "70673a893c825ea5cf08feb7ba657b2c5ded0c6f",
+            "title": "Cell-Produced \u03b1-Synuclein Is Secreted in a Calcium-Dependent Manner by Exosomes and Impacts Neuronal Survival",
+            "url": "https://www.semanticscholar.org/paper/70673a893c825ea5cf08feb7ba657b2c5ded0c6f",
+            "venue": "The Journal of Neuroscience",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1400712160",
+                    "name": "L. Volpicelli-Daley"
+                },
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                },
+                {
+                    "authorId": "6005375",
+                    "name": "Tapan Patel"
+                },
+                {
+                    "authorId": "5334663",
+                    "name": "Selcuk A. Tanik"
+                },
+                {
+                    "authorId": "46433626",
+                    "name": "D. Riddle"
+                },
+                {
+                    "authorId": "153079706",
+                    "name": "Anna Stieber"
+                },
+                {
+                    "authorId": "1945462",
+                    "name": "D. Meaney"
+                },
+                {
+                    "authorId": "2410201",
+                    "name": "J. Trojanowski"
+                },
+                {
+                    "authorId": "2039316",
+                    "name": "V. Lee"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2011.08.033",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c5674f4824217b0f661ed26a651c0ba9bc150518",
+            "title": "Exogenous \u03b1-Synuclein Fibrils Induce Lewy Body Pathology Leading to Synaptic Dysfunction and Neuron Death",
+            "url": "https://www.semanticscholar.org/paper/c5674f4824217b0f661ed26a651c0ba9bc150518",
+            "venue": "Neuron",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "38840425",
+                    "name": "S. Nath"
+                },
+                {
+                    "authorId": "49584302",
+                    "name": "J. Goodwin"
+                },
+                {
+                    "authorId": "74763600",
+                    "name": "Y. Engelborghs"
+                },
+                {
+                    "authorId": "2088584",
+                    "name": "D. Pountney"
+                }
+            ],
+            "doi": "10.1016/j.mcn.2010.12.004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0889a101c77d9a0a1aea2c8b6306d50e2dc15ba",
+            "title": "Raised calcium promotes \u03b1-synuclein aggregate formation",
+            "url": "https://www.semanticscholar.org/paper/d0889a101c77d9a0a1aea2c8b6306d50e2dc15ba",
+            "venue": "Molecular and Cellular Neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                },
+                {
+                    "authorId": "4241769",
+                    "name": "V. Kehm"
+                },
+                {
+                    "authorId": "31783980",
+                    "name": "J. Carroll"
+                },
+                {
+                    "authorId": "37762208",
+                    "name": "Bin Zhang"
+                },
+                {
+                    "authorId": "2058692157",
+                    "name": "Patrick O\u2019Brien"
+                },
+                {
+                    "authorId": "2410201",
+                    "name": "J. Trojanowski"
+                },
+                {
+                    "authorId": "46727086",
+                    "name": "V. Lee"
+                }
+            ],
+            "doi": "10.1126/science.1227157",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1463d4511a94fcd7affbb4c9f4dd8f4b9a7afbf3",
+            "title": "Pathological \u03b1-Synuclein Transmission Initiates Parkinson-like Neurodegeneration in Nontransgenic Mice",
+            "url": "https://www.semanticscholar.org/paper/1463d4511a94fcd7affbb4c9f4dd8f4b9a7afbf3",
+            "venue": "Science",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5944500",
+                    "name": "J. Follett"
+                },
+                {
+                    "authorId": "3784186",
+                    "name": "Bonnie Darlow"
+                },
+                {
+                    "authorId": "7621642",
+                    "name": "M. B. Wong"
+                },
+                {
+                    "authorId": "49584302",
+                    "name": "J. Goodwin"
+                },
+                {
+                    "authorId": "2088584",
+                    "name": "D. Pountney"
+                }
+            ],
+            "doi": "10.1007/s12640-012-9366-z",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3fa958bbcad409fe5ce140b0bd01b82e5a57a094",
+            "title": "Potassium Depolarization and Raised Calcium Induces \u03b1-Synuclein Aggregates",
+            "url": "https://www.semanticscholar.org/paper/3fa958bbcad409fe5ce140b0bd01b82e5a57a094",
+            "venue": "Neurotoxicity Research",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113632789",
+                    "name": "David A. Scott"
+                },
+                {
+                    "authorId": "2044170",
+                    "name": "Subhojit Roy"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0535-12.2012",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "647cbd042af3742e0f5bdb6a0107faf764569dfd",
+            "title": "\u03b1-Synuclein Inhibits Intersynaptic Vesicle Mobility and Maintains Recycling-Pool Homeostasis",
+            "url": "https://www.semanticscholar.org/paper/647cbd042af3742e0f5bdb6a0107faf764569dfd",
+            "venue": "The Journal of Neuroscience",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4555335",
+                    "name": "L. Breydo"
+                },
+                {
+                    "authorId": "2110402920",
+                    "name": "Jessica W. Wu"
+                },
+                {
+                    "authorId": "2766767",
+                    "name": "V. Uversky"
+                }
+            ],
+            "doi": "10.1016/j.bbadis.2011.10.002",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "777fce86658a88967c5864cde5719e1da55f38b3",
+            "title": "\u0391-synuclein misfolding and Parkinson's disease.",
+            "url": "https://www.semanticscholar.org/paper/777fce86658a88967c5864cde5719e1da55f38b3",
+            "venue": "Biochimica et biophysica acta",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4468724",
+                    "name": "S. Paillusson"
+                },
+                {
+                    "authorId": "6228891",
+                    "name": "T. Clairembault"
+                },
+                {
+                    "authorId": "50428743",
+                    "name": "M. Biraud"
+                },
+                {
+                    "authorId": "5466131",
+                    "name": "M. Neunlist"
+                },
+                {
+                    "authorId": "6061300",
+                    "name": "P. Derkinderen"
+                }
+            ],
+            "doi": "10.1111/jnc.12131",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "44b9c771ab380e40834ead0993d13ccafbaf1cfa",
+            "title": "Activity\u2010dependent secretion of alpha\u2010synuclein by enteric neurons",
+            "url": "https://www.semanticscholar.org/paper/44b9c771ab380e40834ead0993d13ccafbaf1cfa",
+            "venue": "Journal of neurochemistry",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403264881",
+                    "name": "M. Masuda-Suzukake"
+                },
+                {
+                    "authorId": "50240377",
+                    "name": "T. Nonaka"
+                },
+                {
+                    "authorId": "152756780",
+                    "name": "M. Hosokawa"
+                },
+                {
+                    "authorId": "29081714",
+                    "name": "Takayuki Oikawa"
+                },
+                {
+                    "authorId": "2137747",
+                    "name": "T. Arai"
+                },
+                {
+                    "authorId": "145253965",
+                    "name": "H. Akiyama"
+                },
+                {
+                    "authorId": "143664645",
+                    "name": "D. Mann"
+                },
+                {
+                    "authorId": "6501903",
+                    "name": "M. Hasegawa"
+                }
+            ],
+            "doi": "10.1093/brain/awt037",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "d0d04efb5aa2c293f7047b33a3c7e08a0413cfc0",
+            "title": "Prion-like spreading of pathological \u03b1-synuclein in brain",
+            "url": "https://www.semanticscholar.org/paper/d0d04efb5aa2c293f7047b33a3c7e08a0413cfc0",
+            "venue": "Brain : a journal of neurology",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5060559",
+                    "name": "Dilyan I. Dryanovski"
+                },
+                {
+                    "authorId": "40179513",
+                    "name": "J. N. Guzman"
+                },
+                {
+                    "authorId": "143945072",
+                    "name": "Zhong Xie"
+                },
+                {
+                    "authorId": "5667630",
+                    "name": "Daniel J Galteri"
+                },
+                {
+                    "authorId": "1400712160",
+                    "name": "L. Volpicelli-Daley"
+                },
+                {
+                    "authorId": "2039316",
+                    "name": "V. Lee"
+                },
+                {
+                    "authorId": "1932264890",
+                    "name": "Richard J. Miller"
+                },
+                {
+                    "authorId": "4184559",
+                    "name": "P. Schumacker"
+                },
+                {
+                    "authorId": "48775361",
+                    "name": "D. Surmeier"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.5311-12.2013",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ed071192fe0da1c83e64594f3ea480a21a07a510",
+            "title": "Calcium Entry and \u03b1-Synuclein Inclusions Elevate Dendritic Mitochondrial Oxidant Stress in Dopaminergic Neurons",
+            "url": "https://www.semanticscholar.org/paper/ed071192fe0da1c83e64594f3ea480a21a07a510",
+            "venue": "The Journal of Neuroscience",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2982108",
+                    "name": "A. Baumketner"
+                }
+            ],
+            "doi": "10.1021/jp509213f",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4f05369705436610a846ba0b954d7e42ee70524d",
+            "title": "Electric field as a disaggregating agent for amyloid fibrils.",
+            "url": "https://www.semanticscholar.org/paper/4f05369705436610a846ba0b954d7e42ee70524d",
+            "venue": "The journal of physical chemistry. B",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39462996",
+                    "name": "D. Snead"
+                },
+                {
+                    "authorId": "5222855",
+                    "name": "D. Eliezer"
+                }
+            ],
+            "doi": "10.5607/en.2014.23.4.292",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "8a77c01ac6a3c3d440ab35205c6b43d1dac03c93",
+            "title": "Alpha-Synuclein Function and Dysfunction on Cellular Membranes",
+            "url": "https://www.semanticscholar.org/paper/8a77c01ac6a3c3d440ab35205c6b43d1dac03c93",
+            "venue": "Experimental neurobiology",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4117642",
+                    "name": "Jacqueline Burr\u00e9"
+                },
+                {
+                    "authorId": "1491784886",
+                    "name": "Manu Sharma"
+                },
+                {
+                    "authorId": "4704732",
+                    "name": "T. S\u00fcdhof"
+                }
+            ],
+            "doi": "10.1073/pnas.1416598111",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "f1138ff527f69e8c49edffda851223eeffae43db",
+            "title": "\u03b1-Synuclein assembles into higher-order multimers upon membrane binding to promote SNARE complex formation",
+            "url": "https://www.semanticscholar.org/paper/f1138ff527f69e8c49edffda851223eeffae43db",
+            "venue": "Proceedings of the National Academy of Sciences",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6067038",
+                    "name": "P. Narang"
+                },
+                {
+                    "authorId": "2071803478",
+                    "name": "A. G\u0142owacki"
+                },
+                {
+                    "authorId": "145610308",
+                    "name": "S. Lippmann"
+                }
+            ],
+            "doi": null,
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "49ee7aaa1e70d16d2fa510aa5a62f69ac99b1458",
+            "title": "Electroconvulsive Therapy Intervention for Parkinson's Disease.",
+            "url": "https://www.semanticscholar.org/paper/49ee7aaa1e70d16d2fa510aa5a62f69ac99b1458",
+            "venue": "Innovations in clinical neuroscience",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3625640",
+                    "name": "L. V. Kalia"
+                },
+                {
+                    "authorId": "2528515",
+                    "name": "A. Lang"
+                }
+            ],
+            "doi": "10.1016/S0140-6736(14)61393-3",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "744b269cc3bfb62848a450fbec7c01f0e643c6dc",
+            "title": "Parkinson's disease",
+            "url": "https://www.semanticscholar.org/paper/744b269cc3bfb62848a450fbec7c01f0e643c6dc",
+            "venue": "The Lancet",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48034504",
+                    "name": "Esteban Luna"
+                },
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                }
+            ],
+            "doi": "10.1016/j.febslet.2015.10.023",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "7a0011173cca05d583439bac2e625b414966dc7f",
+            "title": "Bent out of shape: \u03b1\u2010Synuclein misfolding and the convergence of pathogenic pathways in Parkinson's disease",
+            "url": "https://www.semanticscholar.org/paper/7a0011173cca05d583439bac2e625b414966dc7f",
+            "venue": "FEBS letters",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40592084",
+                    "name": "Mohamed-Bilal Fares"
+                },
+                {
+                    "authorId": "5431858",
+                    "name": "B. Maco"
+                },
+                {
+                    "authorId": "117783934",
+                    "name": "Abid Oueslati"
+                },
+                {
+                    "authorId": "5173741",
+                    "name": "E. Rockenstein"
+                },
+                {
+                    "authorId": "49251023",
+                    "name": "N. Ninkina"
+                },
+                {
+                    "authorId": "5380419",
+                    "name": "V. Buchman"
+                },
+                {
+                    "authorId": "143750986",
+                    "name": "E. Masliah"
+                },
+                {
+                    "authorId": "4807041",
+                    "name": "H. Lashuel"
+                }
+            ],
+            "doi": "10.1073/pnas.1512876113",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1db8adccb03660b0feb5916c918e99dd224fe972",
+            "title": "Induction of de novo \u03b1-synuclein fibrillization in a neuronal model for Parkinson\u2019s disease",
+            "url": "https://www.semanticscholar.org/paper/1db8adccb03660b0feb5916c918e99dd224fe972",
+            "venue": "Proceedings of the National Academy of Sciences",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6919130",
+                    "name": "F. N. Emamzadeh"
+                }
+            ],
+            "doi": "10.4103/1735-1995.181989",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "28eab040d8179e4c8aa3ffe408c15db6d74a137e",
+            "title": "Alpha-synuclein structure, functions, and interactions",
+            "url": "https://www.semanticscholar.org/paper/28eab040d8179e4c8aa3ffe408c15db6d74a137e",
+            "venue": "Journal of research in medical sciences : the official journal of Isfahan University of Medical Sciences",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152774084",
+                    "name": "J. I. Forster"
+                },
+                {
+                    "authorId": "4145472",
+                    "name": "S. Koeglsberger"
+                },
+                {
+                    "authorId": "1680959",
+                    "name": "C. Trefois"
+                },
+                {
+                    "authorId": "47567744",
+                    "name": "O. Boyd"
+                },
+                {
+                    "authorId": "4531783",
+                    "name": "A. Baumuratov"
+                },
+                {
+                    "authorId": "120149923",
+                    "name": "L. Buck"
+                },
+                {
+                    "authorId": "46916438",
+                    "name": "R. Balling"
+                },
+                {
+                    "authorId": "49679831",
+                    "name": "P. Antony"
+                }
+            ],
+            "doi": "10.1177/1087057115625190",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f20083839afb858c67c8b6998850bc9e7524426",
+            "title": "Characterization of Differentiated SH-SY5Y as Neuronal Screening Model Reveals Increased Oxidative Vulnerability",
+            "url": "https://www.semanticscholar.org/paper/2f20083839afb858c67c8b6998850bc9e7524426",
+            "venue": "Journal of biomolecular screening",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2376960",
+                    "name": "Evangelia Emmanouilidou"
+                },
+                {
+                    "authorId": "3582527",
+                    "name": "Georgia Minakaki"
+                },
+                {
+                    "authorId": "4148817",
+                    "name": "M. Keramioti"
+                },
+                {
+                    "authorId": "1395672474",
+                    "name": "Mary Xylaki"
+                },
+                {
+                    "authorId": "5482681",
+                    "name": "E. Balafas"
+                },
+                {
+                    "authorId": "1399055741",
+                    "name": "M. Chrysanthou-Piterou"
+                },
+                {
+                    "authorId": "3668672",
+                    "name": "I. Kloukina"
+                },
+                {
+                    "authorId": "2585801",
+                    "name": "K. Vekrellis"
+                }
+            ],
+            "doi": "10.1093/brain/awv403",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "2f9987ccc5ab9551c1771546c6a7fa4cbad41f0b",
+            "title": "GABA transmission via ATP-dependent K+ channels regulates \u03b1-synuclein secretion in mouse striatum.",
+            "url": "https://www.semanticscholar.org/paper/2f9987ccc5ab9551c1771546c6a7fa4cbad41f0b",
+            "venue": "Brain : a journal of neurology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1403384696",
+                    "name": "A. Rcom-H'cheo-Gauthier"
+                },
+                {
+                    "authorId": "2113798986",
+                    "name": "Amelia Davis"
+                },
+                {
+                    "authorId": "48296692",
+                    "name": "A. Meedeniya"
+                },
+                {
+                    "authorId": "2088584",
+                    "name": "D. Pountney"
+                }
+            ],
+            "doi": "10.1016/j.mcn.2016.10.003",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "85193b315735c4132913510542c9a6eaf1f0c8f3",
+            "title": "Alpha-synuclein aggregates are excluded from calbindin-D28k-positive neurons in dementia with Lewy bodies and a unilateral rotenone mouse model",
+            "url": "https://www.semanticscholar.org/paper/85193b315735c4132913510542c9a6eaf1f0c8f3",
+            "venue": "Molecular and Cellular Neuroscience",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3808395",
+                    "name": "T. Schirinzi"
+                },
+                {
+                    "authorId": "4177242",
+                    "name": "G. Madeo"
+                },
+                {
+                    "authorId": "3832211",
+                    "name": "G. Martella"
+                },
+                {
+                    "authorId": "49503995",
+                    "name": "M. Maltese"
+                },
+                {
+                    "authorId": "6772922",
+                    "name": "B. Picconi"
+                },
+                {
+                    "authorId": "32712371",
+                    "name": "P. Calabresi"
+                },
+                {
+                    "authorId": "2576540",
+                    "name": "A. Pisani"
+                }
+            ],
+            "doi": "10.1002/mds.26620",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "aea5656537c503fb1c831787dbb36467ae2d8f38",
+            "title": "Early synaptic dysfunction in Parkinson's disease: Insights from animal models",
+            "url": "https://www.semanticscholar.org/paper/aea5656537c503fb1c831787dbb36467ae2d8f38",
+            "venue": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "143651419",
+                    "name": "Keisuke Ito"
+                },
+                {
+                    "authorId": "50464988",
+                    "name": "Y. Eguchi"
+                },
+                {
+                    "authorId": "47053171",
+                    "name": "Yusuke Imagawa"
+                },
+                {
+                    "authorId": "15028553",
+                    "name": "S. Akai"
+                },
+                {
+                    "authorId": "144964151",
+                    "name": "H. Mochizuki"
+                },
+                {
+                    "authorId": "32215846",
+                    "name": "Y. Tsujimoto"
+                }
+            ],
+            "doi": "10.1038/cddiscovery.2017.13",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "22e0ce97421fe9310f0d89ee959b534319a3dd27",
+            "title": "MPP+ induces necrostatin-1- and ferrostatin-1-sensitive necrotic death of neuronal SH-SY5Y cells",
+            "url": "https://www.semanticscholar.org/paper/22e0ce97421fe9310f0d89ee959b534319a3dd27",
+            "venue": "Cell Death Discovery",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1396318198",
+                    "name": "Mantia Karampetsou"
+                },
+                {
+                    "authorId": "5866816",
+                    "name": "M. Ardah"
+                },
+                {
+                    "authorId": "6668698",
+                    "name": "M. Semitekolou"
+                },
+                {
+                    "authorId": "5025008",
+                    "name": "A. Polissidis"
+                },
+                {
+                    "authorId": "1807110",
+                    "name": "M. Samiotaki"
+                },
+                {
+                    "authorId": "1398686508",
+                    "name": "Maria Kalomoiri"
+                },
+                {
+                    "authorId": "6121033",
+                    "name": "N. Majbour"
+                },
+                {
+                    "authorId": "3550104",
+                    "name": "G. Xanthou"
+                },
+                {
+                    "authorId": "1430933068",
+                    "name": "O. El-Agnaf"
+                },
+                {
+                    "authorId": "2585801",
+                    "name": "K. Vekrellis"
+                }
+            ],
+            "doi": "10.1038/s41598-017-15813-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "31e474f6e52904f24804a7d491178f95fca08391",
+            "title": "Phosphorylated exogenous alpha-synuclein fibrils exacerbate pathology and induce neuronal dysfunction in mice",
+            "url": "https://www.semanticscholar.org/paper/31e474f6e52904f24804a7d491178f95fca08391",
+            "venue": "Scientific Reports",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6880776",
+                    "name": "K. Lyamzaev"
+                },
+                {
+                    "authorId": "4093615",
+                    "name": "A. V. Tokarchuk"
+                },
+                {
+                    "authorId": "34963575",
+                    "name": "A. Panteleeva"
+                },
+                {
+                    "authorId": "2278226",
+                    "name": "A. Mulkidjanian"
+                },
+                {
+                    "authorId": "4061604",
+                    "name": "V. Skulachev"
+                },
+                {
+                    "authorId": "6737958",
+                    "name": "B. Chernyak"
+                }
+            ],
+            "doi": "10.1080/15548627.2018.1436937",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0bf12480de987e283056d375b5a6fcb1cbaf03e0",
+            "title": "Induction of autophagy by depolarization of mitochondria",
+            "url": "https://www.semanticscholar.org/paper/0bf12480de987e283056d375b5a6fcb1cbaf03e0",
+            "venue": "Autophagy",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31453884",
+                    "name": "Giulia Panattoni"
+                },
+                {
+                    "authorId": "32800560",
+                    "name": "Lucia Rota"
+                },
+                {
+                    "authorId": "37250292",
+                    "name": "Emanuela Colla"
+                }
+            ],
+            "doi": "10.3791/57884",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "0d0fd8f424dfefd62908a8570d669b63f52e0847",
+            "title": "Exogenous Administration of Microsomes-associated Alpha-synuclein Aggregates to Primary Neurons As a Powerful Cell Model of Fibrils Formation",
+            "url": "https://www.semanticscholar.org/paper/0d0fd8f424dfefd62908a8570d669b63f52e0847",
+            "venue": "Journal of visualized experiments : JoVE",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48034504",
+                    "name": "Esteban Luna"
+                },
+                {
+                    "authorId": "5213075",
+                    "name": "Samantha C. Decker"
+                },
+                {
+                    "authorId": "46433626",
+                    "name": "D. Riddle"
+                },
+                {
+                    "authorId": "118185601",
+                    "name": "A. Caputo"
+                },
+                {
+                    "authorId": "37762208",
+                    "name": "Bin Zhang"
+                },
+                {
+                    "authorId": "48362696",
+                    "name": "Tracy A. Cole"
+                },
+                {
+                    "authorId": "31551043",
+                    "name": "Carrie Caswell"
+                },
+                {
+                    "authorId": "145770746",
+                    "name": "S. Xie"
+                },
+                {
+                    "authorId": "46727086",
+                    "name": "V. Lee"
+                },
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                }
+            ],
+            "doi": "10.1007/s00401-018-1829-8",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "1746afb57f7c0adaae25111fe6eefe5b15451ce6",
+            "title": "Differential \u03b1-synuclein expression contributes to selective vulnerability of hippocampal neuron subpopulations to fibril-induced toxicity",
+            "url": "https://www.semanticscholar.org/paper/1746afb57f7c0adaae25111fe6eefe5b15451ce6",
+            "venue": "Acta Neuropathologica",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2113567976",
+                    "name": "Chao Peng"
+                },
+                {
+                    "authorId": "7301505",
+                    "name": "Ronald J. Gathagan"
+                },
+                {
+                    "authorId": "24962147",
+                    "name": "D. Covell"
+                },
+                {
+                    "authorId": "41069005",
+                    "name": "Coraima Medellin"
+                },
+                {
+                    "authorId": "153079706",
+                    "name": "Anna Stieber"
+                },
+                {
+                    "authorId": "150158939",
+                    "name": "John L. Robinson"
+                },
+                {
+                    "authorId": "37762208",
+                    "name": "Bin Zhang"
+                },
+                {
+                    "authorId": "40421920",
+                    "name": "R. M. Pitkin"
+                },
+                {
+                    "authorId": "41065895",
+                    "name": "Modupe F. Olufemi"
+                },
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                },
+                {
+                    "authorId": "2410201",
+                    "name": "J. Trojanowski"
+                },
+                {
+                    "authorId": "46727086",
+                    "name": "V. Lee"
+                }
+            ],
+            "doi": "10.1038/s41586-018-0104-4",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3abfb431533df924d4c5455b7fdb4dbf750049a1",
+            "title": "Cellular Milieu Imparts Distinct Pathological \u03b1-Synuclein Strains in \u03b1-Synucleinopathies",
+            "url": "https://www.semanticscholar.org/paper/3abfb431533df924d4c5455b7fdb4dbf750049a1",
+            "venue": "Nature",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6011866",
+                    "name": "V. Ghiglieri"
+                },
+                {
+                    "authorId": "35770955",
+                    "name": "Valeria Calabrese"
+                },
+                {
+                    "authorId": "32712371",
+                    "name": "P. Calabresi"
+                }
+            ],
+            "doi": "10.3389/fneur.2018.00295",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "4b857d179686593b6df1a83e19595946130d8dab",
+            "title": "Alpha-Synuclein: From Early Synaptic Dysfunction to Neurodegeneration",
+            "url": "https://www.semanticscholar.org/paper/4b857d179686593b6df1a83e19595946130d8dab",
+            "venue": "Front. Neurol.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48785053",
+                    "name": "Kaoru Yamada"
+                },
+                {
+                    "authorId": "8522959",
+                    "name": "T. Iwatsubo"
+                }
+            ],
+            "doi": "10.1186/s13024-018-0241-0",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9ea9875d5aced40e7e8bec06cbf84298df563fc3",
+            "title": "Extracellular \u03b1-synuclein levels are regulated by neuronal activity",
+            "url": "https://www.semanticscholar.org/paper/9ea9875d5aced40e7e8bec06cbf84298df563fc3",
+            "venue": "Molecular Neurodegeneration",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "52144893",
+                    "name": "S. Guglani"
+                }
+            ],
+            "doi": "10.1016/S0140-6736(18)31578-2",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bf8c622cfff8c28679c91b44e49ac87f4fd653c6",
+            "title": "Death",
+            "url": "https://www.semanticscholar.org/paper/bf8c622cfff8c28679c91b44e49ac87f4fd653c6",
+            "venue": "The Lancet",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144789995",
+                    "name": "Hongyu Sun"
+                },
+                {
+                    "authorId": "3918119",
+                    "name": "Anne E. Takesian"
+                },
+                {
+                    "authorId": "48470139",
+                    "name": "T. Wang"
+                },
+                {
+                    "authorId": "1403227848",
+                    "name": "Jocelyn J. Lippman-Bell"
+                },
+                {
+                    "authorId": "4343541",
+                    "name": "T. Hensch"
+                },
+                {
+                    "authorId": "5859161",
+                    "name": "F. Jensen"
+                }
+            ],
+            "doi": "10.1016/j.celrep.2018.04.108",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c6c2537ce14b4d462a5daa61b1d6601f4402f6ef",
+            "title": "Early Seizures Prematurely Unsilence Auditory Synapses to Disrupt Thalamocortical Critical Period Plasticity",
+            "url": "https://www.semanticscholar.org/paper/c6c2537ce14b4d462a5daa61b1d6601f4402f6ef",
+            "venue": "Cell reports",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37091151",
+                    "name": "Jordi Pujols"
+                },
+                {
+                    "authorId": "1441426759",
+                    "name": "Samuel Pe\u00f1a-Diaz"
+                },
+                {
+                    "authorId": "2261678",
+                    "name": "D. L\u00e1zaro"
+                },
+                {
+                    "authorId": "14795448",
+                    "name": "Francesca Peccati"
+                },
+                {
+                    "authorId": "145974093",
+                    "name": "Francisca Pinheiro"
+                },
+                {
+                    "authorId": "2064910435",
+                    "name": "Danilo Gonz\u00e1lez"
+                },
+                {
+                    "authorId": "3600283",
+                    "name": "Anita \u010carija"
+                },
+                {
+                    "authorId": "36482294",
+                    "name": "S. Navarro"
+                },
+                {
+                    "authorId": "1411794778",
+                    "name": "Mar\u00eda Conde-Gim\u00e9nez"
+                },
+                {
+                    "authorId": "108667492",
+                    "name": "Jes\u00fas Garc\u00eda"
+                },
+                {
+                    "authorId": "2923659",
+                    "name": "S. Guardiola"
+                },
+                {
+                    "authorId": "144720876",
+                    "name": "E. Giralt"
+                },
+                {
+                    "authorId": "2984777",
+                    "name": "X. Salvatella"
+                },
+                {
+                    "authorId": "145563899",
+                    "name": "J. Sancho"
+                },
+                {
+                    "authorId": "2389988",
+                    "name": "M. Sodupe"
+                },
+                {
+                    "authorId": "2745859",
+                    "name": "T. Outeiro"
+                },
+                {
+                    "authorId": "4754246",
+                    "name": "E. Dalfo"
+                },
+                {
+                    "authorId": "145393017",
+                    "name": "S. Ventura"
+                }
+            ],
+            "doi": "10.1073/pnas.1804198115",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "c8592babb460175d9c9f238aa512e34d61a104ef",
+            "title": "Small molecule inhibits \u03b1-synuclein aggregation, disrupts amyloid fibrils, and prevents degeneration of dopaminergic neurons",
+            "url": "https://www.semanticscholar.org/paper/c8592babb460175d9c9f238aa512e34d61a104ef",
+            "venue": "Proceedings of the National Academy of Sciences",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5049511",
+                    "name": "Jessika C. Bridi"
+                },
+                {
+                    "authorId": "5635920",
+                    "name": "F. Hirth"
+                }
+            ],
+            "doi": "10.3389/fnins.2018.00080",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "cd5a48e74cb51c7303bab254bdec151ad0691d29",
+            "title": "Mechanisms of \u03b1-Synuclein Induced Synaptopathy in Parkinson's Disease",
+            "url": "https://www.semanticscholar.org/paper/cd5a48e74cb51c7303bab254bdec151ad0691d29",
+            "venue": "Front. Neurosci.",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50550389",
+                    "name": "W. Zhang"
+                },
+                {
+                    "authorId": "40174753",
+                    "name": "L. Zhang"
+                },
+                {
+                    "authorId": "144107255",
+                    "name": "N. Zhou"
+                },
+                {
+                    "authorId": "48249475",
+                    "name": "E. Huang"
+                },
+                {
+                    "authorId": "2118912548",
+                    "name": "Qi Li"
+                },
+                {
+                    "authorId": "49980951",
+                    "name": "Tongyu Wang"
+                },
+                {
+                    "authorId": "3241877",
+                    "name": "C. Ma"
+                },
+                {
+                    "authorId": "46708109",
+                    "name": "B. Li"
+                },
+                {
+                    "authorId": "2116520920",
+                    "name": "Chen Li"
+                },
+                {
+                    "authorId": "2116543288",
+                    "name": "Yanfen Du"
+                },
+                {
+                    "authorId": "50562116",
+                    "name": "J. Zhang"
+                },
+                {
+                    "authorId": "2072811846",
+                    "name": "Xiaofeng Lei"
+                },
+                {
+                    "authorId": "153923408",
+                    "name": "Alysia Ross"
+                },
+                {
+                    "authorId": "7218788",
+                    "name": "H. Sun"
+                },
+                {
+                    "authorId": "2117791335",
+                    "name": "Xiaodong Zhu"
+                }
+            ],
+            "doi": "10.3389/fneur.2019.00724",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "110b5f466751f7ce87c7a1529d0c636b9be55a07",
+            "title": "Dysregulation of Respiratory Center Drive (P0.1) and Muscle Strength in Patients With Early Stage Idiopathic Parkinson's Disease",
+            "url": "https://www.semanticscholar.org/paper/110b5f466751f7ce87c7a1529d0c636b9be55a07",
+            "venue": "Front. Neurol.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2064993067",
+                    "name": "Fang Hu"
+                },
+                {
+                    "authorId": "49640757",
+                    "name": "Jingheng Zhou"
+                },
+                {
+                    "authorId": "48517980",
+                    "name": "Yanxin Lu"
+                },
+                {
+                    "authorId": "4740246",
+                    "name": "Lizhao Guan"
+                },
+                {
+                    "authorId": "7330392",
+                    "name": "Ning-ning Wei"
+                },
+                {
+                    "authorId": "2255642",
+                    "name": "Yiquan Tang"
+                },
+                {
+                    "authorId": "145449530",
+                    "name": "KeWei Wang"
+                }
+            ],
+            "doi": "10.1016/j.celrep.2018.12.032",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "35fc610c017d27160a0e50d5bbd3b5735a09dc25",
+            "title": "Inhibition of Hsp70 Suppresses Neuronal Hyperexcitability and Attenuates Epilepsy by Enhancing A-Type Potassium Current.",
+            "url": "https://www.semanticscholar.org/paper/35fc610c017d27160a0e50d5bbd3b5735a09dc25",
+            "venue": "Cell reports",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40208057",
+                    "name": "Qihui Wu"
+                },
+                {
+                    "authorId": "145193248",
+                    "name": "H. Takano"
+                },
+                {
+                    "authorId": "46433626",
+                    "name": "D. Riddle"
+                },
+                {
+                    "authorId": "2410201",
+                    "name": "J. Trojanowski"
+                },
+                {
+                    "authorId": "2697343",
+                    "name": "D. Coulter"
+                },
+                {
+                    "authorId": "46727086",
+                    "name": "V. Lee"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0060-19.2019",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "50c14965b1ad41dd830411899d492a4910e9d0b0",
+            "title": "\u03b1-Synuclein (\u03b1Syn) Preformed Fibrils Induce Endogenous \u03b1Syn Aggregation, Compromise Synaptic Activity and Enhance Synapse Loss in Cultured Excitatory Hippocampal Neurons",
+            "url": "https://www.semanticscholar.org/paper/50c14965b1ad41dd830411899d492a4910e9d0b0",
+            "venue": "The Journal of Neuroscience",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7401991",
+                    "name": "Emmanouela Leandrou"
+                },
+                {
+                    "authorId": "2376960",
+                    "name": "Evangelia Emmanouilidou"
+                },
+                {
+                    "authorId": "2585801",
+                    "name": "K. Vekrellis"
+                }
+            ],
+            "doi": "10.3389/fnmol.2019.00237",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "54661dbe0c1874ed2546451954e617d65c486240",
+            "title": "Voltage-Gated Calcium Channels and \u03b1-Synuclein: Implications in Parkinson\u2019s Disease",
+            "url": "https://www.semanticscholar.org/paper/54661dbe0c1874ed2546451954e617d65c486240",
+            "venue": "Front. Mol. Neurosci.",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "33763585",
+                    "name": "Y. Chu"
+                },
+                {
+                    "authorId": "2113843866",
+                    "name": "Scott Muller"
+                },
+                {
+                    "authorId": "153616194",
+                    "name": "A. Tavares"
+                },
+                {
+                    "authorId": "2869538",
+                    "name": "O. Barret"
+                },
+                {
+                    "authorId": "34963696",
+                    "name": "D. Alagille"
+                },
+                {
+                    "authorId": "2267260",
+                    "name": "J. Seibyl"
+                },
+                {
+                    "authorId": "2318014",
+                    "name": "G. Tamagnan"
+                },
+                {
+                    "authorId": "49412533",
+                    "name": "K. Marek"
+                },
+                {
+                    "authorId": "4260776",
+                    "name": "K. Luk"
+                },
+                {
+                    "authorId": "2410201",
+                    "name": "J. Trojanowski"
+                },
+                {
+                    "authorId": "46727086",
+                    "name": "V. Lee"
+                },
+                {
+                    "authorId": "8932295",
+                    "name": "J. Kordower"
+                }
+            ],
+            "doi": "10.1093/brain/awz296",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "6ad00521c4c367f3d759ea965934155ac68a1063",
+            "title": "Intrastriatal alpha-synuclein fibrils in monkeys: spreading, imaging and neuropathological changes.",
+            "url": "https://www.semanticscholar.org/paper/6ad00521c4c367f3d759ea965934155ac68a1063",
+            "venue": "Brain : a journal of neurology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151479970",
+                    "name": "Jianqun Gao"
+                },
+                {
+                    "authorId": "152704584",
+                    "name": "G. Perera"
+                },
+                {
+                    "authorId": "151439495",
+                    "name": "Megha Bhadbhade"
+                },
+                {
+                    "authorId": "4432973",
+                    "name": "G. Halliday"
+                },
+                {
+                    "authorId": "46728221",
+                    "name": "N. Dzamko"
+                }
+            ],
+            "doi": "10.1074/jbc.RA119.008733",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "86139ceaaa126fc980d242439563eb0410a2299d",
+            "title": "Autophagy activation promotes clearance of \u03b1-synuclein inclusions in fibril-seeded human neural cells",
+            "url": "https://www.semanticscholar.org/paper/86139ceaaa126fc980d242439563eb0410a2299d",
+            "venue": "The Journal of Biological Chemistry",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1422584696",
+                    "name": "Teresa R Taylor-Whiteley"
+                },
+                {
+                    "authorId": "4422785",
+                    "name": "C. L. Le Maitre"
+                },
+                {
+                    "authorId": "5862035",
+                    "name": "J. Duce"
+                },
+                {
+                    "authorId": "32439920",
+                    "name": "C. Dalton"
+                },
+                {
+                    "authorId": "47387064",
+                    "name": "D. Smith"
+                }
+            ],
+            "doi": "10.1242/dmm.038042",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "b5d24d7b67011e0073187dcfbf95fa2ca9bc4a7d",
+            "title": "Recapitulating Parkinson's disease pathology in a three-dimensional human neural cell culture model",
+            "url": "https://www.semanticscholar.org/paper/b5d24d7b67011e0073187dcfbf95fa2ca9bc4a7d",
+            "venue": "Disease Models & Mechanisms",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50455691",
+                    "name": "Jahnu Saikia"
+                },
+                {
+                    "authorId": "144530583",
+                    "name": "G. Pandey"
+                },
+                {
+                    "authorId": "12059604",
+                    "name": "Sajitha Sasidharan"
+                },
+                {
+                    "authorId": "81466775",
+                    "name": "Ferrin Antony"
+                },
+                {
+                    "authorId": "2913669",
+                    "name": "H. Nemade"
+                },
+                {
+                    "authorId": "2109574116",
+                    "name": "Sachin Kumar"
+                },
+                {
+                    "authorId": "48791393",
+                    "name": "N. Chaudhary"
+                },
+                {
+                    "authorId": "145575130",
+                    "name": "Vibin Ramakrishnan"
+                }
+            ],
+            "doi": "10.1021/acschemneuro.8b00490",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fbc579a0370e93af385762a7ad2a7d7edf7f94a8",
+            "title": "Electric Field Disruption of Amyloid Aggregation: Potential Noninvasive Therapy for Alzheimer's Disease.",
+            "url": "https://www.semanticscholar.org/paper/fbc579a0370e93af385762a7ad2a7d7edf7f94a8",
+            "venue": "ACS chemical neuroscience",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48364282",
+                    "name": "A. Iarkov"
+                },
+                {
+                    "authorId": "3091155",
+                    "name": "G. Barreto"
+                },
+                {
+                    "authorId": "5728539",
+                    "name": "J. Grizzell"
+                },
+                {
+                    "authorId": "2290768",
+                    "name": "V. Echeverria"
+                }
+            ],
+            "doi": "10.3389/fnagi.2020.00004",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fb13f1d7ee789cd4b976172e459dc3ef43226b13",
+            "title": "Strategies for the Treatment of Parkinson\u2019s Disease: Beyond Dopamine",
+            "url": "https://www.semanticscholar.org/paper/fb13f1d7ee789cd4b976172e459dc3ef43226b13",
+            "venue": "Frontiers in Aging Neuroscience",
+            "year": 2020
+        }
+    ],
+    "title": "Alleviating toxic \u03b1-Synuclein accumulation by membrane depolarization: evidence from an in vitro model of Parkinson\u2019s disease",
+    "topics": [
+        {
+            "topic": "membrane depolarization",
+            "topicId": "15651",
+            "url": "https://www.semanticscholar.org/topic/15651"
+        },
+        {
+            "topic": "Parkinsonian Disorders",
+            "topicId": "13136",
+            "url": "https://www.semanticscholar.org/topic/13136"
+        },
+        {
+            "topic": "Parkinson Disease",
+            "topicId": "3556",
+            "url": "https://www.semanticscholar.org/topic/3556"
+        },
+        {
+            "topic": "Picrotoxin",
+            "topicId": "29823",
+            "url": "https://www.semanticscholar.org/topic/29823"
+        },
+        {
+            "topic": "Calcium",
+            "topicId": "497",
+            "url": "https://www.semanticscholar.org/topic/497"
+        },
+        {
+            "topic": "gamma-Aminobutyric Acid",
+            "topicId": "5826",
+            "url": "https://www.semanticscholar.org/topic/5826"
+        },
+        {
+            "topic": "Synucleins",
+            "topicId": "24276",
+            "url": "https://www.semanticscholar.org/topic/24276"
+        },
+        {
+            "topic": "PrP 27-30 Protein",
+            "topicId": "1431229",
+            "url": "https://www.semanticscholar.org/topic/1431229"
+        },
+        {
+            "topic": "Dopamine Hydrochloride",
+            "topicId": "982",
+            "url": "https://www.semanticscholar.org/topic/982"
+        },
+        {
+            "topic": "Dopaminergic Neurons",
+            "topicId": "2992",
+            "url": "https://www.semanticscholar.org/topic/2992"
+        },
+        {
+            "topic": "Fibril - cell component",
+            "topicId": "3874",
+            "url": "https://www.semanticscholar.org/topic/3874"
+        },
+        {
+            "topic": "alpha-Synuclein",
+            "topicId": "24277",
+            "url": "https://www.semanticscholar.org/topic/24277"
+        },
+        {
+            "topic": "Protein Aggregates",
+            "topicId": "93192",
+            "url": "https://www.semanticscholar.org/topic/93192"
+        },
+        {
+            "topic": "Toxic Shock Syndrome",
+            "topicId": "73168",
+            "url": "https://www.semanticscholar.org/topic/73168"
+        }
+    ],
+    "url": "https://www.semanticscholar.org/paper/20b08f525620ae2e9dc889b226296af231d29240",
+    "venue": "Molecular Brain",
+    "year": 2020
+}

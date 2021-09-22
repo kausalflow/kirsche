@@ -1,0 +1,78 @@
+{
+    "authors": [
+        {
+            "authorId": "49696940",
+            "name": "Y. Sun",
+            "url": "https://www.semanticscholar.org/author/49696940"
+        },
+        {
+            "authorId": "2037266",
+            "name": "S. Dhamne",
+            "url": "https://www.semanticscholar.org/author/2037266"
+        },
+        {
+            "authorId": "1403246939",
+            "name": "Alejandro Carretero-Guill\u00e9n",
+            "url": "https://www.semanticscholar.org/author/1403246939"
+        },
+        {
+            "authorId": "144302802",
+            "name": "R. Salvador",
+            "url": "https://www.semanticscholar.org/author/144302802"
+        },
+        {
+            "authorId": "40327646",
+            "name": "Marti C Goldenberg",
+            "url": "https://www.semanticscholar.org/author/40327646"
+        },
+        {
+            "authorId": "1751586815",
+            "name": "B. Godlewski",
+            "url": "https://www.semanticscholar.org/author/1751586815"
+        },
+        {
+            "authorId": "1390039794",
+            "name": "\u00c1. Pascual-Leone",
+            "url": "https://www.semanticscholar.org/author/1390039794"
+        },
+        {
+            "authorId": "35584263",
+            "name": "J. Madsen",
+            "url": "https://www.semanticscholar.org/author/35584263"
+        },
+        {
+            "authorId": "21314013",
+            "name": "S. Stone",
+            "url": "https://www.semanticscholar.org/author/21314013"
+        },
+        {
+            "authorId": "144679534",
+            "name": "G. Ruffini",
+            "url": "https://www.semanticscholar.org/author/144679534"
+        },
+        {
+            "authorId": "1400953028",
+            "name": "J. M\u00e1rquez-Ruiz",
+            "url": "https://www.semanticscholar.org/author/1400953028"
+        },
+        {
+            "authorId": "50075282",
+            "name": "A. Rotenberg",
+            "url": "https://www.semanticscholar.org/author/50075282"
+        }
+    ],
+    "corpusId": 219705778,
+    "doi": "10.1002/ana.25822",
+    "numCitedBy": 3,
+    "numCiting": 48,
+    "title": "Drug-responsive inhomogeneous cortical modulation by direct current stimulation.",
+    "venue": "Annals of neurology",
+    "year": 2020,
+    "local__referenced_to": [
+        "10.1152/jn.00715.2011",
+        "10.1016/j.expneurol.2015.02.002",
+        "10.1113/jphysiol.2003.055772",
+        "10.1002/ana.24708",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

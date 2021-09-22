@@ -1,0 +1,48 @@
+{
+    "authors": [
+        {
+            "authorId": "39934585",
+            "name": "G. Kronberg",
+            "url": "https://www.semanticscholar.org/author/39934585"
+        },
+        {
+            "authorId": "4446368",
+            "name": "M. Bridi",
+            "url": "https://www.semanticscholar.org/author/4446368"
+        },
+        {
+            "authorId": "145716408",
+            "name": "T. Abel",
+            "url": "https://www.semanticscholar.org/author/145716408"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        }
+    ],
+    "corpusId": 14103425,
+    "doi": "10.1016/j.brs.2016.10.001",
+    "numCitedBy": 135,
+    "numCiting": 118,
+    "title": "Direct Current Stimulation Modulates LTP and LTD: Activity Dependence and Dendritic Effects",
+    "venue": "Brain Stimulation",
+    "year": 2017,
+    "local__referenced_to": [
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1016/j.brs.2009.03.007",
+        "10.1152/jn.00715.2011",
+        "10.1152/jn.00208.2014",
+        "10.1002/(sici)1098-1063(1996)6:1<79::aid-hipo13>3.0.co;2-h",
+        "10.1152/jn.00319.2011",
+        "10.1113/jphysiol.2012.247171",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.2003.055772",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "authors": [
+        {
+            "authorId": "2605353",
+            "name": "D. Reato",
+            "url": "https://www.semanticscholar.org/author/2605353"
+        },
+        {
+            "authorId": "3131367",
+            "name": "A. Rahman",
+            "url": "https://www.semanticscholar.org/author/3131367"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        }
+    ],
+    "corpusId": 16083172,
+    "doi": "10.1523/jneurosci.2059-10.2010",
+    "numCitedBy": 384,
+    "numCiting": 70,
+    "title": "Low-Intensity Electrical Stimulation Affects Network Dynamics by Modulating Population Rate and Spike Timing",
+    "venue": "The Journal of Neuroscience",
+    "year": 2010,
+    "local__referenced_to": [
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1016/j.brs.2009.03.007",
+        "10.1113/jphysiol.2003.055772"
+    ]
+}

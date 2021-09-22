@@ -1,0 +1,2587 @@
+{
+    "abstract": "Abstract Understanding the cellular mechanisms of kilohertz (kHz) electrical stimulation is of broad interest in neuromodulation including forms of transcranial electrical stimulation, interferential stimulation, and high-rate spinal cord stimulation (SCS). Yet, the well-established low-pass filtering by neuronal membranes suggests minimal neuronal polarization in respond to charge-balanced kHz stimulation. The hippocampal brain slice model is among the most studied systems in neuroscience and exhaustively characterized in screening the effects of electrical stimulation. High-frequency electric fields of varied amplitudes (1\u2013150 V/m), waveforms (sinusoidal, symmetrical pule, asymmetrical pulse) and frequencies (1 and10 kHz) were tested. Changes in single or paired-pulse field EPSPs (fEPSP) in CA1 were measured in response to radial-directed and tangential-directed electric fields, with brief (30 s) or long (30\u2009min) application times. The effects of kHz stimulation on ongoing endogenous network activity were tested in carbachol-induced \u03b3 oscillation of CA3a and CA3c. Across 23 conditions evaluated, no significant changes in fEPSP were resolved, while responses were detected for within-slice control direct current (DC) fields; 1-kHz sinusoidal and pulse stimulation (\u226560 V/m), but not 10\u2009kHz, induced changes in oscillating neuronal network. We thus report no responses to low-amplitude 1-kHz or any 10-kHz fields, suggesting that any brain sensitivity to these fields is via yet to be-determined mechanism(s) of action which were not identified in our experimental preparation.",
+    "arxivId": null,
+    "authors": [
+        {
+            "authorId": "7277301",
+            "name": "Z. Esmaeilpour",
+            "url": "https://www.semanticscholar.org/author/7277301"
+        },
+        {
+            "authorId": "2646601",
+            "name": "M. Jackson",
+            "url": "https://www.semanticscholar.org/author/2646601"
+        },
+        {
+            "authorId": "39934585",
+            "name": "G. Kronberg",
+            "url": "https://www.semanticscholar.org/author/39934585"
+        },
+        {
+            "authorId": "94296609",
+            "name": "Tianhe Zhang",
+            "url": "https://www.semanticscholar.org/author/94296609"
+        },
+        {
+            "authorId": "1776086",
+            "name": "R. Esteller",
+            "url": "https://www.semanticscholar.org/author/1776086"
+        },
+        {
+            "authorId": "38674419",
+            "name": "B. Hershey",
+            "url": "https://www.semanticscholar.org/author/38674419"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "citationVelocity": 0,
+    "citations": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "117041583",
+                    "name": "Ru Ma"
+                },
+                {
+                    "authorId": "2061861167",
+                    "name": "Xinzhao Xia"
+                },
+                {
+                    "authorId": null,
+                    "name": "Wei Zhang"
+                },
+                {
+                    "authorId": "2110101019",
+                    "name": "Zhuo Lu"
+                },
+                {
+                    "authorId": "2108728443",
+                    "name": "Qianying Wu"
+                },
+                {
+                    "authorId": "152841697",
+                    "name": "Jiangtian Cui"
+                },
+                {
+                    "authorId": "3856135",
+                    "name": "Hongwen Song"
+                },
+                {
+                    "authorId": "1406106424",
+                    "name": "Chuan Fan"
+                },
+                {
+                    "authorId": null,
+                    "name": "Xueli Chen"
+                },
+                {
+                    "authorId": "145604966",
+                    "name": "Junjie Wei"
+                },
+                {
+                    "authorId": "2879721",
+                    "name": "Gong-Jun Ji"
+                },
+                {
+                    "authorId": null,
+                    "name": "Kai Wang"
+                },
+                {
+                    "authorId": "1526978179",
+                    "name": "Xiaoxiao Wang"
+                },
+                {
+                    "authorId": "4070240",
+                    "name": "B. Qiu"
+                },
+                {
+                    "authorId": "8442660",
+                    "name": "Xiaochu Zhang"
+                }
+            ],
+            "doi": "10.1101/2021.03.26.437107",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a30c8ec7d8a442516b61b9ad586fd641a11c8e1",
+            "title": "High Gamma and Beta Temporal Interference Stimulation in the Human Motor Cortex Improves Motor Functions",
+            "url": "https://www.semanticscholar.org/paper/9a30c8ec7d8a442516b61b9ad586fd641a11c8e1",
+            "venue": "",
+            "year": 2021
+        }
+    ],
+    "corpusId": 229301091,
+    "doi": "10.1523/ENEURO.0368-20.2020",
+    "fieldsOfStudy": [
+        "Physics",
+        "Medicine"
+    ],
+    "influentialCitationCount": 0,
+    "isOpenAccess": true,
+    "isPublisherLicensed": true,
+    "is_open_access": true,
+    "is_publisher_licensed": true,
+    "numCitedBy": 1,
+    "numCiting": 85,
+    "paperId": "a6be0973d75f87061fbbf3dd0200693ecd3c522d",
+    "references": [
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "49979865",
+                    "name": "B. Katz"
+                }
+            ],
+            "doi": null,
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bcf8093e418c96e88a5aef90cfa6cb8217fca583",
+            "title": "Nerve excitation by high-frequency alternating current.",
+            "url": "https://www.semanticscholar.org/paper/bcf8093e418c96e88a5aef90cfa6cb8217fca583",
+            "venue": "The Journal of physiology",
+            "year": 1939
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3086878",
+                    "name": "J. B. Ranck"
+                }
+            ],
+            "doi": "10.1016/0006-8993(75)90364-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7b6692093ace08110e0f202e10d187d0fc24e2ee",
+            "title": "Which elements are excited in electrical stimulation of mammalian central nervous system: A review",
+            "url": "https://www.semanticscholar.org/paper/7b6692093ace08110e0f202e10d187d0fc24e2ee",
+            "venue": "Brain Research",
+            "year": 1975
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144356606",
+                    "name": "J. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.1981.sp013897",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "title": "Influence of electric fields on the excitability of granule cells in guinea\u2010pig hippocampal slices.",
+            "url": "https://www.semanticscholar.org/paper/3c452ed5f2cf1e72ddc8aa4a54be6e9049068ac6",
+            "venue": "The Journal of physiology",
+            "year": 1981
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "10106133",
+                    "name": "G. C. Goats"
+                }
+            ],
+            "doi": "10.1136/bjsm.24.2.87",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "35eafd5e5c3735cb90992ce4c677f38190483509",
+            "title": "Interferential current therapy.",
+            "url": "https://www.semanticscholar.org/paper/35eafd5e5c3735cb90992ce4c677f38190483509",
+            "venue": "British journal of sports medicine",
+            "year": 1990
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "108209852",
+                    "name": "M. Korte"
+                },
+                {
+                    "authorId": "144064240",
+                    "name": "P. Carroll"
+                },
+                {
+                    "authorId": "145493807",
+                    "name": "E. Wolf"
+                },
+                {
+                    "authorId": "5229322",
+                    "name": "G. Brem"
+                },
+                {
+                    "authorId": "4692280",
+                    "name": "H. Thoenen"
+                },
+                {
+                    "authorId": "2784075",
+                    "name": "T. Bonhoeffer"
+                }
+            ],
+            "doi": "10.1073/PNAS.92.19.8856",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "91b19ebaf80478e848efee80a4098d70a786f7fd",
+            "title": "Hippocampal long-term potentiation is impaired in mice lacking brain-derived neurotrophic factor.",
+            "url": "https://www.semanticscholar.org/paper/91b19ebaf80478e848efee80a4098d70a786f7fd",
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": 1995
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "83992357",
+                    "name": "Gluckman"
+                },
+                {
+                    "authorId": "30030684",
+                    "name": "Netoff"
+                },
+                {
+                    "authorId": "2069249561",
+                    "name": "Neel"
+                },
+                {
+                    "authorId": "29983443",
+                    "name": "Ditto"
+                },
+                {
+                    "authorId": "94619482",
+                    "name": "Span\u00f2"
+                },
+                {
+                    "authorId": "2068946866",
+                    "name": "Schiff"
+                }
+            ],
+            "doi": "10.1103/PHYSREVLETT.77.4098",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b3edecd67da3fa9d0c46598d599c21ad8db22977",
+            "title": "Stochastic Resonance in a Neuronal Network from Mammalian Brain.",
+            "url": "https://www.semanticscholar.org/paper/b3edecd67da3fa9d0c46598d599c21ad8db22977",
+            "venue": "Physical review letters",
+            "year": 1996
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3410975",
+                    "name": "V. Lessmann"
+                },
+                {
+                    "authorId": "4035320",
+                    "name": "R. Heumann"
+                }
+            ],
+            "doi": "10.1016/S0306-4522(98)00035-9",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "169fee18fce34f4c9b535deaedaa2ebfc7ec3de4",
+            "title": "Modulation of unitary glutamatergic synapses by neurotrophin-4/5 or brain-derived neurotrophic factor in hippocampal microcultures: presynaptic enhancement depends on pre-established paired-pulse facilitation",
+            "url": "https://www.semanticscholar.org/paper/169fee18fce34f4c9b535deaedaa2ebfc7ec3de4",
+            "venue": "Neuroscience",
+            "year": 1998
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1925160",
+                    "name": "J. Rubinstein"
+                },
+                {
+                    "authorId": "3077752",
+                    "name": "B. Wilson"
+                },
+                {
+                    "authorId": "38288104",
+                    "name": "C. Finley"
+                },
+                {
+                    "authorId": "2460009",
+                    "name": "P. Abbas"
+                }
+            ],
+            "doi": "10.1016/S0378-5955(98)00185-3",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "b4562998f1dffa3a44fdc45b4f8ea563461b58ee",
+            "title": "Pseudospontaneous activity: stochastic independence of auditory nerve fibers with electrical stimulation",
+            "url": "https://www.semanticscholar.org/paper/b4562998f1dffa3a44fdc45b4f8ea563461b58ee",
+            "venue": "Hearing Research",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2769100",
+                    "name": "C. McIntyre"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                }
+            ],
+            "doi": "10.1016/S0006-3495(99)77251-6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c83ab242add6fc20d11e08ea64aafaef820ab3f7",
+            "title": "Excitation of central nervous system neurons by nonuniform electric fields.",
+            "url": "https://www.semanticscholar.org/paper/c83ab242add6fc20d11e08ea64aafaef820ab3f7",
+            "venue": "Biophysical journal",
+            "year": 1999
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "50502556",
+                    "name": "J. Lian"
+                },
+                {
+                    "authorId": "39450338",
+                    "name": "P. Hahn"
+                },
+                {
+                    "authorId": "3080729",
+                    "name": "W. Stacey"
+                },
+                {
+                    "authorId": "6500486",
+                    "name": "C. Sciortino"
+                },
+                {
+                    "authorId": "40209884",
+                    "name": "D. Durand"
+                }
+            ],
+            "doi": "10.1111/j.1469-7793.2001.0181j.x",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "00431fcc04004d7b189527cbf414851b759cc5b7",
+            "title": "Suppression of epileptiform activity by high frequency sinusoidal fields in rat hippocampal slices",
+            "url": "https://www.semanticscholar.org/paper/00431fcc04004d7b189527cbf414851b759cc5b7",
+            "venue": "The Journal of physiology",
+            "year": 2001
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2359199",
+                    "name": "L. Litvak"
+                },
+                {
+                    "authorId": "4945784",
+                    "name": "Zachary M. Smith"
+                },
+                {
+                    "authorId": "1816022",
+                    "name": "B. Delgutte"
+                },
+                {
+                    "authorId": "2190583",
+                    "name": "D. Eddington"
+                }
+            ],
+            "doi": "10.1121/1.1612492",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "5e204c5965c7da10284612ca000c809883fa44ed",
+            "title": "Desynchronization of electrically evoked auditory-nerve activity by high-frequency pulse trains of long duration.",
+            "url": "https://www.semanticscholar.org/paper/5e204c5965c7da10284612ca000c809883fa44ed",
+            "venue": "The Journal of the Acoustical Society of America",
+            "year": 2003
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2769100",
+                    "name": "C. McIntyre"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                },
+                {
+                    "authorId": "35059460",
+                    "name": "D. Sherman"
+                },
+                {
+                    "authorId": "145146201",
+                    "name": "N. Thakor"
+                }
+            ],
+            "doi": "10.1152/JN.00989.2003",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3385cb1e5a71a7f848240e9a8d006585d7291727",
+            "title": "Cellular effects of deep brain stimulation: model-based analysis of activation and inhibition.",
+            "url": "https://www.semanticscholar.org/paper/3385cb1e5a71a7f848240e9a8d006585d7291727",
+            "venue": "Journal of neurophysiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "48124211",
+                    "name": "M. Inoue"
+                },
+                {
+                    "authorId": "2066058945",
+                    "name": "Hiroki Akiyama"
+                },
+                {
+                    "authorId": null,
+                    "name": "Jackie K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "John E. Fox"
+                },
+                {
+                    "authorId": "1819882",
+                    "name": "H. Miyakawa"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2003.055772",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "title": "Effects of uniform extracellular DC electric fields on excitability in rat hippocampal slices in vitro",
+            "url": "https://www.semanticscholar.org/paper/8b40749adc5da0d08cbafef82f8c60d4e293fefc",
+            "venue": "The Journal of physiology",
+            "year": 2004
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47957556",
+                    "name": "X. Zhang"
+                },
+                {
+                    "authorId": "2086253",
+                    "name": "J. Roppolo"
+                },
+                {
+                    "authorId": "143992703",
+                    "name": "W. C. Groat"
+                },
+                {
+                    "authorId": "49407335",
+                    "name": "C. Tai"
+                }
+            ],
+            "doi": "10.1109/TBME.2006.884640",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "2b41328b4c7f7661e348832764d34d7e5797db2a",
+            "title": "Mechanism of Nerve Conduction Block Induced by High-Frequency Biphasic Electrical Currents",
+            "url": "https://www.semanticscholar.org/paper/2b41328b4c7f7661e348832764d34d7e5797db2a",
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "year": 2006
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Jacqueline K. Deans"
+                },
+                {
+                    "authorId": null,
+                    "name": "Andrew D. Powell"
+                },
+                {
+                    "authorId": null,
+                    "name": "John G. R. Jefferys"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2007.137711",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "9be2035fce51de7ff5813616f0286e6093e18f72",
+            "title": "Sensitivity of coherent oscillations in rat hippocampus to AC electric fields",
+            "url": "https://www.semanticscholar.org/paper/9be2035fce51de7ff5813616f0286e6093e18f72",
+            "venue": "The Journal of physiology",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "6367062",
+                    "name": "Y. Su"
+                },
+                {
+                    "authorId": "49211962",
+                    "name": "Je Hi An"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.0095-07.2007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "title": "Spike Timing Amplifies the Effect of Electric Fields on Neurons: Implications for Endogenous Field Effects",
+            "url": "https://www.semanticscholar.org/paper/b7c917cc3e489a3af40270dcba6dbf3bd2ebadf7",
+            "venue": "The Journal of Neuroscience",
+            "year": 2007
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6467222",
+                    "name": "D. Terney"
+                },
+                {
+                    "authorId": "29110889",
+                    "name": "L. Chaieb"
+                },
+                {
+                    "authorId": "2781677",
+                    "name": "V. Moliadze"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.4248-08.2008",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1ef35a66c681e7fc20a2e7ef32bcad45eceecda5",
+            "title": "Increasing Human Brain Excitability by Transcranial High-Frequency Random Noise Stimulation",
+            "url": "https://www.semanticscholar.org/paper/1ef35a66c681e7fc20a2e7ef32bcad45eceecda5",
+            "venue": "The Journal of Neuroscience",
+            "year": 2008
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2433485",
+                    "name": "T. Radman"
+                },
+                {
+                    "authorId": "3439744",
+                    "name": "R. Ramos"
+                },
+                {
+                    "authorId": "3288819",
+                    "name": "J. C. Brumberg"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.brs.2009.03.007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3e9d005447307990b63854933812749e2ebdef1d",
+            "title": "Role of cortical cell type and morphology in subthreshold and suprathreshold uniform electric field stimulation in vitro\n",
+            "url": "https://www.semanticscholar.org/paper/3e9d005447307990b63854933812749e2ebdef1d",
+            "venue": "Brain Stimulation",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "13762822",
+                    "name": "A. Ward"
+                }
+            ],
+            "doi": "10.2522/ptj.20080060",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "7a1cc1b49105833486ac65ac3b7ad6d567273a86",
+            "title": "Electrical Stimulation Using Kilohertz-Frequency Alternating Current",
+            "url": "https://www.semanticscholar.org/paper/7a1cc1b49105833486ac65ac3b7ad6d567273a86",
+            "venue": "Physical Therapy",
+            "year": 2009
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "47459845",
+                    "name": "F. Fr\u00f6hlich"
+                },
+                {
+                    "authorId": "34873916",
+                    "name": "D. McCormick"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2010.06.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "04b10f283f89fcae3e98a92872f855936787f16f",
+            "title": "Endogenous Electric Fields May Guide Neocortical Network Activity",
+            "url": "https://www.semanticscholar.org/paper/04b10f283f89fcae3e98a92872f855936787f16f",
+            "venue": "Neuron",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1523/JNEUROSCI.2059-10.2010",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "25230d29b050923e9182f7c615adf389e3ebd966",
+            "title": "Low-Intensity Electrical Stimulation Affects Network Dynamics by Modulating Population Rate and Spike Timing",
+            "url": "https://www.semanticscholar.org/paper/25230d29b050923e9182f7c615adf389e3ebd966",
+            "venue": "The Journal of Neuroscience",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "144492447",
+                    "name": "B. Fritsch"
+                },
+                {
+                    "authorId": "26090635",
+                    "name": "J. Reis"
+                },
+                {
+                    "authorId": "9707046",
+                    "name": "K. Martinowich"
+                },
+                {
+                    "authorId": "4869015",
+                    "name": "Heidi M. Schambra"
+                },
+                {
+                    "authorId": "50006566",
+                    "name": "Yuanyuan Ji"
+                },
+                {
+                    "authorId": "2141461",
+                    "name": "L. Cohen"
+                },
+                {
+                    "authorId": "40148754",
+                    "name": "B. Lu"
+                }
+            ],
+            "doi": "10.1016/j.neuron.2010.03.035",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "title": "Direct Current Stimulation Promotes BDNF-Dependent Synaptic Plasticity: Potential Implications for Motor Learning",
+            "url": "https://www.semanticscholar.org/paper/70b5249a7a3e0e61b0c0514633fe46b9e4a11a28",
+            "venue": "Neuron",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35017467",
+                    "name": "B. R. Dowden"
+                },
+                {
+                    "authorId": "5037241",
+                    "name": "H. Wark"
+                },
+                {
+                    "authorId": "33545137",
+                    "name": "R. Normann"
+                }
+            ],
+            "doi": "10.1002/mus.21678",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d10f7cbae01d1d3f6e4fbb696c501463b8caea52",
+            "title": "Muscle\u2010selective block using intrafascicular high\u2010frequency alternating current",
+            "url": "https://www.semanticscholar.org/paper/d10f7cbae01d1d3f6e4fbb696c501463b8caea52",
+            "venue": "Muscle & nerve",
+            "year": 2010
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "29110889",
+                    "name": "L. Chaieb"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.3233/RNN-2011-0589",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ed43706b7b8eeb63e1532f54525f33d078ce3181",
+            "title": "Transcranial alternating current stimulation in the low kHz range increases motor cortex excitability.",
+            "url": "https://www.semanticscholar.org/paper/ed43706b7b8eeb63e1532f54525f33d078ce3181",
+            "venue": "Restorative neurology and neuroscience",
+            "year": 2011
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40568135",
+                    "name": "F. Ranieri"
+                },
+                {
+                    "authorId": "31587957",
+                    "name": "M. Podda"
+                },
+                {
+                    "authorId": "48980642",
+                    "name": "E. Riccardi"
+                },
+                {
+                    "authorId": "4266615",
+                    "name": "G. Frisullo"
+                },
+                {
+                    "authorId": "5542603",
+                    "name": "M. Dileone"
+                },
+                {
+                    "authorId": "6473082",
+                    "name": "P. Profice"
+                },
+                {
+                    "authorId": "5062011",
+                    "name": "F. Pilato"
+                },
+                {
+                    "authorId": "2137200",
+                    "name": "V. Di Lazzaro"
+                },
+                {
+                    "authorId": "145367636",
+                    "name": "C. Grassi"
+                }
+            ],
+            "doi": "10.1152/jn.00319.2011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c6ffe1d98a89f2dcdf94e2a98a4d6fcb0f1c26c7",
+            "title": "Modulation of LTP at rat hippocampal CA3-CA1 synapses by direct current stimulation.",
+            "url": "https://www.semanticscholar.org/paper/c6ffe1d98a89f2dcdf94e2a98a4d6fcb0f1c26c7",
+            "venue": "Journal of neurophysiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50039847",
+                    "name": "A. Kabakov"
+                },
+                {
+                    "authorId": "36928974",
+                    "name": "P. Muller"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "5859161",
+                    "name": "F. Jensen"
+                },
+                {
+                    "authorId": "50075282",
+                    "name": "A. Rotenberg"
+                }
+            ],
+            "doi": "10.1152/jn.00715.2011",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "f8b86ad5c78a9edc42d50d516d5b3d48b6433a80",
+            "title": "Contribution of axonal orientation to pathway-dependent modulation of excitatory transmission by direct current stimulation in isolated rat hippocampus.",
+            "url": "https://www.semanticscholar.org/paper/f8b86ad5c78a9edc42d50d516d5b3d48b6433a80",
+            "venue": "Journal of neurophysiology",
+            "year": 2012
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.3389/fnhum.2013.00687",
+            "intent": [
+                "result",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "0952e4e666a2ed136e59b6ab552cce931c9f2756",
+            "title": "Effects of weak transcranial alternating current stimulation on brain activity\u2014a review of known mechanisms from animal studies",
+            "url": "https://www.semanticscholar.org/paper/0952e4e666a2ed136e59b6ab552cce931c9f2756",
+            "venue": "Front. Hum. Neurosci.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "145915994",
+                    "name": "A. Name"
+                },
+                {
+                    "authorId": "48852647",
+                    "name": "A. Rahman"
+                }
+            ],
+            "doi": "10.3389/fnhum.2013.00688",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "19fe8434626443d08a5199bfe3a9fc8675e36b74",
+            "title": "Origins of specificity during tDCS: anatomical, activity-selective, and input-bias mechanisms",
+            "url": "https://www.semanticscholar.org/paper/19fe8434626443d08a5199bfe3a9fc8675e36b74",
+            "venue": "Front. Hum. Neurosci.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "144869685",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.3389/fnhum.2013.00317",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "1d6be84153b20b35e924da7d0994c9f900980cad",
+            "title": "Transcranial alternating current stimulation (tACS)",
+            "url": "https://www.semanticscholar.org/paper/1d6be84153b20b35e924da7d0994c9f900980cad",
+            "venue": "Front. Hum. Neurosci.",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "36415421",
+                    "name": "M. Arlotti"
+                },
+                {
+                    "authorId": "3255541",
+                    "name": "F. Gasca"
+                },
+                {
+                    "authorId": "1805590",
+                    "name": "A. Datta"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1113/jphysiol.2012.247171",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e343b0d9850909780672054383879dd25fadb5e8",
+            "title": "Cellular effects of acute direct current stimulation: somatic and synaptic terminal effects",
+            "url": "https://www.semanticscholar.org/paper/e343b0d9850909780672054383879dd25fadb5e8",
+            "venue": "The Journal of physiology",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "143764752",
+                    "name": "J. Dmochowski"
+                },
+                {
+                    "authorId": "48852647",
+                    "name": "A. Rahman"
+                }
+            ],
+            "doi": "10.1016/j.brs.2012.11.005",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "fc88241fbfa4a1101f980fe4cb5360d4bab05294",
+            "title": "The \u201cQuasi-Uniform\u201d Assumption in Animal and Computational Models of Non-Invasive Electrical Stimulation",
+            "url": "https://www.semanticscholar.org/paper/fc88241fbfa4a1101f980fe4cb5360d4bab05294",
+            "venue": "Brain Stimulation",
+            "year": 2013
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2908516",
+                    "name": "Shouguo Zhao"
+                },
+                {
+                    "authorId": "48636426",
+                    "name": "Guangning Yang"
+                },
+                {
+                    "authorId": "49606772",
+                    "name": "Jicheng Wang"
+                },
+                {
+                    "authorId": "2086253",
+                    "name": "J. Roppolo"
+                },
+                {
+                    "authorId": "143992703",
+                    "name": "W. C. Groat"
+                },
+                {
+                    "authorId": "49407335",
+                    "name": "C. Tai"
+                }
+            ],
+            "doi": "10.1007/s10827-014-0510-z",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "37bad3d0666364636e66100451d5086e2eda1ae1",
+            "title": "Effect of non-symmetric waveform on conduction block induced by high-frequency (kHz) biphasic stimulation in unmyelinated axon",
+            "url": "https://www.semanticscholar.org/paper/37bad3d0666364636e66100451d5086e2eda1ae1",
+            "venue": "Journal of Computational Neuroscience",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5050310",
+                    "name": "Bence Lacz\u00f3"
+                },
+                {
+                    "authorId": "3191654",
+                    "name": "A. Antal"
+                },
+                {
+                    "authorId": "5700442",
+                    "name": "H. Rothkegel"
+                },
+                {
+                    "authorId": "2629899",
+                    "name": "W. Paulus"
+                }
+            ],
+            "doi": "10.3233/RNN-130367",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "bfd51a8c08a386f7f2b9c29c74e5d6ab41ca35e7",
+            "title": "Increasing human leg motor cortex excitability by transcranial high frequency random noise stimulation.",
+            "url": "https://www.semanticscholar.org/paper/bfd51a8c08a386f7f2b9c29c74e5d6ab41ca35e7",
+            "venue": "Restorative neurology and neuroscience",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": null,
+                    "name": "Kevin L. Kilgore"
+                },
+                {
+                    "authorId": "2858265",
+                    "name": "N. Bhadra"
+                }
+            ],
+            "doi": "10.1111/ner.12100",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "c493f049deb7cf1c6de1b1af7b4c1759a298cc03",
+            "title": "Reversible Nerve Conduction Block Using Kilohertz Frequency Alternating Current",
+            "url": "https://www.semanticscholar.org/paper/c493f049deb7cf1c6de1b1af7b4c1759a298cc03",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2014
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "4636238",
+                    "name": "Antonios P. Mourdoukoutas"
+                },
+                {
+                    "authorId": "6742276",
+                    "name": "M. Aboseria"
+                },
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "40574051",
+                    "name": "D. Adair"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "A. Rahman"
+                }
+            ],
+            "doi": "10.1016/bs.pbr.2015.08.005",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "13befa8745c66e5e011b9f4a44f335099257c50f",
+            "title": "Modeling sequence and quasi-uniform assumption in computational neurostimulation.",
+            "url": "https://www.semanticscholar.org/paper/13befa8745c66e5e011b9f4a44f335099257c50f",
+            "venue": "Progress in brain research",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "11551797",
+                    "name": "A. Al-Kaisy"
+                },
+                {
+                    "authorId": "5578995",
+                    "name": "S. Palmisani"
+                },
+                {
+                    "authorId": "48658092",
+                    "name": "T. Smith"
+                },
+                {
+                    "authorId": "34195880",
+                    "name": "S. Harris"
+                },
+                {
+                    "authorId": "39499147",
+                    "name": "D. Pang"
+                }
+            ],
+            "doi": "10.1111/ner.12237",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "1c5ae29116615ae967b370d0ce132bc55b1876f5",
+            "title": "The Use of 10\u2010Kilohertz Spinal Cord Stimulation in a Cohort of Patients With Chronic Neuropathic Limb Pain Refractory to Medical Management",
+            "url": "https://www.semanticscholar.org/paper/1c5ae29116615ae967b370d0ce132bc55b1876f5",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40165375",
+                    "name": "Y. Patel"
+                },
+                {
+                    "authorId": "1776317",
+                    "name": "R. Butera"
+                }
+            ],
+            "doi": "10.1152/jn.00529.2014",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "26b4abc9a0bb9c1174a161a1b13b1a2da32c23a0",
+            "title": "Differential fiber-specific block of nerve conduction in mammalian peripheral nerves using kilohertz electrical stimulation.",
+            "url": "https://www.semanticscholar.org/paper/26b4abc9a0bb9c1174a161a1b13b1a2da32c23a0",
+            "venue": "Journal of neurophysiology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2839166",
+                    "name": "S. Lempka"
+                },
+                {
+                    "authorId": "2769100",
+                    "name": "C. McIntyre"
+                },
+                {
+                    "authorId": "3316905",
+                    "name": "K. Kilgore"
+                },
+                {
+                    "authorId": "145741974",
+                    "name": "A. Machado"
+                }
+            ],
+            "doi": "10.1097/ALN.0000000000000649",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3381e9c33996027077ca71d88d121ea01147ecd5",
+            "title": "Computational Analysis of Kilohertz Frequency Spinal Cord Stimulation for Chronic Pain Management",
+            "url": "https://www.semanticscholar.org/paper/3381e9c33996027077ca71d88d121ea01147ecd5",
+            "venue": "Anesthesiology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "4586360",
+                    "name": "L. Kapural"
+                },
+                {
+                    "authorId": "49778295",
+                    "name": "Cong Yu"
+                },
+                {
+                    "authorId": "7593933",
+                    "name": "Matthew W. Doust"
+                },
+                {
+                    "authorId": "47166569",
+                    "name": "B. Gliner"
+                },
+                {
+                    "authorId": "2018295",
+                    "name": "R. Vallejo"
+                },
+                {
+                    "authorId": "5307795",
+                    "name": "B. T. Sitzman"
+                },
+                {
+                    "authorId": "7915568",
+                    "name": "K. Amirdelfan"
+                },
+                {
+                    "authorId": "31971662",
+                    "name": "Donna M. Morgan"
+                },
+                {
+                    "authorId": "11003364",
+                    "name": "L. Brown"
+                },
+                {
+                    "authorId": "2505784",
+                    "name": "Thomas L Yearwood"
+                },
+                {
+                    "authorId": "8524547",
+                    "name": "R. Bundschu"
+                },
+                {
+                    "authorId": "4704174",
+                    "name": "A. Burton"
+                },
+                {
+                    "authorId": "8168218",
+                    "name": "T. Yang"
+                },
+                {
+                    "authorId": "5174858",
+                    "name": "R. Benyamin"
+                },
+                {
+                    "authorId": "5225046",
+                    "name": "A. Burgher"
+                }
+            ],
+            "doi": "10.1097/ALN.0000000000000774",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "a55d5f901565dc8b5cc007a88a0b12f40d550733",
+            "title": "Novel 10-kHz High-frequency Therapy (HF10 Therapy) Is Superior to Traditional Low-frequency Spinal Cord Stimulation for the Treatment of Chronic Back and Leg Pain: The SENZA-RCT Randomized Controlled Trial",
+            "url": "https://www.semanticscholar.org/paper/a55d5f901565dc8b5cc007a88a0b12f40d550733",
+            "venue": "Anesthesiology",
+            "year": 2015
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1681453",
+                    "name": "M. Jackson"
+                },
+                {
+                    "authorId": "48852647",
+                    "name": "A. Rahman"
+                },
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": null,
+                    "name": "Doris Ling"
+                },
+                {
+                    "authorId": null,
+                    "name": "Lucas C. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.clinph.2016.08.016",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "title": "Animal models of transcranial direct current stimulation: Methods and mechanisms",
+            "url": "https://www.semanticscholar.org/paper/d03e01a43d725cef60163589c3f3e8c866b00c8c",
+            "venue": "Clinical Neurophysiology",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "145945693",
+                    "name": "J. Couto"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                }
+            ],
+            "doi": "10.3389/fncom.2016.00022",
+            "intent": [
+                "result"
+            ],
+            "isInfluential": true,
+            "paperId": "efa12efe1b7a5a8370a5861acdfc1a984ca4b9dd",
+            "title": "Kilohertz Frequency Deep Brain Stimulation Is Ineffective at Regularizing the Firing of Model Thalamic Neurons",
+            "url": "https://www.semanticscholar.org/paper/efa12efe1b7a5a8370a5861acdfc1a984ca4b9dd",
+            "venue": "Front. Comput. Neurosci.",
+            "year": 2016
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5002595",
+                    "name": "N. Pelot"
+                },
+                {
+                    "authorId": "5152591",
+                    "name": "C. Behrend"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                }
+            ],
+            "doi": "10.1088/1741-2552/aa6a5f",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "07897775a9b957f0f12f8baf6aa6f7447bffb5e9",
+            "title": "Modeling the response of small myelinated axons in a compound nerve to kilohertz frequency signals.",
+            "url": "https://www.semanticscholar.org/paper/07897775a9b957f0f12f8baf6aa6f7447bffb5e9",
+            "venue": "Journal of neural engineering",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "31893235",
+                    "name": "Fl\u00e1via Vanessa Medeiros"
+                },
+                {
+                    "authorId": "5627390",
+                    "name": "M. Bottaro"
+                },
+                {
+                    "authorId": "6501944",
+                    "name": "A. Vieira"
+                },
+                {
+                    "authorId": "12552008",
+                    "name": "T. Lucas"
+                },
+                {
+                    "authorId": "14347280",
+                    "name": "Karenina Arrais Guida Modesto"
+                },
+                {
+                    "authorId": "37206597",
+                    "name": "A. P. Bo"
+                },
+                {
+                    "authorId": "3559385",
+                    "name": "G. Cipriano"
+                },
+                {
+                    "authorId": "5324958",
+                    "name": "N. Babault"
+                },
+                {
+                    "authorId": "3791272",
+                    "name": "J. Durigan"
+                }
+            ],
+            "doi": "10.1097/PHM.0000000000000631",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "360e5f56e794bdfb18d7c498c8e31ec4b8ce6837",
+            "title": "Kilohertz and Low-Frequency Electrical Stimulation With the Same Pulse Duration Have Similar Efficiency for Inducing Isometric Knee Extension Torque and Discomfort",
+            "url": "https://www.semanticscholar.org/paper/360e5f56e794bdfb18d7c498c8e31ec4b8ce6837",
+            "venue": "American journal of physical medicine & rehabilitation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "4446368",
+                    "name": "M. Bridi"
+                },
+                {
+                    "authorId": "145716408",
+                    "name": "T. Abel"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1016/j.brs.2016.10.001",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "title": "Direct Current Stimulation Modulates LTP and LTD: Activity Dependence and Dendritic Effects",
+            "url": "https://www.semanticscholar.org/paper/3cbd55f9fd09812a960d1a7a4301abc5e0de56c8",
+            "venue": "Brain Stimulation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "134000758",
+                    "name": "Giuliano De Carolis"
+                },
+                {
+                    "authorId": "37932624",
+                    "name": "M. Paroli"
+                },
+                {
+                    "authorId": "14143931",
+                    "name": "Lara Tollapi"
+                },
+                {
+                    "authorId": "7593933",
+                    "name": "Matthew W. Doust"
+                },
+                {
+                    "authorId": "5225046",
+                    "name": "A. Burgher"
+                },
+                {
+                    "authorId": "49778295",
+                    "name": "Cong Yu"
+                },
+                {
+                    "authorId": "8168218",
+                    "name": "T. Yang"
+                },
+                {
+                    "authorId": "31971662",
+                    "name": "Donna M. Morgan"
+                },
+                {
+                    "authorId": "7915568",
+                    "name": "K. Amirdelfan"
+                },
+                {
+                    "authorId": "4586360",
+                    "name": "L. Kapural"
+                },
+                {
+                    "authorId": "5307795",
+                    "name": "B. T. Sitzman"
+                },
+                {
+                    "authorId": "8524547",
+                    "name": "R. Bundschu"
+                },
+                {
+                    "authorId": "2018295",
+                    "name": "R. Vallejo"
+                },
+                {
+                    "authorId": "5174858",
+                    "name": "R. Benyamin"
+                },
+                {
+                    "authorId": "2505784",
+                    "name": "Thomas L Yearwood"
+                },
+                {
+                    "authorId": "47166569",
+                    "name": "B. Gliner"
+                },
+                {
+                    "authorId": "47463084",
+                    "name": "A. A. Powell"
+                },
+                {
+                    "authorId": "11481292",
+                    "name": "Kerry Bradley"
+                }
+            ],
+            "doi": "10.36076/ppj.2017.341",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "51a08ce71e9080a74a61ee21f6de617d1d0381e9",
+            "title": "Paresthesia-Independence: An Assessment of Technical Factors Related to 10 kHz Paresthesia-Free Spinal Cord Stimulation.",
+            "url": "https://www.semanticscholar.org/paper/51a08ce71e9080a74a61ee21f6de617d1d0381e9",
+            "venue": "Pain physician",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                }
+            ],
+            "doi": "10.1016/j.brs.2016.08.014",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "6eb0a1ea4db0b1e83b2cc38a2f339afa66d13e28",
+            "title": "Direct Current Stimulation Alters Neuronal Input/Output Function",
+            "url": "https://www.semanticscholar.org/paper/6eb0a1ea4db0b1e83b2cc38a2f339afa66d13e28",
+            "venue": "Brain Stimulation",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "40341013",
+                    "name": "N. Grossman"
+                },
+                {
+                    "authorId": "2081655478",
+                    "name": "David Bono"
+                },
+                {
+                    "authorId": "2723084",
+                    "name": "N. Dedic"
+                },
+                {
+                    "authorId": "4380673",
+                    "name": "Suhasa B. Kodandaramaiah"
+                },
+                {
+                    "authorId": "92224332",
+                    "name": "A. Rudenko"
+                },
+                {
+                    "authorId": "5085904",
+                    "name": "Ho-Jun Suk"
+                },
+                {
+                    "authorId": "7806163",
+                    "name": "A. M. Cassar\u00e0"
+                },
+                {
+                    "authorId": "31474884",
+                    "name": "E. Neufeld"
+                },
+                {
+                    "authorId": "3186265",
+                    "name": "N. Kuster"
+                },
+                {
+                    "authorId": "2342352",
+                    "name": "L. Tsai"
+                },
+                {
+                    "authorId": "1390039794",
+                    "name": "A. Pascual-Leone"
+                },
+                {
+                    "authorId": "16087476",
+                    "name": "E. Boyden"
+                }
+            ],
+            "doi": "10.1016/j.cell.2017.05.024",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9a773651ef74599edd7d6fd2ebd837db95378440",
+            "title": "Noninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields",
+            "url": "https://www.semanticscholar.org/paper/9a773651ef74599edd7d6fd2ebd837db95378440",
+            "venue": "Cell",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2903394",
+                    "name": "Nathan D. Crosby"
+                },
+                {
+                    "authorId": "34262100",
+                    "name": "John J. Janik"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                }
+            ],
+            "doi": "10.1152/jn.00701.2016",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "c45922a3d49a2517f0135c568aaafd5f84fd72c3",
+            "title": "Modulation of activity and conduction in single dorsal column axons by kilohertz-frequency spinal cord stimulation.",
+            "url": "https://www.semanticscholar.org/paper/c45922a3d49a2517f0135c568aaafd5f84fd72c3",
+            "venue": "Journal of neurophysiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3131367",
+                    "name": "Asif Rahman"
+                },
+                {
+                    "authorId": "50104489",
+                    "name": "Belen Lafon"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1113/JP273005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "d9640ccb80b05f6a9fd787b44d329be05630e4fb",
+            "title": "Direct current stimulation boosts synaptic gain and cooperativity in vitro",
+            "url": "https://www.semanticscholar.org/paper/d9640ccb80b05f6a9fd787b44d329be05630e4fb",
+            "venue": "The Journal of physiology",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "48078635",
+                    "name": "J. Dmochowski"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.cell.2017.05.017",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "e3a58af57f25fed03a609cefbd2b50c8a629ab5c",
+            "title": "Noninvasive Neuromodulation Goes Deep",
+            "url": "https://www.semanticscholar.org/paper/e3a58af57f25fed03a609cefbd2b50c8a629ab5c",
+            "venue": "Cell",
+            "year": 2017
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "3064707",
+                    "name": "Boshuo Wang"
+                },
+                {
+                    "authorId": "15818467",
+                    "name": "Aman S. Aberra"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                },
+                {
+                    "authorId": "1708221",
+                    "name": "A. Peterchev"
+                }
+            ],
+            "doi": "10.1088/1741-2552/aa8b7c",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2912ae2965200f739aacd8ed14a15e85289c2a71",
+            "title": "Modified cable equation incorporating transverse polarization of neuronal membranes for accurate coupling of electric fields.",
+            "url": "https://www.semanticscholar.org/paper/2912ae2965200f739aacd8ed14a15e85289c2a71",
+            "venue": "Journal of neural engineering",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37085807",
+                    "name": "L. S. Lesperance"
+                },
+                {
+                    "authorId": "2237664",
+                    "name": "M. Lankarany"
+                },
+                {
+                    "authorId": "2020030",
+                    "name": "T. Zhang"
+                },
+                {
+                    "authorId": "1776086",
+                    "name": "R. Esteller"
+                },
+                {
+                    "authorId": "7639999",
+                    "name": "S. Ratt\u00e9"
+                },
+                {
+                    "authorId": "2450792",
+                    "name": "S. Prescott"
+                }
+            ],
+            "doi": "10.1016/j.brs.2017.12.004",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "29580cf282b188ac9f45589671a66ea14071a03a",
+            "title": "Artifactual hyperpolarization during extracellular electrical stimulation: Proposed mechanism of high-rate neuromodulation disproved",
+            "url": "https://www.semanticscholar.org/paper/29580cf282b188ac9f45589671a66ea14071a03a",
+            "venue": "Brain Stimulation",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35565045",
+                    "name": "M. V\u00f6r\u00f6slakos"
+                },
+                {
+                    "authorId": "145453767",
+                    "name": "Y. Takeuchi"
+                },
+                {
+                    "authorId": "5980628",
+                    "name": "Kitti Brinyiczki"
+                },
+                {
+                    "authorId": "3531646",
+                    "name": "T. Zombori"
+                },
+                {
+                    "authorId": "40464121",
+                    "name": "A. Oliva"
+                },
+                {
+                    "authorId": "1399242920",
+                    "name": "Antonio Fern\u00e1ndez-Ruiz"
+                },
+                {
+                    "authorId": "144065489",
+                    "name": "G\u00e1bor Koz\u00e1k"
+                },
+                {
+                    "authorId": "3327887",
+                    "name": "Z. Kincses"
+                },
+                {
+                    "authorId": "3827533",
+                    "name": "B. Iv\u00e1nyi"
+                },
+                {
+                    "authorId": "144128278",
+                    "name": "G. Buzs\u00e1ki"
+                },
+                {
+                    "authorId": "5571325",
+                    "name": "A. Ber\u00e9nyi"
+                }
+            ],
+            "doi": "10.1038/s41467-018-02928-3",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "5dca432734db0f6fa25638bd43a5515a7a866342",
+            "title": "Direct effects of transcranial electric stimulation on brain circuits in rats and humans",
+            "url": "https://www.semanticscholar.org/paper/5dca432734db0f6fa25638bd43a5515a7a866342",
+            "venue": "Nature Communications",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "36236635",
+                    "name": "S. Thomson"
+                },
+                {
+                    "authorId": "50351026",
+                    "name": "M. Tavakkolizadeh"
+                },
+                {
+                    "authorId": "1402753360",
+                    "name": "S. Love-Jones"
+                },
+                {
+                    "authorId": "31579036",
+                    "name": "N. Patel"
+                },
+                {
+                    "authorId": "49260424",
+                    "name": "Jianwen Wendy Gu"
+                },
+                {
+                    "authorId": "6432385",
+                    "name": "Amarpreet Bains"
+                },
+                {
+                    "authorId": "35153156",
+                    "name": "Q. Doan"
+                },
+                {
+                    "authorId": "2704157",
+                    "name": "M. Moffitt"
+                }
+            ],
+            "doi": "10.1111/ner.12746",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "920148658b6db9165a2b6ad6fd9076b7f4198e87",
+            "title": "Effects of Rate on Analgesia in Kilohertz Frequency Spinal Cord Stimulation: Results of the PROCO Randomized Controlled Trial",
+            "url": "https://www.semanticscholar.org/paper/920148658b6db9165a2b6ad6fd9076b7f4198e87",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5380775",
+                    "name": "L. Cancel"
+                },
+                {
+                    "authorId": "50830288",
+                    "name": "Katherin Arias"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                },
+                {
+                    "authorId": "3921719",
+                    "name": "J. Tarbell"
+                }
+            ],
+            "doi": "10.1038/s41598-018-27524-9",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "be27b785a616de32e43c3ebfef6c3a1e6147c589",
+            "title": "Direct current stimulation of endothelial monolayers induces a transient and reversible increase in transport due to the electroosmotic effect",
+            "url": "https://www.semanticscholar.org/paper/be27b785a616de32e43c3ebfef6c3a1e6147c589",
+            "venue": "Scientific Reports",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "6402042",
+                    "name": "E. Negahbani"
+                },
+                {
+                    "authorId": "39463433",
+                    "name": "F. Kasten"
+                },
+                {
+                    "authorId": "1765445",
+                    "name": "C. Herrmann"
+                },
+                {
+                    "authorId": "47459845",
+                    "name": "F. Fr\u00f6hlich"
+                }
+            ],
+            "doi": "10.1016/j.neuroimage.2018.02.005",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "edf510b4910c79ff68b00f7a201681a83a8c17e4",
+            "title": "Targeting alpha-band oscillations in a cortical model with amplitude-modulated high-frequency transcranial electric stimulation",
+            "url": "https://www.semanticscholar.org/paper/edf510b4910c79ff68b00f7a201681a83a8c17e4",
+            "venue": "NeuroImage",
+            "year": 2018
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2250474",
+                    "name": "A. L. Zannou"
+                },
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "7657897",
+                    "name": "Mohamad FallahRad"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "16718273",
+                    "name": "B. Kopell"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1111/ner.12980",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "3fb1cb085898b0d201a2cb21d0f7ff6abc090978",
+            "title": "Tissue Temperature Increases by a 10 kHz Spinal Cord Stimulation System: Phantom and Bioheat Model.",
+            "url": "https://www.semanticscholar.org/paper/3fb1cb085898b0d201a2cb21d0f7ff6abc090978",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2250474",
+                    "name": "A. Zannou"
+                },
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "49104720",
+                    "name": "T. Zhang"
+                },
+                {
+                    "authorId": null,
+                    "name": "Rosana Esteller"
+                },
+                {
+                    "authorId": null,
+                    "name": "Brad Hershey"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.brs.2018.10.007",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7160b691cd842599900dca1dfb2b3c73767c1b59",
+            "title": "Temperature increases by kilohertz frequency spinal cord stimulation",
+            "url": "https://www.semanticscholar.org/paper/7160b691cd842599900dca1dfb2b3c73767c1b59",
+            "venue": "Brain Stimulation",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "8035682",
+                    "name": "K. Y. Lee"
+                },
+                {
+                    "authorId": "46566527",
+                    "name": "Chilman Bae"
+                },
+                {
+                    "authorId": "4240573",
+                    "name": "Jun-Ho La"
+                },
+                {
+                    "authorId": "48893151",
+                    "name": "Dongchul Lee"
+                },
+                {
+                    "authorId": "47796266",
+                    "name": "Z. Kagan"
+                },
+                {
+                    "authorId": "48049163",
+                    "name": "K. Bradley"
+                }
+            ],
+            "doi": "10.1016/j.ibror.2019.07.1369",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7698407c2cb100976737910222f54ee7f924c85f",
+            "title": "Low-intensity, kilohertz frequency spinal cord stimulation differently affects excitatory and inhibitory neurons in the rodent superficial dorsal horn",
+            "url": "https://www.semanticscholar.org/paper/7698407c2cb100976737910222f54ee7f924c85f",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "3001972",
+                    "name": "D. Truong"
+                },
+                {
+                    "authorId": "48018510",
+                    "name": "P. Williams"
+                },
+                {
+                    "authorId": "1399986837",
+                    "name": "John H. Martin"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1016/j.jneumeth.2019.108446",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": false,
+            "paperId": "abc3ea1aa977d632feb2b9d2f9b5528ee2b493ae",
+            "title": "The Quasi-uniform assumption for Spinal Cord Stimulation translational research",
+            "url": "https://www.semanticscholar.org/paper/abc3ea1aa977d632feb2b9d2f9b5528ee2b493ae",
+            "venue": "Journal of Neuroscience Methods",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "35641923",
+                    "name": "Irene E. Harmsen"
+                },
+                {
+                    "authorId": "1978284",
+                    "name": "Darrin J. Lee"
+                },
+                {
+                    "authorId": "4018760",
+                    "name": "R. Dallapiazza"
+                },
+                {
+                    "authorId": "46625434",
+                    "name": "P. De Vloo"
+                },
+                {
+                    "authorId": "144219097",
+                    "name": "R. Chen"
+                },
+                {
+                    "authorId": "36318337",
+                    "name": "A. Fasano"
+                },
+                {
+                    "authorId": "4966647",
+                    "name": "S. Kalia"
+                },
+                {
+                    "authorId": "2099442",
+                    "name": "M. Hodaie"
+                },
+                {
+                    "authorId": "143898784",
+                    "name": "A. Lozano"
+                }
+            ],
+            "doi": "10.1002/mds.27550",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ae9ac61aead42ec5344e7e0d1ded1f3f77d83b2a",
+            "title": "Ultra\u2010high\u2010frequency deep brain stimulation at 10,000 Hz improves motor function",
+            "url": "https://www.semanticscholar.org/paper/ae9ac61aead42ec5344e7e0d1ded1f3f77d83b2a",
+            "venue": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "151208889",
+                    "name": "Shaquia Lashe Idlett"
+                },
+                {
+                    "authorId": "48013822",
+                    "name": "M. Halder"
+                },
+                {
+                    "authorId": "49104720",
+                    "name": "T. Zhang"
+                },
+                {
+                    "authorId": "32773336",
+                    "name": "J. Quevedo"
+                },
+                {
+                    "authorId": "151146247",
+                    "name": "Natalie Brill"
+                },
+                {
+                    "authorId": "151252807",
+                    "name": "Wendy Gu"
+                },
+                {
+                    "authorId": "2704157",
+                    "name": "M. Moffitt"
+                },
+                {
+                    "authorId": "144359004",
+                    "name": "S. Hochman"
+                }
+            ],
+            "doi": "10.1152/jn.00538.2018",
+            "intent": [
+                "methodology",
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "ba0733e0702fffcfb1440a19e9cf47e18c65659c",
+            "title": "Assessment of axonal recruitment using model-guided preclinical spinal cord stimulation in the ex vivo adult mouse spinal cord.",
+            "url": "https://www.semanticscholar.org/paper/ba0733e0702fffcfb1440a19e9cf47e18c65659c",
+            "venue": "Journal of neurophysiology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7277301",
+                    "name": "Z. Esmaeilpour"
+                },
+                {
+                    "authorId": "39934585",
+                    "name": "G. Kronberg"
+                },
+                {
+                    "authorId": "2605353",
+                    "name": "D. Reato"
+                },
+                {
+                    "authorId": "2583773",
+                    "name": "L. Parra"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1101/2019.12.25.888412",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "bd16708b38893da49ec4cfcac0b2744ee7bbf93f",
+            "title": "Temporal interference stimulation targets deep brain regions by modulating neural oscillations",
+            "url": "https://www.semanticscholar.org/paper/bd16708b38893da49ec4cfcac0b2744ee7bbf93f",
+            "venue": "",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "7657897",
+                    "name": "Mohamad FallahRad"
+                },
+                {
+                    "authorId": "2250474",
+                    "name": "A. L. Zannou"
+                },
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "2450792",
+                    "name": "S. Prescott"
+                },
+                {
+                    "authorId": "7639999",
+                    "name": "St\u00e9phanie Ratt\u00e9"
+                },
+                {
+                    "authorId": "49104720",
+                    "name": "T. Zhang"
+                },
+                {
+                    "authorId": "48145146",
+                    "name": "Rosana Esteller"
+                },
+                {
+                    "authorId": "38674419",
+                    "name": "Brad Hershey"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1113/JP277654",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "ef4eb5ea46ceef26f4a5e37de31103bf80355287",
+            "title": "Electrophysiology equipment for reliable study of kHz electrical stimulation",
+            "url": "https://www.semanticscholar.org/paper/ef4eb5ea46ceef26f4a5e37de31103bf80355287",
+            "venue": "The Journal of physiology",
+            "year": 2019
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "5002595",
+                    "name": "N. Pelot"
+                },
+                {
+                    "authorId": "33529542",
+                    "name": "W. Grill"
+                }
+            ],
+            "doi": "10.1088/1741-2552/ab6cb6",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "2b1273ad073811a937f9749e4773bb36e2a4334e",
+            "title": "In vivo quantification of excitation and kilohertz frequency block of the rat vagus nerve.",
+            "url": "https://www.semanticscholar.org/paper/2b1273ad073811a937f9749e4773bb36e2a4334e",
+            "venue": "Journal of neural engineering",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "152764204",
+                    "name": "Zhao-xia Wang"
+                },
+                {
+                    "authorId": "48527480",
+                    "name": "Natalie M Pace"
+                },
+                {
+                    "authorId": "38692175",
+                    "name": "H. Cai"
+                },
+                {
+                    "authorId": "144912750",
+                    "name": "B. Shen"
+                },
+                {
+                    "authorId": "3315892",
+                    "name": "Jicheng Wang"
+                },
+                {
+                    "authorId": "2086253",
+                    "name": "J. Roppolo"
+                },
+                {
+                    "authorId": "92059640",
+                    "name": "W. D. de Groat"
+                },
+                {
+                    "authorId": "49407335",
+                    "name": "C. Tai"
+                }
+            ],
+            "doi": "10.1111/ner.13060",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": false,
+            "paperId": "7206944b99566e4fdf37ea2c441a8f2e12b22c8b",
+            "title": "Poststimulation Block of Pudendal Nerve Conduction by High\u2010Frequency (kHz) Biphasic Stimulation in Cats",
+            "url": "https://www.semanticscholar.org/paper/7206944b99566e4fdf37ea2c441a8f2e12b22c8b",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1751593552",
+                    "name": "Katherine Shapiro"
+                },
+                {
+                    "authorId": "2112740893",
+                    "name": "Wenbin Guo"
+                },
+                {
+                    "authorId": "1721404814",
+                    "name": "K. Armann"
+                },
+                {
+                    "authorId": "48527480",
+                    "name": "Natalie M Pace"
+                },
+                {
+                    "authorId": "144912750",
+                    "name": "B. Shen"
+                },
+                {
+                    "authorId": "3315892",
+                    "name": "Jicheng Wang"
+                },
+                {
+                    "authorId": "5144688",
+                    "name": "J. Beckel"
+                },
+                {
+                    "authorId": "92059640",
+                    "name": "W. D. de Groat"
+                },
+                {
+                    "authorId": "49407335",
+                    "name": "C. Tai"
+                }
+            ],
+            "doi": "10.1111/ner.13241",
+            "intent": [
+                "background"
+            ],
+            "isInfluential": true,
+            "paperId": "82ab7ca2496810a8a99f997ed597cac4e04d421a",
+            "title": "Pudendal Nerve Block by Low\u2010Frequency (\u22641\u00a0kHz) Biphasic Electrical Stimulation",
+            "url": "https://www.semanticscholar.org/paper/82ab7ca2496810a8a99f997ed597cac4e04d421a",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "51036251",
+                    "name": "N. Khadka"
+                },
+                {
+                    "authorId": "35641923",
+                    "name": "Irene E Harmsen"
+                },
+                {
+                    "authorId": "143898784",
+                    "name": "A. Lozano"
+                },
+                {
+                    "authorId": "2589386",
+                    "name": "M. Bikson"
+                }
+            ],
+            "doi": "10.1111/ner.13120",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9733571db3243a0be65edc6db611bc746aff9c1f",
+            "title": "Bio\u2010Heat Model of Kilohertz\u2010Frequency Deep Brain Stimulation Increases Brain Tissue Temperature",
+            "url": "https://www.semanticscholar.org/paper/9733571db3243a0be65edc6db611bc746aff9c1f",
+            "venue": "Neuromodulation : journal of the International Neuromodulation Society",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "2814485",
+                    "name": "P. Azimi"
+                },
+                {
+                    "authorId": "2971288",
+                    "name": "A. Zali"
+                }
+            ],
+            "doi": "10.34172/icnj.2020.10",
+            "intent": [],
+            "isInfluential": false,
+            "paperId": "9d282b122358939903ba597a1b3cf367c970d3b7",
+            "title": "Noninvasive Deep Brain Stimulation",
+            "url": "https://www.semanticscholar.org/paper/9d282b122358939903ba597a1b3cf367c970d3b7",
+            "venue": "",
+            "year": 2020
+        },
+        {
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46646879",
+                    "name": "C. Keysers"
+                },
+                {
+                    "authorId": "2091067",
+                    "name": "V. Gazzola"
+                },
+                {
+                    "authorId": "2505272",
+                    "name": "E. Wagenmakers"
+                }
+            ],
+            "doi": "10.1038/s41593-020-0660-4",
+            "intent": [
+                "methodology"
+            ],
+            "isInfluential": true,
+            "paperId": "d342537a05b3bcf5695de9f43886906e989a5d01",
+            "title": "Using Bayes factor hypothesis testing in neuroscience to establish evidence of absence",
+            "url": "https://www.semanticscholar.org/paper/d342537a05b3bcf5695de9f43886906e989a5d01",
+            "venue": "Nature Neuroscience",
+            "year": 2020
+        }
+    ],
+    "title": "Limited Sensitivity of Hippocampal Synaptic Function or Network Oscillations to Unmodulated Kilohertz Electric Fields",
+    "topics": [],
+    "url": "https://www.semanticscholar.org/paper/a6be0973d75f87061fbbf3dd0200693ecd3c522d",
+    "venue": "eNeuro",
+    "year": 2020
+}

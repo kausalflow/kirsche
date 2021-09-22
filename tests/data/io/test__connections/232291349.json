@@ -1,0 +1,47 @@
+{
+    "authors": [
+        {
+            "authorId": "9438545",
+            "name": "F. Farahani",
+            "url": "https://www.semanticscholar.org/author/9438545"
+        },
+        {
+            "authorId": "39934585",
+            "name": "G. Kronberg",
+            "url": "https://www.semanticscholar.org/author/39934585"
+        },
+        {
+            "authorId": "7657897",
+            "name": "Mohamad FallahRad",
+            "url": "https://www.semanticscholar.org/author/7657897"
+        },
+        {
+            "authorId": "6158426",
+            "name": "Hysell V. Oviedo",
+            "url": "https://www.semanticscholar.org/author/6158426"
+        },
+        {
+            "authorId": "2583773",
+            "name": "L. Parra",
+            "url": "https://www.semanticscholar.org/author/2583773"
+        }
+    ],
+    "corpusId": 232291349,
+    "doi": "10.1016/j.brs.2021.03.001",
+    "numCitedBy": 0,
+    "numCiting": 61,
+    "title": "Effects of direct current stimulation on synaptic plasticity in a single neuron",
+    "venue": "Brain Stimulation",
+    "year": 2021,
+    "local__referenced_to": [
+        "10.1016/j.brs.2009.03.007",
+        "10.1152/jn.00208.2014",
+        "10.1016/j.brs.2019.10.014",
+        "10.1016/j.brs.2016.10.001",
+        "10.1113/jp273005",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1113/jphysiol.2003.055772",
+        "10.1002/ana.24708",
+        "10.1016/j.neuron.2010.03.035"
+    ]
+}

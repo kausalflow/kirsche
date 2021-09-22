@@ -1,0 +1,60 @@
+{
+    "authors": [
+        {
+            "authorId": "7277301",
+            "name": "Z. Esmaeilpour",
+            "url": "https://www.semanticscholar.org/author/7277301"
+        },
+        {
+            "authorId": "2646601",
+            "name": "M. Jackson",
+            "url": "https://www.semanticscholar.org/author/2646601"
+        },
+        {
+            "authorId": "39934585",
+            "name": "G. Kronberg",
+            "url": "https://www.semanticscholar.org/author/39934585"
+        },
+        {
+            "authorId": "94296609",
+            "name": "Tianhe Zhang",
+            "url": "https://www.semanticscholar.org/author/94296609"
+        },
+        {
+            "authorId": "1776086",
+            "name": "R. Esteller",
+            "url": "https://www.semanticscholar.org/author/1776086"
+        },
+        {
+            "authorId": "38674419",
+            "name": "B. Hershey",
+            "url": "https://www.semanticscholar.org/author/38674419"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        }
+    ],
+    "corpusId": 229301091,
+    "doi": "10.1523/eneuro.0368-20.2020",
+    "numCitedBy": 1,
+    "numCiting": 85,
+    "title": "Limited Sensitivity of Hippocampal Synaptic Function or Network Oscillations to Unmodulated Kilohertz Electric Fields",
+    "venue": "eNeuro",
+    "year": 2020,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1152/jn.00715.2011",
+        "10.1152/jn.00319.2011",
+        "10.1113/jphysiol.2012.247171",
+        "10.1016/j.brs.2016.08.014",
+        "10.1016/j.brs.2009.03.007",
+        "10.1523/jneurosci.2059-10.2010",
+        "10.1016/j.neuron.2010.03.035",
+        "10.1523/jneurosci.0095-07.2007",
+        "10.1113/jp273005",
+        "10.1113/jphysiol.1981.sp013897",
+        "10.1016/j.brs.2016.10.001"
+    ]
+}

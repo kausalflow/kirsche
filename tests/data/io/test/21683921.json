@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {
+            "authorId": "47021702",
+            "name": "D. Chakraborty",
+            "url": "https://www.semanticscholar.org/author/47021702"
+        },
+        {
+            "authorId": "3001972",
+            "name": "D. Truong",
+            "url": "https://www.semanticscholar.org/author/3001972"
+        },
+        {
+            "authorId": "2589386",
+            "name": "M. Bikson",
+            "url": "https://www.semanticscholar.org/author/2589386"
+        },
+        {
+            "authorId": "4446706",
+            "name": "H. Kaphzan",
+            "url": "https://www.semanticscholar.org/author/4446706"
+        }
+    ],
+    "corpusId": 21683921,
+    "doi": "10.1093/cercor/bhx158",
+    "numCitedBy": 47,
+    "numCiting": 63,
+    "title": "Neuromodulation of Axon Terminals",
+    "venue": "Cerebral cortex",
+    "year": 2018,
+    "local__referenced_to": [
+        "10.1113/jphysiol.2003.055772",
+        "10.1152/jn.00715.2011",
+        "10.1113/jphysiol.2012.247171",
+        "10.1016/j.brs.2016.08.014",
+        "10.1016/j.brs.2009.03.007",
+        "10.1113/jphysiol.1981.sp013897"
+    ]
+}
