@@ -46,7 +46,7 @@ def parse_unique_ids_by_keys(
     parse_unique_ids_by_keys parses bib data based on keys.
 
     :param bib_data: list of bib records loaded from a bib file
-    :param keys: list of keys as the lookup order
+    :param keys: list of keys as the lookup order, e.g., ["doi", "arxivid", "pmid"]
     :param unique_id_prefix: a dictionary to specify what prefix to use for each key
     """
 
