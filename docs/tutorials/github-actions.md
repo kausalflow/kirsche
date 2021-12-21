@@ -1,6 +1,6 @@
 # Use in GitHub Actions
 
-[GitHub Actions](https://github.com/features/actions) is a great to to automate your workflows.
+[GitHub Actions](https://github.com/features/actions) is a great tool to automate your workflows.
 
 !!! info "Paperpile"
     [Paperpile](https://paperpile.com/) can automatically backup bib files in git repositories. Using GitHub Actions, we can perform some magic on our paperpile backups.
