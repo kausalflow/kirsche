@@ -171,7 +171,9 @@ def record_exists(
     for record in existing_records:
         for k in keys:
             k_value = record.get(k, "")
-            if k_value.lower() == cleansing_id.lower():
+            if k_value is None:
+                continue
+            elif k_value.lower() == cleansing_id.lower():
                 return True
 
     return exists

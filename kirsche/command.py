@@ -13,7 +13,7 @@ from kirsche.dataset import DataViews
 from kirsche.utils.io import load_batch_json, record_exists
 from kirsche.utils.bib import load_bib
 from kirsche.visualize import PaperGraph, visualize
-from typing import Union, Optional
+from typing import Union, Optional, Iterable
 from pathlib import Path
 
 logger.remove()
@@ -61,10 +61,10 @@ def _metadata(
 
     click.echo(f"Retrieving unique ids...")
     logger.debug(f"loading bib {source_bib_file}")
-    bib_content = load_bib(source_bib_file)
 
     if source_bib_file:
         paper_id = list_unique_ids(source_bib_file)
+        logger.info(f"Loaded {len(paper_id)} from {source_bib_file}")
     elif isinstance(paper_id, str):
         paper_id = [paper_id]
 
@@ -76,7 +76,7 @@ def _metadata(
 
     if not paper_id:
         click.secho(
-            "No unique ids input. Specify unique ids using `-p` or a bib file using `-b`",
+            "No unique ids input. Specify unique ids using `-p` or a bib file using `-sb`",
             fg="red",
         )
 
@@ -101,24 +101,20 @@ def kirsche(ctx):
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option("--source_bib_file", "-sb", type=click.Path(exists=True), help="Bib file path")
-@click.option("--target_metadata_path", "-tm", help="Target data file path")
-@click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
-def metadata(paper_id, source_bib_file, target_metadata_path, sleep_time):
+@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
+@click.option("--target_metadata_path", "-t", type=click.Path(exists=False),help="Target data file path")
+@click.option("--sleep_time", "-sleep", default=1, help="Sleep time between requests")
+def metadata(paper_id: Union[str, Iterable], source_bib_file: Path, target_metadata_path: Path, sleep_time: Optional[int]):
     """Download paper data from service provides (e.g., SemanticScholar).
 
-    There are two ways to provide a list of DOIs to be retrieved, provide paper DOIs directly using `--paper_id` or `-p`, or loading a bib file using `--source_bib_file` or `-sb`.
+    There are two ways to provide a list of DOIs to be retrieved, provide paper DOIs directly using `--paper_id` or `-p`, or loading a bib file using `--source_bib_file` or `-bib`.
 
-    To save the downloaded data, provide a path to a file using `--target_metadata_path` or `-tm`.
+    To save the downloaded data, provide a path to a file using `--target_metadata_path` or `-t`.
 
     :param paper_id: Paper DOI, optional, can be multiple
-    :type paper_id: Union[str, list]
     :param source_bib_file: Bib file path, optional
-    :type source_bib_file: str
     :param target_metadata_path: Target data file path, optional
-    :type target_metadata_path: str
     :param sleep_time: Sleep time between requests, defaults to 1sec.
-    :type sleep_time: Optional[int]
     """
     records = _metadata(paper_id, source_bib_file, target_metadata_path, sleep_time)
 
@@ -128,18 +124,16 @@ def metadata(paper_id, source_bib_file, target_metadata_path, sleep_time):
 @kirsche.command()
 @click.option(
     "--source_metadata_path",
-    "-sm",
+    "-s",
     type=click.Path(exists=True),
     help="path to data file/folder with paper metadata",
 )
-@click.option("--connected_papers_path", "-c", help="path to save enhanced data file(s)")
-def connections_from_metadata(source_metadata_path, connected_papers_path):
+@click.option("--connected_papers_path", "-t", type=click.Path(exists=False),help="path to save enhanced data file(s)")
+def connections_from_metadata(source_metadata_path: Path, connected_papers_path: Path):
     """Establish connections between the list of papers
 
     :param source_metadata_path: path to data file with paper metadata
-    :type source_metadata_path: str
     :param connected_papers_path: path to save enhanced data file
-    :type connected_papers_path: str
     """
 
     connected_papers = append_connections_for_file(source_metadata_path, connected_papers_path)
@@ -149,16 +143,16 @@ def connections_from_metadata(source_metadata_path, connected_papers_path):
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option("--source_bib_file", "-sb", type=click.Path(exists=True), help="Bib file path")
+@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
 @click.option(
     "--source_metadata_path",
-    "-sm",
+    "-meta",
     type=click.Path(exists=True),
     help="path to data file/folder with paper metadata",
 )
-@click.option("--connected_papers_path", "-c", help="path to save enhanced data file")
+@click.option("--connected_papers_path", "-t", type=click.Path(exists=False), help="path to save enhanced data file")
 @click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
-def connections(paper_id, source_bib_file, source_metadata_path, connected_papers_path, sleep_time):
+def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_metadata_path: Path, connected_papers_path: Union[str, Path], sleep_time: int):
     """Establish connections between the list of papers, either from a list of DOIs, bib file, or from download metadata file.
 
     If no `metadata_file` provided, the metadata will be downloaded using parameters specified in `paper_id` or `bib_file`.
@@ -174,15 +168,10 @@ def connections(paper_id, source_bib_file, source_metadata_path, connected_paper
 
 
     :param paper_id: Paper DOI, optional, can be multiple
-    :type paper_id: str
     :param source_bib_file: Bib file path, optional
-    :type source_bib_file: str
     :param source_metadata_path: Target data file path, optional
-    :type source_metadata_path: str
     :param connected_papers_path: path to save enhanced data file with connections calcualted
-    :type connected_papers_path: Union[str, Path]
     :param sleep_time: Sleep time between requests, defaults to 1sec.
-    :type sleep_time: int
     """
     if isinstance(connected_papers_path, str):
         connected_papers_path = Path(connected_papers_path)
@@ -221,33 +210,34 @@ def connections(paper_id, source_bib_file, source_metadata_path, connected_paper
 
 @kirsche.command()
 @click.option(
-    "--source_paper_id", "-sp", required=False, help="Source: Paper ID", multiple=True
+    "--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True
 )
 @click.option(
     "--source_bib_file",
-    "-sb",
+    "-bib",
     required=False,
     type=click.Path(exists=True),
     help="Source: Bib file path",
 )
 @click.option(
     "--source_metadata_path",
-    "-sm",
+    "-meta",
     required=False,
     type=click.Path(exists=True),
     help="Source: path to data file/folder with paper metadata",
 )
 @click.option(
     "--source_connected_papers_path",
-    "-sc",
+    "-conn",
     required=False,
+    type=click.Path(exists=True),
     help="Source: path to save enhanced data file/folder",
 )
 @click.option("--title", default="Kirsche: Paper Graph", help="title of the chart")
 @click.option(
-    "--target_html_path", "-th", required=True, help="Target: path to html file"
+    "--target_html_path", "-t", required=True, type=click.Path(exists=False),help="Target: path to html file"
 )
-@click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
+@click.option("--sleep_time", "-sleep", default=1, help="Sleep time between requests")
 def visualization(
     source_paper_id,
     source_bib_file,
@@ -257,7 +247,8 @@ def visualization(
     target_html_path,
     sleep_time,
 ):
-    """ """
+    """Visualize the connections between the papers.
+    """
     if source_connected_papers_path:
         connected_papers = load_batch_json(source_connected_papers_path)
     else:
