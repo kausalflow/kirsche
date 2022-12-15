@@ -22,15 +22,11 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install from source (required for the pre-commit tests)
         run: pip install ".[all]"
-      - name: Install dependencies
-        run: |
-          # python -m pip install --upgrade pip
-          # pip install -r requirements.txt
-          # install black if available (Python 3.6 and above), and autopep8 for testing the pipe mode
-          pip install black || true
-          pip install autopep8 || true
       - name: Test with pytest
-        run: pytest
+        run: |
+          pytest --cache-clear --cov=app tests/ > pytest-coverage.txt
+      - name: Comment coverage
+        uses: coroo/pytest-coverage-commentator@v1.0.2
   build-n-publish:
     needs: tests
     runs-on: ubuntu-latest
