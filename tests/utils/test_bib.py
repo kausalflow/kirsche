@@ -4,11 +4,11 @@ from kirsche.utils.bib import get_dois_from_bib_re
 from kirsche.utils.bib import get_unique_ids_from_bib
 
 
-def test__load_bib():
+def test_load_bib():
     bib_data = load_bib("tests/data/bib/test.bib")
 
 
-def test__load_bib__has_content():
+def test_load_bib_has_content():
     bib_data = load_bib("tests/data/bib/test.bib")
     if not bib_data:
         logger.error(f"Did not load anything from file")
@@ -17,11 +17,11 @@ def test__load_bib__has_content():
         assert len(bib_data) == 32
 
 
-def test__get_dois_from_bib_re():
+def test_get_dois_from_bib_re():
     dois = get_dois_from_bib_re("tests/data/bib/test.bib")
 
 
-def test__get_dois_from_bib_re__has_content():
+def test_get_dois_from_bib_re_has_content():
     dois = get_dois_from_bib_re("tests/data/bib/test.bib")
     if not dois:
         logger.error(f"Did not load anything from file")
@@ -30,11 +30,11 @@ def test__get_dois_from_bib_re__has_content():
         assert len(dois) == 32
 
 
-def test__get_unique_ids_from_bib_pass():
+def test_get_unique_ids_from_bib_pass():
     unique_ids = get_unique_ids_from_bib("tests/data/bib/test.bib")
 
 
-def test__get_unique_ids_from_bib_content_by_doi():
+def test_get_unique_ids_from_bib_content_by_doi():
     unique_ids = get_unique_ids_from_bib("tests/data/bib/test.bib")
     if not unique_ids:
         logger.error(f"Did not load anything from file")
@@ -43,7 +43,7 @@ def test__get_unique_ids_from_bib_content_by_doi():
         assert len(unique_ids) == 32
 
 
-def test__get_unique_ids_from_bib_content_by_arxivid():
+def test_get_unique_ids_from_bib_content_by_arxivid():
     unique_ids = get_unique_ids_from_bib(
         "tests/data/bib/test_arxivid.bib", keys="arxivid"
     )

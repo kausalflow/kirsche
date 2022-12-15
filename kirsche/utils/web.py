@@ -11,10 +11,9 @@ def get_random_user_agent(browsers: Optional[Union[str, list]] = None) -> dict:
     """
     get_random_user_agent returns a random user agent.
     We provide two predefined browers, chrome and firefox.
+
     :param browsers: which brower to be used, defaults to ["chrome", "firefox"]
-    :type browsers: list, optional
     :return: dictionary for requests module to consude as {'User-Agent': "blabla"}
-    :rtype: dict
     """
 
     if browsers is None:
@@ -118,15 +117,10 @@ def get_session_query_configs(
     }
     ```
     :param headers: header of the method such as use agent, defaults to random user agent from get_random_user_agent
-    :type headers: dict, optional
     :param timeout: timeout strategy, defaults to (5, 14)
-    :type timeout: tuple, optional
     :param proxies: proxy configs, defaults to {}
-    :type proxies: dict, optional
     :param cookies: cookie configs, defaults to {"language": "en"}
-    :type cookies: dict, optional
     :return: dictionary of session configs for session methods, e.g., get, to use.
-    :rtype: dict
     """
 
     if cookies is None:

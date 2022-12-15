@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
-from typing import Union, Optional
-from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
+from typing import Optional, Union
 
 from loguru import logger
+
+from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
 
 
 def load_json(data_file: Union[str, Path]) -> dict:
@@ -84,10 +85,7 @@ def save_json(data: Union[dict, list], data_file: Union[str, Path]) -> None:
         json.dump(data, f, indent=4)
 
 
-def save_batch_json(
-    records: list, data_path: Union[str, Path], unique_key=None,
-    mode = None
-) -> None:
+def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None, mode=None) -> None:
     """save data to json file.
 
     There are two modes:
@@ -137,7 +135,6 @@ def save_batch_json(
         save_json(records, data_path)
 
 
-
 def record_exists(
     id,
     existing_records: list,
@@ -146,7 +143,7 @@ def record_exists(
 ) -> bool:
     """Whether the record already exists in the data file
 
-    :param data_path: json files folder path
+    :param id: json files folder path
     """
 
     if keys is None:
@@ -171,7 +168,9 @@ def record_exists(
     for record in existing_records:
         for k in keys:
             k_value = record.get(k, "")
-            if k_value.lower() == cleansing_id.lower():
+            if k_value is None:
+                continue
+            elif k_value.lower() == cleansing_id.lower():
                 return True
 
     return exists
@@ -184,10 +183,6 @@ if __name__ == "__main__":
 
     print(existing_metadata[0]["doi"])
 
-    print(
-        [
-            record_exists(i["doi"], existing_metadata) for i in existing_metadata
-        ]
-    )
+    print([record_exists(i["doi"], existing_metadata) for i in existing_metadata])
 
     pass

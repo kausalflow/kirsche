@@ -4,8 +4,9 @@
 # package[version_required]: tag1, tag2, ...
 # Reference: https://hanxiao.io/2019/11/07/A-Better-Practice-for-Managing-extras-require-Dependencies-in-Python/
 
-nose: tests
-mkdocstrings>=0.15.0: docs
-mkdocs-material>=0.4.4: docs
 mkdocs-autorefs>=0.1.1: docs
 mkdocs-click>=0.4.0
+mkdocs-material>=0.4.4: docs
+mkdocstrings[python]>=0.15.0: docs
+pytest>=7.2.0: tests
+pytest-cov>-4.0.0: tests
