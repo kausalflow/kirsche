@@ -5,7 +5,7 @@ from kirsche.dataset import DataViews
 from kirsche.utils.io import load_json
 
 
-def test__DataViews():
+def test_dataviews():
     data_file = "tests/data/io/test__connection_enhanced.json"
     data = load_json(data_file)
     dv = DataViews(data)
@@ -17,7 +17,7 @@ def test__DataViews():
         assert False
 
 
-def test__Dataset():
+def test_dataset():
     paper_file = "tests/data/io/test__connection.json"
     extra_data_file = "tests/data/io/test__connection_extra_labels.json"
     papers = load_json(paper_file)

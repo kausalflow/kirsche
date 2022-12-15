@@ -62,14 +62,8 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          setup_commands:
-            - import sys
-            - sys.path.append("docs")
-          selection:
-            docstring_style: "restructured-text"
-            members: yes
-            filters:
-              - "^_[^_]"
+          options:
+            docstring_style: sphinx
       watch:
         - kirsche
 

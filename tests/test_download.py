@@ -2,7 +2,7 @@ from kirsche.download import download_metadata
 from kirsche.download import list_dois
 
 
-def test__download__paper_id():
+def test_download_paper_id():
 
     paper_id = "10.1038/nrn3241"
     paper_info = download_metadata([paper_id], target=None, sleep_time=1)
@@ -11,7 +11,7 @@ def test__download__paper_id():
         assert False
 
 
-def test__download__bib():
+def test_download_bib():
 
     bib_file = "tests/data/bib/test__connection.bib"
     dois = list_dois(None, bib_file)

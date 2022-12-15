@@ -86,13 +86,9 @@ def get_unique_ids_from_bib(
     If only one value in keys is specified, we will the same key specified for all records.
 
     :param bib_file: path to bib file
-    :type bib_file: str
     :param keys: key to use to find unique ids in the bib data, default is doi.
-    :type keys:
     :param unique_id_prefix: prefix to use for unique ids
-    :type unique_id_prefix: str
     :return: list of DOIs
-    :rtype: list
     """
     if keys is None:
         keys = UNIQUE_ID_PRECEDENCE
@@ -119,9 +115,7 @@ def get_dois_from_bib(bib_file: Union[str, Path]) -> list:
     get_dois_from_bib returns a list of DOIs from a bib file
 
     :param bib_file: path to bib file
-    :type bib_file: str
     :return: list of DOIs
-    :rtype: list
     """
 
     return get_unique_ids_from_bib(bib_file, key="doi")

@@ -146,7 +146,7 @@ def record_exists(
 ) -> bool:
     """Whether the record already exists in the data file
 
-    :param data_path: json files folder path
+    :param id: json files folder path
     """
 
     if keys is None:

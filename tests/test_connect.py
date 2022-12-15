@@ -2,7 +2,7 @@ from loguru import logger
 from kirsche.connect import append_connections, append_connections_for_file
 
 
-def test__connect():
+def test_connect():
     data_file = "tests/data/io/test__connection.json"
     data = append_connections_for_file(data_file)
 

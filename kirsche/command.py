@@ -3,7 +3,6 @@ import sys
 
 import click
 from loguru import logger
-from pyecharts.charts.base import default
 from kirsche.download import list_unique_ids, download_metadata
 from kirsche.connect import (
     append_connections,
@@ -13,7 +12,7 @@ from kirsche.connect import (
 from kirsche.dataset import DataViews
 from kirsche.utils.io import load_batch_json, record_exists
 from kirsche.utils.bib import load_bib
-from kirsche.visualize import make_chart, PaperGraph, visualize
+from kirsche.visualize import PaperGraph, visualize
 from typing import Union, Optional
 from pathlib import Path
 
@@ -63,7 +62,7 @@ def _metadata(
     click.echo(f"Retrieving unique ids...")
     logger.debug(f"loading bib {source_bib_file}")
     bib_content = load_bib(source_bib_file)
-    # logger.debug(f"bib {source_bib_file} content: {bib_content}")
+
     if source_bib_file:
         paper_id = list_unique_ids(source_bib_file)
     elif isinstance(paper_id, str):
