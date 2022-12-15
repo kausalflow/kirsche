@@ -72,8 +72,8 @@ nav:
   - "Home": index.md
   - "Tutorials":
     - "Tutorials": tutorials/index.md
-    - "GitHub Actions": tutorials/github-actions.md
     - "Use in Python Code": tutorials/use-in-code.md
+    - "GitHub Actions": tutorials/github-actions.md
   - References:
     - "Introduction": references/index.md
     - "Commandline":

@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
-from typing import Union, Optional
-from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
+from typing import Optional, Union
 
 from loguru import logger
+
+from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
 
 
 def load_json(data_file: Union[str, Path]) -> dict:
@@ -84,10 +85,7 @@ def save_json(data: Union[dict, list], data_file: Union[str, Path]) -> None:
         json.dump(data, f, indent=4)
 
 
-def save_batch_json(
-    records: list, data_path: Union[str, Path], unique_key=None,
-    mode = None
-) -> None:
+def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None, mode=None) -> None:
     """save data to json file.
 
     There are two modes:
@@ -135,7 +133,6 @@ def save_batch_json(
     else:
         logger.debug(f"loading data from a single file {data_path}")
         save_json(records, data_path)
-
 
 
 def record_exists(
@@ -186,10 +183,6 @@ if __name__ == "__main__":
 
     print(existing_metadata[0]["doi"])
 
-    print(
-        [
-            record_exists(i["doi"], existing_metadata) for i in existing_metadata
-        ]
-    )
+    print([record_exists(i["doi"], existing_metadata) for i in existing_metadata])
 
     pass

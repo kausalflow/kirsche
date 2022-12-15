@@ -1,20 +1,21 @@
 import os
 import sys
+from pathlib import Path
+from typing import Iterable, Optional, Union
 
 import click
 from loguru import logger
-from kirsche.download import list_unique_ids, download_metadata
+
 from kirsche.connect import (
     append_connections,
     append_connections_for_file,
     save_connected_papers,
 )
 from kirsche.dataset import DataViews
-from kirsche.utils.io import load_batch_json, record_exists
+from kirsche.download import download_metadata, list_unique_ids
 from kirsche.utils.bib import load_bib
+from kirsche.utils.io import load_batch_json, record_exists
 from kirsche.visualize import PaperGraph, visualize
-from typing import Union, Optional, Iterable
-from pathlib import Path
 
 logger.remove()
 logger.add(sys.stderr, level="INFO", enqueue=True)
@@ -28,7 +29,7 @@ def _metadata(
     source_bib_file: Union[str, Path],
     target_metadata_path: Union[str, Path],
     sleep_time: Optional[int] = 1,
-    existing_records: Optional[list] = []
+    existing_records: Optional[list] = [],
 ):
     """Download paper data from service provides (e.g., SemanticScholar).
 
@@ -47,9 +48,7 @@ def _metadata(
         logger.debug(f"Target metadata path: {target_metadata_path} exists. looking for existing metadata...")
         existing_metadata = load_batch_json(target_metadata_path)
         if existing_metadata:
-            logger.debug(
-                f"Found {len(existing_metadata)} records in {target_metadata_path}"
-            )
+            logger.debug(f"Found {len(existing_metadata)} records in {target_metadata_path}")
     else:
         existing_metadata = []
 
@@ -102,9 +101,19 @@ def kirsche(ctx):
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
 @click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
-@click.option("--target_metadata_path", "-t", type=click.Path(exists=False),help="Target data file path")
+@click.option(
+    "--target_metadata_path",
+    "-t",
+    type=click.Path(exists=False),
+    help="Target data file path",
+)
 @click.option("--sleep_time", "-sleep", default=1, help="Sleep time between requests")
-def metadata(paper_id: Union[str, Iterable], source_bib_file: Path, target_metadata_path: Path, sleep_time: Optional[int]):
+def metadata(
+    paper_id: Union[str, Iterable],
+    source_bib_file: Path,
+    target_metadata_path: Path,
+    sleep_time: Optional[int],
+):
     """Download paper data from service provides (e.g., SemanticScholar).
 
     There are two ways to provide a list of DOIs to be retrieved, provide paper DOIs directly using `--paper_id` or `-p`, or loading a bib file using `--source_bib_file` or `-bib`.
@@ -128,7 +137,12 @@ def metadata(paper_id: Union[str, Iterable], source_bib_file: Path, target_metad
     type=click.Path(exists=True),
     help="path to data file/folder with paper metadata",
 )
-@click.option("--connected_papers_path", "-t", type=click.Path(exists=False),help="path to save enhanced data file(s)")
+@click.option(
+    "--connected_papers_path",
+    "-t",
+    type=click.Path(exists=False),
+    help="path to save enhanced data file(s)",
+)
 def connections_from_metadata(source_metadata_path: Path, connected_papers_path: Path):
     """Establish connections between the list of papers
 
@@ -150,9 +164,20 @@ def connections_from_metadata(source_metadata_path: Path, connected_papers_path:
     type=click.Path(exists=True),
     help="path to data file/folder with paper metadata",
 )
-@click.option("--connected_papers_path", "-t", type=click.Path(exists=False), help="path to save enhanced data file")
+@click.option(
+    "--connected_papers_path",
+    "-t",
+    type=click.Path(exists=False),
+    help="path to save enhanced data file",
+)
 @click.option("--sleep_time", "-st", default=1, help="Sleep time between requests")
-def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_metadata_path: Path, connected_papers_path: Union[str, Path], sleep_time: int):
+def connections(
+    paper_id: Union[str, Iterable],
+    source_bib_file: Path,
+    source_metadata_path: Path,
+    connected_papers_path: Union[str, Path],
+    sleep_time: int,
+):
     """Establish connections between the list of papers, either from a list of DOIs, bib file, or from download metadata file.
 
     If no `metadata_file` provided, the metadata will be downloaded using parameters specified in `paper_id` or `bib_file`.
@@ -186,7 +211,13 @@ def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_me
         else:
             existing_connected_papers = []
 
-        records = _metadata(paper_id, source_bib_file, None, sleep_time, existing_records=existing_connected_papers)
+        records = _metadata(
+            paper_id,
+            source_bib_file,
+            None,
+            sleep_time,
+            existing_records=existing_connected_papers,
+        )
     else:
         records = load_batch_json(source_metadata_path)
     click.secho(f"  Retrieved {len(records)} records.")
@@ -197,9 +228,7 @@ def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_me
 
     # Filter out unnecessary keys in the dictionary
     click.secho(f"Filtering and saving data...")
-    connected_papers = save_connected_papers(
-        connected_papers, target=connected_papers_path
-    )
+    connected_papers = save_connected_papers(connected_papers, target=connected_papers_path)
     click.secho(f"  Done...")
 
     if not connected_papers_path:
@@ -209,9 +238,7 @@ def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_me
 
 
 @kirsche.command()
-@click.option(
-    "--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True
-)
+@click.option("--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True)
 @click.option(
     "--source_bib_file",
     "-bib",
@@ -235,7 +262,11 @@ def connections(paper_id: Union[str, Iterable], source_bib_file: Path, source_me
 )
 @click.option("--title", default="Kirsche: Paper Graph", help="title of the chart")
 @click.option(
-    "--target_html_path", "-t", required=True, type=click.Path(exists=False),help="Target: path to html file"
+    "--target_html_path",
+    "-t",
+    required=True,
+    type=click.Path(exists=False),
+    help="Target: path to html file",
 )
 @click.option("--sleep_time", "-sleep", default=1, help="Sleep time between requests")
 def visualization(
@@ -247,8 +278,7 @@ def visualization(
     target_html_path,
     sleep_time,
 ):
-    """Visualize the connections between the papers.
-    """
+    """Visualize the connections between the papers."""
     if source_connected_papers_path:
         connected_papers = load_batch_json(source_connected_papers_path)
     else:

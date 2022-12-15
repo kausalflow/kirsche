@@ -358,6 +358,8 @@ kirsche connections -bib my_bib_input.bib -t paper_connections.json
 
 ## Visualizations
 
+The connection file can already be loaded into some code or tools to be further processed. However, if we would like to have a quick look at the connections, kirsche also provides a simple visualization tool.
+
 If we already have the metadata (e.g.,`paper_metadata.json`) or connection  (e.g., `paper_connections.json`), we can use those to produce an interactive visualization,
 
 ```bash
