@@ -19,7 +19,7 @@ jobs:
   build:
     strategy:
       matrix:
-        python-version: [3.7, 3.8]
+        python-version: [3.8, 3.9]
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
@@ -51,4 +51,4 @@ jobs:
           echo "flake8 BLK"
           flake8 durst --count --exit-zero --max-complexity=18 --statistics --select BLK
       - name: Test with pytest
-        run: nosetests
+        run: pytest
