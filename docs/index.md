@@ -6,6 +6,11 @@ Kirsche, connecting the papers.
 
 Kirsche looks into the citations of the list of paper provided and establishes connections between each other. Kirsche can be used as a command line tool or in your python script.
 
+## Demo
+
+![](assets/demo/1-s2.0-S0165027022002874-gr2.jpg)
+
+[Lu H, Shaner S, Otte E, Asplund M, Vlachos A. A microfluidic perspective on conventional in vitro transcranial direct current stimulation methods. J Neurosci Methods. 2022; 109761. doi:10.1016/j.jneumeth.2022.109761](https://www.sciencedirect.com/science/article/pii/S0165027022002874)
 
 ## Install
 
