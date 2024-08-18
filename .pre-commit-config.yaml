@@ -1,6 +1,7 @@
+exclude: "^notebooks/|^notes/"
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.2.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
       - id: debug-statements
@@ -8,22 +9,39 @@ repos:
       - id: end-of-file-fixer
       - id: requirements-txt-fixer
       - id: trailing-whitespace
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.960
-    hooks:
-      - id: mypy
-        args: [--no-strict-optional, --ignore-missing-imports]
-        files: ^(eerily/|tests/)
   - repo: https://github.com/ambv/black
-    rev: 22.6.0
+    rev: 24.4.2
     hooks:
     - id: black
       language: python
-      args:
-        - "--line-length=120"
   - repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+    rev: 5.13.2
     hooks:
       - id: isort
         name: isort (python)
-        args: ["--profile", "black"]
+        args: ["--multi-line", "3", "--profile", "black", "--treat-comment-as-code", "# %%", "--float-to-top"]
+  - repo: local
+    # We do not use pre-commit/mirrors-mypy,
+    # as it comes with opinionated defaults
+    # (like --ignore-missing-imports)
+    # and is difficult to configure to run
+    # with the dependencies correctly installed.
+    hooks:
+      - id: mypy
+        name: mypy
+        entry: mypy
+        language: python
+        # language_version: python3.12
+        additional_dependencies:
+          - mypy
+          - pandas-stubs
+          - pydantic
+          - pytest
+        types:
+          - python
+        # use require_serial so that script
+        # is only called once per commit
+        require_serial: true
+        # Print the number of files as a sanity-check
+        verbose: true
+        exclude: ^docs

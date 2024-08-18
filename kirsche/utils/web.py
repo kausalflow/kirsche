@@ -1,10 +1,11 @@
+import os
 import random
+from typing import Optional, Union
 
 import requests
 from loguru import logger
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-from typing import Union, Optional
 
 
 def get_random_user_agent(browsers: Optional[Union[str, list]] = None) -> dict:
@@ -128,6 +129,9 @@ def get_session_query_configs(
 
     if headers is None:
         headers = get_random_user_agent()
+
+    if os.getenv("SC_API_KEY") and "x-api-key" not in headers:
+        headers["x-api-key"] = os.getenv("SC_API_KEY")
 
     if timeout is None:
         timeout = (5, 14)

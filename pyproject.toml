@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "kirsche"
+version = "0.2.9"
+description = "Kirsche is a python package to build up connections between papers."
+authors = ["LM <hi@leima.is>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+requests = "^2.26.0"
+loguru = "^0.5.3"
+bibtexparser = "^1.2.0"
+matplotlib = "^3.4.3"
+pyecharts = "^1.5.0"
+pandas = "^1.0.0"
+openpyxl = "^3.0.7"
+nose = "^1.3.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "4.0.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.5.31"
+mkdocs-autorefs = "^1.0.1"
+mkdocstrings = {version = "^0.25.2", extras = ["python"]}
+mkdocs-jupyter = "^0.24.8"
+mkdocs = "^1.6.0"
+mkdocs-click = "^0.4.0"
+
+[tool.poetry.scripts]
+kirsche = "kirsche.command:kirsche"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
