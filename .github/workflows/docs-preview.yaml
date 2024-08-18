@@ -1,15 +1,14 @@
-name: Publish Docs
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-    inputs:
-      directory:
-        description: 'Build docs'
-        default: 'build it now'
-        required: false
+name: Deploy PR Docs previews
 
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
 
 jobs:
   pre-commit:
@@ -20,7 +19,7 @@ jobs:
       with:
         python-version: "3.12"
     - uses: pre-commit/action@v3.0.1
-  deploy:
+  deploy-preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.6
@@ -36,9 +35,7 @@ jobs:
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Build Docs
         run: poetry run mkdocs build
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.6.1
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1.4.7
         with:
-          folder: site
-          clean-exclude: pr-preview/
-          force: false
+          source-dir: ./site/

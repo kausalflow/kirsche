@@ -1,10 +1,6 @@
-name: Test Code with Pip
+name: Test Code
 
 on:
-  push:
-    branches:
-      - "**"
-      - "!gh-pages"
   pull_request:
     branches:
       - main
@@ -19,20 +15,28 @@ jobs:
   build:
     strategy:
       matrix:
-        python-version: [3.8, 3.9]
+        python-version: ["3.10", "3.11", "3.12"]
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.1.6
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5.1.0
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install from source (required for the pre-commit tests)
-        run: pip install ".[all]"
-      - name: Test with pytest
+      - name: Setup Poetry
+        uses: abatilo/actions-poetry@v3.0.0
+        with:
+          poetry-version: 1.8.3
+      - name: Install Packages
+        run: poetry install --with docs,dev
+      - name: Build coverage file
         run: |
-          pytest --cache-clear --cov=app tests/ > pytest-coverage.txt
-      - name: Comment coverage
-        uses: coroo/pytest-coverage-commentator@v1.0.2
+          poetry run pytest --cache-clear --junitxml=pytest.xml --cov=kirsche tests/ > pytest-coverage.txt
+      - name: Pytest coverage comment
+        uses: MishaKav/pytest-coverage-comment@v1.1.51
+        with:
+          pytest-coverage-path: ./pytest-coverage.txt
+          junitxml-path: ./pytest.xml
+          title: Coverage Report (${{ github.event.pull_request.head.sha || github.sha }}, ${{ matrix.python-version }}, ${{ matrix.os }})
