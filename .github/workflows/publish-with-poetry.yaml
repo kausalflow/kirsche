@@ -1,0 +1,55 @@
+name: Build and Publish Package to Pypi
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  tests:
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.6
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Setup Poetry
+        uses: abatilo/actions-poetry@v3.0.0
+        with:
+          poetry-version: 1.8.3
+      - name: Install Packages
+        run: poetry install --with dev,docs
+      - name: Build coverage file
+        run: |
+          poetry run pytest
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.6
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: "3.12"
+      - name: Setup Poetry
+        uses: abatilo/actions-poetry@v3.0.0
+        with:
+          poetry-version: 1.8.3
+      - name: Install dependencies
+        run: |
+          poetry --version
+          poetry install
+      - name: Build and publish
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+        env:
+          PYPI_USERNAME: __token__
+          PYPI_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          poetry publish --build -u $PYPI_USERNAME -p $PYPI_PASSWORD
