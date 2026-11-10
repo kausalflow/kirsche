@@ -46,3 +46,8 @@ lightkone = "kirsche.cli:run"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+# The pre-commit hook runs mypy in its own environment without the package's
+# dependencies; their types are checked in CI's test environment instead.
+ignore_missing_imports = true

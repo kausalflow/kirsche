@@ -104,7 +104,7 @@ def get_session(
 
 def get_session_query_configs(
     headers: Optional[dict] = None,
-    timeout: Optional[list] = (5, 14),
+    timeout: Optional[Union[tuple, list]] = (5, 14),
     proxies: Optional[dict] = {},
     cookies: Optional[dict] = {"language": "en"},
 ) -> dict:

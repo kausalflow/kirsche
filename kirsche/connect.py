@@ -1,12 +1,12 @@
 import json
 from pathlib import Path
-from typing import Optional, Union
+from typing import Optional, Union, cast
 
 import click
 from loguru import logger
 
-from kirsche.utils.io import load_json, save_json, save_batch_json
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE
+from kirsche.utils.io import load_json, save_batch_json, save_json
 
 
 def append_connections(
@@ -113,7 +113,9 @@ def append_connections_for_file(
 
     papers = load_json(data_file)
 
-    c_p = append_connections(papers, connection_field_name=connection_field_name)
+    c_p = append_connections(
+        cast(list, papers), connection_field_name=connection_field_name
+    )
 
     # Filter out unnecessary keys in the dictionary
     c_p = save_connected_papers(

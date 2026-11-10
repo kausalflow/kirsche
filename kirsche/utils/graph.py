@@ -1,4 +1,5 @@
 import math
+from typing import Optional
 
 
 class PaperGraph:
@@ -8,7 +9,7 @@ class PaperGraph:
     :param title: the title of the graph
     """
 
-    def __init__(self, paper_connections: list, title: str = None):
+    def __init__(self, paper_connections: list, title: Optional[str] = None):
 
         if not isinstance(paper_connections, list):
             raise TypeError("The connections paper_connections must be a dictionary")
@@ -29,7 +30,10 @@ class PaperGraph:
         return simplified_node
 
     def _extract_nodes_and_edges(
-        self, connections: list, node_schema: dict = None, edge_schema: dict = None
+        self,
+        connections: list,
+        node_schema: Optional[dict] = None,
+        edge_schema: Optional[dict] = None,
     ):
         """extract nodes and edges from connections
 
@@ -56,8 +60,8 @@ class PaperGraph:
         if edge_schema is None:
             edge_schema = {"source": "doi", "target": "doi"}
 
-        edges = []
-        nodes = []
+        edges: list = []
+        nodes: list = []
         for c in connections:
             c_id = c[node_schema["id"]["key"]]
             if c_id not in [n["id"] for n in nodes]:

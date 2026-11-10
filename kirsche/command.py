@@ -1,7 +1,7 @@
 import os
 import sys
 from pathlib import Path
-from typing import Iterable, Optional, Union
+from typing import Iterable, Optional, Union, cast
 
 import click
 from loguru import logger
@@ -25,11 +25,11 @@ __CWD__ = os.getcwd()
 
 
 def _metadata(
-    paper_id: Optional[Union[list, str]],
-    source_bib_file: Union[str, Path],
-    target_metadata_path: Union[str, Path],
+    paper_id: Optional[Union[Iterable, str]],
+    source_bib_file: Optional[Union[str, Path]],
+    target_metadata_path: Optional[Union[str, Path]],
     sleep_time: Optional[int] = 1,
-    existing_records: Optional[list] = [],
+    existing_records: Optional[Union[dict, list]] = None,
 ):
     """Download paper data from service provides (e.g., SemanticScholar).
 
@@ -45,15 +45,19 @@ def _metadata(
     """
 
     if target_metadata_path:
-        logger.debug(f"Target metadata path: {target_metadata_path} exists. looking for existing metadata...")
-        existing_metadata = load_batch_json(target_metadata_path)
+        logger.debug(
+            f"Target metadata path: {target_metadata_path} exists. looking for existing metadata..."
+        )
+        existing_metadata = cast(list, load_batch_json(target_metadata_path))
         if existing_metadata:
-            logger.debug(f"Found {len(existing_metadata)} records in {target_metadata_path}")
+            logger.debug(
+                f"Found {len(existing_metadata)} records in {target_metadata_path}"
+            )
     else:
         existing_metadata = []
 
     if existing_records:
-        existing_metadata = existing_metadata + existing_records
+        existing_metadata = existing_metadata + cast(list, existing_records)
 
     if existing_metadata:
         logger.debug(f"{len(existing_metadata)} existing metadta")
@@ -66,6 +70,7 @@ def _metadata(
         logger.info(f"Loaded {len(paper_id)} from {source_bib_file}")
     elif isinstance(paper_id, str):
         paper_id = [paper_id]
+    paper_id = list(paper_id or [])
 
     click.echo(f"  Retrieved {len(paper_id)} unique ids")
 
@@ -79,7 +84,9 @@ def _metadata(
             fg="red",
         )
 
-    paper_info = download_metadata(paper_id, target_metadata_path, sleep_time)
+    paper_info = download_metadata(
+        paper_id, target_metadata_path, sleep_time if sleep_time is not None else 1
+    )
 
     if not target_metadata_path:
         dv = DataViews(paper_info)
@@ -100,7 +107,9 @@ def kirsche(ctx):
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
+@click.option(
+    "--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path"
+)
 @click.option(
     "--target_metadata_path",
     "-t",
@@ -150,14 +159,18 @@ def connections_from_metadata(source_metadata_path: Path, connected_papers_path:
     :param connected_papers_path: path to save enhanced data file
     """
 
-    connected_papers = append_connections_for_file(source_metadata_path, connected_papers_path)
+    connected_papers = append_connections_for_file(
+        source_metadata_path, connected_papers_path
+    )
 
     return connected_papers
 
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
+@click.option(
+    "--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path"
+)
 @click.option(
     "--source_metadata_path",
     "-meta",
@@ -228,7 +241,9 @@ def connections(
 
     # Filter out unnecessary keys in the dictionary
     click.secho(f"Filtering and saving data...")
-    connected_papers = save_connected_papers(connected_papers, target=connected_papers_path)
+    connected_papers = save_connected_papers(
+        connected_papers, target=connected_papers_path
+    )
     click.secho(f"  Done...")
 
     if not connected_papers_path:
@@ -238,7 +253,9 @@ def connections(
 
 
 @kirsche.command()
-@click.option("--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True)
+@click.option(
+    "--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True
+)
 @click.option(
     "--source_bib_file",
     "-bib",

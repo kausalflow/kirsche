@@ -5,6 +5,7 @@ from typing import Optional, Union
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
+
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
 
 
@@ -33,8 +34,8 @@ def get_dois_from_bib_re(bib_file: Union[str, Path]) -> list:
 
     re_doi = re.compile(r"^doi\s=\s\{(?P<doi>.+)\}")
 
-    dois = [re_doi.search(i.strip()) for i in data]
-    dois = [i.group("doi") for i in dois if i is not None]
+    matches = [re_doi.search(i.strip()) for i in data]
+    dois = [m.group("doi") for m in matches if m is not None]
 
     return dois
 
@@ -70,7 +71,7 @@ def parse_unique_ids_by_keys(
 def get_unique_ids_from_bib(
     bib_file: Union[str, Path],
     keys: Optional[Union[str, list]] = None,
-    unique_id_prefix: dict = None,
+    unique_id_prefix: Optional[dict] = None,
 ) -> list:
     """
     get_unique_ids_from_bib returns a list of unique IDs from a bib file for a given key or list of keys.
@@ -118,7 +119,7 @@ def get_dois_from_bib(bib_file: Union[str, Path]) -> list:
     :return: list of DOIs
     """
 
-    return get_unique_ids_from_bib(bib_file, key="doi")
+    return get_unique_ids_from_bib(bib_file, keys="doi")
 
 
 if __name__ == "__main__":

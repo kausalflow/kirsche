@@ -1,6 +1,8 @@
-from loguru import logger
-from kirsche.connect import append_connections
 import json
+
+from loguru import logger
+
+from kirsche.connect import append_connections
 
 
 class DataViews:

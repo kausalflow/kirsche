@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Union
+from typing import Optional, Union, cast
 
 import pyecharts.options as opts
 from pyecharts.charts import Graph
@@ -18,14 +18,16 @@ def load_graph(connections_json: Union[str, Path], title: str) -> PaperGraph:
     data = load_json(connections_json)
 
     if data:
-        g = PaperGraph(data, title=title)
+        g = PaperGraph(cast(list, data), title=title)
     else:
         raise ValueError(f"No data in json file: {connections_json}!")
 
     return g
 
 
-def visualize(nodes: list, edges: list, title: str, target: Union[str, Path]) -> None:
+def visualize(
+    nodes: list, edges: list, title: Optional[str], target: Union[str, Path]
+) -> None:
     """Generate interactive graphs
 
     :param nodes: nodes of the graph

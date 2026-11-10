@@ -37,6 +37,8 @@ repos:
           - pandas-stubs
           - pydantic
           - pytest
+          - types-requests
+          - types-networkx
         types:
           - python
         # use require_serial so that script

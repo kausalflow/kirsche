@@ -7,7 +7,7 @@ from loguru import logger
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
 
 
-def load_json(data_file: Union[str, Path]) -> dict:
+def load_json(data_file: Union[str, Path]) -> Union[dict, list]:
     """load dict/list of dict data from json file
 
     :param data_file: json file path
@@ -55,10 +55,11 @@ def load_batch_json(data_path: Union[str, Path]) -> Union[dict, list]:
         logger.debug(f"loading all data files from {data_path} folder")
         data_path_all_json = list(data_path.glob("*.json"))
         logger.debug(f"Found {len(data_path_all_json)} json files in {data_path}.")
-        data = []
+        records = []
         for data_file in data_path_all_json:
             logger.debug(f"loading data from {data_file}")
-            data.append(load_json(data_file))
+            records.append(load_json(data_file))
+        data: Union[dict, list] = records
     elif data_path.is_file():
         logger.debug(f"loading data from a single file {data_path}")
         data = load_json(data_path)
@@ -85,7 +86,9 @@ def save_json(data: Union[dict, list], data_file: Union[str, Path]) -> None:
         json.dump(data, f, indent=4)
 
 
-def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None, mode=None) -> None:
+def save_batch_json(
+    records: list, data_path: Union[str, Path], unique_key=None, mode=None
+) -> None:
     """save data to json file.
 
     There are two modes:
@@ -117,7 +120,7 @@ def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None,
         logger.debug(f"saving all data records to {data_path} folder")
         data_path_all_json = list(data_path.glob("*.json"))
         logger.debug(f"Found {len(data_path_all_json)} json files in {data_path}.")
-        data = []
+        data: list = []
         for record in records:
             # Construct path
             try:
@@ -137,9 +140,9 @@ def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None,
 
 def record_exists(
     id,
-    existing_records: list,
+    existing_records: Union[dict, list],
     keys: list = UNIQUE_ID_PRECEDENCE,
-    unique_id_prefix: list = UNIQUE_ID_PREFIX,
+    unique_id_prefix: dict = UNIQUE_ID_PREFIX,
 ) -> bool:
     """Whether the record already exists in the data file
 
