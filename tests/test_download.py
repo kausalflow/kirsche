@@ -1,5 +1,4 @@
-from kirsche.download import download_metadata
-from kirsche.download import list_dois
+from kirsche.download import download_metadata, list_dois
 
 
 def test_download_paper_id():

@@ -5,6 +5,7 @@ from typing import Optional, Union
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
+
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE, UNIQUE_ID_PREFIX
 
 

@@ -5,8 +5,8 @@ from typing import Optional, Union
 import click
 from loguru import logger
 
-from kirsche.utils.io import load_json, save_json, save_batch_json
 from kirsche.utils.constants import UNIQUE_ID_PRECEDENCE
+from kirsche.utils.io import load_json, save_batch_json, save_json
 
 
 def append_connections(

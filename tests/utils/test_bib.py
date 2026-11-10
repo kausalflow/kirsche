@@ -1,7 +1,6 @@
 from loguru import logger
-from kirsche.utils.bib import load_bib
-from kirsche.utils.bib import get_dois_from_bib_re
-from kirsche.utils.bib import get_unique_ids_from_bib
+
+from kirsche.utils.bib import get_dois_from_bib_re, get_unique_ids_from_bib, load_bib
 
 
 def test_load_bib():

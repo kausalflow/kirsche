@@ -1,7 +1,8 @@
-from loguru import logger
 from json import load
-from kirsche.dataset import Dataset
-from kirsche.dataset import DataViews
+
+from loguru import logger
+
+from kirsche.dataset import Dataset, DataViews
 from kirsche.utils.io import load_json
 
 

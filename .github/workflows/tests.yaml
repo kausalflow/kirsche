@@ -28,7 +28,7 @@ jobs:
       - name: Setup Poetry
         uses: abatilo/actions-poetry@v3.0.0
         with:
-          poetry-version: 1.8.3
+          poetry-version: 2.1.3
       - name: Install Packages
         run: poetry install --with docs,dev
       - name: Build coverage file

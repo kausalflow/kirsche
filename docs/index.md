@@ -4,7 +4,9 @@ Kirsche, connecting the papers.
 
 > Kirsche is cherry in German.
 
-Kirsche looks into the citations of the list of paper provided and establishes connections between each other. Kirsche can be used as a command line tool or in your python script.
+Kirsche is the command line for [Lightkone](https://lightkone.lab.kausalflow.com), the web reference manager. It works on the same library as the web app (your R2/S3 bucket, GitHub repository or a folder) and installs two names for the same command, `kirsche` and `lightkone`. See [Lightkone from the command line](tutorials/lightkone-cli.md).
+
+Kirsche also still looks into the citations of a list of papers, from a .bib file or DOIs, and connects them, with no library at all: see the [standalone commands](tutorials/index.md).
 
 ## Demo
 
@@ -18,20 +20,11 @@ Kirsche looks into the citations of the list of paper provided and establishes c
 pip install kirsche
 ```
 
-This will leave out many dependencies. To install kirsche together with all the requirements,
-
-```
-pip install "kirsche[all]"
-```
-
-The extras options:
-
-- `all`: everything
-- `docs`: required to build the docs
+To read encrypted Lightkone settings backups, `pip install "kirsche[crypto]"`.
 
 ## The Idea
 
-The Kirsche command line tool provides a few functionalities:
+The standalone commands provide a few functionalities:
 
 1. Download the metadata of the given papers. Papers can be given as a list of doi or a bib file.
 2. Calculate connections between the given papers.

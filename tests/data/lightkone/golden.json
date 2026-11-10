@@ -1,0 +1,753 @@
+{
+ "bib": "\n@string{prl = \"Physical Review Letters\"}\n@article{Abbott2016-ob,\n  title = {Observation of Gravitational Waves from a Binary Black Hole Merger},\n  author = {{LIGO Scientific Collaboration} and Abbott, B. P. and Kip S. Thorne},\n  journal = prl, year = 2016, month = feb, volume = {116},\n  doi = {https://doi.org/10.1103/PhysRevLett.116.061102},\n  keywords = {gravitational waves; LIGO, doi:10.1103/x},\n  file = {All Papers/ABBOTT/Abbott et al. 2016 - Observation.pdf}\n}\n@inproceedings{Erd\\H{o}s1959,\n  title = \"On Random {G}raphs \\& the 100\\% rule\",\n  author = {Erd{\\H o}s, Paul and R\\'{e}nyi, Alfr\\'ed},\n  booktitle = {Proc. {Hung}. Acad.} # \" Sci.\",\n  year = {1959}, note = {classic}\n}\n@misc{hu2021lora,\n  title={{LoRA}: Low-Rank Adaptation of Large Language Models},\n  author={Edward J. Hu and Yelong Shen and Phillip Wallis},\n  year={2021}, eprint={2106.09685v2}, archivePrefix={arXiv}, primaryClass={cs.CL},\n  file = {All Papers/ML/Transformers/Hu et al. 2021 - LoRA.pdf}\n}\n@article{bad, title = {Broken {entry}, author = }\n@book{Weinberg1995,\n  title = {The Quantum Theory of Fields},\n  editor = {Weinberg, Steven},\n  publisher = {Cambridge University Press},\n  journal = {},\n  year = {c1995},\n  url = {https://arxiv.org/abs/hep-th/9702027v1}\n}\n@comment{ignored}\n@article{noauthor, title={Ünïcode tïtle — with dash}, year={2020}}\n",
+ "drafts": [
+  {
+   "key": "Abbott2016-ob",
+   "type": "article",
+   "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+   "authors": [
+    "LIGO Scientific Collaboration",
+    "Abbott, B. P.",
+    "Thorne, Kip S."
+   ],
+   "year": 2016,
+   "venue": "Physical Review Letters",
+   "doi": "10.1103/PhysRevLett.116.061102",
+   "tags": [
+    "gravitational waves",
+    "LIGO"
+   ],
+   "file": "All Papers/ABBOTT/Abbott et al. 2016 - Observation.pdf",
+   "fields": {
+    "month": "February",
+    "volume": "116"
+   }
+  },
+  {
+   "key": "Erd\\H{o}s1959",
+   "type": "inproceedings",
+   "title": "On Random Graphs & the 100% rule",
+   "authors": [
+    "Erdős, Paul",
+    "Rényi, Alfréd"
+   ],
+   "year": 1959,
+   "venue": "Proc. Hung. Acad. Sci.",
+   "tags": [],
+   "notes": "classic",
+   "fields": {}
+  },
+  {
+   "key": "hu2021lora",
+   "type": "misc",
+   "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+   "authors": [
+    "Hu, Edward J.",
+    "Shen, Yelong",
+    "Wallis, Phillip"
+   ],
+   "year": 2021,
+   "arxiv": "2106.09685",
+   "tags": [],
+   "file": "All Papers/ML/Transformers/Hu et al. 2021 - LoRA.pdf",
+   "fields": {}
+  },
+  {
+   "key": "bad",
+   "type": "article",
+   "title": "Broken entry, author =",
+   "authors": [],
+   "tags": [],
+   "fields": {}
+  }
+ ],
+ "keys": [
+  "LIGOScientificCollaboration2016-og",
+  "Erdos1959-rg",
+  "Hu2021-ll",
+  "Anon-be"
+ ],
+ "extra": [
+  {
+   "title": "A study of things",
+   "authors": [
+    "Müller, Jörg"
+   ],
+   "year": 2001
+  },
+  {
+   "title": "A study of things",
+   "authors": [
+    "Müller, Jörg"
+   ],
+   "year": 2001
+  },
+  {
+   "title": "x",
+   "authors": []
+  },
+  {
+   "title": "Dark matter halos and their sub structure",
+   "authors": [
+    "Navarro, J"
+   ],
+   "year": 1996
+  }
+ ],
+ "extraKeys": [
+  "Muller2001-st",
+  "Muller2001-st2",
+  "Anon-xx",
+  "Navarro1996-dm"
+ ],
+ "papers": [
+  {
+   "type": "article",
+   "authors": [
+    "LIGO Scientific Collaboration",
+    "Abbott, B. P.",
+    "Thorne, Kip S."
+   ],
+   "fields": {
+    "month": "February",
+    "volume": "116"
+   },
+   "key": "LIGOScientificCollaboration2016-og",
+   "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+   "year": 2016,
+   "venue": "Physical Review Letters",
+   "doi": "10.1103/PhysRevLett.116.061102",
+   "tags": [
+    "gravitational waves",
+    "LIGO"
+   ],
+   "file": "All Papers/ABBOTT/Abbott et al. 2016 - Observation.pdf",
+   "folders": [],
+   "id": "id0",
+   "added": "2026-01-01T00:00:00.000Z",
+   "starred": true
+  },
+  {
+   "type": "inproceedings",
+   "authors": [
+    "Erdős, Paul",
+    "Rényi, Alfréd"
+   ],
+   "fields": {},
+   "key": "Erdos1959-rg",
+   "title": "On Random Graphs & the 100% rule",
+   "year": 1959,
+   "venue": "Proc. Hung. Acad. Sci.",
+   "tags": [],
+   "notes": "classic",
+   "folders": [],
+   "id": "id1",
+   "added": "2026-01-02T00:00:00.000Z",
+   "trashed": "2026-02-01T00:00:00.000Z"
+  },
+  {
+   "type": "misc",
+   "authors": [
+    "Hu, Edward J.",
+    "Shen, Yelong",
+    "Wallis, Phillip"
+   ],
+   "fields": {},
+   "key": "Hu2021-ll",
+   "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+   "year": 2021,
+   "arxiv": "2106.09685",
+   "tags": [],
+   "file": "All Papers/ML/Transformers/Hu et al. 2021 - LoRA.pdf",
+   "folders": [
+    "ML/Transformers"
+   ],
+   "id": "id2",
+   "added": "2026-01-03T00:00:00.000Z",
+   "opened": "2026-03-01T00:00:00.000Z",
+   "pdf": "papers/x.pdf"
+  },
+  {
+   "type": "article",
+   "authors": [],
+   "fields": {},
+   "key": "Anon-be",
+   "title": "Broken entry, author =",
+   "tags": [],
+   "notes": "Read chapter 2",
+   "folders": [],
+   "id": "id3",
+   "added": "2026-01-04T00:00:00.000Z"
+  }
+ ],
+ "libraryBib": "@article{LIGOScientificCollaboration2016-og,\n  title    = {{Observation of Gravitational Waves from a Binary Black Hole Merger}},\n  author   = {{LIGO Scientific Collaboration} and Abbott, B. P. and Thorne, Kip S.},\n  year     = {2016},\n  journal  = {Physical Review Letters},\n  doi      = {10.1103/PhysRevLett.116.061102},\n  keywords = {gravitational waves;LIGO},\n  file     = {All Papers/ABBOTT/Abbott et al. 2016 - Observation.pdf},\n  month    = {February},\n  volume   = {116}\n}\n\n@inproceedings{Erdos1959-rg,\n  title     = {{On Random Graphs \\& the 100\\% rule}},\n  author    = {Erdős, Paul and Rényi, Alfréd},\n  year      = {1959},\n  booktitle = {Proc. Hung. Acad. Sci.}\n}\n\n@misc{Hu2021-ll,\n  title         = {{LoRA: Low-Rank Adaptation of Large Language Models}},\n  author        = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip},\n  year          = {2021},\n  eprint        = {2106.09685},\n  archiveprefix = {arXiv},\n  file          = {All Papers/ML/Transformers/Hu et al. 2021 - LoRA.pdf}\n}\n\n@article{Anon-be,\n  title = {{Broken entry, author =}}\n}\n",
+ "searches": {
+  "|added": [
+   "Anon-be",
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "|year": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og",
+   "Anon-be"
+  ],
+  "|title": [
+   "Anon-be",
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "gravitational|added": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "gravitational|year": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "gravitational|title": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "author:erdos|added": [],
+  "author:erdos|year": [],
+  "author:erdos|title": [],
+  "author:\"renyi\"|added": [],
+  "author:\"renyi\"|year": [],
+  "author:\"renyi\"|title": [],
+  "is:trash|added": [
+   "Erdos1959-rg"
+  ],
+  "is:trash|year": [
+   "Erdos1959-rg"
+  ],
+  "is:trash|title": [
+   "Erdos1959-rg"
+  ],
+  "is:starred|added": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "is:starred|year": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "is:starred|title": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "is:recent|added": [
+   "Hu2021-ll"
+  ],
+  "is:recent|year": [
+   "Hu2021-ll"
+  ],
+  "is:recent|title": [
+   "Hu2021-ll"
+  ],
+  "has:pdf|added": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "has:pdf|year": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "has:pdf|title": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "no:pdf|added": [
+   "Anon-be",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "no:pdf|year": [
+   "LIGOScientificCollaboration2016-og",
+   "Anon-be"
+  ],
+  "no:pdf|title": [
+   "Anon-be",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:2016|added": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:2016|year": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:2016|title": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:1990-2021|added": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:1990-2021|year": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "year:1990-2021|title": [
+   "Hu2021-ll",
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:ligo|added": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:ligo|year": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:ligo|title": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:\"gravitational waves\"|added": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:\"gravitational waves\"|year": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "tag:\"gravitational waves\"|title": [
+   "LIGOScientificCollaboration2016-og"
+  ],
+  "in:ML|added": [
+   "Hu2021-ll"
+  ],
+  "in:ML|year": [
+   "Hu2021-ll"
+  ],
+  "in:ML|title": [
+   "Hu2021-ll"
+  ],
+  "in:\"ML/Transformers\"|added": [
+   "Hu2021-ll"
+  ],
+  "in:\"ML/Transformers\"|year": [
+   "Hu2021-ll"
+  ],
+  "in:\"ML/Transformers\"|title": [
+   "Hu2021-ll"
+  ],
+  "lora low rank|added": [
+   "Hu2021-ll"
+  ],
+  "lora low rank|year": [
+   "Hu2021-ll"
+  ],
+  "lora low rank|title": [
+   "Hu2021-ll"
+  ],
+  "has:notes|added": [
+   "Anon-be"
+  ],
+  "has:notes|year": [
+   "Anon-be"
+  ],
+  "has:notes|title": [
+   "Anon-be"
+  ],
+  "quantum fields|added": [],
+  "quantum fields|year": [],
+  "quantum fields|title": [],
+  "unicode|added": [],
+  "unicode|year": [],
+  "unicode|title": [],
+  "no:abstract has:arxiv|added": [
+   "Hu2021-ll"
+  ],
+  "no:abstract has:arxiv|year": [
+   "Hu2021-ll"
+  ],
+  "no:abstract has:arxiv|title": [
+   "Hu2021-ll"
+  ]
+ },
+ "libraryJson": "{\n \"format\": \"lightkone-library\",\n \"version\": 1,\n \"papers\": [\n  {\n   \"type\": \"article\",\n   \"authors\": [\n    \"LIGO Scientific Collaboration\",\n    \"Abbott, B. P.\",\n    \"Thorne, Kip S.\"\n   ],\n   \"fields\": {\n    \"month\": \"February\",\n    \"volume\": \"116\"\n   },\n   \"key\": \"LIGOScientificCollaboration2016-og\",\n   \"title\": \"Observation of Gravitational Waves from a Binary Black Hole Merger\",\n   \"year\": 2016,\n   \"venue\": \"Physical Review Letters\",\n   \"doi\": \"10.1103/PhysRevLett.116.061102\",\n   \"tags\": [\n    \"gravitational waves\",\n    \"LIGO\"\n   ],\n   \"file\": \"All Papers/ABBOTT/Abbott et al. 2016 - Observation.pdf\",\n   \"folders\": [],\n   \"id\": \"id0\",\n   \"added\": \"2026-01-01T00:00:00.000Z\",\n   \"starred\": true\n  },\n  {\n   \"type\": \"inproceedings\",\n   \"authors\": [\n    \"Erdős, Paul\",\n    \"Rényi, Alfréd\"\n   ],\n   \"fields\": {},\n   \"key\": \"Erdos1959-rg\",\n   \"title\": \"On Random Graphs & the 100% rule\",\n   \"year\": 1959,\n   \"venue\": \"Proc. Hung. Acad. Sci.\",\n   \"tags\": [],\n   \"notes\": \"classic\",\n   \"folders\": [],\n   \"id\": \"id1\",\n   \"added\": \"2026-01-02T00:00:00.000Z\",\n   \"trashed\": \"2026-02-01T00:00:00.000Z\"\n  },\n  {\n   \"type\": \"misc\",\n   \"authors\": [\n    \"Hu, Edward J.\",\n    \"Shen, Yelong\",\n    \"Wallis, Phillip\"\n   ],\n   \"fields\": {},\n   \"key\": \"Hu2021-ll\",\n   \"title\": \"LoRA: Low-Rank Adaptation of Large Language Models\",\n   \"year\": 2021,\n   \"arxiv\": \"2106.09685\",\n   \"tags\": [],\n   \"file\": \"All Papers/ML/Transformers/Hu et al. 2021 - LoRA.pdf\",\n   \"folders\": [\n    \"ML/Transformers\"\n   ],\n   \"id\": \"id2\",\n   \"added\": \"2026-01-03T00:00:00.000Z\",\n   \"opened\": \"2026-03-01T00:00:00.000Z\",\n   \"pdf\": \"papers/x.pdf\"\n  },\n  {\n   \"type\": \"article\",\n   \"authors\": [],\n   \"fields\": {},\n   \"key\": \"Anon-be\",\n   \"title\": \"Broken entry, author =\",\n   \"tags\": [],\n   \"notes\": \"Read chapter 2\",\n   \"folders\": [],\n   \"id\": \"id3\",\n   \"added\": \"2026-01-04T00:00:00.000Z\"\n  }\n ]\n}",
+ "merge": {
+  "base": {
+   "format": "lightkone-library",
+   "version": 1,
+   "papers": [
+    {
+     "id": "a",
+     "key": "A",
+     "title": "A",
+     "tags": [
+      "x",
+      "y"
+     ],
+     "folders": [],
+     "added": "t"
+    },
+    {
+     "id": "b",
+     "key": "B",
+     "title": "B",
+     "tags": [],
+     "added": "t"
+    },
+    {
+     "id": "c",
+     "key": "C",
+     "title": "C",
+     "tags": [],
+     "added": "t",
+     "notes": "n"
+    },
+    {
+     "id": "d",
+     "key": "D",
+     "title": "D",
+     "tags": [],
+     "added": "t"
+    }
+   ]
+  },
+  "ours": {
+   "format": "lightkone-library",
+   "version": 1,
+   "papers": [
+    {
+     "id": "a",
+     "key": "A",
+     "title": "A ours",
+     "tags": [
+      "x",
+      "z"
+     ],
+     "folders": [
+      "F"
+     ],
+     "added": "t"
+    },
+    {
+     "id": "c",
+     "key": "C",
+     "title": "C",
+     "tags": [],
+     "added": "t",
+     "notes": "n"
+    },
+    {
+     "id": "d",
+     "key": "D",
+     "title": "D",
+     "tags": [],
+     "added": "t",
+     "starred": true
+    },
+    {
+     "id": "e",
+     "key": "E",
+     "title": "E new here",
+     "tags": [],
+     "added": "t"
+    }
+   ]
+  },
+  "theirs": {
+   "format": "lightkone-library",
+   "version": 1,
+   "bibSync": [
+    {
+     "folder": "",
+     "repo": "o/r",
+     "path": "x.bib"
+    }
+   ],
+   "papers": [
+    {
+     "id": "f",
+     "key": "F",
+     "title": "F new there",
+     "tags": [],
+     "added": "t"
+    },
+    {
+     "id": "a",
+     "key": "A",
+     "title": "A",
+     "tags": [
+      "y",
+      "w"
+     ],
+     "folders": [],
+     "added": "t",
+     "year": 2000
+    },
+    {
+     "id": "b",
+     "key": "B",
+     "title": "B changed",
+     "tags": [],
+     "added": "t"
+    },
+    {
+     "id": "c",
+     "key": "C",
+     "title": "C",
+     "tags": [],
+     "added": "t",
+     "notes": "n2"
+    }
+   ]
+  },
+  "merged": {
+   "file": {
+    "format": "lightkone-library",
+    "version": 1,
+    "papers": [
+     {
+      "id": "f",
+      "key": "F",
+      "title": "F new there",
+      "tags": [],
+      "added": "t"
+     },
+     {
+      "id": "a",
+      "key": "A",
+      "title": "A ours",
+      "tags": [
+       "z",
+       "w"
+      ],
+      "folders": [
+       "F"
+      ],
+      "added": "t",
+      "year": 2000
+     },
+     {
+      "id": "b",
+      "key": "B",
+      "title": "B changed",
+      "tags": [],
+      "added": "t"
+     },
+     {
+      "id": "c",
+      "key": "C",
+      "title": "C",
+      "tags": [],
+      "added": "t",
+      "notes": "n2"
+     },
+     {
+      "id": "d",
+      "key": "D",
+      "title": "D",
+      "tags": [],
+      "added": "t",
+      "starred": true
+     },
+     {
+      "id": "e",
+      "key": "E",
+      "title": "E new here",
+      "tags": [],
+      "added": "t"
+     }
+    ],
+    "bibSync": [
+     {
+      "folder": "",
+      "repo": "o/r",
+      "path": "x.bib"
+     }
+    ]
+   },
+   "fromThem": 4
+  }
+ },
+ "store": {
+  "format": "lightkone-citations",
+  "version": 1,
+  "works": {
+   "id0": {
+    "oa": "W0",
+    "year": 2016,
+    "cited": 5000,
+    "refs": [
+     "W2",
+     "W9",
+     "W8"
+    ],
+    "at": "t"
+   },
+   "id2": {
+    "oa": "W2",
+    "year": 2021,
+    "cited": 300,
+    "refs": [
+     "W9",
+     "W8",
+     "W4"
+    ],
+    "at": "t"
+   },
+   "id3": {
+    "oa": "W4",
+    "cited": 10,
+    "refs": [
+     "W9",
+     "W0",
+     "W0"
+    ],
+    "at": "t"
+   },
+   "id5": {
+    "oa": null,
+    "refs": [],
+    "at": "t"
+   }
+  }
+ },
+ "graph": {
+  "edges": [
+   [
+    "id0",
+    "id2"
+   ],
+   [
+    "id2",
+    "id3"
+   ],
+   [
+    "id3",
+    "id0"
+   ]
+  ],
+  "missing": [
+   {
+    "oa": "W9",
+    "by": [
+     "id0",
+     "id2",
+     "id3"
+    ]
+   },
+   {
+    "oa": "W8",
+    "by": [
+     "id0",
+     "id2"
+    ]
+   }
+  ],
+  "known": 3,
+  "nodes": [
+   {
+    "id": "id0",
+    "year": 2016,
+    "cited": 5000,
+    "cites": [
+     "id2"
+    ],
+    "citedBy": [
+     "id3"
+    ]
+   },
+   {
+    "id": "id2",
+    "year": 2021,
+    "cited": 300,
+    "cites": [
+     "id3"
+    ],
+    "citedBy": [
+     "id0"
+    ]
+   },
+   {
+    "id": "id3",
+    "year": 0,
+    "cited": 10,
+    "cites": [
+     "id0"
+    ],
+    "citedBy": [
+     "id2"
+    ]
+   }
+  ]
+ },
+ "filing": [
+  "All Papers/LIGO SCIENTIFIC COLLABORATION/LIGO Scientific Collaboration et al. 2016 - Observation of Gravitational Waves from a Binary Black Hole Merger.pdf",
+  "All Papers/ERDŐS/Erdős and Rényi 1959 - On Random Graphs & the 100% rule.pdf",
+  "All Papers/HU/Hu et al. 2021 - LoRA - Low-Rank Adaptation of Large Language Models.pdf",
+  "All Papers/Other/Broken entry, author = - Broken entry, author =.pdf",
+  "All Papers/Other/Untitled - a note - on things - Untitled - a note - on things.pdf",
+  "All Papers/O'NEIL/O'Neil and Doe 2016 - Weapons.pdf",
+  "All Papers/SMITH/Smith 2000 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ... xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.pdf"
+ ],
+ "folderCases": [
+  [
+   "All Papers/HINTON/Hinton 2012.pdf",
+   [
+    "Hinton, G"
+   ]
+  ],
+  [
+   "All Papers/MLDS/Physics/a.pdf; All Papers/Other/b.pdf",
+   []
+  ],
+  [
+   "All Papers/ML/a.pdf",
+   [
+    "Smith, J"
+   ]
+  ],
+  [
+   "All Papers/SMITH/a.pdf",
+   []
+  ]
+ ],
+ "folders": [
+  [],
+  [
+   "MLDS/Physics"
+  ],
+  [
+   "ML"
+  ],
+  []
+ ],
+ "plains": [
+  [
+   "{\\\"a}bc",
+   "äbc"
+  ],
+  [
+   "\\'{e}t\\'e",
+   "été"
+  ],
+  [
+   "Erd{\\H o}s",
+   "Erdős"
+  ],
+  [
+   "{\\ss}e \\o{}",
+   "ße ø"
+  ],
+  [
+   "\\emph{x} 50\\% \\& more",
+   "x 50% & more"
+  ],
+  [
+   "a~b  {C}",
+   "a b C"
+  ],
+  [
+   "na\\\"{\\i}ve",
+   "naïve"
+  ],
+  [
+   "\\c{c}a",
+   "ça"
+  ]
+ ],
+ "authors": [
+  [
+   "Hu, E and {Big Org} and others and John von Neumann",
+   [
+    "Hu, E",
+    "Big Org",
+    "others",
+    "Neumann, John von"
+   ]
+  ]
+ ]
+}

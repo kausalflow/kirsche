@@ -1,7 +1,7 @@
 # mkdocs.yml
 site_name: "Kirsche"
 site_author: L Ma
-site_description: "Kirsche, connecting your papers"
+site_description: "Kirsche, the command line for Lightkone"
 site_url: "https://kausalflow.github.io/kirsche"
 repo_url: "https://github.com/kausalflow/kirsche"
 edit_uri: "blob/main/docs/"
@@ -71,7 +71,8 @@ plugins:
 nav:
   - "Home": index.md
   - "Tutorials":
-    - "Tutorials": tutorials/index.md
+    - "Lightkone CLI": tutorials/lightkone-cli.md
+    - "Standalone commands": tutorials/index.md
     - "Use in Python Code": tutorials/use-in-code.md
     - "GitHub Actions": tutorials/github-actions.md
   - References:
