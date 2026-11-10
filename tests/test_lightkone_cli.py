@@ -376,3 +376,56 @@ def test_open_in_web_app(lib_dir, tmp_path):
     )
     r = run("web", "--print", "--url", "https://staging.lightkone.pages.dev/app/?x=1#y")
     assert r.output.strip() == "https://staging.lightkone.pages.dev/app/"
+
+
+def _demo_graph(lib_dir, tmp_path):
+    run("--dir", str(lib_dir), "import", str(tmp_path / "refs.bib"))
+    lib = Library(FolderStorage(lib_dir)).load()
+    a, h = lib.get("Abbott2016-ob"), lib.get("hu2021lora")
+    store = {
+        "format": "lightkone-citations",
+        "version": 1,
+        "works": {
+            a["id"]: {
+                "oa": "W1",
+                "year": 2016,
+                "cited": 9000,
+                "refs": ["W7"],
+                "at": "2026-01-01T00:00:00.000Z",
+            },
+            h["id"]: {
+                "oa": "W2",
+                "year": 2021,
+                "cited": 500,
+                "refs": ["W1", "W7"],
+                "at": "2026-01-01T00:00:00.000Z",
+            },
+        },
+    }
+    (lib_dir / "lightkone" / "citations.json").write_text(json.dumps(store))
+    return lib, a, h
+
+
+def test_raw_data_api(lib_dir, tmp_path):
+    lib, a, h = _demo_graph(lib_dir, tmp_path)
+    assert lib.citations()["works"][a["id"]]["oa"] == "W1"
+    g = lib.citation_graph()
+    nodes, edges = g.to_dataframes()
+    assert set(nodes["key"]) == {"Abbott2016-ob", "hu2021lora"}
+    assert edges.to_dict("records") == [{"source": h["id"], "target": a["id"]}]
+    assert g.missing == [("W7", [a["id"], h["id"]])]
+    nxg = g.to_networkx()
+    assert (
+        list(nxg.edges) == [(h["id"], a["id"])] and nxg.nodes[a["id"]]["cited"] == 9000
+    )
+    only = lib.citation_graph("author:hu")
+    assert list(only.nodes) == [h["id"]] and only.edges == []
+    assert set(lib.to_dataframe()["key"]) == {"Abbott2016-ob", "hu2021lora"}
+
+
+def test_map_exports(lib_dir, tmp_path):
+    _demo_graph(lib_dir, tmp_path)
+    for name in ("m.graphml", "m.gexf", "m.csv"):
+        run("--dir", str(lib_dir), "map", "--no-fetch", "-o", str(tmp_path / name))
+        assert (tmp_path / name).stat().st_size > 0
+    assert (tmp_path / "m-edges.csv").read_text().splitlines()[0] == "source,target"

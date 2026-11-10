@@ -1048,7 +1048,7 @@ def map_(
             "--output",
             "-o",
             dir_okay=False,
-            help="An .html page to open in a browser, or .json for other tools.",
+            help="An .html page to open in a browser; .json, .graphml or .gexf (Gephi, networkx), or .csv (plus -edges.csv) for other tools.",
         ),
     ] = Path("citation-map.html"),
     linked_only: Annotated[
@@ -1076,10 +1076,26 @@ def map_(
         ids = [i for i in ids if g.nodes[i].cites or g.nodes[i].cited_by]
     keep = set(ids)
     links = sum(1 for a, b in g.edges if a in keep and b in keep)
-    if output.suffix.lower() == ".json":
+    suffix = output.suffix.lower()
+    if suffix == ".json":
         output.write_text(
             json.dumps(graph_json(g, ids), indent=1, ensure_ascii=False) + "\n", "utf-8"
         )
+    elif suffix in (".graphml", ".gexf"):
+        try:
+            import networkx as nx
+        except ImportError:
+            fail("GraphML and GEXF need networkx: pip install 'kirsche[graph]'.")
+        nxg = g.subgraph(ids).to_networkx()
+        (nx.write_graphml if suffix == ".graphml" else nx.write_gexf)(nxg, str(output))
+    elif suffix == ".csv":
+        nodes, edges = g.subgraph(ids).to_dataframes()
+        for col in ("authors", "folders", "tags"):
+            nodes[col] = nodes[col].map("; ".join)
+        nodes.to_csv(output, index=False)
+        edge_file = output.with_name(output.stem + "-edges.csv")
+        edges.to_csv(edge_file, index=False)
+        typer.echo(f"Links in {edge_file}.", err=True)
     else:
         output.write_text(
             graph_html(g, ids, f"Citation map: {q}" if q else "Citation map"), "utf-8"

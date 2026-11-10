@@ -158,6 +158,75 @@ class Graph:
     #: Papers that have references from OpenAlex.
     known: int
 
+    # --- raw data, to analyse or draw however you like ---
+
+    def subgraph(self, ids) -> "Graph":
+        """Only these papers (by id) and the links among them."""
+        keep = set(ids)
+        nodes = {}
+        for i in keep & set(self.nodes):
+            n = self.nodes[i]
+            nodes[i] = Node(
+                n.paper,
+                n.year,
+                n.cited,
+                [c for c in n.cites if c in keep],
+                [c for c in n.cited_by if c in keep],
+            )
+        edges = [(a, b) for a, b in self.edges if a in keep and b in keep]
+        missing = [(oa, [x for x in by if x in keep]) for oa, by in self.missing]
+        return Graph(
+            nodes,
+            edges,
+            [(oa, by) for oa, by in missing if by],
+            sum(1 for i in nodes if i in keep),
+        )
+
+    def to_json(self) -> dict:
+        """Nodes and edges as plain data (the format ``kirsche map -o x.json`` writes)."""
+        return graph_json(self)
+
+    def to_dataframes(self):
+        """(nodes, edges) as pandas DataFrames; edges have ``source`` (citing) and ``target`` (cited) paper ids."""
+        import pandas as pd
+
+        data = self.to_json()
+        nodes = pd.DataFrame(
+            data["nodes"],
+            columns=[
+                "id",
+                "key",
+                "title",
+                "authors",
+                "year",
+                "cited",
+                "doi",
+                "arxiv",
+                "folders",
+                "tags",
+            ],
+        )
+        edges = pd.DataFrame(data["edges"], columns=["source", "target"])
+        nodes["cites"] = nodes["id"].map(lambda i: len(self.nodes[i].cites))
+        nodes["cited_by"] = nodes["id"].map(lambda i: len(self.nodes[i].cited_by))
+        return nodes, edges
+
+    def to_networkx(self):
+        """A networkx DiGraph: an edge points from the citing paper to the cited one. Needs networkx."""
+        import networkx as nx
+
+        g = nx.DiGraph()
+        for n in self.to_json()["nodes"]:
+            attrs = {k: v for k, v in n.items() if k != "id"}
+            # GraphML and GEXF take plain values only.
+            for k in ("authors", "folders", "tags"):
+                attrs[k] = "; ".join(attrs.get(k) or [])
+            g.add_node(
+                n["id"], **{k: ("" if v is None else v) for k, v in attrs.items()}
+            )
+        g.add_edges_from(self.edges)
+        return g
+
 
 def build_graph(papers: list, store: dict, min_missing: int = 2) -> Graph:
     live = [p for p in papers if not p.get("trashed")]

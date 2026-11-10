@@ -26,7 +26,7 @@ kirsche open Hinton2012-in -p 3     # read it in the web app, at page 3
 | **Papers** | `ls` (the app's search syntax: `tag:`, `author:`, `year:2015-2020`, `in:Folder`, `is:starred`, `has:pdf` ...), `show`, `add` (DOI / arXiv), `import` (BibTeX), `tag`, `folder`, `note`, `star`, `trash`, `tags`, `folders` |
 | **Files** | `export` (BibTeX, JSON, CSV), `pdf` (download), `attach` (upload, filed like Paperpile), `text` (full text), `highlights` (also as Markdown) |
 | **In the browser** | `web` opens Lightkone; `open KEY [--page N]` opens a paper in its reader |
-| **Citation map** | `map` (HTML page or JSON), `missing` (works your papers keep citing that the library lacks, `--add` to add them) |
+| **Citation map** | `map` (HTML page, or JSON / GraphML / GEXF / CSV), `missing` (works your papers keep citing that the library lacks, `--add` to add them) |
 
 Every change is merged with what the web app, Claude (through Lightkone's MCP
 server) or another run saved in the meantime, field by field, the same way the
@@ -49,7 +49,13 @@ for p in lib.search("tag:lensing year:2015-2020"):
 df = lib.to_dataframe()            # needs pandas
 lib.get("Hinton2012-in")["tags"].append("classics")
 lib.save()                         # merged with changes made elsewhere
+
+g = lib.citation_graph("in:Thesis", fetch=True)
+nodes, edges = g.to_dataframes()   # or g.to_networkx(), g.to_json(), lib.citations() for the raw file
 ```
+
+The raw data stays yours to draw however you like: `kirsche map -o map.graphml`
+(also `.gexf`, `.json`, `.csv`) for Gephi, networkx or your own plots.
 
 ## Standalone commands
 

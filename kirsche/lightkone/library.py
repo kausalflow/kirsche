@@ -403,6 +403,42 @@ class Library:
 
     # --- for notebooks ---
 
+    def citations(self) -> dict:
+        """The raw ``lightkone/citations.json``: per paper id, its OpenAlex id, year, citation count and references."""
+        from kirsche.lightkone.citations import load_citations
+
+        return load_citations(self)
+
+    def citation_graph(
+        self,
+        query: str = "",
+        fetch: bool = False,
+        openalex_key: Optional[str] = None,
+        min_missing: int = 2,
+    ):
+        """The citation map as a ``Graph`` (see ``to_dataframes``, ``to_networkx``, ``to_json``).
+
+        With ``fetch=True`` references not yet known are fetched from OpenAlex
+        first and kept in the library, as ``kirsche map`` does.
+        """
+        from kirsche.lightkone.citations import (
+            OpenAlex,
+            build_graph,
+            fetch_citations,
+            load_citations,
+            needs_fetch,
+            save_citations,
+        )
+
+        store = load_citations(self)
+        if fetch and needs_fetch(self.papers, store):
+            try:
+                fetch_citations(self.papers, store, OpenAlex(openalex_key))
+            finally:
+                save_citations(self, store)
+        g = build_graph(self.papers, store, min_missing)
+        return g.subgraph(p["id"] for p in self.search(query)) if query else g
+
     def to_dataframe(
         self, papers: Optional[list[Paper]] = None, columns: Optional[list[str]] = None
     ):

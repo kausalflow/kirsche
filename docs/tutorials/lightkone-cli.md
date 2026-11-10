@@ -122,3 +122,28 @@ df = lib.to_dataframe(recent, columns=["key", "title", "year", "tags"])
 
 Papers are plain dicts in the shape of Lightkone's `Paper` record, so fields
 this version does not know survive a save.
+
+## Raw data, drawn your way
+
+The built-in page is only one way to look at the map. Everything behind it is
+yours to load and plot however you like:
+
+```python
+lib = Library(FolderStorage("~/papers")).load()
+
+lib.papers                          # every record, as dicts
+lib.to_dataframe()                  # papers as a pandas DataFrame
+lib.citations()                     # raw lightkone/citations.json: OpenAlex id, year, cited count, references
+
+g = lib.citation_graph("in:Thesis", fetch=True)   # fetch=True looks up what's new on OpenAlex
+nodes, edges = g.to_dataframes()    # pandas: one row per paper, one per link (source cites target)
+G = g.to_networkx()                 # networkx DiGraph (pip install "kirsche[graph]")
+g.to_json()                         # plain nodes/edges
+g.missing                           # [(OpenAlex id, [ids of your papers citing it]), ...]
+```
+
+From the command line, `kirsche map` writes the same data as `.json`,
+`.graphml` or `.gexf` (Gephi, Cytoscape, networkx) or `.csv` (nodes, plus
+`-edges.csv`). `kirsche ls -o json` and `kirsche export -f csv` give the paper
+records. The standalone commands still save Semantic Scholar's full metadata
+as JSON (`kirsche metadata ... -t papers.json`).
