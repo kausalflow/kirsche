@@ -511,6 +511,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#raw-data-drawn-your-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raw data, drawn your way
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1244,6 +1253,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#raw-data-drawn-your-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raw data, drawn your way
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1350,6 +1368,26 @@ The JSON has <code>nodes</code> and <code>edges</code> for networkx, Gephi or D3
 </code></pre></div>
 <p>Papers are plain dicts in the shape of Lightkone's <code>Paper</code> record, so fields
 this version does not know survive a save.</p>
+<h2 id="raw-data-drawn-your-way">Raw data, drawn your way<a class="headerlink" href="#raw-data-drawn-your-way" title="Permanent link">¤</a></h2>
+<p>The built-in page is only one way to look at the map. Everything behind it is
+yours to load and plot however you like:</p>
+<div class="highlight"><pre><span></span><code><span class="n">lib</span> <span class="o">=</span> <span class="n">Library</span><span class="p">(</span><span class="n">FolderStorage</span><span class="p">(</span><span class="s2">&quot;~/papers&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">load</span><span class="p">()</span>
+
+<span class="n">lib</span><span class="o">.</span><span class="n">papers</span>                          <span class="c1"># every record, as dicts</span>
+<span class="n">lib</span><span class="o">.</span><span class="n">to_dataframe</span><span class="p">()</span>                  <span class="c1"># papers as a pandas DataFrame</span>
+<span class="n">lib</span><span class="o">.</span><span class="n">citations</span><span class="p">()</span>                     <span class="c1"># raw lightkone/citations.json: OpenAlex id, year, cited count, references</span>
+
+<span class="n">g</span> <span class="o">=</span> <span class="n">lib</span><span class="o">.</span><span class="n">citation_graph</span><span class="p">(</span><span class="s2">&quot;in:Thesis&quot;</span><span class="p">,</span> <span class="n">fetch</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>   <span class="c1"># fetch=True looks up what&#39;s new on OpenAlex</span>
+<span class="n">nodes</span><span class="p">,</span> <span class="n">edges</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">to_dataframes</span><span class="p">()</span>    <span class="c1"># pandas: one row per paper, one per link (source cites target)</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">to_networkx</span><span class="p">()</span>                 <span class="c1"># networkx DiGraph (pip install &quot;kirsche[graph]&quot;)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">to_json</span><span class="p">()</span>                         <span class="c1"># plain nodes/edges</span>
+<span class="n">g</span><span class="o">.</span><span class="n">missing</span>                           <span class="c1"># [(OpenAlex id, [ids of your papers citing it]), ...]</span>
+</code></pre></div>
+<p>From the command line, <code>kirsche map</code> writes the same data as <code>.json</code>,
+<code>.graphml</code> or <code>.gexf</code> (Gephi, Cytoscape, networkx) or <code>.csv</code> (nodes, plus
+<code>-edges.csv</code>). <code>kirsche ls -o json</code> and <code>kirsche export -f csv</code> give the paper
+records. The standalone commands still save Semantic Scholar's full metadata
+as JSON (<code>kirsche metadata ... -t papers.json</code>).</p>
 
 
 
