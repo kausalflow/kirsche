@@ -1,6 +1,5 @@
-from loguru import logger
-
 from kirsche.utils.semanticscholar import get_paper_info
+from loguru import logger
 
 
 def test_get_paper_info():

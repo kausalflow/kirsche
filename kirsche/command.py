@@ -45,14 +45,10 @@ def _metadata(
     """
 
     if target_metadata_path:
-        logger.debug(
-            f"Target metadata path: {target_metadata_path} exists. looking for existing metadata..."
-        )
+        logger.debug(f"Target metadata path: {target_metadata_path} exists. looking for existing metadata...")
         existing_metadata = load_batch_json(target_metadata_path)
         if existing_metadata:
-            logger.debug(
-                f"Found {len(existing_metadata)} records in {target_metadata_path}"
-            )
+            logger.debug(f"Found {len(existing_metadata)} records in {target_metadata_path}")
     else:
         existing_metadata = []
 
@@ -104,9 +100,7 @@ def kirsche(ctx):
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option(
-    "--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path"
-)
+@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
 @click.option(
     "--target_metadata_path",
     "-t",
@@ -156,18 +150,14 @@ def connections_from_metadata(source_metadata_path: Path, connected_papers_path:
     :param connected_papers_path: path to save enhanced data file
     """
 
-    connected_papers = append_connections_for_file(
-        source_metadata_path, connected_papers_path
-    )
+    connected_papers = append_connections_for_file(source_metadata_path, connected_papers_path)
 
     return connected_papers
 
 
 @kirsche.command()
 @click.option("--paper_id", "-p", help="Paper ID", multiple=True)
-@click.option(
-    "--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path"
-)
+@click.option("--source_bib_file", "-bib", type=click.Path(exists=True), help="Bib file path")
 @click.option(
     "--source_metadata_path",
     "-meta",
@@ -238,9 +228,7 @@ def connections(
 
     # Filter out unnecessary keys in the dictionary
     click.secho(f"Filtering and saving data...")
-    connected_papers = save_connected_papers(
-        connected_papers, target=connected_papers_path
-    )
+    connected_papers = save_connected_papers(connected_papers, target=connected_papers_path)
     click.secho(f"  Done...")
 
     if not connected_papers_path:
@@ -250,9 +238,7 @@ def connections(
 
 
 @kirsche.command()
-@click.option(
-    "--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True
-)
+@click.option("--source_paper_id", "-p", required=False, help="Source: Paper ID", multiple=True)
 @click.option(
     "--source_bib_file",
     "-bib",

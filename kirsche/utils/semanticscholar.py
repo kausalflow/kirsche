@@ -1,8 +1,7 @@
 import json
 
-from loguru import logger
-
 from kirsche.utils.web import get_page_content
+from loguru import logger
 
 
 def get_paper_info(paper_id: list, API_BASE=None) -> list:

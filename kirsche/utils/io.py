@@ -85,9 +85,7 @@ def save_json(data: Union[dict, list], data_file: Union[str, Path]) -> None:
         json.dump(data, f, indent=4)
 
 
-def save_batch_json(
-    records: list, data_path: Union[str, Path], unique_key=None, mode=None
-) -> None:
+def save_batch_json(records: list, data_path: Union[str, Path], unique_key=None, mode=None) -> None:
     """save data to json file.
 
     There are two modes:

@@ -7,8 +7,8 @@ import click
 from loguru import logger
 
 from kirsche.utils.bib import get_unique_ids_from_bib
-from kirsche.utils.io import save_batch_json
 from kirsche.utils.semanticscholar import get_paper_info
+from kirsche.utils.io import save_batch_json
 
 
 def list_dois(
