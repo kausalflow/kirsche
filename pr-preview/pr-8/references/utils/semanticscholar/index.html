@@ -1070,6 +1070,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#kirsche.utils.semanticscholar.to_v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      to_v1
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1186,6 +1195,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#kirsche.utils.semanticscholar.to_v1" class="md-nav__link">
+    <span class="md-ellipsis">
+      to_v1
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1239,7 +1257,9 @@
 
     <div class="doc doc-contents ">
 
-      <p>Get paper info from Semantic Scholar API</p>
+      <p>Get paper info from the Semantic Scholar Graph API</p>
+<p>The v1 API kirsche used before is gone; the record is returned in its shape
+(<code>doi</code>, <code>numCitedBy</code>, <code>numCiting</code>, <code>references[].doi</code> ...).</p>
 
 
 <p><span class="doc-section-title">Parameters:</span></p>
@@ -1256,11 +1276,11 @@
           <tr class="doc-section-item">
             <td><code>paper_id</code></td>
             <td>
-                  <code>list</code>
+                  <code>str</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>list of paper ids</p>
+                <p>a DOI, or an id with a prefix such as <code>arXiv:</code> or <code>PMID:</code></p>
               </div>
             </td>
             <td>
@@ -1273,7 +1293,7 @@
             </td>
             <td>
               <div class="doc-md-description">
-                <p>base url for the API, default is semanticscholar</p>
+                <p>base url for the API, default is Semantic Scholar's Graph API</p>
               </div>
             </td>
             <td>
@@ -1285,43 +1305,47 @@
 
             <details class="quote">
               <summary>Source code in <code>kirsche/utils/semanticscholar.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">get_paper_info</span><span class="p">(</span><span class="n">paper_id</span><span class="p">:</span> <span class="nb">list</span><span class="p">,</span> <span class="n">API_BASE</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span>
+<span class="normal">67</span>
+<span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span>
+<span class="normal">81</span>
+<span class="normal">82</span>
+<span class="normal">83</span>
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">get_paper_info</span><span class="p">(</span><span class="n">paper_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">API_BASE</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Get paper info from Semantic Scholar API</span>
+<span class="sd">    Get paper info from the Semantic Scholar Graph API</span>
 
-<span class="sd">    :param paper_id: list of paper ids</span>
-<span class="sd">    :param API_BASE: base url for the API, default is semanticscholar</span>
+<span class="sd">    The v1 API kirsche used before is gone; the record is returned in its shape</span>
+<span class="sd">    (``doi``, ``numCitedBy``, ``numCiting``, ``references[].doi`` ...).</span>
+
+<span class="sd">    :param paper_id: a DOI, or an id with a prefix such as ``arXiv:`` or ``PMID:``</span>
+<span class="sd">    :param API_BASE: base url for the API, default is Semantic Scholar&#39;s Graph API</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">API_BASE</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">API_BASE</span> <span class="o">=</span> <span class="s2">&quot;https://api.semanticscholar.org/v1/paper/&quot;</span>
+        <span class="n">API_BASE</span> <span class="o">=</span> <span class="n">GRAPH_API</span>
 
     <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Getting paper info using base URL </span><span class="si">{</span><span class="n">paper_id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-    <span class="c1"># Get paper info from Semantic Scholar API</span>
-    <span class="n">url</span> <span class="o">=</span> <span class="n">API_BASE</span> <span class="o">+</span> <span class="n">paper_id</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">API_BASE</span><span class="si">}{</span><span class="n">_paper_ref</span><span class="p">(</span><span class="n">paper_id</span><span class="p">)</span><span class="si">}</span><span class="s2">?fields=</span><span class="si">{</span><span class="n">FIELDS</span><span class="si">}</span><span class="s2">&quot;</span>
 
     <span class="n">test_content</span> <span class="o">=</span> <span class="n">get_page_content</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 
@@ -1331,7 +1355,47 @@
         <span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">paper_info</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">test_content</span><span class="p">[</span><span class="s2">&quot;content&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">paper_info</span>
+        <span class="k">return</span> <span class="n">to_v1</span><span class="p">(</span><span class="n">paper_info</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="kirsche.utils.semanticscholar.to_v1" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">to_v1</span><span class="p">(</span><span class="n">record</span><span class="p">)</span></code>
+
+<a href="#kirsche.utils.semanticscholar.to_v1" class="headerlink" title="Permanent link">¤</a></h2>
+
+
+    <div class="doc doc-contents ">
+
+      <p>A Graph API record in the shape the retired v1 API returned, which the rest of kirsche reads.</p>
+
+            <details class="quote">
+              <summary>Source code in <code>kirsche/utils/semanticscholar.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span>
+<span class="normal">53</span>
+<span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">to_v1</span><span class="p">(</span><span class="n">record</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;A Graph API record in the shape the retired v1 API returned, which the rest of kirsche reads.&quot;&quot;&quot;</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">record</span><span class="p">)</span>
+    <span class="n">out</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">_ids</span><span class="p">(</span><span class="n">record</span><span class="p">))</span>
+    <span class="n">out</span><span class="p">[</span><span class="s2">&quot;numCitedBy&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;citationCount&quot;</span><span class="p">)</span>
+    <span class="n">out</span><span class="p">[</span><span class="s2">&quot;numCiting&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;referenceCount&quot;</span><span class="p">)</span>
+    <span class="n">out</span><span class="p">[</span><span class="s2">&quot;references&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="p">{</span><span class="o">**</span><span class="n">r</span><span class="p">,</span> <span class="o">**</span><span class="n">_ids</span><span class="p">(</span><span class="n">r</span><span class="p">)}</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="p">(</span><span class="n">record</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;references&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">[])</span> <span class="k">if</span> <span class="n">r</span>
+    <span class="p">]</span>
+    <span class="k">return</span> <span class="n">out</span>
 </code></pre></div></td></tr></table></div>
             </details>
     </div>
