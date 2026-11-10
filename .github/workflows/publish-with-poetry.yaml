@@ -24,7 +24,10 @@ jobs:
         with:
           poetry-version: 2.1.3
       - name: Install Packages
-        run: poetry install --with dev,docs
+        # On macOS runners Poetry otherwise builds its venv with Homebrew's newest Python
+        run: |
+          poetry env use "$(which python)"
+          poetry install --with dev,docs
       - name: Build coverage file
         run: |
           poetry run pytest
